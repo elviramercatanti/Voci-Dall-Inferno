@@ -1,5 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI SYSTEM "tei_all.dtd">
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc> 
@@ -43,8 +41,10 @@
                         <date when="2006">2006</date>
                         <respStmt>
                             <resp>Intervista realizzata da:</resp>
-                            <name><persName ref="#a">Anna Segre</persName>  </name>
-                            <name><persName ref="#g">Gloria Pavoncello</persName> </name>                          
+                            <name>
+                                <persName ref="#a">Anna Segre</persName>  </name>
+                            <name>
+                                <persName ref="#g">Gloria Pavoncello</persName> </name>                          
                         </respStmt>
                     </recording>
                 </recordingStmt>
@@ -97,8 +97,8 @@
                             <surname>Pavoncello</surname>
                         </persName>
                     </person>
-                    <person n="2" role="testimone">
-                        <persName xml:id="ik">
+                    <person xml:id="ik" n="2" role="testimone" source="https://www.ushmm.org/online/hsv/person_view.php?PersonId=4286976">
+                        <persName>
                             <forename>Idek</forename>
                             <surname>Wolfowicz</surname>
                         </persName>
@@ -639,170 +639,170 @@
             <when synch="#g19" xml:id="TS284" absolute="01:01:13"/>
             <when synch="#A142" xml:id="TS285" absolute="01:01:24"/>
             <when synch="#I142" xml:id="TS286" absolute="01:01:26"/>   
-            <when  synch="#I143" xml:id="TS287" absolute="01:01:41"/>
-            <when  synch="#A143" xml:id="TS288" absolute="01:03:33"/>
-            <when  synch="#I144" xml:id="TS289" absolute="01:03:34"/>
-            <when  synch="#A144" xml:id="TS290" absolute="01:04:05"/>
-            <when  synch="#I145" xml:id="TS291" absolute="01:04:06"/>
-            <when  synch="#g20" xml:id="TS292" absolute="01:04:16"/>
-            <when  synch="#I146" xml:id="TS293" absolute="01:04:17"/>
-            <when  synch="#A146" xml:id="TS294" absolute="01:04:20"/>
-            <when  synch="#I147" xml:id="TS295" absolute="01:04:23"/>
-            <when  synch="#A147" xml:id="TS296" absolute="01:04:28"/>
-            <when  synch="#I148" xml:id="TS297" absolute="01:04:31"/>
-            <when  synch="#g21" xml:id="TS298" absolute="01:04:55"/>
-            <when  synch="#I149" xml:id="TS299" absolute="01:04:56"/>
-            <when  synch="#A149" xml:id="TS300" absolute="01:05:24"/>
-            <when  synch="#I150" xml:id="TS301" absolute="01:05:25"/>
-            <when  synch="#A150" xml:id="TS302" absolute="01:06:25"/>
-            <when  synch="#I151" xml:id="TS303" absolute="01:05:26"/>
-            <when  synch="#A151" xml:id="TS304" absolute="01:05:27"/>
-            <when  synch="#I152" xml:id="TS305" absolute="01:05:28"/>
-            <when  synch="#A152" xml:id="TS306" absolute="01:06:59"/>
-            <when  synch="#I153" xml:id="TS307" absolute="01:07:00"/>
-            <when  synch="#A153" xml:id="TS308" absolute="01:07:49"/>
-            <when  synch="#I154" xml:id="TS309" absolute="01:07:51"/>
-            <when  synch="#A154" xml:id="TS310" absolute="01:7:59"/>            
-            <when  synch="#I155" xml:id="TS311" absolute="01:08:00"/>
-            <when  synch="#A155" xml:id="TS312" absolute="01:08:44"/> 
-            <when  synch="#I156" xml:id="TS313" absolute="01:08:46"/>
-            <when  synch="#A156" xml:id="TS314" absolute="01:08:54"/>
-            <when  synch="#I157" xml:id="TS315" absolute="01:08:57"/>
-            <when  synch="#A157" xml:id="TS316" absolute="01:09:25"/>
-            <when  synch="#I158" xml:id="TS317" absolute="01:09:26"/>
-            <when  synch="#A158" xml:id="TS318" absolute="01:10:24"/>
-            <when  synch="#I159" xml:id="TS319" absolute="01:10:27"/>
-            <when  synch="#A159" xml:id="TS320" absolute="01:10:35"/>
-            <when  synch="#I160" xml:id="TS321" absolute="01:10:37"/>
-            <when  synch="#A160" xml:id="TS322" absolute="01:10:58"/>
-            <when  synch="#I161" xml:id="TS323" absolute="01:11:00"/>
-            <when  synch="#A162" xml:id="TS324" absolute="01:11:30"/>
-            <when  synch="#I162" xml:id="TS325" absolute="01:11:34"/>
-            <when  synch="#A1621" xml:id="TS326" absolute="01:11:37"/>
-            <when  synch="#I163" xml:id="TS327" absolute="01:11:38"/>
-            <when  synch="#A163" xml:id="TS328" absolute="01:11:42"/>
-            <when  synch="#I164" xml:id="TS329" absolute="01:11:44"/>
-            <when  synch="#A165" xml:id="TS330" absolute="01:12:37"/>
-            <when  synch="#I166" xml:id="TS331" absolute="01:12:43"/> 
-            <when  synch="#A166" xml:id="TS332" absolute="01:12:58"/>
-            <when  synch="#I167" xml:id="TS333" absolute="01:12:59"/>
-            <when  synch="#A167" xml:id="TS334" absolute="01:13:05"/>
-            <when  synch="#I168" xml:id="TS335" absolute="01:13:14"/>
-            <when  synch="#A168" xml:id="TS336" absolute="01:13:49"/>
-            <when  synch="#I169" xml:id="TS337" absolute="01:13:50"/>
-            <when  synch="#g22" xml:id="TS338" absolute="01:14:58"/>
-            <when  synch="#I170" xml:id="TS339" absolute="01:15:00"/>
-            <when  synch="#g23" xml:id="TS340" absolute="01:15:47"/>
-            <when  synch="#I171" xml:id="TS341" absolute="01:15:48"/>
-            <when  synch="#g24" xml:id="TS342" absolute="01:15:49"/>
-            <when  synch="#I172" xml:id="TS343" absolute="01:15:51"/>
-            <when  synch="#g25" xml:id="TS344" absolute="01:17:21"/>
-            <when  synch="#I173" xml:id="TS345" absolute="01:17:22"/>
-            <when  synch="#A173" xml:id="TS346" absolute="01:17:24"/>
-            <when  synch="#I174" xml:id="TS347" absolute="01:17:28"/>
-            <when  synch="#A174" xml:id="TS348" absolute="01:17:32"/>
-            <when  synch="#I175" xml:id="TS349" absolute="01:17:40"/>
-            <when  synch="#A175" xml:id="TS350" absolute="01:18:21"/>
-            <when  synch="#I176" xml:id="TS351" absolute="01:18:22"/>
-            <when  synch="#g26" xml:id="TS352" absolute="01:19:05"/>
-            <when  synch="#I177" xml:id="TS353" absolute="01:19:07"/>
-            <when  synch="#A177" xml:id="TS354" absolute="01:19:08"/>
-            <when  synch="#I178" xml:id="TS355" absolute="01:19:11"/>
-            <when  synch="#A178" xml:id="TS356" absolute="01:19:26"/>
-            <when  synch="#I179" xml:id="TS357" absolute="01:19:30"/>
-            <when  synch="#A179" xml:id="TS358" absolute="01:20:28"/>
-            <when  synch="#I180" xml:id="TS360" absolute="01:20:36"/>
-            <when  synch="#A180" xml:id="TS361" absolute="01:20:37"/>
-            <when  synch="#I181" xml:id="TS362" absolute="01:20:52"/>
-            <when  synch="#g27" xml:id="TS363" absolute="01:21:19"/>
-            <when  synch="#I182" xml:id="TS364" absolute="01:21:24"/>
-            <when  synch="#g28" xml:id="TS365" absolute="01:21.27"/>
-            <when  synch="#I183" xml:id="TS366" absolute="01:21:29"/>
-            <when  synch="#A183" xml:id="TS367" absolute="01:23:33"/>
-            <when  synch="#I184" xml:id="TS368" absolute="01:23:34"/>
-            <when  synch="#A184" xml:id="TS389" absolute="01:23:46"/>
-            <when  synch="#I185" xml:id="TS390" absolute="01:23:47"/>
-            <when  synch="#A185" xml:id="TS391" absolute="01:24:15"/>
-            <when  synch="#I186" xml:id="TS392" absolute="01:24:22"/>
-            <when  synch="#A186" xml:id="TS3911" absolute="01:24:41"/>
-            <when  synch="#I187" xml:id="TS3921" absolute="01:24:42"/>
-            <when  synch="#A187" xml:id="TS393" absolute="01:25:03"/>
-            <when  synch="#I188" xml:id="TS394" absolute="01:25:04"/>
-            <when  synch="#A188" xml:id="TS395" absolute="01:26:06"/>
-            <when  synch="#I189" xml:id="TS396" absolute="01:26:08"/>
-            <when  synch="#g29" xml:id="TS397" absolute="01:26:15"/>
-            <when  synch="#I190" xml:id="TS398" absolute="01:26:16"/>
-            <when  synch="A190" xml:id="TS399" absolute="01:26:52"/>
-            <when  synch="#I191" xml:id="TS400" absolute="01:26:53"/>
-            <when  synch="#A191" xml:id="TS401" absolute="01:27:57"/>
-            <when  synch="#I192" xml:id="TS402" absolute="01:27:59"/>
-            <when  synch="#g30" xml:id="TS403" absolute="01:28:46"/>
-            <when  synch="#I193" xml:id="TS404" absolute="01:28:47"/>
-            <when  synch="#A193" xml:id="TS405" absolute="01:29:37"/>
-            <when  synch="#I194" xml:id="TS406" absolute="01:29:39"/>
-            <when  synch="#A194" xml:id="TS407" absolute="01:29:40"/>
-            <when  synch="#I195" xml:id="TS408" absolute="01:29:42"/>
-            <when  synch="#A195" xml:id="TS409" absolute="01:30:27"/>
-            <when  synch="#I196" xml:id="TS410" absolute="01:30:33"/>
-            <when  synch="#A196" xml:id="TS411" absolute="01:30:37"/>
-            <when  synch="#I197" xml:id="TS412" absolute="01:30:43"/>
-            <when  synch="#A197" xml:id="TS413" absolute="01:30:44"/>
-            <when  synch="#I198" xml:id="TS4131" absolute="01:30:46"/>
-            <when  synch="#A198" xml:id="TS414" absolute="01:31:33"/>
-            <when  synch="#I199" xml:id="TS415" absolute="01:31:35"/>
-            <when  synch="#A199" xml:id="TS416" absolute="01:31:43"/>
-            <when  synch="#I200" xml:id="TS4161" absolute="01:31:48"/>
-            <when  synch="I201" xml:id="TS416i" absolute="01:32:31"/>
+            <when synch="#I143" xml:id="TS287" absolute="01:01:41"/>
+            <when synch="#A143" xml:id="TS288" absolute="01:03:33"/>
+            <when synch="#I144" xml:id="TS289" absolute="01:03:34"/>
+            <when synch="#A144" xml:id="TS290" absolute="01:04:05"/>
+            <when synch="#I145" xml:id="TS291" absolute="01:04:06"/>
+            <when synch="#g20" xml:id="TS292" absolute="01:04:16"/>
+            <when synch="#I146" xml:id="TS293" absolute="01:04:17"/>
+            <when synch="#A146" xml:id="TS294" absolute="01:04:20"/>
+            <when synch="#I147" xml:id="TS295" absolute="01:04:23"/>
+            <when synch="#A147" xml:id="TS296" absolute="01:04:28"/>
+            <when synch="#I148" xml:id="TS297" absolute="01:04:31"/>
+            <when synch="#g21" xml:id="TS298" absolute="01:04:55"/>
+            <when synch="#I149" xml:id="TS299" absolute="01:04:56"/>
+            <when synch="#A149" xml:id="TS300" absolute="01:05:24"/>
+            <when synch="#I150" xml:id="TS301" absolute="01:05:25"/>
+            <when synch="#A150" xml:id="TS302" absolute="01:06:25"/>
+            <when synch="#I151" xml:id="TS303" absolute="01:05:26"/>
+            <when synch="#A151" xml:id="TS304" absolute="01:05:27"/>
+            <when synch="#I152" xml:id="TS305" absolute="01:05:28"/>
+            <when synch="#A152" xml:id="TS306" absolute="01:06:59"/>
+            <when synch="#I153" xml:id="TS307" absolute="01:07:00"/>
+            <when synch="#A153" xml:id="TS308" absolute="01:07:49"/>
+            <when synch="#I154" xml:id="TS309" absolute="01:07:51"/>
+            <when synch="#A154" xml:id="TS310" absolute="01:7:59"/>            
+            <when synch="#I155" xml:id="TS311" absolute="01:08:00"/>
+            <when synch="#A155" xml:id="TS312" absolute="01:08:44"/> 
+            <when synch="#I156" xml:id="TS313" absolute="01:08:46"/>
+            <when synch="#A156" xml:id="TS314" absolute="01:08:54"/>
+            <when synch="#I157" xml:id="TS315" absolute="01:08:57"/>
+            <when synch="#A157" xml:id="TS316" absolute="01:09:25"/>
+            <when synch="#I158" xml:id="TS317" absolute="01:09:26"/>
+            <when synch="#A158" xml:id="TS318" absolute="01:10:24"/>
+            <when synch="#I159" xml:id="TS319" absolute="01:10:27"/>
+            <when synch="#A159" xml:id="TS320" absolute="01:10:35"/>
+            <when synch="#I160" xml:id="TS321" absolute="01:10:37"/>
+            <when synch="#A160" xml:id="TS322" absolute="01:10:58"/>
+            <when synch="#I161" xml:id="TS323" absolute="01:11:00"/>
+            <when synch="#A162" xml:id="TS324" absolute="01:11:30"/>
+            <when synch="#I162" xml:id="TS325" absolute="01:11:34"/>
+            <when synch="#A1621" xml:id="TS326" absolute="01:11:37"/>
+            <when synch="#I163" xml:id="TS327" absolute="01:11:38"/>
+            <when synch="#A163" xml:id="TS328" absolute="01:11:42"/>
+            <when synch="#I164" xml:id="TS329" absolute="01:11:44"/>
+            <when synch="#A165" xml:id="TS330" absolute="01:12:37"/>
+            <when synch="#I166" xml:id="TS331" absolute="01:12:43"/> 
+            <when synch="#A166" xml:id="TS332" absolute="01:12:58"/>
+            <when synch="#I167" xml:id="TS333" absolute="01:12:59"/>
+            <when synch="#A167" xml:id="TS334" absolute="01:13:05"/>
+            <when synch="#I168" xml:id="TS335" absolute="01:13:14"/>
+            <when synch="#A168" xml:id="TS336" absolute="01:13:49"/>
+            <when synch="#I169" xml:id="TS337" absolute="01:13:50"/>
+            <when synch="#g22" xml:id="TS338" absolute="01:14:58"/>
+            <when synch="#I170" xml:id="TS339" absolute="01:15:00"/>
+            <when synch="#g23" xml:id="TS340" absolute="01:15:47"/>
+            <when synch="#I171" xml:id="TS341" absolute="01:15:48"/>
+            <when synch="#g24" xml:id="TS342" absolute="01:15:49"/>
+            <when synch="#I172" xml:id="TS343" absolute="01:15:51"/>
+            <when synch="#g25" xml:id="TS344" absolute="01:17:21"/>
+            <when synch="#I173" xml:id="TS345" absolute="01:17:22"/>
+            <when synch="#A173" xml:id="TS346" absolute="01:17:24"/>
+            <when synch="#I174" xml:id="TS347" absolute="01:17:28"/>
+            <when synch="#A174" xml:id="TS348" absolute="01:17:32"/>
+            <when synch="#I175" xml:id="TS349" absolute="01:17:40"/>
+            <when synch="#A175" xml:id="TS350" absolute="01:18:21"/>
+            <when synch="#I176" xml:id="TS351" absolute="01:18:22"/>
+            <when synch="#g26" xml:id="TS352" absolute="01:19:05"/>
+            <when synch="#I177" xml:id="TS353" absolute="01:19:07"/>
+            <when synch="#A177" xml:id="TS354" absolute="01:19:08"/>
+            <when synch="#I178" xml:id="TS355" absolute="01:19:11"/>
+            <when synch="#A178" xml:id="TS356" absolute="01:19:26"/>
+            <when synch="#I179" xml:id="TS357" absolute="01:19:30"/>
+            <when synch="#A179" xml:id="TS358" absolute="01:20:28"/>
+            <when synch="#I180" xml:id="TS360" absolute="01:20:36"/>
+            <when synch="#A180" xml:id="TS361" absolute="01:20:37"/>
+            <when synch="#I181" xml:id="TS362" absolute="01:20:52"/>
+            <when synch="#g27" xml:id="TS363" absolute="01:21:19"/>
+            <when synch="#I182" xml:id="TS364" absolute="01:21:24"/>
+            <when synch="#g28" xml:id="TS365" absolute="01:21.27"/>
+            <when synch="#I183" xml:id="TS366" absolute="01:21:29"/>
+            <when synch="#A183" xml:id="TS367" absolute="01:23:33"/>
+            <when synch="#I184" xml:id="TS368" absolute="01:23:34"/>
+            <when synch="#A184" xml:id="TS389" absolute="01:23:46"/>
+            <when synch="#I185" xml:id="TS390" absolute="01:23:47"/>
+            <when synch="#A185" xml:id="TS391" absolute="01:24:15"/>
+            <when synch="#I186" xml:id="TS392" absolute="01:24:22"/>
+            <when synch="#A186" xml:id="TS3911" absolute="01:24:41"/>
+            <when synch="#I187" xml:id="TS3921" absolute="01:24:42"/>
+            <when synch="#A187" xml:id="TS393" absolute="01:25:03"/>
+            <when synch="#I188" xml:id="TS394" absolute="01:25:04"/>
+            <when synch="#A188" xml:id="TS395" absolute="01:26:06"/>
+            <when synch="#I189" xml:id="TS396" absolute="01:26:08"/>
+            <when synch="#g29" xml:id="TS397" absolute="01:26:15"/>
+            <when synch="#I190" xml:id="TS398" absolute="01:26:16"/>
+            <when synch="A190" xml:id="TS399" absolute="01:26:52"/>
+            <when synch="#I191" xml:id="TS400" absolute="01:26:53"/>
+            <when synch="#A191" xml:id="TS401" absolute="01:27:57"/>
+            <when synch="#I192" xml:id="TS402" absolute="01:27:59"/>
+            <when synch="#g30" xml:id="TS403" absolute="01:28:46"/>
+            <when synch="#I193" xml:id="TS404" absolute="01:28:47"/>
+            <when synch="#A193" xml:id="TS405" absolute="01:29:37"/>
+            <when synch="#I194" xml:id="TS406" absolute="01:29:39"/>
+            <when synch="#A194" xml:id="TS407" absolute="01:29:40"/>
+            <when synch="#I195" xml:id="TS408" absolute="01:29:42"/>
+            <when synch="#A195" xml:id="TS409" absolute="01:30:27"/>
+            <when synch="#I196" xml:id="TS410" absolute="01:30:33"/>
+            <when synch="#A196" xml:id="TS411" absolute="01:30:37"/>
+            <when synch="#I197" xml:id="TS412" absolute="01:30:43"/>
+            <when synch="#A197" xml:id="TS413" absolute="01:30:44"/>
+            <when synch="#I198" xml:id="TS4131" absolute="01:30:46"/>
+            <when synch="#A198" xml:id="TS414" absolute="01:31:33"/>
+            <when synch="#I199" xml:id="TS415" absolute="01:31:35"/>
+            <when synch="#A199" xml:id="TS416" absolute="01:31:43"/>
+            <when synch="#I200" xml:id="TS4161" absolute="01:31:48"/>
+            <when synch="I201" xml:id="TS416i" absolute="01:32:31"/>
             <when synch="A201" xml:id="TS417" absolute="01:33:10"/>
-            <when  synch="I202" xml:id="TS418" absolute="01:33:12"/>
+            <when synch="I202" xml:id="TS418" absolute="01:33:12"/>
             <when synch="A202" xml:id="TS419" absolute="01:33:16"/>
-            <when  synch="I203" xml:id="TS420" absolute="01:33:18"/>
+            <when synch="I203" xml:id="TS420" absolute="01:33:18"/>
             <when synch="A203" xml:id="TS421" absolute="01:33:20"/>
-            <when  synch="I204" xml:id="TS422" absolute="01:33:24"/>
+            <when synch="I204" xml:id="TS422" absolute="01:33:24"/>
             <when synch="A204" xml:id="TS423" absolute="01:34:51"/>
-            <when  synch="I2051" xml:id="TS424" absolute="01:34:52"/>
+            <when synch="I2051" xml:id="TS424" absolute="01:34:52"/>
             <when synch="A205" xml:id="TS425" absolute="01:34:53"/>
-            <when  synch="I206" xml:id="TS426" absolute="01:34:54"/>
+            <when synch="I206" xml:id="TS426" absolute="01:34:54"/>
             <when synch="A206" xml:id="TS427" absolute="01:34:56"/>
-            <when  synch="I207" xml:id="TS428" absolute="01:34:57"/>
+            <when synch="I207" xml:id="TS428" absolute="01:34:57"/>
             <when synch="g31" xml:id="TS429" absolute="01:35:24"/>
-            <when  synch="I208" xml:id="TS430" absolute="01:35:25"/>
+            <when synch="I208" xml:id="TS430" absolute="01:35:25"/>
             <when synch="A208" xml:id="TS431" absolute="01:35:30"/>
-            <when  synch="I209" xml:id="TS432" absolute="01:35:31"/>
+            <when synch="I209" xml:id="TS432" absolute="01:35:31"/>
             <!--<when  xml:id="TS433" 01: 35:58>--> 
             <when synch="A209" xml:id="TS433" absolute="01:36:00"/>
             <!--<when  xml:id="TS434"   36:04>-->
-            <when  synch="I210" xml:id="TS435" absolute="01:36:14"/>
+            <when synch="I210" xml:id="TS435" absolute="01:36:14"/>
            <!-- <when  xml:id="TS436" 0136:22>-->
-            <when  synch="I211" xml:id="TS437" absolute="01:36:28"/>
+            <when synch="I211" xml:id="TS437" absolute="01:36:28"/>
             <when synch="g32" xml:id="TS438" absolute="01:36:54"/>
-            <when  synch="I212" xml:id="TS439" absolute="01:36:58"/>
+            <when synch="I212" xml:id="TS439" absolute="01:36:58"/>
             <when synch="A212" xml:id="TS440" absolute="01:36:59"/>
-            <when  synch="I213" xml:id="TS441" absolute="01:37:03"/>
+            <when synch="I213" xml:id="TS441" absolute="01:37:03"/>
             <when synch="A213" xml:id="TS442" absolute="01:37:34"/>
-            <when  synch="I214" xml:id="TS443" absolute="01:37:40"/>
+            <when synch="I214" xml:id="TS443" absolute="01:37:40"/>
             <when synch="g33" xml:id="TS444" absolute="01:38:05"/>
-            <when  synch="I215" xml:id="TS445" absolute="01:38:19"/>
+            <when synch="I215" xml:id="TS445" absolute="01:38:19"/>
             <when synch="A215" xml:id="TS446" absolute="01:41:16"/>
-            <when  synch="I216" xml:id="TS447" absolute="01:41:17"/>
+            <when synch="I216" xml:id="TS447" absolute="01:41:17"/>
             <when synch="A216" xml:id="TS448" absolute="01:41:56"/>
-            <when  synch="I217" xml:id="TS449" absolute="01:41:59"/>
+            <when synch="I217" xml:id="TS449" absolute="01:41:59"/>
             <when synch="A218" xml:id="TS450" absolute="01:42:01"/>
-            <when  synch="I219" xml:id="TS451" absolute="01:42:07"/>
+            <when synch="I219" xml:id="TS451" absolute="01:42:07"/>
             <when synch="g34" xml:id="TS452" absolute="01:43:48"/>
-            <when  synch="I220" xml:id="TS453" absolute="01:43:50"/>
+            <when synch="I220" xml:id="TS453" absolute="01:43:50"/>
             <when synch="A220" xml:id="TS454" absolute="01:44:14"/>
-            <when  synch="I221" xml:id="TS455" absolute="01:44:16"/>
+            <when synch="I221" xml:id="TS455" absolute="01:44:16"/>
             <when synch="A221" xml:id="TS456" absolute="01:45:17"/>
-            <when  synch="I222" xml:id="TS457" absolute="01:45:19"/> 
+            <when synch="I222" xml:id="TS457" absolute="01:45:19"/> 
             <when synch="A222" xml:id="TS458" absolute="01:45:40"/>
-            <when  synch="I223" xml:id="TS459" absolute="01:45:41"/>
+            <when synch="I223" xml:id="TS459" absolute="01:45:41"/>
             <when synch="A223" xml:id="TS460" absolute="01:45:49"/>
-            <when  synch="A224" xml:id="TS461" absolute="01:45:52"/>
+            <when synch="A224" xml:id="TS461" absolute="01:45:52"/>
             <when synch="g35" xml:id="TS462" absolute="01:45:53"/>
-            <when  synch="I225" xml:id="TS463" absolute="01:46:25"/>
+            <when synch="I225" xml:id="TS463" absolute="01:46:25"/>
             <when synch="A225" xml:id="TS464" absolute="01:47:18"/>
-            <when  synch="I226" xml:id="TS465" absolute="01:47:28"/>
+            <when synch="I226" xml:id="TS465" absolute="01:47:28"/>
             <when synch="A226" xml:id="TS466" absolute="01:47:47"/>
                
         </timeline>
@@ -1140,7 +1140,7 @@
                     <pause type="medium"/> 
                     salvare si son salvati io e mia sorella che poi 
                 </u>
-                <u who="#a" xml:id="A25" synch="TS50" > 
+                <u who="#a" xml:id="A25" synch="TS50"> 
                     Che si chiama? 
                 </u>
                 <u who="#ik" xml:id="I26" synch="TS51"> 
@@ -1325,7 +1325,7 @@
                     </vocal>
                     <del type="repetition"> Prz</del>
                     <placeName ref="#Przemysl">Przemysl</placeName> 
-                    <gap reason="inaudible"/>>  
+                    <gap reason="inaudible"/>&gt;  
                     <placeName ref="#Przemysl">Przemysl</placeName>
                     queste sono le <del type="repetition">le</del> vie delle 
                     <gap reason="inaudible"/> 
@@ -2295,7 +2295,9 @@
             </u>
             <u who="#ik" xml:id="I84" synch="TS167">
                 eh non so come 
-                <vocal><desc>ehm</desc></vocal> 
+                <vocal>
+                        <desc>ehm</desc>
+                    </vocal> 
                 <gap reason="inaudible"/> in polacco vuol 
                 dire pisello  
             </u>
@@ -2505,7 +2507,9 @@
             <u who="#ik" xml:id="I102" synch="TS204">
                 c’era caldo c’è gente che morivano 
                 <pause type="short"/> 
-                <vocal><desc>balbetta</desc></vocal> 
+                <vocal>
+                        <desc>balbetta</desc>
+                    </vocal> 
                 e come stavamo fuori là 
                 <gap reason="inaudible"/> 
                 si arrabbiava correva sopra i tetti dei vagoni 
@@ -2704,12 +2708,16 @@
                 <desc>ehm</desc>
                 </vocal> 
                 dentro e dentro c’era 
-                <vocal><desc>balbetta</desc></vocal> 
+                <vocal>
+                        <desc>balbetta</desc>
+                    </vocal> 
                 le baracche però chi doveva entrare nelle 
                 baracche ci mettevano in quadrati e ci portavano 
                 a ci visitavano da tutte le parti e ci mettevano 
                 anche il dito dentro sotto 
-                <vocal><desc>ehm</desc></vocal> 
+                <vocal>
+                        <desc>ehm</desc>
+                    </vocal> 
                 per vedere se ci avevamo qualche cosa 
                 <pause type="short"/> 
                 ci aiutava tanto per mettere la gente a mano 
@@ -2775,7 +2783,9 @@
                 Gusen 1 e sono stato a <placeName ref="#GusenEins">Gusen Eins</placeName> 
                 <pause type="short"/> insomma era baracca numero 5 e poi 
                 <pause type="short"/> siccome 
-                <vocal><desc>ehm</desc></vocal> 
+                <vocal>
+                        <desc>ehm</desc>
+                    </vocal> 
                 dentro il campo c’erano <pause type="short"/> 
                 che si chiamo setta che ha tanto a che vedere con sacre 
                 scritture nostre 
@@ -2846,7 +2856,9 @@
             </u>
             <u who="#ik" xml:id="I121" synch="TS243"> 
                 io avendo la fortuna 
-                <vocal><desc>balbetta</desc></vocal> 
+                <vocal>
+                        <desc>balbetta</desc>
+                    </vocal> 
                 che ero protetto un pochino da questo gruppo 
                 che avevano mansioni privilegiate in confronto 
                 agli ebrei e allora 
@@ -3318,7 +3330,7 @@
                 <gap reason="inaudible"/> 
                 questo lo dovreste sapere 
             </u>
-            <u who="#g"  xml:id="g20" synch="TS292"> 
+            <u who="#g" xml:id="g20" synch="TS292"> 
                 certo
             </u>
             <u who="#ik" xml:id="I146" synch="TS293"> 
@@ -3828,7 +3840,9 @@
                 <placeName ref="#Europa">Europa</placeName> 
                 e passa sempre a trovarmi e c’ha gran successo le canzoni 
                 sue nel <gap reason="inaudible"/> 
-                <anchor xml:id="ik-17" synch="#TT17"/> <term><term>Yiddish</term></term> <anchor xml:id="ik-18" synch="#TT18"/>  
+                <anchor xml:id="ik-17" synch="#TT17"/> <term>
+                        <term>Yiddish</term>
+                    </term> <anchor xml:id="ik-18" synch="#TT18"/>  
                 si chiama <gap reason="inaudible"/>
             </u> 
             <u who="#a"> 
@@ -3909,7 +3923,7 @@
                 </vocal> scusarmi perché sono andato a fidanzamento sono andato 
                 <gap reason="inaudible"/> si chiamava con la sorella di mia 
                 moglie e il fratello di mia moglie era 
-                <term>rabbino</term>> capo di 
+                <term>rabbino</term>&gt; capo di 
                 <placeName ref="#Ferrara">Ferrara</placeName> <pause type="short"/> e di 
                 <placeName ref="#Venezia">Venezia</placeName> 
                 quando poi ha lasciato <placeName ref="#Venezia">Venezia</placeName> 
@@ -3930,7 +3944,9 @@
                 si ma che c’entra 
             </u>
             <u who="#ik" xml:id="I185" synch="TS390"> 
-                <term><term>Yiddish</term></term> 
+                <term>
+                        <term>Yiddish</term>
+                    </term> 
                 <gap reason="inaudible"/> e adesso io sono cresciuto in una 
                 <anchor xml:id="ik-21" synch="#TT21"/> famiglia <anchor xml:id="ik-22" synch="#TT22"/>
                 molto religiosa e io ero un ribelle che andava al <term>partito socialista</term> 
@@ -4056,7 +4072,7 @@
                     <desc>tosse</desc>
                 </vocal> 
                 ho saputo che c’ha 90 anni e ha compiuto 90 mi ha detto proprio il 
-                <term>rabbino</term>> dice allora tu <gap reason="inaudible"/> vieni a 
+                <term>rabbino</term>&gt; dice allora tu <gap reason="inaudible"/> vieni a 
                 <gap reason="inaudible"/> lo so che tu non stai pregando come religioso 
                 però come ti voglio vedere al gruppo lo ha detto proprio poco fa io ho 
                 potuto dopo tanto tempo parlare 
@@ -4292,7 +4308,7 @@
                     <desc>ah ah ah</desc>
                 </vocal> 
                 </u>
-            <u xml:id="u2" synch="TS434" > 
+            <u xml:id="u2" synch="TS434"> 
                 so anni che dico non vedo l’ora che moia 
                 per l'eredità voi ridete ma è così
             </u>
@@ -4432,7 +4448,9 @@
                 due che è stato in <placeName type="#Israele">Israele</placeName> 
                 viene da me dice scusa come mi hai detto <gap reason="inaudible"/> 
                 dice vive allora sta in <placeName type="#Israele">Israele</placeName> 
-                e faceva e faceva la <vocal><desc>tosse</desc></vocal> 
+                e faceva e faceva la <vocal>
+                        <desc>tosse</desc>
+                    </vocal> 
                 era mezza dottoressa insomma a <gap reason="inaudible"/> 
                 stava a <gap reason="inaudible"/> <pause type="short"/> 
                 e io ho detto ma dice dico con chi è sposata era un certo 
@@ -4760,17 +4778,17 @@
                         </placeName>
                     </place>
                     <place>
-                        <placeName xml:id="Francia" ref="https://it.wikipedia.org/wiki/Francia" >
+                        <placeName xml:id="Francia" ref="https://it.wikipedia.org/wiki/Francia">
                             Francia
                         </placeName>
                     </place>
                     <place>
-                        <placeName xml:id="Canada" ref="https://it.wikipedia.org/wiki/Canada" >
+                        <placeName xml:id="Canada" ref="https://it.wikipedia.org/wiki/Canada">
                             Canada
                         </placeName>
                     </place>
                     <place>
-                        <placeName xml:id="Brasile" ref="https://it.wikipedia.org/wiki/Brasile" >
+                        <placeName xml:id="Brasile" ref="https://it.wikipedia.org/wiki/Brasile">
                             Brasile
                         </placeName>
                     </place>
@@ -4958,9 +4976,3 @@
         </back>
     </text>
 </TEI>
-
-
-
-
-
-        

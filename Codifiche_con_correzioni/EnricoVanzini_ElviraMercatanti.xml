@@ -1,7 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<!DOCTYPE TEI SYSTEM "tei_all.dtd">
-
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 
     <teiHeader>
@@ -17,7 +13,10 @@
                                 
                 <respStmt xml:id="encoder">
                     <resp>Encoding by</resp>
-                    <persName ref="#EM"><forename>Elvira</forename><surname>Mercatanti</surname></persName>
+                    <persName ref="#EM">
+                        <forename>Elvira</forename>
+                        <surname>Mercatanti</surname>
+                    </persName>
                 </respStmt>
             </editionStmt>
 
@@ -43,7 +42,7 @@
 
 
                         <equipment><!--fornisce dettagli tecnici sull'attrezzatura per una registrazione audio o video utilizzata quale fonte di un testo orale-->
-                            <p></p>
+                            <p/>
                         </equipment>
 
 
@@ -76,7 +75,7 @@
             <particDesc>
                 <listPerson>
                     <!--Testimone-->
-                    <person xml:id="VANZINI" role="testimone">
+                    <person xml:id="VANZINI" role="testimone" source="https://www.comune.martellago.ve.it/home/vivere/scopri-martellago/bacheca-multimediale/intervista-a-enrico-vanzini.html">
                         <persName>
                             <forename>Enrico</forename>
                             <surname>Vanzini</surname>
@@ -86,8 +85,8 @@
                     <!--Intervistatore-->
                     <person xml:id="INTERVISTATORE" role="intervistatore">
                         <persName>
-                            <forename></forename>
-                            <surname></surname>
+                            <forename/>
+                            <surname/>
                         </persName>
                     </person>
                 </listPerson>
@@ -580,15 +579,28 @@
             <div type="testo">
 
                 <u who="#INTERVISTATORE" xml:id="I1" synch="#TS01">
-                    Se c'è un libro che bisogna assolutamente leggere per capire quella che è stata<pause/> la prima guerra mondiale vista dal di dentro<kinesic><desc>gesto con la mano per indicare dall'interno</desc></kinesic> dalle persone che l'hanno subita<pause/> è senza dubbio <bibl><title type="main" level="m">Un anno sull'altipiano</title></bibl>
-                    di <persName ref="TEI-ListPerson.xml#EL">Emilio Lussu</persName><pause/> e se c'è un libro<pause/> che bisogna assolutamente leggere per capire che cosa è stato l'olocausto dalla parte di chi c'è stato dentro<pause/> anche se con una testimonianza tutta particolare<pause/> è senza dubbio il libro <bibl><title type="main" level="m">L'ultimo Sonderkommando italiano</title></bibl>
-                    <pause/> di <persName ref="TEI-ListPerson.xml#VANZINI">Enrico Vanzini</persName><pause/> o meglio<pause/> curato da <persName ref="TEI-ListPerson.xml#RB">Roberto Brumat</persName><pause/> che ha per così dire agevolato<pause/> signor <persName ref="TEI-ListPerson.xml#VANZINI">Enrico</persName>
-                    <pause/> la sua grande<vocal><desc>ehm</desc></vocal> voglia <anchor xml:id="int-01" synch="#TT01"/> <pause/> dopo tanti anni di silenzio<anchor xml:id="int-02" synch="#TT02"/> <pause/> <anchor xml:id="int-03" synch="#TT03"/> di raccontare<pause/> giusto<anchor xml:id="int-04" synch="#TT04"/> 
+                    Se c'è un libro che bisogna assolutamente leggere per capire quella che è stata<pause/> la prima guerra mondiale vista dal di dentro<kinesic>
+                        <desc>gesto con la mano per indicare dall'interno</desc>
+                    </kinesic> dalle persone che l'hanno subita<pause/> è senza dubbio <bibl>
+                        <title type="main" level="m">Un anno sull'altipiano</title>
+                    </bibl>
+                    di <persName ref="TEI-ListPerson.xml#EL">Emilio Lussu</persName>
+                    <pause/> e se c'è un libro<pause/> che bisogna assolutamente leggere per capire che cosa è stato l'olocausto dalla parte di chi c'è stato dentro<pause/> anche se con una testimonianza tutta particolare<pause/> è senza dubbio il libro <bibl>
+                        <title type="main" level="m">L'ultimo Sonderkommando italiano</title>
+                    </bibl>
+                    <pause/> di <persName ref="TEI-ListPerson.xml#VANZINI">Enrico Vanzini</persName>
+                    <pause/> o meglio<pause/> curato da <persName ref="TEI-ListPerson.xml#RB">Roberto Brumat</persName>
+                    <pause/> che ha per così dire agevolato<pause/> signor <persName ref="TEI-ListPerson.xml#VANZINI">Enrico</persName>
+                    <pause/> la sua grande<vocal>
+                        <desc>ehm</desc>
+                    </vocal> voglia <anchor xml:id="int-01" synch="#TT01"/> <pause/> dopo tanti anni di silenzio<anchor xml:id="int-02" synch="#TT02"/> <pause/> <anchor xml:id="int-03" synch="#TT03"/> di raccontare<pause/> giusto<anchor xml:id="int-04" synch="#TT04"/> 
                 </u>
 
                 <u who="#VANZINI">
                     <anchor xml:id="van-01" synch="#TT01"/> si<anchor xml:id="van-02" synch="#TT02"/> 
-                    <anchor xml:id="van-03" synch="#TT03"/> si<pause/> <vocal><desc>ehm</desc></vocal> <anchor xml:id="van-04" synch="#TT04"/> 
+                    <anchor xml:id="van-03" synch="#TT03"/> si<pause/> <vocal>
+                        <desc>ehm</desc>
+                    </vocal> <anchor xml:id="van-04" synch="#TT04"/> 
                 </u>
 
                 <u who="#VANZINI" xml:id="V1" synch="#TS02">
@@ -601,8 +613,13 @@
                 </u>
                 
                 <u who="#VANZINI" xml:id="V2" synch="#TS04">
-                    perchè<pause/> guardi<pause/> io quando che son ritornato a casa<pause/> ero malato <pause/> dovevo andare<pause/> d'urgenza<pause/> all'ospedale militare che<del type="reformulation">io</del> ero a <placeName ref="TEI-ListPlace.xml#VA">Varese</placeName><pause/> cioè l'ospedale era a <placeName ref="TEI-ListPlace.xml#VA">Varese</placeName><pause/> 
-                    io avevo 25 chilometri da percorrere per andare all'ospedale<pause/> allora sono andato a vedere qualche ente magari<del type="reformulation">come</del> <vocal><desc>ehm</desc></vocal> dicevano quell'ente che doveva venire a prenderci fino a <placeName ref="TEI-ListPlace.xml#MO">Monaco</placeName><pause/> e invece non si è visto<pause/> 
+                    perchè<pause/> guardi<pause/> io quando che son ritornato a casa<pause/> ero malato <pause/> dovevo andare<pause/> d'urgenza<pause/> all'ospedale militare che<del type="reformulation">io</del> ero a <placeName ref="TEI-ListPlace.xml#VA">Varese</placeName>
+                    <pause/> cioè l'ospedale era a <placeName ref="TEI-ListPlace.xml#VA">Varese</placeName>
+                    <pause/> 
+                    io avevo 25 chilometri da percorrere per andare all'ospedale<pause/> allora sono andato a vedere qualche ente magari<del type="reformulation">come</del> <vocal>
+                        <desc>ehm</desc>
+                    </vocal> dicevano quell'ente che doveva venire a prenderci fino a <placeName ref="TEI-ListPlace.xml#MO">Monaco</placeName>
+                    <pause/> e invece non si è visto<pause/> 
                     era un'ente<pause/> diciamo<pause/> del comune<pause/> un'ente che
                 </u>
 
@@ -644,7 +661,11 @@
                 </u>
 
                 <u who="#VANZINI" xml:id="V6" synch="#TS12">
-                    si<pause/> a<placeName ref="TEI-ListPlace.xml#DA">Dachau</placeName><pause/> e quindi questi sono stati trasferiti<del type="reformulation">dovevano</del> essere trasferiti a <placeName ref="TEI-ListPlace.xml#MO">Monaco</placeName>per altre mansioni<pause/> allora ci hanno obbligati noi<choice><orig>fare</orig><reg>a fare</reg></choice> quello che 
+                    si<pause/> a<placeName ref="TEI-ListPlace.xml#DA">Dachau</placeName>
+                    <pause/> e quindi questi sono stati trasferiti<del type="reformulation">dovevano</del> essere trasferiti a <placeName ref="TEI-ListPlace.xml#MO">Monaco</placeName>per altre mansioni<pause/> allora ci hanno obbligati noi<choice>
+                        <orig>fare</orig>
+                        <reg>a fare</reg>
+                    </choice> quello che 
                     facevano loro<pause/> cioè praticamente si doveva fare<pause/> buttare questi poveretti questi cadaveri che erano dentro al Lager nei forni crematori perchè volevano distruggere più che potevano ciò che<del type="truncation">a</del> avevano fatto 
                 </u>
 
@@ -663,10 +684,14 @@
                 </u>
 
                 <u who="#VANZINI" xml:id="V8" synch="#TS16">
-                    <anchor xml:id="van-09" synch="#TT09"/> si<vocal><desc>ehm</desc></vocal> <anchor xml:id="van-10" synch="#TT10"/> e allora<del type="reformulation">si</del> perchè io<pause/> a dire la verità<pause/> sono stato 60 anni<pause/> senza mai parlare perchè<pause/> come ho detto che non c'era nessuno che ci aiutava<pause/> e allora<pause/> su questo caso<pause/> io<pause/> 
+                    <anchor xml:id="van-09" synch="#TT09"/> si<vocal>
+                        <desc>ehm</desc>
+                    </vocal> <anchor xml:id="van-10" synch="#TT10"/> e allora<del type="reformulation">si</del> perchè io<pause/> a dire la verità<pause/> sono stato 60 anni<pause/> senza mai parlare perchè<pause/> come ho detto che non c'era nessuno che ci aiutava<pause/> e allora<pause/> su questo caso<pause/> io<pause/> 
                     <del type="reformulation">è</del> stato una volta che dovevo fare delle punture perchè avevo tutti i dolori delle batoste che si è preso<pause/> e quindi sono andato da un'amica che <del type="reformulation">di</del> casa che prima faceva l'infermiera <pause/> era diciamo che era <del type="truncation">i</del> in pensione<pause/> 
-                    e sapevo che faceva le punture come si voleva e allora sono andato a farle<pause/> in quel mentre lei questa <rs type="person">donna</rs> aveva due ragazze che faceva<del type="reformulation">una</del> faceva la maestra a <placeName ref="TEI-ListPlace.xml#TSB">Tezze sul Brenta</placeName><pause/> l'altra invece era<del type="correction">faceva</del> 
-                    la maestra a <placeName ref="TEI-ListPlace.xml#CI">Cittadella</placeName><pause/> allora stavano guardando un diciamo<pause/> era un <del type="correction">una</del> <pause/> 
+                    e sapevo che faceva le punture come si voleva e allora sono andato a farle<pause/> in quel mentre lei questa <rs type="person">donna</rs> aveva due ragazze che faceva<del type="reformulation">una</del> faceva la maestra a <placeName ref="TEI-ListPlace.xml#TSB">Tezze sul Brenta</placeName>
+                    <pause/> l'altra invece era<del type="correction">faceva</del> 
+                    la maestra a <placeName ref="TEI-ListPlace.xml#CI">Cittadella</placeName>
+                    <pause/> allora stavano guardando un diciamo<pause/> era un <del type="correction">una</del> <pause/> 
                 </u>
                 
 
@@ -695,11 +720,16 @@
                 </u>       
 
                 <u who="#VANZINI">
-                    <anchor xml:id="van-13" synch="#TT13"/> <vocal><desc>ehm</desc></vocal> si<anchor xml:id="van-14" synch="#TT14"/> 
+                    <anchor xml:id="van-13" synch="#TT13"/> <vocal>
+                        <desc>ehm</desc>
+                    </vocal> si<anchor xml:id="van-14" synch="#TT14"/> 
                 </u>
 
                 <u who="#VANZINI" xml:id="V11" synch="#TS22">
-                    e questa rivista portava diciamo le figure degli ebrei <anchor xml:id="van-15" synch="#TT15"/> che<anchor xml:id="van-16" synch="#TT16"/> cioè che facevano delle cose che e loro mi han detto guarda qua no<pause/> ho detto cosa vuoi che<choice><orig>guarda</orig><reg>guardi</reg></choice> 
+                    e questa rivista portava diciamo le figure degli ebrei <anchor xml:id="van-15" synch="#TT15"/> che<anchor xml:id="van-16" synch="#TT16"/> cioè che facevano delle cose che e loro mi han detto guarda qua no<pause/> ho detto cosa vuoi che<choice>
+                        <orig>guarda</orig>
+                        <reg>guardi</reg>
+                    </choice> 
                     se io son stato no e ho visto questa gente<pause/> allora son rimasti là no<pause/> ha detto ma <anchor xml:id="van-17" synch="#TT17"/> possibile<anchor xml:id="van-18" synch="#TT18"/> e allora mi han detto no rimani a pranzo che vogliamo sentire la tua storia
                 </u>
 
@@ -730,16 +760,21 @@
                 </u>
 
                 <u who="#INTERVISTATORE" xml:id="I14" synch="#TS27">
-                    certo<pause/> prima di arrivare al libro<pause/> <anchor xml:id="int-23" synch="#TT23" />tante scuole <anchor xml:id="int-24" synch="#TT24" /> scuole anche adesso naturalmente
+                    certo<pause/> prima di arrivare al libro<pause/> <anchor xml:id="int-23" synch="#TT23"/>tante scuole <anchor xml:id="int-24" synch="#TT24"/> scuole anche adesso naturalmente
                 </u>
 
                 <u who="#VANZINI">
-                    <anchor xml:id="van-23" synch="#TT23" />si<anchor xml:id="van-24" synch="#TT24" />
+                    <anchor xml:id="van-23" synch="#TT23"/>si<anchor xml:id="van-24" synch="#TT24"/>
                 </u>
 
                 <u who="#VANZINI" xml:id="V14" synch="#TS28">
-                    si<pause/> <del type="repetition">si</del> si<pause/> è quattro anni che io vado nelle scuole e sono molto contento perchè ascoltano con <choice><orig>certi</orig><reg>certo</reg></choice> interesse questa cosa<pause/> poi fanno domande
-                    <vocal><desc>ehm</desc></vocal> io <del type="truncation">p</del> per me no<pause/> mi sembra che<pause/> il tempo mi sfugge
+                    si<pause/> <del type="repetition">si</del> si<pause/> è quattro anni che io vado nelle scuole e sono molto contento perchè ascoltano con <choice>
+                        <orig>certi</orig>
+                        <reg>certo</reg>
+                    </choice> interesse questa cosa<pause/> poi fanno domande
+                    <vocal>
+                        <desc>ehm</desc>
+                    </vocal> io <del type="truncation">p</del> per me no<pause/> mi sembra che<pause/> il tempo mi sfugge
 
                 </u>
 
@@ -751,7 +786,9 @@
 
                 <u who="#VANZINI" xml:id="V15" synch="#TS30">
                     <anchor xml:id="van-25" synch="#TT25"/> si<anchor xml:id="van-26" synch="#TT26"/> beh io guardi le dico la verità è stato<pause/> poco tempo fa <pause/> una sera mi telefona un signore mi ha detto che era un geometra o un ingegnere e m'ha detto ma lei è il signor <persName ref="TEI-ListPerson.xml#VANZINI">Vanzini</persName>si ho detto perchè ha bisogno di qualcosa
-                    credevo che magari che fosse qualche maestro che<del type="reformulation">e</del> ha detto io <vocal><desc>ehm</desc></vocal> sono l'ingegnere tale e guardi che ciò che dice a lei io dico che non è verità perchè io so che i campi di concentramento che lei dice non c'erano nè camere a gas nè forni crematori ho detto senta signore<pause/> 
+                    credevo che magari che fosse qualche maestro che<del type="reformulation">e</del> ha detto io <vocal>
+                        <desc>ehm</desc>
+                    </vocal> sono l'ingegnere tale e guardi che ciò che dice a lei io dico che non è verità perchè io so che i campi di concentramento che lei dice non c'erano nè camere a gas nè forni crematori ho detto senta signore<pause/> 
                     mi faccia la cortesia ho fatto sette mesi io e ho lavorato dentro questi qua e ho tirato fuori persone dentro le camere a gas <pause/> quindi come fa lei a dir questo<pause/> e mi dà<del type="reformulation">e</del> mi dice anche che io son quello come un impostore ho detto mi faccia la cortesia si informi bene e poi mi domanda
                 </u>
 
@@ -764,8 +801,10 @@
                 </u>
 
                 <u who="#VANZINI" xml:id="V16" synch="#TS32">
-                    <vocal><desc>ehm</desc></vocal> questo qua è un fatto che noi <del type="repetition">al</del> al mattino si doveva andare no fuori sul grande piazzale là venivano a chiederci<pause/> no i lavori<pause/> chi nella fattoria chi fuori chi<del type="truncation">n</del> n nelle<pause/> 
-                    <del type="reformulation" >diciamo</del> dentro le <anchor xml:id="van-29" synch="#TT29"/> fabbriche<anchor xml:id="van-30" synch="#TT30"/> <pause/> 
+                    <vocal>
+                        <desc>ehm</desc>
+                    </vocal> questo qua è un fatto che noi <del type="repetition">al</del> al mattino si doveva andare no fuori sul grande piazzale là venivano a chiederci<pause/> no i lavori<pause/> chi nella fattoria chi fuori chi<del type="truncation">n</del> n nelle<pause/> 
+                    <del type="reformulation">diciamo</del> dentro le <anchor xml:id="van-29" synch="#TT29"/> fabbriche<anchor xml:id="van-30" synch="#TT30"/> <pause/> 
                 </u>
 
                 <u who="#INTERVISTATORE">
@@ -778,7 +817,9 @@
 
                 <u who="#VANZINI" xml:id="V17" synch="#TS34">
                     e allora<pause/> è stato che mi han chiamato perchè si andava a numero non più a nome e allora bisognava stare attenti a che numero perchè in tedesco è molto difficile<pause/> e mi han chiamato io e un francese<pause/> e allora siamo andati fuori<pause/> e m'han detto <foreign xml:lang="de" resp="#EM" cert="high">eins zwei <gap reason="inaudible" extent="2 words"/> 
-                    </foreign>forni crematori<pause/> <unclear reason="inaudible">vale a dire</unclear> uno e due dovete lavorare ai forni crematori<pause/> e io non <del type="repetition">sapevo</del> sapevo neanche cosa erano questi forni<pause/> e loro mi hanno accompagnato con la guardia<pause/> e siamo andati là<pause/> quando che<vocal><desc>ehm</desc></vocal> 
+                    </foreign>forni crematori<pause/> <unclear reason="inaudible">vale a dire</unclear> uno e due dovete lavorare ai forni crematori<pause/> e io non <del type="repetition">sapevo</del> sapevo neanche cosa erano questi forni<pause/> e loro mi hanno accompagnato con la guardia<pause/> e siamo andati là<pause/> quando che<vocal>
+                        <desc>ehm</desc>
+                    </vocal> 
                     ho visto che ha aperto la porta mi è venuto come un <del type="correction">una</del> vampata<del type="repetition">di</del> di calore di un odore di cadavere proprio strano di carne bruciata e io son rimasto là e ho visto questi forni <del type="repetition">che</del> che c'era un fuoco<pause/> può darsi anche magari a mille gradi chi lo sa
                     perchè se si buttava una persona in cinque minuti neanche <del type="repetition">era</del> era <gap reason="inaudible" extent="3 words"/> <anchor xml:id="van-31" synch="#TT31"/> e là<anchor xml:id="van-32" synch="#TT32"/> 
                 </u>
@@ -792,12 +833,14 @@
                     cosa c'era in quelle camere a gas che cosa ha visto <anchor xml:id="int-33" synch="#TT33"/> in quelle camere a gas <anchor xml:id="int-34" synch="#TT34"/> 
                 </u>
 
-                <u who="#VANZINI" >
+                <u who="#VANZINI">
                     <anchor xml:id="van-33" synch="#TT33"/> e là <anchor xml:id="van-34" synch="#TT34"/> 
                 </u>
 
                 <u who="#VANZINI" xml:id="V18" synch="#TS36">
-                    cioè <vocal><desc>ehm</desc></vocal> più che altro <del type="truncation">s</del> son<del type="reformulation">dentro</del> là io ho sempre levato gente ebraica<pause/> che arrivava gli dicevano andiamo che facciamo le docce e io tante <del type="reformulation">io</del> una volta l'ho sentito 
+                    cioè <vocal>
+                        <desc>ehm</desc>
+                    </vocal> più che altro <del type="truncation">s</del> son<del type="reformulation">dentro</del> là io ho sempre levato gente ebraica<pause/> che arrivava gli dicevano andiamo che facciamo le docce e io tante <del type="reformulation">io</del> una volta l'ho sentito 
                     la prima volta ho detto ma caspita se le docce son di là e qua no <anchor xml:id="van-35" synch="#TT35"/> dove <anchor xml:id="van-36" synch="#TT36"/> eh vanno sulle camere e allora sapevo dove erano<pause/> e allora li han messi dentro dicendo che eran le docce loro poveretti pensavano di andar dentro le docce e invece aprivano il gas verso sera sempre<pause/> al mattino c'era un
                     <del type="correction">una</del> strage abbracciati avvinghiati uno con l'altro e sentivano la morte vicina si stringevano al mattino si doveva levarli per metterli nei forni<pause/> e come si fa a mettere due persone attaccate avvinghiate <pause/> allora si cercava di distaccarle con la forza e si sentiva che si rompevano perfino le ossa perchè col freddo e
                     <del type="repetition">col</del> col diciamo che era il mese di <date when="10">ottobre</date> o <date when="11">novembre</date>e là c'era la neve già<pause/> e quindi  
@@ -863,14 +906,25 @@
                     <pause/> e là si doveva andar fuori che c'erano due pentoloni grandi che dicevano di prendere il the<pause/> si andava fuori no e si <del type="reformulation">io</del> la prima volta non ho potuto neanche prendere niente perchè non ti danno mica un bicchiere un qualcosa di poter bere 
                 </u>
 
-                <u who="#INTERVISTATORE" xml:id="I24" synch="#TS47" >
+                <u who="#INTERVISTATORE" xml:id="I24" synch="#TS47">
                     ti arrangiavi
                 </u>
 
                 <u who="#VANZINI" xml:id="V24" synch="#TS48">
-                    eh e allora ho al giorno<unclear reason="inaudible">appresso</unclear> che sono andato a lavorare quel giorno che sono andato a lavorare alla stazione di <placeName ref="TEI-ListPlace.xml#MO">Monaco</placeName> e sono andato dove<choice><orig>c'era</orig><reg>c'erano</reg></choice> i rifiuti<kinesic><desc>indica con le mani</desc></kinesic> 
-                    e ho trovato una scatola di quelle della conserva quelle scatole là allora l'ho pulito un po' col dito<kinesic><desc>gesticola come a far vedere come ha pulito il barattolo</desc></kinesic> un po' che <del type="repetition">era </del> era<del type="truncation">c</del> <incident><desc>gli scivola il libro dalle gambe</desc></incident> 
-                    c'era la muffa dentro no vede<pause/> <del type="repetition">in questa</del> in questa scatola e allora <vocal><desc>ehm</desc></vocal> io ho preso al mattino presto ho detto voglio <del type="truncation">v</del> vedere cosa è questa roba perchè era color verde c'era perfino la schiuma verde sopra<pause/> allora sono andato là l'ho presa ho fatto per berla
+                    eh e allora ho al giorno<unclear reason="inaudible">appresso</unclear> che sono andato a lavorare quel giorno che sono andato a lavorare alla stazione di <placeName ref="TEI-ListPlace.xml#MO">Monaco</placeName> e sono andato dove<choice>
+                        <orig>c'era</orig>
+                        <reg>c'erano</reg>
+                    </choice> i rifiuti<kinesic>
+                        <desc>indica con le mani</desc>
+                    </kinesic> 
+                    e ho trovato una scatola di quelle della conserva quelle scatole là allora l'ho pulito un po' col dito<kinesic>
+                        <desc>gesticola come a far vedere come ha pulito il barattolo</desc>
+                    </kinesic> un po' che <del type="repetition">era </del> era<del type="truncation">c</del> <incident>
+                        <desc>gli scivola il libro dalle gambe</desc>
+                    </incident> 
+                    c'era la muffa dentro no vede<pause/> <del type="repetition">in questa</del> in questa scatola e allora <vocal>
+                        <desc>ehm</desc>
+                    </vocal> io ho preso al mattino presto ho detto voglio <del type="truncation">v</del> vedere cosa è questa roba perchè era color verde c'era perfino la schiuma verde sopra<pause/> allora sono andato là l'ho presa ho fatto per berla
                     <anchor xml:id="van-43" synch="#TT43"/> mamma mia <anchor xml:id="van-44" synch="#TT44"/> 
                 
                 </u>
@@ -892,11 +946,13 @@
                 </u>
 
                 <u who="#VANZINI">
-                    <anchor xml:id="van-45" synch="#TT45"/> <vocal><desc>ehm</desc></vocal> <anchor xml:id="van-46" synch="#TT46"/> 
+                    <anchor xml:id="van-45" synch="#TT45"/> <vocal>
+                        <desc>ehm</desc>
+                    </vocal> <anchor xml:id="van-46" synch="#TT46"/> 
                 </u>
 
                 <u who="#VANZINI" xml:id="V26" synch="#TS52">                
-                    io<del type="truncation">g</del> guardi<del type="repetition" >che</del> che posso ricordare noi eravamo in tre no ma dentro nel Lager cioè quando mi han preso che mi han portato al campo di lavoro prima a <placeName ref="TEI-ListPlace.xml#I">Ingolstadt</placeName>
+                    io<del type="truncation">g</del> guardi<del type="repetition">che</del> che posso ricordare noi eravamo in tre no ma dentro nel Lager cioè quando mi han preso che mi han portato al campo di lavoro prima a <placeName ref="TEI-ListPlace.xml#I">Ingolstadt</placeName>
                     là si lavorava dove c'era una fabbrica dove facevano i carri armati<pause/> e allora sotto eravamo noi e sopra c'eran le donne russe giovani che facevano le bombe a mano<pause/> vede<pause/> di là no quando che noi abbiamo tentato la fuga perchè la s<del type="correction">fabbrica</del> è stata distrutta da <anchor xml:id="van-47" synch="#TT47"/> dal bombardamento <anchor xml:id="van-48" synch="#TT48"/> 
                     e allora abbiamo tentato la fuga <del type="repetition">perchè</del> <pause/> perchè pensavamo qua non c'è più nessuno e chissà dove mi manderanno chissà no cosa faranno e allora andiamo tentiamo la fuga allora siamo andati dentro abbiamo preso quel che è rimasto del<del type="reformulation">dove</del> c'era le cucine e <unclear reason="inaudible">uno zaino</unclear> 
                     <anchor xml:id="van-49" synch="#TT49"/> e cominciato<anchor xml:id="van-50" synch="#TT50"/> alla sera a via <del type="reformulation">e</del> allora si seguiva il rumore della strada e un fiumiciattolo che era vicino alla strada vede quelli erano le nostre indicazioni 
@@ -924,7 +980,10 @@
                 </u>
 
                 <u who="#VANZINI" xml:id="V28" synch="#TS56">
-                    vede si e questa strada andava fino a <placeName ref="TEI-ListPlace.xml#L">Linz</placeName><pause/> giù <anchor xml:id="van-53" synch="#TT53"/> tra <anchor xml:id="van-54" synch="#TT54"/> ai confini tra la <placeName ref="TEI-ListPlace.xml#DE">Germania</placeName><anchor xml:id="van-55" synch="#TT55"/> e l'<placeName ref="TEI-ListPlace.xml#AT">Austria</placeName><anchor xml:id="van-56" synch="#TT56"/> 
+                    vede si e questa strada andava fino a <placeName ref="TEI-ListPlace.xml#L">Linz</placeName>
+                    <pause/> giù <anchor xml:id="van-53" synch="#TT53"/> tra <anchor xml:id="van-54" synch="#TT54"/> ai confini tra la <placeName ref="TEI-ListPlace.xml#DE">Germania</placeName>
+                    <anchor xml:id="van-55" synch="#TT55"/> e l'<placeName ref="TEI-ListPlace.xml#AT">Austria</placeName>
+                    <anchor xml:id="van-56" synch="#TT56"/> 
                 </u>
 
                 <u who="#INTERVISTATORE">
@@ -937,7 +996,10 @@
                 </u>
 
                 <u who="#VANZINI" xml:id="V29" synch="#TS58">
-                ecco e quindi noi per 15 giorni si<del type="reformulation">abbiamo</del> fatto questo cammino<pause/> e fin quando che c'era qualcosa nello zaino si mangiava e dopo bisognava mettere qualcosa nello stomaco allora si <choice><orig>prendeva</orig><reg>prendevano</reg></choice> patate crude si lavavano <anchor xml:id="van-57" synch="#TT57"/> dentro <anchor xml:id="van-58" synch="#TT58"/> 
+                ecco e quindi noi per 15 giorni si<del type="reformulation">abbiamo</del> fatto questo cammino<pause/> e fin quando che c'era qualcosa nello zaino si mangiava e dopo bisognava mettere qualcosa nello stomaco allora si <choice>
+                        <orig>prendeva</orig>
+                        <reg>prendevano</reg>
+                    </choice> patate crude si lavavano <anchor xml:id="van-57" synch="#TT57"/> dentro <anchor xml:id="van-58" synch="#TT58"/> 
                 dentro questo coso e si mangiavano crude<pause/> qualche carota
                 </u>
 
@@ -947,7 +1009,12 @@
             
 
                 <u who="#INTERVISTATORE" xml:id="I30" synch="#TS59">
-                    dopo l'<date when="09-08">8 <anchor xml:id="int-59" synch="#TT59"/> settembre</date><anchor xml:id="int-60" synch="#TT60"/> <kinesic><desc>col dito indica vanzini</desc></kinesic> dopo la <placeName ref="TEI-ListPlace.xml#GR">Grecia</placeName> dopo questo tratto di prigionia lei riesce a tornare a casa poi una vicenda particolarissima<pause/> la obbliga ad un cambio completamente la riportano via i tedeschi la prendono e c'è un fatto particolare<kinesic><desc>indica col dito</desc></kinesic> 
+                    dopo l'<date when="09-08">8 <anchor xml:id="int-59" synch="#TT59"/> settembre</date>
+                    <anchor xml:id="int-60" synch="#TT60"/> <kinesic>
+                        <desc>col dito indica vanzini</desc>
+                    </kinesic> dopo la <placeName ref="TEI-ListPlace.xml#GR">Grecia</placeName> dopo questo tratto di prigionia lei riesce a tornare a casa poi una vicenda particolarissima<pause/> la obbliga ad un cambio completamente la riportano via i tedeschi la prendono e c'è un fatto particolare<kinesic>
+                        <desc>indica col dito</desc>
+                    </kinesic> 
                     c'è quel fatto per cui la sua vita potrebbe essere cambiata perchè c'era il plotone di esecuzione
                 </u>
 
@@ -957,8 +1024,14 @@
             
 
                 <u who="#VANZINI" xml:id="V30" synch="#TS60">
-                    si<pause/> eh <del type="repetition">là</del> là <del type="repetition">quando</del> c'ero<pause/> là è stato così che noi dopo 15 giorni che si camminava una sera abbiamo visto da lontano sempre che ci sono pianure terreni come una casupola e allora si pensava che dentro là ci fossero dei contadini che ci<choice><orig>possono</orig><reg>potessero</reg></choice> aiutare un po'
-                    <anchor xml:id="van-61" synch="#TT61"/> e siamo andati là <anchor xml:id="van-62" synch="#TT62"/> invece è venuta fuori una <rs type="person">ragazza</rs><pause/> questa qua<pause/> e<pause/> andava a prendere l'acqua fuori e allora io l'ho chiamata prima in tedesco e poi in italiano allora m'ha detto no ma chi siete italiani ho detto si no noi siamo scappati perchè siamo<vocal><desc>ehm</desc></vocal> 
+                    si<pause/> eh <del type="repetition">là</del> là <del type="repetition">quando</del> c'ero<pause/> là è stato così che noi dopo 15 giorni che si camminava una sera abbiamo visto da lontano sempre che ci sono pianure terreni come una casupola e allora si pensava che dentro là ci fossero dei contadini che ci<choice>
+                        <orig>possono</orig>
+                        <reg>potessero</reg>
+                    </choice> aiutare un po'
+                    <anchor xml:id="van-61" synch="#TT61"/> e siamo andati là <anchor xml:id="van-62" synch="#TT62"/> invece è venuta fuori una <rs type="person">ragazza</rs>
+                    <pause/> questa qua<pause/> e<pause/> andava a prendere l'acqua fuori e allora io l'ho chiamata prima in tedesco e poi in italiano allora m'ha detto no ma chi siete italiani ho detto si no noi siamo scappati perchè siamo<vocal>
+                        <desc>ehm</desc>
+                    </vocal> 
                     scappati dalla fabbrica perchè era distrutta allora ha detto aspetta che vado da mio nonno a dirgli di preparare qualcosa di caldo<pause/> e di fatti no<pause/> parlava in italiano no <pause/> <anchor xml:id="van-63" synch="#TT63"/> e di fatti <anchor xml:id="van-64" synch="#TT64"/>                
                 </u>
 
@@ -972,12 +1045,41 @@
                 </u>
 
                 <u who="#VANZINI" xml:id="V31" synch="#TS62">
-                    eh si fidati e siamo andati là <choice><orig>c'era</orig><reg>c'erano</reg></choice> due della <foreign xml:lang="de">Wehrmacht</foreign><pause/> due militari come siamo entrati col calcio del mitra ci han buttati a terra sulla schiena questa qua era una spia una <rs type="person">ragazza</rs> spia italiana giovane che lo faceva per i soldi vede allora quando che
-                    <vocal><desc>ehm</desc></vocal> lei era là che stava mangiando e bevendo con questi tedeschi dentro questa casupola noi eravamo là vicino al fuoco legati e allora mi guardava ogni tanto e io dicevo <anchor xml:id="van-65" synch="#TT65"/> perchè parlava <anchor xml:id="van-66" synch="#TT66"/> <anchor xml:id="van-67" synch="#TT67"/> parlava anche il milanese <anchor xml:id="van-68" synch="#TT68"/> 
-                    io di <placeName ref="TEI-ListPlace.xml#VA">Varese</placeName>lo capivo no<pause/> gli ho detto sei stata brava ho detto però <kinesic><desc>punta il dito</desc></kinesic> vedrai che è il tuo momento e lei mi ha detto a me non mi <del type="truncation">int</del> interessa solo i soldi<kinesic><desc>gesto dei soldi con la mano</desc></kinesic> 
-                    vede e così <choice><orig>quel</orig><reg>quei</reg></choice> sacrifici che abbiamo<choice><orig>fatti</orig><reg>fatto</reg></choice> per nulla perchè ci ha mandati indietro alla stazione di <placeName ref="TEI-ListPlace.xml#MO">Monaco</placeName><pause/> c'era la
-                    <foreign xml:lang="de"><choice><abbr>Gestapo</abbr><expan>Geheime Staatspolizei</expan></choice> </foreign> le<foreign xml:lang="de"><choice><abbr>SS</abbr><expan>Schutzstaffel</expan></choice> </foreign><pause/> lì borghesi<pause/> ci han preso ci han messo i cosi ai polsi e anche alle
-                    <choice><orig>caviglia</orig><reg>caviglie</reg></choice> <pause/> e ci han portati a <placeName ref="TEI-ListPlace.xml#BU">Buchenwald</placeName>
+                    eh si fidati e siamo andati là <choice>
+                        <orig>c'era</orig>
+                        <reg>c'erano</reg>
+                    </choice> due della <foreign xml:lang="de">Wehrmacht</foreign>
+                    <pause/> due militari come siamo entrati col calcio del mitra ci han buttati a terra sulla schiena questa qua era una spia una <rs type="person">ragazza</rs> spia italiana giovane che lo faceva per i soldi vede allora quando che
+                    <vocal>
+                        <desc>ehm</desc>
+                    </vocal> lei era là che stava mangiando e bevendo con questi tedeschi dentro questa casupola noi eravamo là vicino al fuoco legati e allora mi guardava ogni tanto e io dicevo <anchor xml:id="van-65" synch="#TT65"/> perchè parlava <anchor xml:id="van-66" synch="#TT66"/> <anchor xml:id="van-67" synch="#TT67"/> parlava anche il milanese <anchor xml:id="van-68" synch="#TT68"/> 
+                    io di <placeName ref="TEI-ListPlace.xml#VA">Varese</placeName>lo capivo no<pause/> gli ho detto sei stata brava ho detto però <kinesic>
+                        <desc>punta il dito</desc>
+                    </kinesic> vedrai che è il tuo momento e lei mi ha detto a me non mi <del type="truncation">int</del> interessa solo i soldi<kinesic>
+                        <desc>gesto dei soldi con la mano</desc>
+                    </kinesic> 
+                    vede e così <choice>
+                        <orig>quel</orig>
+                        <reg>quei</reg>
+                    </choice> sacrifici che abbiamo<choice>
+                        <orig>fatti</orig>
+                        <reg>fatto</reg>
+                    </choice> per nulla perchè ci ha mandati indietro alla stazione di <placeName ref="TEI-ListPlace.xml#MO">Monaco</placeName>
+                    <pause/> c'era la
+                    <foreign xml:lang="de">
+                        <choice>
+                            <abbr>Gestapo</abbr>
+                            <expan>Geheime Staatspolizei</expan>
+                        </choice> </foreign> le<foreign xml:lang="de">
+                        <choice>
+                            <abbr>SS</abbr>
+                            <expan>Schutzstaffel</expan>
+                        </choice> </foreign>
+                    <pause/> lì borghesi<pause/> ci han preso ci han messo i cosi ai polsi e anche alle
+                    <choice>
+                        <orig>caviglia</orig>
+                        <reg>caviglie</reg>
+                    </choice> <pause/> e ci han portati a <placeName ref="TEI-ListPlace.xml#BU">Buchenwald</placeName>
                 </u>
 
                 <u who="#INTERVISTATORE">
@@ -996,7 +1098,10 @@
                 </u>
 
                 <u who="#VANZINI" xml:id="V32" synch="#TS64">
-                    beh<pause/> <choice><orig>c'è voluto</orig><reg>ci sono voluti</reg></choice> quasi 15 giorni o di più per impararlo<pause/> perchè dopo io imparavo un numero alla volta<pause/> lo mettevo nella testa perchè è difficile<pause/> fare tutto il numero così<pause/> mille<gap reason="inaudible" extent="1 word"/> e invece se fosse
+                    beh<pause/> <choice>
+                        <orig>c'è voluto</orig>
+                        <reg>ci sono voluti</reg>
+                    </choice> quasi 15 giorni o di più per impararlo<pause/> perchè dopo io imparavo un numero alla volta<pause/> lo mettevo nella testa perchè è difficile<pause/> fare tutto il numero così<pause/> mille<gap reason="inaudible" extent="1 word"/> e invece se fosse
                     <foreign xml:lang="de">eins zwei drei vier</foreign>fino al 30 così lo sapevo ma i numeri<del type="reformulation">allora</del> leggevo un numero alla volta me lo mettevo nella testa no perchè dopo quando mi chiamavano bisognava presentarsi e se sbagliavi <del type="repetition">erano</del> erano botte<pause/> 
                     avevano quei nervini che <anchor xml:id="van-73" synch="#TT73"/> ogni colpo<anchor xml:id="van-74" synch="#TT74"/> 
                 </u>
@@ -1012,8 +1117,13 @@
                 </u>
 
                 <u who="#VANZINI" xml:id="V33" synch="#TS66">
-                oh beh una cosa guardi no<pause/> là ci han dato<del type="reformulation">si camminava</del> con quel vestito di tela solo <del type="truncation">t</del> tela non avevamo niente sotto<pause/> e senza calze con su questi zoccoloni di legno<pause/> vede<pause/> un<choice><orig>barrettino</orig><reg>berrettino</reg></choice> 
-                piccolo<kinesic><desc>fa il gesto con le mani per indicare la dimensione del berretto </desc></kinesic> e là si doveva andare conto alle intemperie nevicava pioveva tirava vento e là si doveva<del type="falseStart">c</del> andare al lavoro e battere i denti tutti i giorni perchè si sentiva il fre come aver su 
+                oh beh una cosa guardi no<pause/> là ci han dato<del type="reformulation">si camminava</del> con quel vestito di tela solo <del type="truncation">t</del> tela non avevamo niente sotto<pause/> e senza calze con su questi zoccoloni di legno<pause/> vede<pause/> un<choice>
+                        <orig>barrettino</orig>
+                        <reg>berrettino</reg>
+                    </choice> 
+                piccolo<kinesic>
+                        <desc>fa il gesto con le mani per indicare la dimensione del berretto </desc>
+                    </kinesic> e là si doveva andare conto alle intemperie nevicava pioveva tirava vento e là si doveva<del type="falseStart">c</del> andare al lavoro e battere i denti tutti i giorni perchè si sentiva il fre come aver su 
                 diciamo una cosa una garza è lo stesso e si vedeva la luce di là <del type="repetition">di questa</del> di questa cosa che m'han dato e <del type="truncation">l</del> l'inverno<pause/> là nevica molto <del type="truncation">n</del> nevica <anchor xml:id="van-75" synch="#TT75"/> e là si doveva<anchor xml:id="van-76" synch="#TT76"/> 
                 per forza <del type="reformulation">non</del> c'era nessuno<pause/> non ti davano neanche un fazzoletto tanto per dire vedi
 
@@ -1045,12 +1155,22 @@
                 </u>
 
                 <u who="#VANZINI" xml:id="V35" synch="TS70">
-                    ha fatto <anchor xml:id="van-81" synch="#TT81"/> <del type="repetition">ha</del> ha detto <anchor xml:id="van-82" synch="#TT82"/> <vocal><desc>ehm</desc></vocal> non <del type="truncation">pa</del> parroco ha detto niente parroco e io come dire <del type="repetition">questo</del> questo poveretto no  <anchor xml:id="van-83" synch="#TT83"/> non ha nessuno <anchor xml:id="van-84" synch="#TT84"/> è anche giusto no che gli faccio come il segno come benedirlo e gli faccio come il segno della croce no prima di buttarlo in questo inferno<pause/> mi ricordo che quel giorno là c'erano venti centimetri di neve nevicava<pause/> era una domenica<pause/> 
+                    ha fatto <anchor xml:id="van-81" synch="#TT81"/> <del type="repetition">ha</del> ha detto <anchor xml:id="van-82" synch="#TT82"/> <vocal>
+                        <desc>ehm</desc>
+                    </vocal> non <del type="truncation">pa</del> parroco ha detto niente parroco e io come dire <del type="repetition">questo</del> questo poveretto no  <anchor xml:id="van-83" synch="#TT83"/> non ha nessuno <anchor xml:id="van-84" synch="#TT84"/> è anche giusto no che gli faccio come il segno come benedirlo e gli faccio come il segno della croce no prima di buttarlo in questo inferno<pause/> mi ricordo che quel giorno là c'erano venti centimetri di neve nevicava<pause/> era una domenica<pause/> 
                     e allora arriva un carro perchè alla domenica e al sabato mandavano in giro i carri trainati da noi poveretti che non avevamo neanche la forza<pause/> con su magari 20 30 40 morti<pause/> e questo carro è passato dall'infermeria per ultimo perchè veniva verso i forni e ha caricato 5 o 6 persone<pause/> 
                     e io sono andato fuori con questo francese che mi aiutava e ho preso i primi di dietro e quando che ho preso questo qua mi sembrava ancora come tiepido mi sembrava non proprio quel freddo <anchor xml:id="van-85" synch="#TT85"/> di morte no<anchor xml:id="van-86" synch="#TT86"/> <pause/> e allora ho <del type="truncation">de</del> 
-                    Madonna l'han portato dentro io e l'altro <choice><orig>l'ho</orig><reg>l'abbiamo</reg></choice> messo sulla grata e fuori c'era la neve fresca mi si è <choice><orig>attaccato</orig><reg>attaccata</reg></choice> la neve sugli zoccoloni di legno e come ho messo questo corpo<pause/> no<pause/> 
-                    <vocal><desc>ehm</desc></vocal> io sono scivolato e sono andato <del type="repetition">con la</del> con la testa quasi sul corpo no<pause/> e sentivo ho detto ma questo qua è ancora vivo sentivo<del type="truncation">gl</del> gli ultimi battiti del cuore sentivo no e io son rimasto là ho detto
-                    Madonna ma questo qua poteva vivere ancora e invece gli facevano le punture e li mandavano al Creatore<unclear reason="inaudible" >ver</unclear> 
+                    Madonna l'han portato dentro io e l'altro <choice>
+                        <orig>l'ho</orig>
+                        <reg>l'abbiamo</reg>
+                    </choice> messo sulla grata e fuori c'era la neve fresca mi si è <choice>
+                        <orig>attaccato</orig>
+                        <reg>attaccata</reg>
+                    </choice> la neve sugli zoccoloni di legno e come ho messo questo corpo<pause/> no<pause/> 
+                    <vocal>
+                        <desc>ehm</desc>
+                    </vocal> io sono scivolato e sono andato <del type="repetition">con la</del> con la testa quasi sul corpo no<pause/> e sentivo ho detto ma questo qua è ancora vivo sentivo<del type="truncation">gl</del> gli ultimi battiti del cuore sentivo no e io son rimasto là ho detto
+                    Madonna ma questo qua poteva vivere ancora e invece gli facevano le punture e li mandavano al Creatore<unclear reason="inaudible">ver</unclear> 
 
                 </u>
 
@@ -1075,7 +1195,9 @@
                 <u who="#VANZINI" xml:id="V36" synch="#TS72">              
                     
                     le prime notti<pause/> cioè le <del type="reformulation">proprio</del> quando mi son sposato anche no io avevo sempre una cosa dentro di me e durante la notte mi sembrava di vedere le fiamme davanti come
-                    <del type="truncation">d</del> dei forni<pause/> ogni tanto mi svegliavo sembrava che uno mi battesse<pause/> no<pause/> e cercavo di difendermi<pause/> e tante volte magari facevo così<kinesic><desc>allarga il braccio</desc></kinesic> per mandarlo via e gli davo gli schiaffi <del type="repetition">sulla </del> 
+                    <del type="truncation">d</del> dei forni<pause/> ogni tanto mi svegliavo sembrava che uno mi battesse<pause/> no<pause/> e cercavo di difendermi<pause/> e tante volte magari facevo così<kinesic>
+                        <desc>allarga il braccio</desc>
+                    </kinesic> per mandarlo via e gli davo gli schiaffi <del type="repetition">sulla </del> 
                     <anchor xml:id="van-93" synch="#TT93"/> sulla<anchor xml:id="van-94" synch="#TT94"/> sulla faccia alla moglie no e lei si svegliava mi diceva che cosa hai <del type="repetition">no</del> no e io ho detto guarda ho incubi così no e lei <del type="repetition">ma</del> ma fatti vedere dal medico m'ha detto no che c'è qualcosa che non va 
                 </u>
 
@@ -1094,7 +1216,9 @@
                 <u who="#VANZINI" xml:id="V37" synch="#TS74">            
                     entravano<del type="reformulation">una volta</del> era di domenica e mi han messo dato che non si lavorava<pause/> e mi han messo a pulire<pause/> cioè <del type="repetition">a</del> a mettere un po' le siepi quelle siepi basse vicino alla cucina <pause/> che volevano che tagliavo tutti i rami che venivano
                     <del type="correction">più</del> in fuori<pause/> e allora vedo che si apre il cancello e entra il treno <pause/> ho detto mamma mia chissà chi sono pensavo che ci fosse qualche italiano o magari gente <del type="repetition">che</del> che facevano le retate che li portavano via<del type="reformulation">invece</del> erano tutti ebrei perchè ho visto
-                    scendere donne bambini piccolini in braccio no<vocal><desc>ehm</desc></vocal> ragazzi di 3 4 5 anni<pause/> che erano vicino alla sua mamma e<pause/> hanno preso<pause/> han levato tutti i bambini a forza<pause/> li strappavano via <del type="truncation">da</del> dagli uo<del type="reformulation">dai</del> 
+                    scendere donne bambini piccolini in braccio no<vocal>
+                        <desc>ehm</desc>
+                    </vocal> ragazzi di 3 4 5 anni<pause/> che erano vicino alla sua mamma e<pause/> hanno preso<pause/> han levato tutti i bambini a forza<pause/> li strappavano via <del type="truncation">da</del> dagli uo<del type="reformulation">dai</del> 
                     suoi papà dai cosi<pause/> e lì li caricavano sul treno ancora nei vagoni <pause/> e le donne e tutti e quindi han lasciato solo gli uomini là<pause/> e ho detto ma come mai e il treno è partito ho detto ma dove vanno allora i russi che sapevano tutto perchè lavoravano nelle cucine<pause/> vede loro 
                 </u>
 
@@ -1103,10 +1227,16 @@
                 </u>
             
                 <u who="#VANZINI" xml:id="V38" synch="#TS76">
-                    i russi<pause/> c'era qualche cuoco così ma avevano un po' di soggezione dei russi e li mettevano a far certi lavori un po' meno pesanti<pause/> e allora un russo ha detto<pause/> <vocal><desc>ehm</desc></vocal> ho detto dove vanno no<pause/> m'ha detto vanno ad <placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName><pause/> 
+                    i russi<pause/> c'era qualche cuoco così ma avevano un po' di soggezione dei russi e li mettevano a far certi lavori un po' meno pesanti<pause/> e allora un russo ha detto<pause/> <vocal>
+                        <desc>ehm</desc>
+                    </vocal> ho detto dove vanno no<pause/> m'ha detto vanno ad <placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName>
+                    <pause/> 
                     là è il concentramento dei <unclear reason="inaudible">ribei</unclear> <del type="truncation">de</del> <anchor xml:id="van-97" synch="#TT97"/> degli ebrei <anchor xml:id="van-98" synch="#TT98"/> e allora<pause/> ho detto mamma mia e vedo questi uomini che gli danno i tedeschi gli danno pezzi di pane no<pause/> cose come formaggio e ho detto a noi ci fanno morire e qua come mai che c'eran<del type="reformulation">e</del> poi vedo che entra <del type="repetition">un camion</del> un camion <del type="truncation">del</del> della
                     <foreign xml:lang="de">Wehrmacht</foreign>no<pause/> militare<pause/> e si gira e si mette dalla parte di dietro <anchor xml:id="van-99" synch="#TT99"/> dove c'era<anchor xml:id="van-100" synch="#TT100"/> 
-                    <del type="reformulation">verso</del> questi<pause/> aprono tirano su il telone <pause/> e là c'erano due mitragliatrici e ho cominciato a sentir sparare <pause/> <choice><orig>tutta</orig><reg>tutti</reg></choice> quei poveretti no massacrati e dopo c'era chi si lamentava che era ferito che non e allora cosa faceva passava un comandante là 
+                    <del type="reformulation">verso</del> questi<pause/> aprono tirano su il telone <pause/> e là c'erano due mitragliatrici e ho cominciato a sentir sparare <pause/> <choice>
+                        <orig>tutta</orig>
+                        <reg>tutti</reg>
+                    </choice> quei poveretti no massacrati e dopo c'era chi si lamentava che era ferito che non e allora cosa faceva passava un comandante là 
                     <anchor xml:id="van-101" synch="#TT101"/> un Kapo<anchor xml:id="van-102" synch="#TT102"/> e con la pistola gli <anchor xml:id="van-103" synch="#TT103"/> sparava in testa <anchor xml:id="van-104" synch="#TT104"/> 
                 </u>
 
@@ -1139,8 +1269,12 @@
                     ah beh guardi<pause/> appena quando che ho cominciato a vedere che era un mese o due che ero dentro e ho cominciato a sentire il declino della vita proprio no mangiare quasi niente tutta porcheria <del type="truncation">n</del> non aveva neanche il sale niente proprio ci davano
                     come l'acqua no con dentro tutta della roba che non sapevo neanche cosa era che faceva ribrezzo a mangiarla <pause/> e un <del type="reformulation">tante</del> volte <del type="repetition">era</del> era acqua tante volte era dura <anchor xml:id="van-107" synch="#TT107"/> che bisogna spaccarla<anchor xml:id="van-108" synch="#TT108"/> 
                     <pause/> vede<pause/> e là ho detto qua no è impossibile che vivo ancora e allora ho detto no signore fammi la grazia ho detto fammi vedere ancora <rs type="person">mio padre</rs> e <rs type="person">mia mamma</rs> <del type="repetition">si si si </del> <del type="reformulation">ci</del> si aggrappava a un qualcuno a qualcosa che nella mente ci venivano e allora chi era<pause/> era Dio   
-                    <anchor xml:id="van-109" synch="#TT109"/> oppure<anchor xml:id="van-110" synch="#TT110"/> la mamma<pause/> <unclear reason="inaudible">eh perchè</unclear> la mamma era sempre quella che per prima si nominava<pause/> vede<pause/> <del type="repetition">e</del> e io è stato il giorno di Natale <pause/> <vocal><desc>ehm</desc></vocal> ho detto c'era la messa italiana dei padri dei preti italiani
-                    che sono stati deportati<pause/> loro avevano un'altra mansione<pause/> e allora sono andato e c'era quella italiana quella ebraica e quella protestante<pause/> allora ho detto vado a sentirmi la messa <pause/> e al comandante<vocal><desc>ehm</desc></vocal> <del type="truncation">v</del> verso le 10 e così prima che iniziasse la messa ha detto no oggi
+                    <anchor xml:id="van-109" synch="#TT109"/> oppure<anchor xml:id="van-110" synch="#TT110"/> la mamma<pause/> <unclear reason="inaudible">eh perchè</unclear> la mamma era sempre quella che per prima si nominava<pause/> vede<pause/> <del type="repetition">e</del> e io è stato il giorno di Natale <pause/> <vocal>
+                        <desc>ehm</desc>
+                    </vocal> ho detto c'era la messa italiana dei padri dei preti italiani
+                    che sono stati deportati<pause/> loro avevano un'altra mansione<pause/> e allora sono andato e c'era quella italiana quella ebraica e quella protestante<pause/> allora ho detto vado a sentirmi la messa <pause/> e al comandante<vocal>
+                        <desc>ehm</desc>
+                    </vocal> <del type="truncation">v</del> verso le 10 e così prima che iniziasse la messa ha detto no oggi
                     ci sarà un pranzo speciale<pause/> cosa davano<pause/> davano una patata più che altro <anchor xml:id="van-111" synch="#TT111"/> che non avevano mai dato<anchor xml:id="van-112" synch="#TT112"/> perchè han sempre dato porcheria e allora ho detto non mi interessa vado a sentire la messa mi sembrava che sentendo la messa un<del type="repetition">mi</del> mi diciamo
                     <anchor xml:id="van-113" synch="#TT113"/> mi portavo <anchor xml:id="van-114" synch="#TT114"/> 
                 </u>
@@ -1148,7 +1282,9 @@
                 <u who="#INTERVISTATORE">
                     <anchor xml:id="int-107" synch="#TT107"/> buttavan dentro di tutto si <anchor xml:id="int-108" synch="#TT108"/> 
                     <anchor xml:id="int-109" synch="#TT109"/> chissà <anchor xml:id="int-110" synch="#TT110"/> 
-                    <anchor xml:id="int-111" synch="#TT111"/> <vocal><desc>verso di chi sta seguendo il discorso</desc></vocal> <anchor xml:id="int-112" synch="#TT112"/> 
+                    <anchor xml:id="int-111" synch="#TT111"/> <vocal>
+                        <desc>verso di chi sta seguendo il discorso</desc>
+                    </vocal> <anchor xml:id="int-112" synch="#TT112"/> 
                     <anchor xml:id="int-113" synch="#TT113"/> si<anchor xml:id="int-114" synch="#TT114"/> 
                 </u> 
 
@@ -1157,8 +1293,13 @@
                 </u>
 
                 <u who="#VANZINI" xml:id="V41" synch="#TS82">
-                    eh mi scaricavo un po'<pause/> e allora sono andato dentro e io <del type="reformulation">c'era</del> un disco che si sentivano i canti natalizi no <choice><orig>italiana</orig><reg>italiani</reg></choice> e ogni tanto guardavo da parte e mi sembrava che avevo degli amici o <rs type="person">mio padre</rs> <rs type="person">mio fratello</rs>
-                    <anchor xml:id="van-115" synch="#TT115"/> <vocal><desc>parole che non si capiscono</desc></vocal> <anchor xml:id="van-116" synch="#TT116"/> 
+                    eh mi scaricavo un po'<pause/> e allora sono andato dentro e io <del type="reformulation">c'era</del> un disco che si sentivano i canti natalizi no <choice>
+                        <orig>italiana</orig>
+                        <reg>italiani</reg>
+                    </choice> e ogni tanto guardavo da parte e mi sembrava che avevo degli amici o <rs type="person">mio padre</rs> <rs type="person">mio fratello</rs>
+                    <anchor xml:id="van-115" synch="#TT115"/> <vocal>
+                        <desc>parole che non si capiscono</desc>
+                    </vocal> <anchor xml:id="van-116" synch="#TT116"/> 
                 </u>
 
                 <u who="#INTERVISTATORE">
@@ -1182,9 +1323,14 @@
                 </u>
                 
                 <u who="#VANZINI" xml:id="V43" synch="#TS86">            
-                    perchè vede in quel momento ho anche detto signore se tu veramente ci sei e sei padre di tutti aiuta questo tuo figlio <pause/> fammi ritornare fammi rivedere ancora la mia famiglia <choice><orig>erano</orig><reg>erano</reg></choice> quattro anni che non sapevo niente
+                    perchè vede in quel momento ho anche detto signore se tu veramente ci sei e sei padre di tutti aiuta questo tuo figlio <pause/> fammi ritornare fammi rivedere ancora la mia famiglia <choice>
+                        <orig>erano</orig>
+                        <reg>erano</reg>
+                    </choice> quattro anni che non sapevo niente
                     <pause/> vede io sono andato col pensiero e sono venuto fuori e cosa ho preso <pause/> ho preso tante di quelle vergate che non mi interessava a me mi interessava che un qualcuno mi proteggesse e allora questo qua mi ha chiamato non son presentato <pause/> e mi ha aspettato che venivo fuori un comandante<pause/> 
-                    e mi ha dato tante vergate poi mi ha messo dentro a un bunker<pause/> un bunker di ferro senza niente nudo come ero un freddo che io <vocal><desc>mmm</desc></vocal> tu <del type="truncation">pens</del> pensi che camminavo <anchor xml:id="van-119" synch="#TT119"/> un po' a stento <anchor xml:id="van-120" synch="#TT120"/>           
+                    e mi ha dato tante vergate poi mi ha messo dentro a un bunker<pause/> un bunker di ferro senza niente nudo come ero un freddo che io <vocal>
+                        <desc>mmm</desc>
+                    </vocal> tu <del type="truncation">pens</del> pensi che camminavo <anchor xml:id="van-119" synch="#TT119"/> un po' a stento <anchor xml:id="van-120" synch="#TT120"/>           
                     <anchor xml:id="van-121" synch="#TT121"/> ma camminavo per non congelarmi no <anchor xml:id="van-122" synch="#TT122"/> 
                 </u>
 
@@ -1210,13 +1356,24 @@
                 <u who="#VANZINI" xml:id="V45" synch="#TS90">
                     si sono tornato con mio <rs type="person">figlio</rs> che siamo andati a fare<del type="reformulation">lui</del> compiva i 18 anni e allora m'ha portato a fare un giro<pause/> lui era in <placeName ref="TEI-ListPlace.xml#CH">Svizzera</placeName> sul <placeName ref="TEI-ListPlace.xml#LC">Lago di Costanza</placeName> e allora ha detto 
                     <anchor xml:id="van-123" synch="#TT123"/> dato che <anchor xml:id="van-124" synch="#TT124"/> dato che siamo vicini all'<placeName ref="TEI-ListPlace.xml#AT">Austria</placeName> andiamo fino a <placeName ref="TEI-ListPlace.xml#IN">Innsbruck</placeName>e poi andiamo su dove c'è fino a <placeName ref="TEI-ListPlace.xml#MO">Monaco di Baviera
-                    </placeName><pause/> ho detto Madonna <placeName ref="TEI-ListPlace.xml#MO">Monaco</placeName><pause/> a pochi chilometri c'è <placeName ref="TEI-ListPlace.xml#DA">Dachau</placeName> no<pause/> e allora ho detto andiamo fino a <placeName ref="TEI-ListPlace.xml#DA">Dachau</placeName> <vocal><desc>ride</desc></vocal> 
-                    lui mi ha detto ma cosa c'è a <placeName ref="TEI-ListPlace.xml#DA">Dachau</placeName><pause/> ho detto io so<del type="repetition">che</del> che c'è qualcosa che poi dopo vedrete no<pause/> allora lui ecco curioso è venuto andiamo siamo andati allora non c'era il cancello c'era dei come un'entrata no 
-                    <anchor xml:id="van-125" synch="#TT125"/> dei pannelli <anchor xml:id="van-126" synch="#TT126"/> che si entrava si girava e <choice><orig>c'era</orig><reg>c'erano</reg></choice> tutte le foto <anchor xml:id="van-127" synch="#TT127"/> su questi <anchor xml:id="van-128" synch="#TT128"/> 
+                    </placeName>
+                    <pause/> ho detto Madonna <placeName ref="TEI-ListPlace.xml#MO">Monaco</placeName>
+                    <pause/> a pochi chilometri c'è <placeName ref="TEI-ListPlace.xml#DA">Dachau</placeName> no<pause/> e allora ho detto andiamo fino a <placeName ref="TEI-ListPlace.xml#DA">Dachau</placeName> <vocal>
+                        <desc>ride</desc>
+                    </vocal> 
+                    lui mi ha detto ma cosa c'è a <placeName ref="TEI-ListPlace.xml#DA">Dachau</placeName>
+                    <pause/> ho detto io so<del type="repetition">che</del> che c'è qualcosa che poi dopo vedrete no<pause/> allora lui ecco curioso è venuto andiamo siamo andati allora non c'era il cancello c'era dei come un'entrata no 
+                    <anchor xml:id="van-125" synch="#TT125"/> dei pannelli <anchor xml:id="van-126" synch="#TT126"/> che si entrava si girava e <choice>
+                        <orig>c'era</orig>
+                        <reg>c'erano</reg>
+                    </choice> tutte le foto <anchor xml:id="van-127" synch="#TT127"/> su questi <anchor xml:id="van-128" synch="#TT128"/> 
                 </u>
 
                 <u who="#INTERVISTATORE">
-                    <anchor xml:id="int-123" synch="#TT123"/> <kinesic><desc>gesto con la mano che indica il fatto di andare</desc></kinesic> andiamo a <placeName ref="TEI-ListPlace.xml#MO">Monaco</placeName><anchor xml:id="int-124" synch="#TT124"/> 
+                    <anchor xml:id="int-123" synch="#TT123"/> <kinesic>
+                        <desc>gesto con la mano che indica il fatto di andare</desc>
+                    </kinesic> andiamo a <placeName ref="TEI-ListPlace.xml#MO">Monaco</placeName>
+                    <anchor xml:id="int-124" synch="#TT124"/> 
                     <anchor xml:id="int-125" synch="#TT125"/> si<pause/> <del type="repetition">si</del> si <anchor xml:id="int-126" synch="#TT126"/> 
                     <anchor xml:id="int-127" synch="#TT127"/> si <anchor xml:id="int-128" synch="#TT128"/> 
                     
@@ -1228,16 +1385,26 @@
                 </u>
                 
                 <u who="#VANZINI">
-                    <anchor xml:id="van-129" synch="#TT129"/> no <vocal><desc>ehm</desc></vocal> <anchor xml:id="van-130" synch="#TT130"/> 
+                    <anchor xml:id="van-129" synch="#TT129"/> no <vocal>
+                        <desc>ehm</desc>
+                    </vocal> <anchor xml:id="van-130" synch="#TT130"/> 
                 </u>
 
 
                 <u who="#VANZINI" xml:id="V46" synch="#TS92">
                     <del type="repetition">no no</del> no<pause/> non ne ho mai parlato io con mio figlio io di queste cose mai <pause/> siamo andati dentro io mi son fermato dove c'era la baracca perchè li han <del type="repetition">tutti</del> tutti bruciati quelle baracche<anchor xml:id="van-131" synch="#TT131"/> ma i numeri ci sono <anchor xml:id="van-132" synch="#TT132"/> 
                     <anchor xml:id="van-133" synch="#TT133"/> e anche i segni <anchor xml:id="van-134" synch="#TT134"/> ecco<pause/> e là no <del type="repetition">ho</del> ho <del type="reformulation">son</del> fermato a guardare e ho detto quanto ho sofferto qua dentro tra me e me no e lui mi diceva andiamo cosa fai là ho detto <del type="repetition">vengo</del> vengo di fatti loro
-                    andavano verso la chiesa protestante per vedere che era proprio in faccia<kinesic><desc>fa il gesto di trovarsela di fronte</desc></kinesic> e io ho cercato di andare<kinesic><desc>segno di girare per andare nella direzione dei forni</desc></kinesic> dove c'erano i forni 
-                    che eran di dietro e allora <vocal><desc>ride</desc></vocal> loro dicevano vieni a vedere qua no ma non mi interessa ho detto vado di qua io<pause/> allora fa<pause/> allora aspetti che veniamo anche noi ho detto andate dopo no<pause/> e infatti son venuti là
-                    <vocal><desc>ride</desc></vocal> e io li ho portati apriamo la porta dei forni <del type="repetition">ho</del> ho detto ma cosa<pause/> cosa facevano qua cosa bruciavano 
+                    andavano verso la chiesa protestante per vedere che era proprio in faccia<kinesic>
+                        <desc>fa il gesto di trovarsela di fronte</desc>
+                    </kinesic> e io ho cercato di andare<kinesic>
+                        <desc>segno di girare per andare nella direzione dei forni</desc>
+                    </kinesic> dove c'erano i forni 
+                    che eran di dietro e allora <vocal>
+                        <desc>ride</desc>
+                    </vocal> loro dicevano vieni a vedere qua no ma non mi interessa ho detto vado di qua io<pause/> allora fa<pause/> allora aspetti che veniamo anche noi ho detto andate dopo no<pause/> e infatti son venuti là
+                    <vocal>
+                        <desc>ride</desc>
+                    </vocal> e io li ho portati apriamo la porta dei forni <del type="repetition">ho</del> ho detto ma cosa<pause/> cosa facevano qua cosa bruciavano 
                 </u>
 
                 <u who="#INTERVISTATORE">
@@ -1257,7 +1424,7 @@
                     <anchor xml:id="int-135" synch="#TT135"/> sono forni diversi<anchor xml:id="int-136" synch="#TT136"/> 
                 </u>
 
-                <u who="#INTERVISTATORE"  xml:id="I48" synch="#TS95">
+                <u who="#INTERVISTATORE" xml:id="I48" synch="#TS95">
                     nonostante passati <anchor xml:id="int-137" synch="#TT137"/> gli anni e tutto<anchor xml:id="int-138" synch="#TT138"/> <anchor xml:id="int-139" synch="#TT139"/> era impregnato il muro di quella tragedia<anchor xml:id="int-140" synch="#TT140"/> 
                 </u>
 
@@ -1268,8 +1435,14 @@
 
             
                 
-                <u who="#VANZINI"  xml:id="V48" synch="#TS96">              
-                    si dove <choice><orig>c'era</orig><reg>c'erano</reg></choice> <choice><orig>tutta</orig><reg>tutte</reg></choice> le ossa che si buttava là han fatto <del type="repetition">un monumento</del> un monumento no al <del type="reformulation">che</del> <gap reason="inaudible" extent="4 words"/> c'è un prigioniero
+                <u who="#VANZINI" xml:id="V48" synch="#TS96">              
+                    si dove <choice>
+                        <orig>c'era</orig>
+                        <reg>c'erano</reg>
+                    </choice> <choice>
+                        <orig>tutta</orig>
+                        <reg>tutte</reg>
+                    </choice> le ossa che si buttava là han fatto <del type="repetition">un monumento</del> un monumento no al <del type="reformulation">che</del> <gap reason="inaudible" extent="4 words"/> c'è un prigioniero
                     <anchor xml:id="van-141" synch="#TT141"/> vestito come era<anchor xml:id="van-142" synch="#TT142"/> 
                 </u>
 
@@ -1323,7 +1496,9 @@
                 </u>
 
                 <u who="#VANZINI">
-                    <anchor xml:id="van-149" synch="#TT149"/> <vocal><desc>ehm</desc></vocal> <anchor xml:id="van-150" synch="#TT150"/> 
+                    <anchor xml:id="van-149" synch="#TT149"/> <vocal>
+                        <desc>ehm</desc>
+                    </vocal> <anchor xml:id="van-150" synch="#TT150"/> 
                 </u>
 
                 <u who="#VANZINI" xml:id="V52" synch="#TS104">                
@@ -1333,7 +1508,9 @@
                 </u>
 
                 <u who="#INTERVISTATORE" xml:id="I53" synch="#TS105">
-                    ecco mi racconta questo episodio qua perchè io <del type="repetition">quando</del> quando mi ha raccontato prima di entrare in registrazione questo episodio <anchor xml:id="int-151" synch="#TT151"/> io ho pensato<anchor xml:id="int-152" synch="#TT152"/> a padre Cristoforo ai <bibl><title type="main" level="m">Promessi Sposi</title></bibl>
+                    ecco mi racconta questo episodio qua perchè io <del type="repetition">quando</del> quando mi ha raccontato prima di entrare in registrazione questo episodio <anchor xml:id="int-151" synch="#TT151"/> io ho pensato<anchor xml:id="int-152" synch="#TT152"/> a padre Cristoforo ai <bibl>
+                        <title type="main" level="m">Promessi Sposi</title>
+                    </bibl>
                     <anchor xml:id="int-153" synch="#TT153"/> che portava <anchor xml:id="int-154" synch="#TT154"/> nella bisaccia <anchor xml:id="int-155" synch="#TT155"/> un pezzo di pane <anchor xml:id="int-156" synch="#TT156"/> indurito ormai dal tempo 
                 </u>
                 
@@ -1357,7 +1534,11 @@
                 </u>
 
                 <u who="#VANZINI" xml:id="V54" synch="#TS108">
-                    si perchè è stato <vocal><desc>ehm</desc></vocal> proprio i giorni di <date when="1945-01">gennaio del<vocal><desc>ehm</desc></vocal> del 45</date> no quindi era quasi diciamo alle porte gli americani<pause/> e allora si vedeva si<del type="reformulation">cioè</del> un altro comportamento delle guardie che erano dentro non si vedevano quasi più ce n'era 
+                    si perchè è stato <vocal>
+                        <desc>ehm</desc>
+                    </vocal> proprio i giorni di <date when="1945-01">gennaio del<vocal>
+                            <desc>ehm</desc>
+                        </vocal> del 45</date> no quindi era quasi diciamo alle porte gli americani<pause/> e allora si vedeva si<del type="reformulation">cioè</del> un altro comportamento delle guardie che erano dentro non si vedevano quasi più ce n'era 
                     qualcuno che era costretto a star là o qualcuno che dopo magari ha anche combattuto dopo con gli americani no e quindi questi qua no mi <del type="reformulation">ci</del> hanno chiamato fuori e si <del type="reformulation">ci</del> hanno incolonnato una quindicina si andava in una fattoria
                     vicino che una fattoria che là si prendeva si mangiava un pezzo di pane un po' <del type="repetition">di</del> di patata calda  
                 </u>
@@ -1368,11 +1549,16 @@
 
                 <u who="#VANZINI" xml:id="V55" synch="#TS110">
                     a lavorare<pause/> e quindi io non son mai stato nel tempo che son stato <unclear reason="inaudible">lì</unclear> ho sempre fatto lavori pesanti e allora ci incolonniamo per andare e vado fuori di questo cancello dopo ho fatto 20 metri
-                    e vedo che c'era una <rs type="person">donna</rs> che poverina cercava di correre un po' di più di noi <del type="repetition">per</del> per arrivarci no<pause/> e aveva il <del type="reformulation"><anchor xml:id="van-159" synch="#TT159"/> quei</del> <foreign xml:lang="fr">foulard</foreign> in testa <anchor xml:id="van-160" synch="#TT160"/> 
+                    e vedo che c'era una <rs type="person">donna</rs> che poverina cercava di correre un po' di più di noi <del type="repetition">per</del> per arrivarci no<pause/> e aveva il <del type="reformulation">
+                        <anchor xml:id="van-159" synch="#TT159"/> quei</del> <foreign xml:lang="fr">foulard</foreign> in testa <anchor xml:id="van-160" synch="#TT160"/> 
                     quelle gonne lunghe un po' larghe era una contadina guardando così<pause/> e allora io ho detto ma cosa vuole <del type="repetition">questa</del> questa <rs type="person">donna</rs> ho detto bah speriamo <del type="reformulation">perchè</del> avevo paura di quello che ci accompagnava<pause/> 
-                    e allora dopo un po' che mi seguiva <del type="repetition">mi</del> mi ha detto <foreign xml:lang="fr">francais</foreign><foreign xml:lang="de">nein</foreign>no ho detto non son francese <foreign xml:lang="de">italian</foreign><foreign xml:lang="de">ja</foreign>
+                    e allora dopo un po' che mi seguiva <del type="repetition">mi</del> mi ha detto <foreign xml:lang="fr">francais</foreign>
+                    <foreign xml:lang="de">nein</foreign>no ho detto non son francese <foreign xml:lang="de">italian</foreign>
+                    <foreign xml:lang="de">ja</foreign>
                     <foreign xml:lang="de">gut essen essen</foreign>mette dentro la mano in queste gonne  <anchor xml:id="van-161" synch="#TT161"/> e mi tira fuori <anchor xml:id="van-162" synch="#TT162"/> un pezzo di <anchor xml:id="van-163" synch="#TT163"/> pane<anchor xml:id="van-164" synch="#TT164"/> nero <pause/> allora <del type="repetition">m'ha detto</del> m'ha detto no <foreign xml:lang="de">brot</foreign>pane <foreign xml:lang="de">brot gut essen</foreign>
-                    dice è pane buono da mangiare no<pause/> e allora io dicevo <del type="repetition"><foreign xml:lang="de">nein</foreign></del> <foreign xml:lang="de">nein</foreign>perchè avevo paura <anchor xml:id="van-165" synch="#TT165"/> <gap reason="inaudible" extent="3 words"/> <anchor xml:id="van-166" synch="#TT166"/> 
+                    dice è pane buono da mangiare no<pause/> e allora io dicevo <del type="repetition">
+                        <foreign xml:lang="de">nein</foreign>
+                    </del> <foreign xml:lang="de">nein</foreign>perchè avevo paura <anchor xml:id="van-165" synch="#TT165"/> <gap reason="inaudible" extent="3 words"/> <anchor xml:id="van-166" synch="#TT166"/> 
                 </u>
 
                 <u who="#INTERVISTATORE">
@@ -1388,9 +1574,12 @@
 
                 <u who="#VANZINI" xml:id="V56" synch="#TS112">
                     eh dalla guardia e allora lei no non ne ha voluto sapere mi ha allungato la mano e io l'ho preso perchè avevo paura <del type="truncation">del</del> dell'altro là e l'ho messo sotto al berretto perchè non avevamo mica nè tasche nè niente 
-                    dove lo metto<pause/> lo metto sul berretto <vocal><desc>ehm</desc></vocal> l'ho messo sul berretto ho detto speriamo che non si accorga perchè lui questo qua no quel mentre che lei ritraeva la mano questo qua ha sparato
+                    dove lo metto<pause/> lo metto sul berretto <vocal>
+                        <desc>ehm</desc>
+                    </vocal> l'ho messo sul berretto ho detto speriamo che non si accorga perchè lui questo qua no quel mentre che lei ritraeva la mano questo qua ha sparato
                     <pause/> ho sentito il proiettile vicino ai piedi no<pause/> e vedo questa poveretta che casca e va giù che c'era un po' <del type="repetition">di</del> di diciamo di dislivello della strada io son rimasto là <anchor xml:id="van-167" synch="#TT167"/> non avevo neanche più<anchor xml:id="van-168" synch="#TT168"/> 
-                    il coraggio di andare avanti no<pause/> e allora questa qua è venuto là e ha detto <anchor xml:id="van-169" synch="#TT169"/> <foreign xml:lang="de" ><gap reason="inaudible" extent="1 word"/> </foreign> <gap reason="inaudible" extent="1 word"/> <anchor xml:id="van-170" synch="#TT170"/> vai avanti no<pause/> m'ha puntato il mitra sotto al mento no 
+                    il coraggio di andare avanti no<pause/> e allora questa qua è venuto là e ha detto <anchor xml:id="van-169" synch="#TT169"/> <foreign xml:lang="de">
+                        <gap reason="inaudible" extent="1 word"/> </foreign> <gap reason="inaudible" extent="1 word"/> <anchor xml:id="van-170" synch="#TT170"/> vai avanti no<pause/> m'ha puntato il mitra sotto al mento no 
 
                 </u>
 
@@ -1420,11 +1609,15 @@
                 </u>
 
                 <u who="#VANZINI" xml:id="V59" synch="#TS118">
-                    io <del type="repetition">no</del> no l'ho portato a casa non l'ho mica mangiato ho pianto tutto il giorno sono andato alla fattoria volevano darmi qualcosa io ho rifiutato <anchor xml:id="van-171" synch="#TT171"/> <vocal><desc>ehm</desc></vocal> <anchor xml:id="van-172" synch="#TT172"/> 
+                    io <del type="repetition">no</del> no l'ho portato a casa non l'ho mica mangiato ho pianto tutto il giorno sono andato alla fattoria volevano darmi qualcosa io ho rifiutato <anchor xml:id="van-171" synch="#TT171"/> <vocal>
+                        <desc>ehm</desc>
+                    </vocal> <anchor xml:id="van-172" synch="#TT172"/> 
                     si perchè ho detto <del type="reformulation">mi</del> sembrava come avere una colpa io l'ho avvertita le ho anche detto di no ma lei poverina me l'ha dato mi ha visto proprio in condizioni così pensava che questo pezzo di pane 
                     <anchor xml:id="van-173" synch="#TT173"/> mi tirava su un po' <anchor xml:id="van-174" synch="#TT174"/> e invece io l'ho preso e l'ho conservato anche quando che c'erano gli americani che m'han vestito l'ho messo dentro <del type="repetition">al</del> al giubbetto e l'ho portato a casa 
                     e quindi quando che <rs type="person">mia mamma</rs> è venuta là che ci siamo abbracciati ho detto <rs type="person">mamma</rs> io piango dalla contentezza che son qua con te però piango anche mi viene in mente una cosa  <anchor xml:id="van-175" synch="#TT175"/> m'ha detto cosa <anchor xml:id="van-176" synch="#TT176"/>  m'ha detto no vedi questo pezzo di pane questo pezzo di pane una <rs type="person">donna</rs> di 80 anni ha perso la vita per darmelo per sostanziarmi un po' e lei s'è messa a piangere ha detto no dammelo che io vado in chiesa e lo dono a Dio<pause/> m'ha detto così
-                    <unclear reason="inaudible">oh</unclear> e io sono stato proprio <vocal><desc>ehm</desc></vocal> non sapevo ho detto Signore ti ringrazio che mi hai dato la vita<pause/> vede<pause/> e ho trovato ancora il <rs type="person">mio papà</rs> e <rs type="person">mia mamma</rs> che non speravo più vede 
+                    <unclear reason="inaudible">oh</unclear> e io sono stato proprio <vocal>
+                        <desc>ehm</desc>
+                    </vocal> non sapevo ho detto Signore ti ringrazio che mi hai dato la vita<pause/> vede<pause/> e ho trovato ancora il <rs type="person">mio papà</rs> e <rs type="person">mia mamma</rs> che non speravo più vede 
                 </u>
 
                 <u who="#INTERVISTATORE">
@@ -1434,7 +1627,8 @@
                 </u>
 
                 <u who="#INTERVISTATORE" xml:id="I60" synch="#TS119">
-                    quando si alza la mattina in giornate come questa <pause/> e con l'amico <persName ref="TEI-ListPerson.xml#RB">Roberto Brumat</persName><pause/> va in qualche scuola a parlare <anchor xml:id="int-177" synch="#TT177"/> e si mette quelle medaglie <anchor xml:id="int-178" synch="#TT178"/> 
+                    quando si alza la mattina in giornate come questa <pause/> e con l'amico <persName ref="TEI-ListPerson.xml#RB">Roberto Brumat</persName>
+                    <pause/> va in qualche scuola a parlare <anchor xml:id="int-177" synch="#TT177"/> e si mette quelle medaglie <anchor xml:id="int-178" synch="#TT178"/> 
                     <anchor xml:id="int-179" synch="#TT179"/> cosa pensa <anchor xml:id="int-180" synch="#TT180"/> <pause/> <anchor xml:id="int-181" synch="#TT181"/> quando infila quella medaglia <anchor xml:id="int-182" synch="#TT182"/> che ha lì al petto
                 </u>
 
@@ -1445,8 +1639,12 @@
                 </u>
             
                 <u who="#VANZINI" xml:id="V60" synch="TS120">
-                    si questa qua mi è stata donata proprio dal <persName ref="TEI-ListPerson.xml#GN">Presidente della Repubblica</persName> era il <date when="2013-01-29">29 di gennaio dell'anno scorso</date><pause/> allora mi ha dato la mano mi ha dato la medaglia e ha detto portala sempre quando
-                    che vai nelle scuole che guardi i bambini eh questo qua è una cosa che <del type="repetition">ti</del> ti fa ricordare tante cose va bene <persName ref="TEI-ListPerson.xml#GN">Presidente</persName><vocal><desc>ehm</desc></vocal> 
+                    si questa qua mi è stata donata proprio dal <persName ref="TEI-ListPerson.xml#GN">Presidente della Repubblica</persName> era il <date when="2013-01-29">29 di gennaio dell'anno scorso</date>
+                    <pause/> allora mi ha dato la mano mi ha dato la medaglia e ha detto portala sempre quando
+                    che vai nelle scuole che guardi i bambini eh questo qua è una cosa che <del type="repetition">ti</del> ti fa ricordare tante cose va bene <persName ref="TEI-ListPerson.xml#GN">Presidente</persName>
+                    <vocal>
+                        <desc>ehm</desc>
+                    </vocal> 
                     porta sempre diciamo il mi ha detto porta sempre la tua testimonianza che sappiano cosa vuol dire la vita cosa vuol dire sacrifici
                     
                 </u>
@@ -1468,7 +1666,9 @@
                 </u>
 
                 <u who="#VANZINI" xml:id="V62" synch="#TS124">
-                    prego <anchor xml:id="van-185" synch="#TT185"/> <vocal><desc>ride</desc></vocal> <anchor xml:id="van-186" synch="#TT186"/> io son contento di essere qua e son contento di collaborare di dire ciò che io ho patito ho sofferto tanto dentro là ho pianto tanto vede e queste sofferenze io le porto in queste scuole 
+                    prego <anchor xml:id="van-185" synch="#TT185"/> <vocal>
+                        <desc>ride</desc>
+                    </vocal> <anchor xml:id="van-186" synch="#TT186"/> io son contento di essere qua e son contento di collaborare di dire ciò che io ho patito ho sofferto tanto dentro là ho pianto tanto vede e queste sofferenze io le porto in queste scuole 
                     che i bambini sa <del type="reformulation">i</del> ragazzi sappiano cosa vuol dire la guerra cosa vuol dire le sofferenze cosa vuol dire i patimenti e loro mi ascoltano<pause/> veramente
                 </u>
 

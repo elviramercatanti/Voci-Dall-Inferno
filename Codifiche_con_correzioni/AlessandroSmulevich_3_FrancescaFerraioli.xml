@@ -1,0 +1,133 @@
+<?xml-stylesheet type="text/xsl" href="doc012.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:id="titolotestimonianza">Testimonianza internato a Campagna - pagina 3</title>
+				<author>Francesca Ferraioli</author>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Università di Pisa</publisher>
+				<date/>
+				<availability status="unknown">
+					<p>Unpublished document</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+
+				<listPerson>
+					<person xml:id="AlSm" role="testimone" source="https://www.pendragon.it/catalogo/manufacturers/alessandro-smulevich.html?tmpl=component">
+						<persName>
+							<forename>Alessandro</forename>
+							<surname>Smulevich</surname>
+						</persName>
+					</person>
+				</listPerson>
+
+				
+				<bibl>
+					<title>Diario di Alessandro Smulevich</title>
+					<author>Francesca Ferraioli</author>
+					<publisher>Università di Pisa</publisher>
+					<date when="19410908">10 set 1940</date>
+				</bibl>
+				<msDesc>
+					<msIdentifier>
+						<placeName>
+							<settlement>Campagna (SA)</settlement>
+							<region key="" type="state">Italia</region>
+						</placeName>
+					</msIdentifier>
+					<msContents>
+						<msItem>
+							<title>Diario di Alessandro Smulevich</title>
+							<textLang mainLang="it">Scritto in italiano.</textLang>
+							<docImprint>
+								Martedì 
+								<docDate>10 settembre</docDate>
+							</docImprint>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<p>Foglio manoscritto di
+										<material>carta</material>
+										che descrive il viaggio da Fiume a Campagna di Alessandro Smulevich
+									</p>
+									<stamp facs="#doc012_Stamp.main">Nella parte alta del foglio è presente un timbro di colore viola, la quale scritta è solo in parte leggibile. Riporta anche la data della ricezione.</stamp>
+								</support>
+							</supportDesc>
+							<layoutDesc>
+								<layout columns="2" ruledLines="10 20">
+									<p>La pagina si presenta </p>
+								</layout>
+							</layoutDesc>
+						</objectDesc>
+						<handDesc>
+							<p>Scritto da una sola mano, ovvero quella dell'autore.</p>
+						</handDesc>
+						<typeDesc>
+							<p>Scritto in caratteri corsivi, non risultano cancellature.</p>
+						</typeDesc>
+					</physDesc>
+					<history>
+						<summary>Questo documento è una testimonianza di .</summary>
+						<origin notAfter="1941">
+							<p>Questo documento è stato compilato dal Ministero.</p>
+						</origin>
+						<acquisition>
+							<p>La testimonianza non è mai stata pubblicata ed è stata gentilmente fornita dal figlio di Alessandro Smulevich, Ermanno.</p>
+						</acquisition>
+					</history>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text xml:lang="it" xml:id="text-it" subtype="manuscript">
+		<body>
+			<div type="doc" n="3" xml:id="diario03_document">
+			<pb n="3"/>
+				<ab type="paragrafo" n="1" xml:id="diario03_page">
+						 Ci leviamo alle <time when="07:00:00">7</time>; dopo aver fatto colazione in un bar<pc type="comma">,</pc> 
+						 prendiamo un tassa- metro alle <time when="09:45:00">09:45</time> andando dal <orgName type="phrase">Consolato  Americano</orgName> per informazioni. Al ritorno prendiamo il tram. Partiamo via da <place>
+                        <settlement>Napoli
+						</settlement>
+                    </place> col treno delle <time when="13:18:00">13:18</time> diretti per <place>
+                        <settlement>Salerno</settlement>
+                    </place>
+                    <pc type="comma">,</pc> dove arriviamo alle <time when="14:25:00">14:25</time>. La traversata è magnifica ed il panorama si estende dal treno fino a <place>
+                        <settlement>Capri</settlement>
+						 </place>. Le onde del mare toccano quasi il treno lungo il tratto <place>
+                        <settlement>Napoli</settlement>
+                    </place>- <place>
+                        <settlement>Pompei</settlement>
+                    </place>. Dopo la sosta di una ora circa per comprare della frutta a <place>
+                        <settlement>Salerno</settlement>
+                    </place>
+                    <pc type="comma">,</pc> prendiamo alle <time when="15:30:00">15:30</time> un treno per <place>
+                        <settlement>Eboli</settlement>
+                    </place>
+                    <pc type="comma">,</pc> questa volta in <num type="ordinal" value="3">3a</num> classe. Arriviamo ad <place>
+                        <settlement>Eboli</settlement>
+                    </place> alle <time when="16:10:00">16:10</time>
+                    <pc type="comma">,</pc> dove prendiamo la corriera che conduce a <place>
+                        <settlement>Campagna</settlement>
+                    </place>
+                    <pc type="comma">,</pc> arrivando qui alle <time when="17:00:00">17</time>circa. Alla fermata ci attendeva papà e <persName>
+                        <forename>Leo</forename>
+                    </persName> con molti altri conoscenti. Ci rechiamo subito all<pc type="apostrophe">'</pc>albergo<pc type="comma">,</pc> dove prendiamo alloggio.
+						Commento: <place>
+                        <settlement>Campagna</settlement>
+                    </place> è una graziosa cittadina incassata tra <w type="adjective">alti</w> monti<pc type="comma">,</pc> però con delle case alquanto <w type="adjective">vecchie</w>. La popolazione, di circa <num type="cardinal" value="8000">8.000</num> abitanti<pc type="comma">,</pc> è simpatica<pc type="comma">,</pc> un poco sudicia<pc type="comma">,</pc> ma molto gentile. Nell<pc type="apostrophe">'</pc>insieme il posto mi ha entusiasmato molto. Da stasera e durante tutto il mio soggiorno a <place>
+                        <settlement>Campagna</settlement>
+                    </place> dormo con <persName>
+                        <forename>Leo</forename>
+                    </persName> in una locanda<pc type="comma">,</pc> essendo i genitori ed <persName>
+                        <forename>Esti</forename>
+                    </persName> rimasti all<pc type="apostrophe">'</pc>albergo.
+				</ab>
+			</div>
+		</body>
+	</text>
+</TEI>

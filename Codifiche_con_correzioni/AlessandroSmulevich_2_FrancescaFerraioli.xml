@@ -1,0 +1,166 @@
+<?xml-stylesheet type="text/xsl" href="doc012.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:id="titolotestimonianza">Testimonianza internato a Campagna - pagina 2</title>
+				<author>Francesca Ferraioli</author>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Università di Pisa</publisher>
+				<date/>
+				<availability status="unknown">
+					<p>Unpublished document</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+
+				<listPerson>
+					<person xml:id="AlSm" role="testimone" source="https://www.pendragon.it/catalogo/manufacturers/alessandro-smulevich.html?tmpl=component">
+						<persName>
+							<forename>Alessandro</forename>
+							<surname>Smulevich</surname>
+						</persName>
+					</person>
+				</listPerson>
+
+				
+				<bibl>
+					<title>Diario di Alessandro Smulevich</title>
+					<author>Francesca Ferraioli</author>
+					<publisher>Università di Pisa</publisher>
+					<date when="19410908">8 set 1941</date>
+				</bibl>
+				<msDesc>
+					<msIdentifier>
+						<placeName>
+							<settlement>Campagna (SA)</settlement>
+							<region key="" type="state">Italia</region>
+						</placeName>
+					</msIdentifier>
+					<msContents>
+						<msItem>
+							<title>Diario di Alessandro Smulevich</title>
+							<textLang mainLang="it">Scritto in italiano.</textLang>
+							<docImprint>
+								Fiume,
+								<docDate>1941</docDate>
+							</docImprint>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc form="manuscript_sheet">
+							<supportDesc>
+								<support>
+									<p>Foglio manoscritto di
+										<material>carta</material>
+										che descrive il viaggio da Fiume a Campagna di Alessandro Smulevich
+									</p>
+									<stamp facs="#doc012_Stamp.main">Nella parte alta del foglio è presente un timbro di colore viola, la quale scritta è solo in parte leggibile. Riporta anche la data della ricezione.</stamp>
+								</support>
+							</supportDesc>
+							<layoutDesc>
+								<layout columns="2" ruledLines="10 20">
+									<p>La pagina si presenta con una suddivisione in due colonne: nella colonna a sinistra sono presenti le informazioni riguardanti il soggetto del referto, ovvero l'internato Heger Isak, la data di invio, mittente e destinatario, per un totale di 10 righe manoscritte mentre nella colonna di destra sono riportate la data di redazione, le 18 linee del testo e la firma in calce.</p>
+								</layout>
+							</layoutDesc>
+						</objectDesc>
+						<handDesc>
+							<p>Scritto da una sola mano, ovvero quella dell'autore.</p>
+						</handDesc>
+						<typeDesc>
+							<p>Scritto in caratteri corsivi, non sempre di facile comprensione. Non risultano cancellature.</p>
+						</typeDesc>
+					</physDesc>
+					<history>
+						<summary>Questo documento è una testimonianza di .</summary>
+						<origin notAfter="1940">
+							<p>Questo documento è stato compilato dal Ministero.</p>
+						</origin>
+						<acquisition>
+							<p>La testimonianza non è mai stata pubblicata ed è stata gentilmente fornita dal figlio di Alessandro Smulevich, Ermanno.</p>
+						</acquisition>
+					</history>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="diario_page-0002.jpg" width="599.518518px" height="959.518518px"/>
+			<zone ulx="106" uly="57" lrx="429" lry="102"/>
+			<zone ulx="14" uly="87" lrx="576" lry="134"/>
+			<zone ulx="7" uly="157" lrx="592" lry="204"/>
+			<zone ulx="8" uly="204" lrx="570" lry="235"/>
+			<zone ulx="12" uly="238" lrx="569" lry="267"/>
+			<zone ulx="8" uly="261" lrx="593" lry="300"/>
+			<zone ulx="12" uly="301" lrx="576" lry="332"/>
+			<zone ulx="8" uly="336" lrx="572" lry="371"/>
+			<zone ulx="12" uly="371" lrx="595" lry="401"/>
+			<zone ulx="8" uly="405" lrx="587" lry="431"/>
+			<zone ulx="8" uly="435" lrx="570" lry="464"/>
+			<zone ulx="9" uly="465" lrx="566" lry="495"/>
+			<zone ulx="10" uly="498" lrx="578" lry="528"/>
+			<zone ulx="7" uly="531" lrx="583" lry="564"/>
+			<zone ulx="7" uly="567" lrx="564" lry="593"/>
+			<zone ulx="11" uly="600" lrx="586" lry="622"/>
+			<zone ulx="11" uly="626" lrx="594" lry="667"/>
+			<zone ulx="5" uly="659" lrx="575" lry="687"/>
+			<zone ulx="5" uly="690" lrx="578" lry="719"/>
+			<zone ulx="8" uly="719" lrx="564" lry="743"/>
+			<zone ulx="41" uly="745" lrx="568" lry="899"/>
+		</surface>
+	</facsimile>	
+	<text xml:lang="it" xml:id="text-it" subtype="manuscript">
+		<body>
+			<div type="doc" n="2" xml:id="diario02_document">
+			<pb n="2"/>
+				<ab type="paragrafo" n="2" xml:id="diario02_page">
+					<date when="0909">
+                        <hi rend="underline">LUNEDì 9 SETTEMBRE</hi>
+                    </date>
+					L’arrivo a <place>
+                        <settlement>Venezia Mestre</settlement>
+                    </place> avviene alle
+					<time when="24:15:00">00:15</time>; a <place>
+                        <settlement>Padova</settlement>
+                    </place> alle <time when="01:00:00">1</time>; a <place>
+                        <settlement>Firenze</settlement>
+                    </place> alle
+					<time when="03:25:00">03:25</time>. 
+					Da <place>
+                        <settlement>Padova</settlement>
+                    </place> a <place>
+                        <settlement>Firenze</settlement>
+                    </place> abbiamo nello scom-
+					partimento una coppia di innamorati
+					che non fanno altro tutto il 
+					tempo che abbracciarsi e baciarsi. Rie-
+					sco a dormire per qualche ora tra le <time when="01:00:00">1</time> 
+					e le <time when="06:00:00">06:00</time> del mattino. A <place>
+                        <settlement>Chiusi</settlement>
+                    </place> si arriva
+					verso le <time when="06:30:00">06:30</time>. L’ultima tappa del nostro 
+					viaggio: a <place>
+                        <settlement>Roma</settlement>
+                    </place>, si conclude coll’ar-
+					rivo alle <time when="08:30:00">08:30</time>. Dopo aver depositati i 
+					bagagli alla stazione di <place>
+                        <settlement>Termini</settlement>
+                    </place>, ci
+					avviamo al <orgName type="national">Ministero dell'Interno</orgName> al-
+					le <time when="09:30:00">09:30</time> per sbrigare l’affare di papà. 
+					Alle <time when="11:45:00">11:45</time> siamo ricevuti in udienza 
+					dal <choice n="1">
+                        <abbr type="title">Comm.</abbr>
+                        <expan>Commendatore</expan>
+                    </choice> Pennetta, il quale ci conce-
+					de un permesso per far visita a papà,
+					a <place>
+                        <settlement>Campagna</settlement>
+                    </place> per <num type="cardinal" value="4">4</num> giorni. Dopo aver
+					pranzato, fumo una sigaretta davanti la mamma. Con mia grande gioia lei
+				</ab>
+			</div>
+		</body>
+	</text>
+</TEI>

@@ -2,9 +2,7 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title xml:id="titolotestimonianza" xml:lang="ita" type="main">
-					Diario di Bruno Cimoli
-				</title>
+				<title xml:id="titolotestimonianza" xml:lang="ita" type="main">Diario di Bruno Cimoli</title>
 				<!-- alt ovvero titolo tradotto -->
 				<author ref="#BC" role="testimone">
 					Bruno Cimoli
@@ -45,10 +43,13 @@
 			</titleStmt>
 			
 			<editionStmt>
-				<edition></edition>
+				<edition/>
 				<respStmt xml:id="encoder">
 					<resp>Encoding by</resp>
-					<persName ref="#GM"><forename>Greta</forename><surname>Montera</surname></persName>
+					<persName ref="#GM">
+                        <forename>Greta</forename>
+                        <surname>Montera</surname>
+                    </persName>
 				</respStmt>
 			</editionStmt>
 			
@@ -203,8 +204,8 @@
 				<!-- di sua proprietà -->
 				<factuality type="fact"/>
 				<!-- se il testo è più o meno inventato -->
-				<interaction></interaction>
-				<preparedness></preparedness>
+				<interaction/>
+				<preparedness/>
 				<purpose type="inform" degree="medium"/>
 				<!-- scopo del testo e livello -->
 			</textDesc>
@@ -689,7 +690,7 @@
 				<population when="2023" type="interpolatedCensus" quantity="22457" source="https://it.wikipedia.org/wiki/Sarzana"/>
 				<note xml:id="n2">
 				    <placeName n="query"> Sarzana</placeName>
-                    <note > è un comune italiano di 21 591 abitanti. Viene Considerata l'erede storica dell'antica città romana di Lunae. Sarzana è un importante centro della val di Magra. Grazie alla sua posizione, è dalla sua fondazione crocevia di importanti vie di comunicazione tra la Liguria, la Toscana e l'Emilia-Romagna. Sin dall'antichità fu centro agricolo e commerciale di grande rilievo e, già in età medievale, importante centro religioso e giuridico, con sede vescovile e Tribunale. </note>
+                    <note> è un comune italiano di 21 591 abitanti. Viene Considerata l'erede storica dell'antica città romana di Lunae. Sarzana è un importante centro della val di Magra. Grazie alla sua posizione, è dalla sua fondazione crocevia di importanti vie di comunicazione tra la Liguria, la Toscana e l'Emilia-Romagna. Sin dall'antichità fu centro agricolo e commerciale di grande rilievo e, già in età medievale, importante centro religioso e giuridico, con sede vescovile e Tribunale. </note>
 				</note>
 			</place>
 			<place xml:id="L" n="5" facs="pagina 1">
@@ -936,7 +937,7 @@
 				<population when="2018" type="interpolatedCensus" quantity="204846" source="https://it.wikipedia.org/wiki/Linz"/>
 				<note xml:id="n14">
 				    <placeName n="query"> Linz</placeName>
-                    <note > è la terza città austriaca per popolazione, capoluogo dello Stato federato dell'Alta Austria. 
+                    <note> è la terza città austriaca per popolazione, capoluogo dello Stato federato dell'Alta Austria. 
 				    Durante la seconda guerra mondiale Linz è stata sede di tre sottocampi nazisti del vicino campo di concentramento di Mauthausen: denominati Linz I, Linz II e Linz III, erano adibiti a campi di lavoro forzato. Analogamente, anche a Steyr era presente un campo di prigionia. La vita in tali lager, così come in quelli di Ebensee, di Neu-Br/Saarbrücken e di Wiener Neudorf, è stata raccontata da Christian Bernadac nel libro I giorni senza fine. </note>
 				</note>
 			</place>
@@ -957,7 +958,7 @@
 				</location>
 				<population when="2018" type="interpolatedCensus" quantity="100316" source="https://it.wikipedia.org/wiki/Klagenfurt_am_W%C3%B6rthersee"/>
 				<note>
-				   <placeName n="query"> Klagenfurt </placeName> <note >am Wörthersee è una città dell'Austria di 100 316 abitanti, capoluogo della Carinzia. </note>
+				   <placeName n="query"> Klagenfurt </placeName> <note>am Wörthersee è una città dell'Austria di 100 316 abitanti, capoluogo della Carinzia. </note>
 				</note>
 			</place>
 			<place xml:id="FIUME" n="29" facs="pagina 2">
@@ -978,7 +979,7 @@
 				<population source="https://it.wikipedia.org/wiki/Po"/>
 				<note xml:id="n15">
 				    Il <placeName n="query">Po</placeName>
-                    <note > è un fiume dell'Italia settentrionale. La sua lunghezza, 652 km, lo rende il più lungo fiume interamente compreso nel territorio italiano[5], quello con il bacino idrografico più esteso (circa 71 000 km²) e anche quello con la massima portata alla foce, sia essa minima (assoluta 270 m³/s), media (1 540 m³/s) o massima (13 000 m³/s), oltre ad essere il quinto fiume europeo (esclusa la Russia) per portata media (dopo: Danubio, Reno, Rodano e Nipro). </note>
+                    <note> è un fiume dell'Italia settentrionale. La sua lunghezza, 652 km, lo rende il più lungo fiume interamente compreso nel territorio italiano[5], quello con il bacino idrografico più esteso (circa 71 000 km²) e anche quello con la massima portata alla foce, sia essa minima (assoluta 270 m³/s), media (1 540 m³/s) o massima (13 000 m³/s), oltre ad essere il quinto fiume europeo (esclusa la Russia) per portata media (dopo: Danubio, Reno, Rodano e Nipro). </note>
 				</note>
 			</place>
 			<place xml:id="PES" n="31" facs="pagina 2">
@@ -998,7 +999,7 @@
 				</location>
 				<population when="2020" type="interpolatedCensus" quantity="10856" source="https://it.wikipedia.org/wiki/Peschiera_del_Garda"/>
 				<note xml:id="n16">
-				    <placeName n="query">Peschiera del Garda</placeName> <note >è un comune italiano di 10 856 abitanti della provincia di Verona in Veneto. È il comune più occidentale della regione. </note>
+				    <placeName n="query">Peschiera del Garda</placeName> <note>è un comune italiano di 10 856 abitanti della provincia di Verona in Veneto. È il comune più occidentale della regione. </note>
 				</note>
 			</place>
 			<place xml:id="MAN" n="31" facs="pagina 2">
@@ -1019,7 +1020,7 @@
 				<population when="2022" type="interpolatedCensus" quantity="48646" source="https://it.wikipedia.org/wiki/Mantova"/>
 				<note xml:id="n17">
 				    <placeName n="query">Mantova</placeName>
-                    <note > si trova nella Lombardia sud-orientale, non lontano dal lago di Garda e dal confine con le regioni Veneto ed Emilia-Romagna.</note> 
+                    <note> si trova nella Lombardia sud-orientale, non lontano dal lago di Garda e dal confine con le regioni Veneto ed Emilia-Romagna.</note> 
 				</note>
 			</place>
 		</listPlace>
@@ -1092,7 +1093,7 @@
 		
 		<listPerson type="real">
 			
-			<person xml:id="BC" role="testimone">
+			<person xml:id="BC" role="testimone" source="https://www.lagazzettadimassaecarrara.it/levento/linedito-diario-di-bruno-cimoli-dalleccidio-di-forno-alla-deportazione-fino-alla-corte-di-hitler">
 				<persName>
 					<forename>Bruno</forename>
 					<surname>Cimoli</surname>
@@ -1110,7 +1111,11 @@
 				</persName>
 				<note>
 					<listRelation>
-						<relation type="personal" name="sister" active="#TinaSorella" passive="#BC"><desc><persName n="query">Tina Cimoli</persName> è la sorella di Bruno Cimoli</desc></relation></listRelation>.
+						<relation type="personal" name="sister" active="#TinaSorella" passive="#BC">
+                            <desc>
+                                <persName n="query">Tina Cimoli</persName> è la sorella di Bruno Cimoli</desc>
+                        </relation>
+                    </listRelation>.
 				</note>
 			</person>
 			<person xml:id="CarlaCugina">
@@ -1121,7 +1126,11 @@
 					<surname type="unknown"/>
 				</persName>
 				<note>
-					<persName n="query">Carla</persName> <listRelation><relation type="personal" name="cousin" active="#CarlaCugina" passive="#BC"><desc>è la cugina di Bruno Cimoli e figlia di <persName>Ida</persName>, non si conosce il cognome.</desc></relation></listRelation>
+					<persName n="query">Carla</persName> <listRelation>
+                        <relation type="personal" name="cousin" active="#CarlaCugina" passive="#BC">
+                            <desc>è la cugina di Bruno Cimoli e figlia di <persName>Ida</persName>, non si conosce il cognome.</desc>
+                        </relation>
+                    </listRelation>
 				</note>
 			</person>
 			<person xml:id="IdaZia">
@@ -1132,8 +1141,11 @@
 					<surname type="unknown"/>
 				</persName>
 				<note>
-					<listRelation><relation type="personal" name="aunt" active="#IdaZia" passive="#BC"><desc>
-					<persName n="query">Ida</persName> è la zia di <persName>Brunco Cimoli</persName> e madre di <persName>Carla</persName>, il cognome è ignoto.</desc></relation>
+					<listRelation>
+                        <relation type="personal" name="aunt" active="#IdaZia" passive="#BC">
+                            <desc>
+					<persName n="query">Ida</persName> è la zia di <persName>Brunco Cimoli</persName> e madre di <persName>Carla</persName>, il cognome è ignoto.</desc>
+                        </relation>
 					</listRelation>
 				</note>
 			</person>
@@ -1147,9 +1159,14 @@
 					</surname>
 				</persName>
 				<note>
-					<listRelation><relation type="personal" name="brother" active="#RenzoFratello" passive="#BC"><desc><persName n="query">Renzo Cimoli</persName>
-                     è il fratello di <persName>Bruno Cimoli</persName></desc>
-                    </relation></listRelation>
+					<listRelation>
+                        <relation type="personal" name="brother" active="#RenzoFratello" passive="#BC">
+                            <desc>
+                                <persName n="query">Renzo Cimoli</persName>
+                     è il fratello di <persName>Bruno Cimoli</persName>
+                            </desc>
+                    </relation>
+                    </listRelation>
 				</note>
 			</person>
 			<person xml:id="Borghetti">
@@ -1160,9 +1177,13 @@
 					</surname>
 				</persName>
 				<note>
-					<listRelation><relation type="personal" name="friends" mutual="#BC #Borghetti"><desc>
+					<listRelation>
+                        <relation type="personal" name="friends" mutual="#BC #Borghetti">
+                            <desc>
 					<persName n="query">Borghetti</persName>
-						è stato uno degli amici di <persName>Bruno</persName> durante il viaggio verso la Germania.</desc></relation></listRelation>
+						è stato uno degli amici di <persName>Bruno</persName> durante il viaggio verso la Germania.</desc>
+                        </relation>
+                    </listRelation>
 				</note>
 			</person>
 			<person xml:id="UmbertoZio">
@@ -1176,7 +1197,10 @@
 				</persName>
 				<note>
 					<listRelation>
-						<relation type="personal" name="uncle" active="#UmbertoZio" passive="#BC"><desc><persName n="query">Umberto Beretta</persName> è lo zio di <persName>Bruno Cimoli</persName>, sposato con Maria (che non viene citata nel Diario), sorella della madre di Bruno. Umberto era barbiere presso la città di Avenza (MS). Inizialmente catturato ma poi rimandato a casa, probabilmente per la scarsa prestanza fisica che non avrebbe retto il peso del lavoro nei campi di concentramento.</desc></relation>
+						<relation type="personal" name="uncle" active="#UmbertoZio" passive="#BC">
+                            <desc>
+                                <persName n="query">Umberto Beretta</persName> è lo zio di <persName>Bruno Cimoli</persName>, sposato con Maria (che non viene citata nel Diario), sorella della madre di Bruno. Umberto era barbiere presso la città di Avenza (MS). Inizialmente catturato ma poi rimandato a casa, probabilmente per la scarsa prestanza fisica che non avrebbe retto il peso del lavoro nei campi di concentramento.</desc>
+                        </relation>
 					</listRelation>
 				</note>
 			</person>
@@ -1191,8 +1215,11 @@
 				</persName>
 				<note>
 					<listRelation>
-						<relation type="personal" name="friends" mutual="#BC #PasqualeAmico" ><desc><persName n="query">Pasquale Forte</persName>
-							è amico di <persName>Bruno Cimoli</persName> durante il viaggio verso la Germania. Al tempo del racconto ha 34 anni, di Bacoli(NA), prima di essere catturato era sergente infermiere della Marina Militare in servizio negli ospedali di Marina di Massa. Bruno racconta di un ospedale in particolare che durante la guerra era stato sistemato in una costruzione chiamata "Colonia", che in origine serviva per fare alloggiare i figli dei fascisti (che dai 3 ai 6 anni "Figli della lupa" e dai 6 ai 12 "Balilla", dai 12 ai 16 "Balilla Moschettieri") durante le vacanze estive ed invernali.</desc></relation>
+						<relation type="personal" name="friends" mutual="#BC #PasqualeAmico">
+                            <desc>
+                                <persName n="query">Pasquale Forte</persName>
+							è amico di <persName>Bruno Cimoli</persName> durante il viaggio verso la Germania. Al tempo del racconto ha 34 anni, di Bacoli(NA), prima di essere catturato era sergente infermiere della Marina Militare in servizio negli ospedali di Marina di Massa. Bruno racconta di un ospedale in particolare che durante la guerra era stato sistemato in una costruzione chiamata "Colonia", che in origine serviva per fare alloggiare i figli dei fascisti (che dai 3 ai 6 anni "Figli della lupa" e dai 6 ai 12 "Balilla", dai 12 ai 16 "Balilla Moschettieri") durante le vacanze estive ed invernali.</desc>
+                        </relation>
 					</listRelation>
 				</note>
 			</person>
