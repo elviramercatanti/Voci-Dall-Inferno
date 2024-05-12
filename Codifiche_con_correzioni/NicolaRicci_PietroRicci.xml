@@ -6852,8 +6852,8 @@
                     <lb facs="#riga_47.45"/>la <term>punta chiodata</term> di una scarpa tedesca. Dopodiché non fui più 
                     <lb facs="#riga_47.46"/>in grado di analizzare i miei pensieri e <name type="person">Dante</name>,<hi xml:id="dante1"> il divino poeta al </hi>
                     <lb facs="#riga_47.47"/>
-                    <hi>mio posto avrebbe esclamato</hi> <cit>
-                        <q>“E caddi come corpo morto cade.”</q>
+                    <hi>mio posto avrebbe esclamato</hi> <cit type="explicit">
+                        <quote>“E caddi come corpo morto cade.”</quote>
                         <bibl>142° verso del quinto canto dell'inferno (Divina Commedia)</bibl>
                     </cit>
                     <lb facs="#riga_47.48"/>

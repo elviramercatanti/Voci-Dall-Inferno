@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:id="titolotestimonianza"> Edizione digitale della testimonianza di Romana Feld </title>
+                <title xml:id="titolotestimonianza"> Edizione digitale della testimonianza di Romana Feld</title>
                 
                 <respStmt>
                     <resp>transcription by</resp>
@@ -68,7 +68,7 @@
                     
                     <physDesc>
                         <objectDesc form="dossier"> 
-                            <supportDesc>
+                            <supportDesc source="http://digital-library.cdec.it/cdec-web/viewer/cdecxDamsHist026/IT-CDEC-ST0026-000167#page/1/mode/1up">
                                 <support>
                                     <objectType>Fascicolo cartaceo</objectType>
                                     <material>Carta</material>
@@ -188,13 +188,12 @@
         <profileDesc>
             
             <creation>
-                <date when="1946-12-20"> 20 Dicembre 1946 </date>
+                <date when="1946-12-20">20 Dicembre 1946 </date>
             </creation>
             
             <langUsage>
                 <language ident="it-IT">italiano</language>
-                <language ident="de-DE">tedesco
-                    <note> (lingua usata per i termini che rientrano nel cosiddetto "Lessico del Lager")</note>
+                <language ident="de-DE">tedesco <note> (lingua usata per i termini che rientrano nel cosiddetto "Lessico del Lager")</note>
                 </language>
             </langUsage>
         </profileDesc>

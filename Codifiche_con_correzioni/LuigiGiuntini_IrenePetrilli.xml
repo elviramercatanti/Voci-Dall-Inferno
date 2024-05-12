@@ -226,6 +226,10 @@
         
         <profileDesc>
             <!-- Il testo è scritto in italiano, ma vi possiamo trovare parole o, talvolta, interi dialoghi in altre lingue -->
+            <creation>
+                <date from="1943-09-8" to="1945-04-15">8 settembre 1943 - 15 aprile 1945</date>
+            </creation>
+            
             <langUsage>
                 <language ident="it"> Italiano </language>
                 <language ident="de"> Tedesco </language>
@@ -239,7 +243,7 @@
     <text>
         
         <front> 
-            <p> I lunghi giorni della pena. Diario di prigionia (8 settembre 1943 - 15 aprile 1945 </p> 
+            <p> I lunghi giorni della pena. Diario di prigionia (8 settembre 1943 - 15 aprile 1945) </p> 
         </front>
         
         <group>
@@ -2027,7 +2031,7 @@
                             mi volto indietro. Nell’alba, che schiariva, intravedevo appena le ripe del 
                             cratere dal quale a fatica eravamo usciti. Balenante nella memoria il ricordo 
                             della <term type="dantes" ref="#bolg">bolgia</term> dantesca dei lusingatori: 
-                            <cit>
+                            <cit type="explicit">
                                 <quote>«
                                     <lg type="terzina" rhyme="aba">
                                         <l> Le ripe eran grommate d'una <rhyme label="a"> muffa </rhyme> </l>
@@ -2357,7 +2361,7 @@
                             <said direct="true" who="#lg"> caro <persName ref="#ricc">Riccardi</persName>, il termine stesso, se non sbaglio, 
                             ce lo conferma. <foreign xml:lang="el"> Entusiasmos </foreign> vuol dire essere ispirato in <persName type="religione" ref="#dio">Dio</persName>. Ora un 
                             giovane, che è posseduto da un simile sentimento, può mai essere in grado di 
-                            razionalizzarlo? Io dico di no per la <cit>
+                            razionalizzarlo? Io dico di no per la <cit type="explicit">
                                                                      <quote>“ 
                                                                          <l> contraddizion che nol consente </l>
                                                                     ”</quote>
@@ -2750,7 +2754,7 @@
                             Allora penso di poter affermare che, sceverando tra i <num type="cardinale" value="136">136</num> versi di questo 
                             complesso proemio, almeno una decina di essi colpivano di nuovo la mia 
                             sensibile fantasia e, cioè, i seguenti: 
-                            <cit>
+                            <cit type="explicit">
                                 <quote>«
                                     <l> La notte ch’io passai con tanta pièta </l> 
                                 »</quote> <ptr target="#n41"/>
@@ -2766,7 +2770,7 @@
                                 </bibl>
                             </cit>,
                             
-                            <cit>
+                            <cit type="explicit">
                                 <quote>«
                                     <lg rhyme="abab">
                                         <l> Temp’era dal principio del <rhyme label="a"> mattino </rhyme> </l>
@@ -2788,7 +2792,7 @@
                                 </bibl>
                             </cit>,
                             
-                            <cit>
+                            <cit type="explicit">
                                 <quote>«
                                     <lg>
                                         <l> 
@@ -2822,7 +2826,7 @@
                                 <num type="ordinale" value="2"> secondo </num>
                                 Canto 
                             </title>, intriso di profonda nostalgia e di scoperte reminiscene virgiliane.
-                            <cit>
+                            <cit type="explicit">
                                 <quote>«
                                     <lg>
                                         <l> Lo giorno se n'andava, e l'aere bruno </l>
@@ -3005,7 +3009,7 @@
                             caso, di trasportare il mastello delle nostre lordure notturne fino alla discarica. 
                             Viene <time when="12:00:00">mezzogiorno</time>. Ormai, ed è miracoloso, per oggi facciamo festa, salvo, naturalmente, improvvisi e non improbabili contrordini pomeridiani.
                             Mentre ci auguriamo che ciò non accada, intorno al nostro tavolo, nel 
-                            primo pomeriggio si aduna, si fa per dire, <cit>
+                            primo pomeriggio si aduna, si fa per dire, <cit type="explicit">
                                                                           <quote> "la bella scola "</quote> <ptr target="#n45"/>
                                                                           <bibl>
                                                                               <author ref="#dante">
@@ -3033,7 +3037,7 @@
                                 <item n="5"> <persName ref="#brz"> Breazzano </persName>, </item>
                                 <item n="6"> <persName ref="#bss"> Basso </persName>, un calabrese, che sa molte
                                              cose su <persName type="cultura" ref="GdF"> Gioacchino da Fiore </persName> <ptr target="#n46"/>
-                                             <cit>
+                                             <cit type="explicit">
                                                  <quote>" di spirito profetico dotato"</quote> <ptr target="#n47"/>
                                                  <bibl>
                                                      <author ref="#dante">
@@ -3098,7 +3102,7 @@
                             banale capriccio. Il <num type="ordinale" value="1">primo</num> aveva, per incuria, lasciato spengere la stufa che 
                             <persName ref="#caram">Caramanna</persName> aveva acceso con grande fatica e pazienza. Da qui la reazione 
                             del mio amico e il riprovevole pugilato.
-                            Qualche minuto più tardi si scioglie <cit>
+                            Qualche minuto più tardi si scioglie <cit type="explicit">
                                                                     <quote> "la bella scola "</quote> <ptr target="#n45"/>
                                                                     <bibl>
                                                                          <author ref="#dante">
@@ -3234,7 +3238,7 @@
                         <p>
                             Stamani, guardando il cielo, potrei finalmente descriverlo come padre 
                             <persName type="cultura" ref="#dante">Dante</persName>:
-                            <cit>
+                            <cit type="explicit">
                                 <quote> «Dolce colore d’oriental zaffiro» </quote> <ptr target="#n54"/>
                                 <bibl>
                                     <author ref="#dante">
@@ -4305,7 +4309,7 @@
                             ma diffusa apatia del personale dei reparti, che sono sotto la sua energica tutela.
                             Siccome non può prendersela con le cause vere di questo rallentamento produttivo, perché dipendono da uffici ed amministrazioni molto più 
                             in alto di lui, rode, come il <persName type="dante" ref="#plD"> Pluto </persName> dantesco,
-                            <cit>
+                            <cit type="explicit">
                                 <quote>«
                                     <l> dentro di sé con la sua rabbia </l>
                                     »</quote> <ptr target="n93"/>
@@ -4428,7 +4432,7 @@
                             odore di neve. Il vento è appena un soffio ma gelido costante, insopportabile.
                             Guardo il cielo. È una cupola nera. Appena un lieve chiarore al di là 
                             delle colline, dove l’alba stenta ad uscir
-                            <cit>
+                            <cit type="explicit">
                                 <quote>« 
                                     <l> fuor delle braccia del suo dolce amico </l>»</quote> <ptr target="#n95"/>
                                 <bibl>
