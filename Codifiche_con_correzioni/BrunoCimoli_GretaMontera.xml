@@ -318,7 +318,7 @@
 		   <div type="pagina" n="1">
 			<pb n="1" facs="#pagina1"/>
 			
-		    <div type="day" n="1">
+		    <div type="giorno" n="1">
 				<lb facs="#PPriga1" n="1"/>
 				<opener> 
                     <dateline>
@@ -364,7 +364,7 @@
 			 </div> 
 		   	
 		   	
-			 <div type="day" n="2">
+			 <div type="giorno" n="2">
 				<lb facs="#PPriga12" n="12"/>
 				<opener> 
                     <dateline>
@@ -429,7 +429,7 @@
 					 imbarcano sulle<orgName ref="#SITE"> Site</orgName> e ci avviamo</unclear>
 			 </ab>
 			 </div>
-			<div type="day" n="3">
+			<div type="giorno" n="3">
 				<lb facs="#PPriga25" n="25"/>
 				<opener> 
                     <dateline>
@@ -476,7 +476,7 @@
 					con in più con un pezzo di formaggio
 				</ab>
 			</div>
-			<div type="day" n="4" part="I">
+			<div type="giorno" n="4" part="I">
 			<lb facs="#PPriga35" n="35"/>
 				<opener> 
                     <dateline>
@@ -488,7 +488,7 @@
 			<!-- codifica pagina 2 -->
 		    <div type="pagina" n="2">
 			<pb n="2" facs="#pagina2"/>
-			<div type="day" n="4" part="F">
+			<div type="giorno" n="4" part="F">
 				<ab>
 					<lb facs="#SPriga1" n="36"/>
 	                <gap reason="illegible"/>
@@ -517,7 +517,7 @@
 				</ab>
 			</div>
 			
-			<div type="day" n="5">
+			<div type="giorno" n="5">
 			    <lb facs="#SPriga7" n="42"/>
 			    <opener> 
                     <dateline>
@@ -554,7 +554,7 @@
 	                <gap reason="illegible"/> passato la visita.</unclear>
 				</ab>
 			</div>
-			<div type="day" n="6">
+			<div type="giorno" n="6">
 			    <lb facs="#SPriga15" n="50"/>
 			        <opener> 
                         <dateline>
@@ -586,7 +586,7 @@
 				</ab>
 			</div>
 			
-			<div type="day" n="7">
+			<div type="giorno" n="7">
 			    <lb facs="#SPriga20" n="55"/>
 			        <opener> 
                         <dateline>
@@ -617,7 +617,7 @@
 				</ab>
 			</div>
 			
-			<div type="day" n="8">
+			<div type="giorno" n="8">
 				<lb facs="#SPriga29" n="64"/>
 				    <opener> 
                         <dateline>
