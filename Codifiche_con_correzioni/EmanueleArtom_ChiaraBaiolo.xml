@@ -5668,7 +5668,7 @@
                     <lb xml:id="p14_l21" n="21" facs="#pag7_l21"/>
                     quel tale che <del rend="overstrike">dice</del> si vantava <add place="above">con me</add> di aver studiato
                     <lb xml:id="p14_l22" n="22" facs="#pag7_l22"/>
-                    la Madre di <persName ref="#MG"><choice><sic>Gorki</sic><corr>Gor'kij</corr></choice></persName> e Martin Eden di <persName ref="#JL"><abbr type="initial">J.</abbr><expan>Jack</expan>
+                    <title ref="#MMG">la Madre</title> di <persName ref="#MG"><choice><sic>Gorki</sic><corr>Gor'kij</corr></choice></persName> e <title ref="#MAED">Martin Eden</title> di <persName ref="#JL"><abbr type="initial">J.</abbr><expan>Jack</expan>
                     <lb xml:id="p14_l23" n="23" facs="#pag7_l23"/>
                     London</persName><pc>,</pc> <persName ref="#GM">Fiore</persName> è il più evoluto e istruito<pc>;</pc>
                     <lb xml:id="p14_l24" n="24" facs="#pag7_l24"/>
@@ -5687,7 +5687,7 @@
                     <lb xml:id="p15_l4" n="4" facs="#pag8_l4"/>
                     mia collaborazione<pc>.</pc> Preparerò un articoletto
                     <lb xml:id="p15_l5" n="5" facs="#pag8_l5"/>
-                    intitolato<pc>:</pc><hi rend="underline">I partigiani restituiscono l’<placeName ref="#IT">Italia</placeName>
+                    intitolato<pc>:</pc><hi rend="underline"> I partigiani restituiscono l’<placeName ref="#IT">Italia</placeName>
                     <lb xml:id="p15_l6" n="6" facs="#pag8_l6"/>
                     all’<placeName ref="#EU">Europa</placeName><pc>.</pc></hi>
                     <lb xml:id="p15_l7" n="7" facs="#pag8_l7"/>
@@ -6799,7 +6799,7 @@
                     <lb xml:id="p37_l30" n="30" facs="#pag37_l30"/>
                     a comunicare con l’esterno e ad avere dei
                     <lb xml:id="p37_l31" n="31" facs="#pag37_l31"/>
-                    rinforzi<pc>.</pc> Vedi il iudicio uman come spesso erra
+                    rinforzi<pc>.</pc> <cit><quote>Vedi il iudicio uman come spesso erra</quote><ref target="#OF"><bibl>I canto, strofa 7, v. 27</bibl></ref></cit>
                     <lb xml:id="p37_l32" n="32" facs="#pag37_l32"/>
                     direbbe l’<persName ref="#LA">Ariosto</persName><pc>.</pc> <persName ref="#FBA">Barca</persName> <add place="above">che</add> pareva l’uomo me =
                     <lb xml:id="p37_l33" n="33" facs="#pag37_l33" break="no" rend="double stroke"/>
@@ -8265,7 +8265,7 @@
                     <cit type="explicit"><quote><lg><l>Grandine grossa<pc>,</pc> acqua tinta e neve</l>
                     <lb xml:id="p68_l3" n="3" facs="#pag70_l3"/>
                     <l>per l’<choice><sic>aer</sic><corr>aere</corr></choice> tenebroso si riversa<pc>;</pc></l></lg></quote>
-                    <ref target="#Dante6"/><bibl>vv. 10-11</bibl></cit>
+                    <ref target="#Dante6"><bibl>VI canto Inferno, vv. 10-11</bibl></ref></cit>
                     <lb xml:id="p68_l4" n="4" facs="#pag70_l4"/>
                     forse la citazione ha un sapore un 
                     <lb xml:id="p68_l5" n="5" facs="#pag70_l5"/>
@@ -8291,7 +8291,7 @@
                     <lb xml:id="p68_l15" n="15" facs="#pag70_l15"/>
                     continua<pc>,</pc> affondando nel
                     <lb xml:id="p68_l16" n="16" facs="#pag70_l16"/>
-                    fango e nella fanghiglia<pc>,</pc></quote><ref target="#Dante6"/><bibl>vv. 52-54</bibl></cit> col
+                    fango e nella fanghiglia</quote><ref target="#Dante6"><bibl>VI canto Inferno, vv. 52-54</bibl></ref></cit><pc>,</pc> col
                     <lb xml:id="p68_l17" n="17" facs="#pag70_l17"/>
                     berretto che perdeva il colore
                     <lb xml:id="p68_l18" n="18" facs="#pag70_l18"/>
@@ -8524,18 +8524,18 @@
                     <lb xml:id="p73_l19" n="19" facs="#pag75_l19"/>
                     chiarare:</del> predicare<pc>:</pc>
                     <lb xml:id="p73_l20" n="20" facs="#pag75_l20"/>
-                    L’unione e l’amore
+                    <cit><quote>L’unione e l’amore
                     <lb xml:id="p73_l21" n="21" facs="#pag75_l21"/>
                     rivelano ai popoli
                     <lb xml:id="p73_l22" n="22" facs="#pag75_l22"/>
-                    le vie del Signore <del rend="overstrike">e to</del> oppure
+                    le vie del Signore</quote><ref target="#GM1"><bibl>strofa 3</bibl></ref></cit> <del rend="overstrike">e to</del> oppure
                     <pb xml:id="p74" facs="#pag76"/> <!-- Pagina 74, facs pag76 -->
                     <lb xml:id="p74_l1" n="1" facs="#pag76_l1"/>
-                    E vi dico in verità<pc>:</pc> Quando il popolo si desta
+                    E vi dico in verità<pc>:</pc> <cit><quote>Quando il popolo si desta
                     <lb xml:id="p74_l2" n="2" facs="#pag76_l2"/>
                     Dio si mette alla sua testa<pc>.</pc> La sua folgore
                     <lb xml:id="p74_l3" n="3" facs="#pag76_l3"/>
-                    gli dà<pc>.</pc> Con quell’evangelico<pc>:</pc> in ve =
+                    gli dà<pc>.</pc></quote><ref target="#GM2"/></cit> Con quell’evangelico<pc>:</pc> in ve =
                     <lb xml:id="p74_l4" n="4" facs="#pag76_l4" break="no" rend="double stroke"/>
                     rità Il lato deteriore di questo mi =
                     <lb xml:id="p74_l5" n="5" facs="#pag76_l5" break="no" rend="double stroke"/>
@@ -9460,7 +9460,7 @@
                     <lb xml:id="p94_l18" n="18" facs="#pag101_l18"/>
                     l’ospitalità pareva un vecchio eroe
                     <lb xml:id="p94_l19" n="19" facs="#pag101_l19"/>
-                    d’Omero<pc>.</pc> Accanto un giovane
+                    d’<persName ref="#OM">Omero</persName><pc>.</pc> Accanto un giovane
                     <lb xml:id="p94_l20" n="20" facs="#pag101_l20"/>
                     di 16 anni<pc>,</pc> partigiano volontario<pc>,</pc>
                     <lb xml:id="p94_l21" n="21" facs="#pag101_l21"/>
@@ -9767,9 +9767,9 @@
                     <lb xml:id="p99_l29" n="29" facs="#pag95_l1"/>
                     complicati di appuntamenti<pc>,</pc> di impegni<pc>,</pc> di conti
                     <lb xml:id="p99_l30" n="30" facs="#pag95_l1"/>
-                    di denaro<pc>,</pc> stare sempre agitato come selvaggina
+                    di denaro<pc>,</pc> <cit type="implicit"><quote>stare sempre agitato come selvaggina
                     <lb xml:id="p99_l31" n="31" facs="#pag95_l31"/>
-                    che può essere colta di sorpresa<pc>.</pc> 
+                    che può essere colta di sorpresa<pc>.</pc></quote><ref target="#Dante13"><bibl>XIII canto Inferno, vv. 109-114</bibl></ref></cit>
                 </p>
             </div>
             <div type="giorno" xml:id="g27dic_43"> <!-- 27 dicembre 1943 -->
@@ -10160,13 +10160,13 @@
                     <lb xml:id="p108_l11" n="11" facs="#pag113_l11"/>
                     fa la barba<pc>,</pc> ci si lavano i
                     <lb xml:id="p108_l12" n="12" facs="#pag113_l12"/>
-                    denti e poi si va a dormire
+                    denti e poi <cit><quote>si va a dormire
                     <lb xml:id="p108_l13" n="13" facs="#pag113_l13"/>
                     in un immenso letto con 3 posti<pc>:</pc>
                     <lb xml:id="p108_l14" n="14" facs="#pag113_l14"/>
                     <del rend="overstrike">il</del> un letto da Fiammetta<pc>,</pc> ma
                     <lb xml:id="p108_l15" n="15" facs="#pag113_l15"/>
-                    purtroppo Fiammetta non c’è<pc>.</pc>
+                    purtroppo Fiammetta non c’è<pc>.</pc></quote><ref target="#OF"><bibl>XXVIII canto</bibl></ref></cit>
                     <lb xml:id="p108_l16" n="16" facs="#pag113_l16"/>
                     <persName ref="#GS"><abbr type="initial">G.</abbr><expan> Giorgio Segre</expan></persName> fa le sue confidenze<pc>.</pc> Ha ricevuto
                     <lb xml:id="p108_l17" n="17" facs="#pag113_l17"/>
@@ -10868,7 +10868,7 @@
                     sarebbe detto<pc>:</pc> <cit><quote>O compagni sul letto di
                     <pb xml:id="p124" facs="#pag123"/> <!-- Pagina 124, facs pag123 -->
                     <lb xml:id="p124_l1" n="1" facs="#pag123_l1"/>
-                    morte<pc>,</pc> o fratelli sul libero suol<pc>.</pc></quote><ref target="#Manzoni2"/></cit>
+                    morte<pc>,</pc> o fratelli sul libero suol<pc>.</pc></quote><ref target="#M1"><bibl>strofa 2, vv. 15-16</bibl></ref></cit>
                 </p>
             </div>
             <div type="giorno" xml:id="g1gen_44"> <!-- 1 gennaio 1944 -->
@@ -11008,11 +11008,11 @@
                     <lb xml:id="p126_l10" n="10" facs="#pag129_l10"/>
                     perquisizioni a <placeName ref="#BG">Bagnolo</placeName><pc>.</pc> Si prese
                     <lb xml:id="p126_l11" n="11" facs="#pag129_l11"/>
-                    un po’ di latte da <persName ref="#PINA">Pina</persName> e si andò
+                    un po’ di latte da <persName ref="#PINA">Pina</persName> e <cit><quote>si andò
                     <lb xml:id="p126_l12" n="12" facs="#pag129_l12"/>
                     a <subst><del rend="overstrike">letto </del><add place="below">dormire</add></subst> nell’enorme letto di Fiam =
                     <lb xml:id="p126_l13" n="13" facs="#pag129_l13" break="no" rend="double stroke"/>
-                    metta<pc>,</pc> ma si riposò male<pc>,</pc> poche
+                    metta</quote><ref target="#OF"><bibl>XXVIII canto</bibl></ref></cit><pc>,</pc> ma si riposò male<pc>,</pc> poche
                     <lb xml:id="p126_l14" n="14" facs="#pag129_l14"/>
                     ore<pc>.</pc> Eravamo eccitati dalla
                     <lb xml:id="p126_l15" n="15" facs="#pag129_l15"/>
@@ -11100,7 +11100,7 @@
                     <lb xml:id="p128_l6" n="6" facs="#pag131_l6"/>
                     doveva dormire<pc>,</pc> <cit type="implicit"><quote>l’altro sonava
                     <lb xml:id="p128_l7" n="7" facs="#pag131_l7"/>
-                    di continuo la tromba di Barbariccia<pc>.</pc></quote><ref target="#Dante21"/><bibl>v. 139</bibl></cit>
+                    di continuo la tromba di Barbariccia<pc>.</pc></quote><ref target="#Dante21"><bibl>XXI canto Inferno, v. 139</bibl></ref></cit>
                     <lb xml:id="p128_l8" n="8" facs="#pag131_l8"/>
                     Quando andammo a dormire<pc>,</pc> mi
                     <lb xml:id="p128_l9" n="9" facs="#pag131_l9"/>
@@ -11688,7 +11688,7 @@
                     <lb xml:id="p138_l8" n="8" facs="#pag141_l8"/>
                     pieno di rettorica<pc>.</pc> <del rend="overstrike">Grid</del> Recita<pc>:</pc> <cit><quote><pc>«</pc>O giornate del nostro
                     <lb xml:id="p138_l9" n="9" facs="#pag141_l9"/>
-                    riscatto<pc>»</pc></quote><ref target="#Manzoni1"/></cit> dopo di che passa le giornate del suo riscatto
+                    riscatto<pc>»</pc></quote><ref target="#M1"><bibl>strofa 13, v. 97</bibl></ref></cit> dopo di che passa le giornate del suo riscatto
                     <lb xml:id="p138_l10" n="10" facs="#pag141_l10"/>
                     a <placeName ref="#TP"><abbr type="suspension">Torre</abbr><expan>Torre Pellice</expan></placeName> con tutte le ragazzine che gli hanno regalato
                     <lb xml:id="p138_l11" n="11" facs="#pag141_l11"/>
@@ -12249,11 +12249,11 @@
                     <lb xml:id="p147_l9" n="9" facs="#pag150_l9"/>
                     una canzone in cui dicono che se ne
                     <lb xml:id="p147_l10" n="10" facs="#pag150_l10"/>
-                    fregano del commissario<pc>,</pc> penso alla
+                    fregano del commissario<pc>,</pc> <cit><quote>penso alla
                     <lb xml:id="p147_l11" n="11" facs="#pag150_l11"/>
                     poesia di <persName ref="#AB">Brofferio</persName> sul Magnific
                     <lb xml:id="p147_l12" n="12" facs="#pag150_l12"/>
-                    Cunt d'<persName ref="#CAV">Cavour</persName> e mi consolo<pc>.</pc> Ho un
+                    Cunt d'<persName ref="#CAV">Cavour</persName></quote><ref target="#MCC"/></cit> e mi consolo<pc>.</pc> Ho un
                     <lb xml:id="p147_l13" n="13" facs="#pag150_l13"/>
                     mese circa davanti<pc>.</pc> Farò quanto posso<pc>.</pc>
                 </p>
@@ -14041,7 +14041,7 @@
                     </placeName>
                 </birth>
             </person>
-            <person xml:id="GINA" source="https://tg24.sky.it/cronaca/2015/04/23/giovanni_de_luna_resistenza_perfetta_25_aprile"> <!-- GINA (PASQUALINA ROSSI) -->
+            <person xml:id="GINA" source="https://www.anpi.it/libri/donne-davanti-al-tribunale-speciale"> <!-- GINA (PASQUALINA ROSSI) -->
                 <persName>
                     <forename> Pasqualina </forename>
                     <surname> Rossi </surname>
@@ -15657,7 +15657,7 @@
                     <forename> Felice Luigi </forename>
                     <surname> Burdino </surname>
                 </persName>
-                <note><p>Nome di battaglia: Balestrieri</p></note>
+                <note><p>Nome di battaglia: Balestrieri I</p></note>
                 <sex>M</sex>
                 <birth>
                     <date when="1917-09-22">22 settembre 1917</date>
@@ -16335,7 +16335,7 @@
                     <imprint><date when="1314"> 1314 </date></imprint>
                 </monogr>
                 <series>
-                    <title level="s"> La Divina Commedia </title>
+                    <title level="s"> Divina Commedia </title>
                 </series>
             </biblStruct>
             <biblStruct xml:id="Dante21"> <!-- XXI canto Divina Commedia, Dante Alighieri -->
@@ -16348,7 +16348,20 @@
                     <imprint><date when="1314"> 1314 </date></imprint>
                 </monogr>
                 <series>
-                    <title level="s"> La Divina Commedia </title>
+                    <title level="s"> Divina Commedia </title>
+                </series>
+            </biblStruct>
+            <biblStruct xml:id="Dante13"> <!-- XIII canto Divina Commedia, Dante Alighieri -->
+                <analytic>
+                    <title level="a"> Canto XIII </title>
+                </analytic>
+                <monogr>
+                    <author> Dante Alighieri </author>
+                    <title level="m"> Inferno </title>
+                    <imprint><date when="1314"> 1314 </date></imprint>
+                </monogr>
+                <series>
+                    <title level="s"> Divina Commedia </title>
                 </series>
             </biblStruct>
             <bibl xml:id="FDL"> <!-- La filosofia di Leopardi, Adriano Tilgher -->
@@ -16360,29 +16373,52 @@
             </bibl>
             <bibl xml:id="DVA"> <!-- L'America al bivio, Amerigo Ruggiero -->
                 <author ref="#AR"> Amerigo Ruggiero </author>
-                <title> L'America al bivio </title>
+                <title>L'America al bivio</title>
                 <pubPlace> Torino </pubPlace>
                 <publisher> Einaudi </publisher>
-                <date when="1940"> 1934 </date>
+                <date when="1934"> 1934 </date>
             </bibl>
             <bibl xml:id="FED"> <!-- Fedone, Platone -->
                 <author> Platone </author>
                 <title> Fedone </title>
                 <date> IV secolo a.C.</date>
             </bibl>
-            <bibl xml:id="Manzoni1"> <!-- Marzo 1821, strofa 13, v97, Alessandro Manzoni -->
+            <bibl xml:id="M1"> <!-- Marzo 1821, Alessandro Manzoni -->
                 <author> Alessandro Manzoni </author>
                 <title> Marzo 1821 </title>
                 <date when="1848"> 1848 </date>
-                <note>strofa 13, v97</note>
             </bibl>
-            <bibl xml:id="Manzoni2"> <!-- Marzo 1821, strofa 2, vv15-16, Alessandro Manzoni -->
-                <author> Alessandro Manzoni </author>
-                <title> Marzo 1821 </title>
-                <date when="1848"> 1848 </date>
-                <note>strofa 2, vv15-16</note>
+            <bibl xml:id="MCC"> <!-- Ij bonbon 'd sor Cont, Angelo Brofferio -->
+                <author> Angelo Brofferio </author>
+                <title> Ij bonbon 'd sor Cont </title>
+                <date when="1853"> 1853 </date>
             </bibl>
-
+            <bibl xml:id="MMG"> <!-- La Madre , Maksim Gor'kij -->
+                <author> Maksim Gor'kij </author>
+                <title> La Madre </title>
+                <date when="1907"> 1907 </date>
+            </bibl>
+            <bibl xml:id="MAED"> <!-- Martin Eden , Jack London -->
+                <author> Jack London </author>
+                <title> Martin Eden </title>
+                <date when="1909"> 1909 </date>
+            </bibl>
+            <bibl xml:id="GM1"> <!-- Canto degli Italiani, Goffredo Mameli -->
+                <author> Goffredo Mameli </author>
+                <title> Canto degli Italiani</title>
+                <date when="1847"> 1847 </date>
+            </bibl>
+            <bibl xml:id="GM2"> <!-- Dio e popolo, Goffredo Mameli -->
+                <author> Goffredo Mameli </author>
+                <title> Dio e popolo </title>
+                <date when="1847"> 1847 </date>
+            </bibl>
+            <bibl xml:id="OF"> <!-- Orlando Furioso , Ludovico Ariosto -->
+                <author> Ludovico Ariosto </author>
+                <title> Orlando Furioso </title>
+                <pubPlace> Ferrara </pubPlace>
+                <date when="1516"> 1516 </date>
+            </bibl>
         </listBibl>
     </standOff>
     
