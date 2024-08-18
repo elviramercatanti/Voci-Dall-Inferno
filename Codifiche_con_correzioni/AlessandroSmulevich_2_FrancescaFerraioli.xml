@@ -5,6 +5,26 @@
 				<title xml:id="titolotestimonianza">Testimonianza internato a Campagna - pagina 2</title>
 				<author>Francesca Ferraioli</author>
 			</titleStmt>
+			
+			<!--aggiunta Elvira-->
+			<editionStmt> <!-- informazioni sull'edizione digitale -->
+                <edition>Edizione digitale realizzata per tesi di laurea triennale in Informatica Umanistica
+                    presso l'<orgName>Università di Pisa</orgName>
+				</edition>
+                <respStmt> <!-- responsabilità dei contenuti --> 
+                    <resp> Progetto coordinato da </resp>
+                    <persName xml:id="AMDG">Angelo Mario Del Grosso</persName>
+                    <persName xml:id="MRIC">Marina Riccucci</persName>                                      
+                </respStmt>
+                <respStmt xml:id="encoder"> <!-- responsabilità dei contenuti --> 
+                    <resp> Trascrizione e codifica a cura di </resp>
+                    <persName xml:id="FF">
+                        <forename>Francesca</forename>
+                        <surname>Ferraioli</surname>
+                    </persName>
+                </respStmt>
+            </editionStmt>
+            
 			<publicationStmt>
 				<publisher>Università di Pisa</publisher>
 				<date/>
@@ -14,14 +34,14 @@
 			</publicationStmt>
 			<sourceDesc>
 
-				<listPerson>
+				<!--<listPerson>
 					<person xml:id="AlSm" role="testimone" source="https://www.pendragon.it/catalogo/manufacturers/alessandro-smulevich.html?tmpl=component">
 						<persName>
 							<forename>Alessandro</forename>
 							<surname>Smulevich</surname>
 						</persName>
 					</person>
-				</listPerson>
+				</listPerson>-->
 
 				
 				<bibl>
@@ -118,36 +138,22 @@
 					<date when="0909">
                         <hi rend="underline">LUNEDì 9 SETTEMBRE</hi>
                     </date>
-					L’arrivo a <place>
-                        <settlement>Venezia Mestre</settlement>
-                    </place> avviene alle
-					<time when="24:15:00">00:15</time>; a <place>
-                        <settlement>Padova</settlement>
-                    </place> alle <time when="01:00:00">1</time>; a <place>
-                        <settlement>Firenze</settlement>
-                    </place> alle
+					L’arrivo a <placeName ref="#ME">Venezia Mestre</placeName> avviene alle
+					<time when="24:15:00">00:15</time>; a <placeName ref="#PA">Padova</placeName>
+					 alle <time when="01:00:00">1</time>; a <placeName ref="#FI">Firenze</placeName> alle
 					<time when="03:25:00">03:25</time>. 
-					Da <place>
-                        <settlement>Padova</settlement>
-                    </place> a <place>
-                        <settlement>Firenze</settlement>
-                    </place> abbiamo nello scom-
+					Da <placeName ref="#PA">Padova</placeName> a <placeName ref="#FI">Firenze</placeName>
+					abbiamo nello scom-
 					partimento una coppia di innamorati
 					che non fanno altro tutto il 
 					tempo che abbracciarsi e baciarsi. Rie-
 					sco a dormire per qualche ora tra le <time when="01:00:00">1</time> 
-					e le <time when="06:00:00">06:00</time> del mattino. A <place>
-                        <settlement>Chiusi</settlement>
-                    </place> si arriva
+					e le <time when="06:00:00">06:00</time> del mattino. A <placeName ref="#CH">Chiusi</placeName>si arriva
 					verso le <time when="06:30:00">06:30</time>. L’ultima tappa del nostro 
-					viaggio: a <place>
-                        <settlement>Roma</settlement>
-                    </place>, si conclude coll’ar-
+					viaggio: a <placeName ref="#RO">Roma</placeName>, si conclude coll’ar-
 					rivo alle <time when="08:30:00">08:30</time>. Dopo aver depositati i 
-					bagagli alla stazione di <place>
-                        <settlement>Termini</settlement>
-                    </place>, ci
-					avviamo al <orgName type="national">Ministero dell'Interno</orgName> al-
+					bagagli alla stazione di <placeName ref="#RO">Termini</placeName>, ci
+					avviamo al <orgName ref="#MinInt">Ministero dell'Interno</orgName> al-
 					le <time when="09:30:00">09:30</time> per sbrigare l’affare di papà. 
 					Alle <time when="11:45:00">11:45</time> siamo ricevuti in udienza 
 					dal <choice n="1">
@@ -155,12 +161,89 @@
                         <expan>Commendatore</expan>
                     </choice> Pennetta, il quale ci conce-
 					de un permesso per far visita a papà,
-					a <place>
-                        <settlement>Campagna</settlement>
-                    </place> per <num type="cardinal" value="4">4</num> giorni. Dopo aver
+					a <placeName ref="#CA">Campagna</placeName> per <num type="cardinal" value="4">4</num> giorni. Dopo aver
 					pranzato, fumo una sigaretta davanti la mamma. Con mia grande gioia lei
 				</ab>
 			</div>
 		</body>
 	</text>
+
+
+	<standOff>
+		<listPerson> <!--lista persone-->
+
+			<person xml:id="AlSm" role="testimone" source="https://www.pendragon.it/catalogo/manufacturers/alessandro-smulevich.html?tmpl=component">
+				<persName>
+					<forename>Alessandro</forename>
+					<surname>Smulevich</surname>
+				</persName>
+				<note/>
+				<sex>M</sex>
+				<birth>
+                    <date when=" 1923"> 1923</date>
+                    <placeName>
+                        <settlement type="municipality">Fiume</settlement>
+                        <country key="IT">Italia</country>
+                    </placeName>
+                </birth>
+                <death>
+                    <date when="2002">2002</date>
+                    <placeName>
+                        <settlement type="municipality"/>
+                        <country key="IT"/>
+                    </placeName>
+                </death>
+			</person>
+
+		</listPerson>
+
+		<listPlace><!--lista luoghi-->
+			<place xml:id="ME" source="https://it.wikipedia.org/wiki/Mestre">
+				<placeName>Mestre</placeName>
+				<settlement type="municipality">Venezia</settlement>
+				<settlement type="region">Veneto</settlement>
+				<country key="IT">Italia</country>
+			</place>
+
+			<place xml:id="PA" source="https://it.wikipedia.org/wiki/Padova">
+				<placeName>Padova</placeName>
+				<settlement type="region">Veneto</settlement>
+				<country key="IT">Italia</country>
+			</place>
+
+			<place xml:id="FI" source="https://it.wikipedia.org/wiki/Firenze">
+                <placeName>Firenze</placeName>
+                <settlement type="region">Toscana</settlement>
+                <country key="IT">Italia</country>
+            </place>
+
+			<place xml:id="CH" source="https://it.wikipedia.org/wiki/Chiusi">
+				<placeName>Chiusi</placeName>
+				<settlement type="province">Siena</settlement>
+				<settlement type="region">Toscana</settlement>
+				<country key="IT">Italia</country>
+			</place>
+
+			<place xml:id="CA" source="https://it.wikipedia.org/wiki/Campagna_(Italia)">
+				<placeName>Campagna</placeName>
+				<settlement type="province">Salerno</settlement>
+				<settlement type="region">Campania</settlement>
+				<country key="IT">Italia</country>
+			</place>
+
+		</listPlace>
+
+		<listOrg> <!--lista organizzazioni-->
+			<org xml:id="MinInt" source="https://www.interno.gov.it/it"> <!-- Ministero dell'Interno -->
+                <orgName> Ministero dell'Interno </orgName>
+                <placeName> Roma </placeName>
+                <desc>
+					Il Ministero dell'interno è un dicastero del governo italiano. Ha competenza sull'ordine pubblico nella sua qualità di massima autorità nazionale di pubblica sicurezza.
+                </desc>
+            </org>
+		</listOrg>
+
+		<!--<listBibl></listBibl-->
+
+	</standOff>
 </TEI>

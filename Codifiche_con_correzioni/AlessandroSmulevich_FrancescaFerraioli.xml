@@ -1,0 +1,521 @@
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+
+    <teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:id="titolotestimonianza">Testimonianza internato a Campagna -pagina 1</title>
+				<author>Francesca Ferraioli</author>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Università di Pisa</publisher>
+				<date/>
+				<availability status="unknown">
+					<p>Unpublished document</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+
+				<!--<listPerson>
+					<person xml:id="AlSm" role="testimone" source="https://www.pendragon.it/catalogo/manufacturers/alessandro-smulevich.html?tmpl=component">
+						<persName>
+							<forename>Alessandro</forename>
+							<surname>Smulevich</surname>
+						</persName>
+					</person>
+				</listPerson>-->
+				
+				<bibl>
+					<title>Diario di Alessandro Smulevich</title>
+					<author>Francesca Ferraioli</author>
+					<publisher>Università di Pisa</publisher>
+					<date from="1940" to="1941">1940-1941</date>
+				</bibl>
+				<msDesc>
+					<msIdentifier>
+						<placeName>
+							<settlement>Campagna (SA)</settlement>
+							<region key="" type="state">Italia</region>
+						</placeName>
+					</msIdentifier>
+					<msContents>
+						<msItem>
+							<title>Diario di Alessandro Smulevich</title>
+							<textLang mainLang="it">Scritto in italiano.</textLang>
+							<!--<docImprint>
+								Fiume,
+								<docDate>1940</docDate>
+							</docImprint>-->
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc form="manuscript_sheet">
+							<supportDesc>
+								<support>
+									<p>Foglio manoscritto di
+										<material>carta</material>
+										che descrive il viaggio da Fiume a Campagna di Alessandro Smulevich
+									</p>
+									<!--<stamp facs="#doc012_Stamp.main">Nella parte bassa del foglio è presente </stamp>-->
+								</support>
+							</supportDesc>
+							<layoutDesc>
+								<!--<layout columns="2" ruledLines="10 20">
+									<p>La pagina si presenta con una suddivisione in due colonne: nella colonna a sinistra sono presenti le informazioni riguardanti il soggetto del referto, ovvero l'internato Heger Isak, la data di invio, mittente e destinatario, per un totale di 10 righe manoscritte mentre nella colonna di destra sono riportate la data di redazione, le 18 linee del testo e la firma in calce.</p>
+								</layout>-->
+							</layoutDesc>
+						</objectDesc>
+						<handDesc>
+							<p>Scritto da una sola mano, ovvero quella dell'autore.</p>
+						</handDesc>
+						<typeDesc>
+							<p>Scritto in caratteri corsivi, non sempre di facile comprensione. Non risultano cancellature.</p>
+						</typeDesc>
+					</physDesc>
+					<history>
+						<summary>Questo documento è una testimonianza di .</summary>
+						<origin notAfter="1941">
+							<p>Questo documento è stato compilato dal Ministero.</p>
+						</origin>
+						<acquisition>
+							<p>La testimonianza non è mai stata pubblicata ed è stata gentilmente fornita dal figlio di Alessandro Smulevich, Ermanno.</p>
+						</acquisition>
+					</history>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+
+    <text>
+        <front></front>
+        <body></body>
+        <back></back>
+    </text>
+
+    <TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Pagina1">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title xml:id="titolotestimonianza">Testimonianza internato a Campagna -pagina 1</title>
+                    <author>Francesca Ferraioli</author>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Università di Pisa</publisher>
+                    <date/>
+                    <availability status="unknown">
+                        <p>Unpublished document</p>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+    
+                    <!--<listPerson>
+                        <person xml:id="AlSm" role="testimone" source="https://www.pendragon.it/catalogo/manufacturers/alessandro-smulevich.html?tmpl=component">
+                            <persName>
+                                <forename>Alessandro</forename>
+                                <surname>Smulevich</surname>
+                            </persName>
+                        </person>
+                    </listPerson>-->
+                    
+                    <bibl>
+                        <title>Diario di Alessandro Smulevich</title>
+                        <author>Francesca Ferraioli</author>
+                        <publisher>Università di Pisa</publisher>
+                        <date when="19400908">8 set 1940</date>
+                    </bibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <placeName>
+                                <settlement>Campagna (SA)</settlement>
+                                <region key="" type="state">Italia</region>
+                            </placeName>
+                        </msIdentifier>
+                        <msContents>
+                            <msItem>
+                                <title>Diario di Alessandro Smulevich</title>
+                                <textLang mainLang="it">Scritto in italiano.</textLang>
+                                <docImprint>
+                                    Fiume,
+                                    <docDate>1940</docDate>
+                                </docImprint>
+                            </msItem>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc form="manuscript_sheet">
+                                <supportDesc>
+                                    <support>
+                                        <p>Foglio manoscritto di
+                                            <material>carta</material>
+                                            che descrive il viaggio da Fiume a Campagna di Alessandro Smulevich
+                                        </p>
+                                        <stamp facs="#doc012_Stamp.main">Nella parte bassa del foglio è presente </stamp>
+                                    </support>
+                                </supportDesc>
+                                <layoutDesc>
+                                    <layout columns="2" ruledLines="10 20">
+                                        <p>La pagina si presenta con una suddivisione in due colonne: nella colonna a sinistra sono presenti le informazioni riguardanti il soggetto del referto, ovvero l'internato Heger Isak, la data di invio, mittente e destinatario, per un totale di 10 righe manoscritte mentre nella colonna di destra sono riportate la data di redazione, le 18 linee del testo e la firma in calce.</p>
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <p>Scritto da una sola mano, ovvero quella dell'autore.</p>
+                            </handDesc>
+                            <typeDesc>
+                                <p>Scritto in caratteri corsivi, non sempre di facile comprensione. Non risultano cancellature.</p>
+                            </typeDesc>
+                        </physDesc>
+                        <history>
+                            <summary>Questo documento è una testimonianza di .</summary>
+                            <origin notAfter="1940">
+                                <p>Questo documento è stato compilato dal Ministero.</p>
+                            </origin>
+                            <acquisition>
+                                <p>La testimonianza non è mai stata pubblicata ed è stata gentilmente fornita dal figlio di Alessandro Smulevich, Ermanno.</p>
+                            </acquisition>
+                        </history>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <facsimile>
+            <surface>
+                <graphic url="diario_page-0001.jpg" width="589.518518px" height="939.518518px"/>
+                <zone ulx="90" uly="207" lrx="498" lry="244"/>
+                <zone ulx="15" uly="239" lrx="575" lry="269"/>
+                <zone ulx="7" uly="278" lrx="569" lry="308"/>
+                <zone ulx="7" uly="317" lrx="559" lry="339"/>
+                <zone ulx="9" uly="346" lrx="564" lry="371"/>
+                <zone ulx="4" uly="374" lrx="588" lry="417"/>
+                <zone ulx="7" uly="410" lrx="587" lry="448"/>
+                <zone ulx="7" uly="451" lrx="586" lry="490"/>
+                <zone ulx="7" uly="479" lrx="587" lry="530"/>
+                <zone ulx="11" uly="505" lrx="581" lry="550"/> <!--nell'ultima parte si sovrappongono-->
+                <zone ulx="4" uly="541" lrx="579" lry="578"/>
+                <zone ulx="7" uly="577" lrx="557" lry="610"/>
+                <zone ulx="4" uly="607" lrx="587" lry="647"/>
+                <zone ulx="7" uly="636" lrx="583" lry="669"/>
+                <zone ulx="4" uly="670" lrx="588" lry="707"/>
+                <zone ulx="41" uly="704" lrx="570" lry="852"/>
+            </surface>
+        </facsimile>
+        <text xml:lang="it" xml:id="text-it" subtype="manuscript">
+            <body>
+                <div type="doc" n="1" xml:id="diario01_document">
+                <pb n="1"/>
+                    <ab type="paragrafo" n="1" xml:id="diario01_page">
+                        <date when="0908">DOMENICA 8 SETTEMBRE</date>
+                        <lb n="1"/> Partiamo io, <persName>
+                            <forename>Esti</forename>
+                        </persName>, la mamma col treno
+                        <lb n="2"/> delle <time when="18:20:00">18:20</time> verso <placeName ref="#RO">Roma</placeName>: in <num type="ordinal" value="3">seconda</num> clas-
+                        <lb n="3"/> se per la prima volta. Il viaggio è 
+                        <lb n="4"/> ottimo sotto tutti gli aspetti. Fino 
+                        <lb n="5"/>
+                        <placeName ref="#PA">Padova</placeName> abbiamo nel nostro scompartimento 
+                        <lb n="6"/> la compagnia di due simpatici si- 
+                        <lb n="7"/> gnori. Arrivando a <placeName ref="#TRI">Trieste</placeName> verso le <time when="21:00:00">21</time>, 
+                        <lb n="8"/> osserviamo il riflesso del quarto di luna 
+                        <lb n="9"/> nel mare calmissimo. L'effetto è bel-
+                        <lb n="10"/> lissimo. Da <placeName ref="#TRI">Trieste</placeName> senza bisogno di cambiare 
+                        <lb n="11"/> treno, ripartiamo alle <time when="21:40:00">21:40</time>.
+                        <lb n="12"/> <hi rend="underline">COMMENTO</hi>: Prima della partenza da <placeName ref="#FIU">Fiume</placeName>, 
+                        <lb n="13"/> Ciuci ci aveva accompagnato con suo padre 
+                        <lb n="14"/> alla stazione, stringendomi forte le mani.
+                    </ab>
+                </div>
+            </body>
+        </text>
+    
+        <standOff>
+            <listPerson> <!--lista persone-->
+    
+                <person xml:id="AlSm" role="testimone" source="https://www.pendragon.it/catalogo/manufacturers/alessandro-smulevich.html?tmpl=component">
+                    <persName>
+                        <forename>Alessandro</forename>
+                        <surname>Smulevich</surname>
+                    </persName>
+                    <note></note>
+                    <sex>M</sex>
+                    <birth>
+                        <date when=" 1923"> 1923</date>
+                        <placeName>
+                            <settlement type="municipality">Fiume</settlement>
+                            <country key="IT">Italia</country>
+                        </placeName>
+                    </birth>
+                    <death>
+                        <date when="2002">2002</date>
+                        <placeName>
+                            <settlement type="municipality"></settlement>
+                            <country key="IT"></country>
+                        </placeName>
+                    </death>
+                </person>
+    
+            </listPerson>
+    
+    
+            <listPlace><!--lista luoghi-->
+                <place xml:id="RO" source="https://it.wikipedia.org/wiki/Roma">
+                    <placeName>Roma</placeName>
+                    <settlement type="region">Lazio</settlement>
+                    <country key="IT">Italia</country>
+                </place>
+    
+                <place xml:id="PA" source="https://it.wikipedia.org/wiki/Padova">
+                    <placeName>Padova</placeName>
+                    <settlement type="region">Veneto</settlement>
+                    <country key="IT">Italia</country>
+                </place>
+    
+                <place xml:id="TRI" source="https://it.wikipedia.org/wiki/Trieste">
+                    <placeName>Trieste</placeName>
+                    <settlement type="region">Friuli-Venezia Giulia</settlement>
+                    <country key="IT">Italia</country>
+                </place>
+    
+                <place xml:id="FIU" source="https://it.wikipedia.org/wiki/Fiume_(Croazia)"> 
+                    <placeName>Fiume</placeName>
+                    <!--<settlement type="region"></settlement>-->
+                    <country key="CR">Croazia</country>
+                </place>
+            </listPlace>
+    
+            <!--<listOrg></listOrg>-->
+            <!--<listBibl></listBibl-->
+        </standOff>
+
+    </TEI>
+
+    <TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Pagina2">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title xml:id="titolotestimonianza">Testimonianza internato a Campagna - pagina 2</title>
+                    <author>Francesca Ferraioli</author>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Università di Pisa</publisher>
+                    <date/>
+                    <availability status="unknown">
+                        <p>Unpublished document</p>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+    
+                    <!--<listPerson>
+                        <person xml:id="AlSm" role="testimone" source="https://www.pendragon.it/catalogo/manufacturers/alessandro-smulevich.html?tmpl=component">
+                            <persName>
+                                <forename>Alessandro</forename>
+                                <surname>Smulevich</surname>
+                            </persName>
+                        </person>
+                    </listPerson>-->
+    
+                    
+                    <bibl>
+                        <title>Diario di Alessandro Smulevich</title>
+                        <author>Francesca Ferraioli</author>
+                        <publisher>Università di Pisa</publisher>
+                        <date when="19410908">8 set 1941</date>
+                    </bibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <placeName>
+                                <settlement>Campagna (SA)</settlement>
+                                <region key="" type="state">Italia</region>
+                            </placeName>
+                        </msIdentifier>
+                        <msContents>
+                            <msItem>
+                                <title>Diario di Alessandro Smulevich</title>
+                                <textLang mainLang="it">Scritto in italiano.</textLang>
+                                <docImprint>
+                                    Fiume,
+                                    <docDate>1941</docDate>
+                                </docImprint>
+                            </msItem>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc form="manuscript_sheet">
+                                <supportDesc>
+                                    <support>
+                                        <p>Foglio manoscritto di
+                                            <material>carta</material>
+                                            che descrive il viaggio da Fiume a Campagna di Alessandro Smulevich
+                                        </p>
+                                        <stamp facs="#doc012_Stamp.main">Nella parte alta del foglio è presente un timbro di colore viola, la quale scritta è solo in parte leggibile. Riporta anche la data della ricezione.</stamp>
+                                    </support>
+                                </supportDesc>
+                                <layoutDesc>
+                                    <layout columns="2" ruledLines="10 20">
+                                        <p>La pagina si presenta con una suddivisione in due colonne: nella colonna a sinistra sono presenti le informazioni riguardanti il soggetto del referto, ovvero l'internato Heger Isak, la data di invio, mittente e destinatario, per un totale di 10 righe manoscritte mentre nella colonna di destra sono riportate la data di redazione, le 18 linee del testo e la firma in calce.</p>
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <p>Scritto da una sola mano, ovvero quella dell'autore.</p>
+                            </handDesc>
+                            <typeDesc>
+                                <p>Scritto in caratteri corsivi, non sempre di facile comprensione. Non risultano cancellature.</p>
+                            </typeDesc>
+                        </physDesc>
+                        <history>
+                            <summary>Questo documento è una testimonianza di .</summary>
+                            <origin notAfter="1940">
+                                <p>Questo documento è stato compilato dal Ministero.</p>
+                            </origin>
+                            <acquisition>
+                                <p>La testimonianza non è mai stata pubblicata ed è stata gentilmente fornita dal figlio di Alessandro Smulevich, Ermanno.</p>
+                            </acquisition>
+                        </history>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <facsimile>
+            <surface>
+                <graphic url="diario_page-0002.jpg" width="599.518518px" height="959.518518px"/>
+                <zone ulx="106" uly="57" lrx="429" lry="102"/>
+                <zone ulx="14" uly="87" lrx="576" lry="134"/>
+                <zone ulx="7" uly="157" lrx="592" lry="204"/>
+                <zone ulx="8" uly="204" lrx="570" lry="235"/>
+                <zone ulx="12" uly="238" lrx="569" lry="267"/>
+                <zone ulx="8" uly="261" lrx="593" lry="300"/>
+                <zone ulx="12" uly="301" lrx="576" lry="332"/>
+                <zone ulx="8" uly="336" lrx="572" lry="371"/>
+                <zone ulx="12" uly="371" lrx="595" lry="401"/>
+                <zone ulx="8" uly="405" lrx="587" lry="431"/>
+                <zone ulx="8" uly="435" lrx="570" lry="464"/>
+                <zone ulx="9" uly="465" lrx="566" lry="495"/>
+                <zone ulx="10" uly="498" lrx="578" lry="528"/>
+                <zone ulx="7" uly="531" lrx="583" lry="564"/>
+                <zone ulx="7" uly="567" lrx="564" lry="593"/>
+                <zone ulx="11" uly="600" lrx="586" lry="622"/>
+                <zone ulx="11" uly="626" lrx="594" lry="667"/>
+                <zone ulx="5" uly="659" lrx="575" lry="687"/>
+                <zone ulx="5" uly="690" lrx="578" lry="719"/>
+                <zone ulx="8" uly="719" lrx="564" lry="743"/>
+                <zone ulx="41" uly="745" lrx="568" lry="899"/>
+            </surface>
+        </facsimile>	
+        <text xml:lang="it" xml:id="text-it" subtype="manuscript">
+            <body>
+                <div type="doc" n="2" xml:id="diario02_document">
+                <pb n="2"/>
+                    <ab type="paragrafo" n="2" xml:id="diario02_page">
+                        <date when="0909">
+                            <hi rend="underline">LUNEDì 9 SETTEMBRE</hi>
+                        </date>
+                        L’arrivo a <placeName ref="#ME">Venezia Mestre</placeName> avviene alle
+                        <time when="24:15:00">00:15</time>; a <placeName ref="#PA">Padova</placeName>
+                         alle <time when="01:00:00">1</time>; a <placeName ref="#FI">Firenze</placeName> alle
+                        <time when="03:25:00">03:25</time>. 
+                        Da <placeName ref="#PA">Padova</placeName> a <placeName ref="#FI">Firenze</placeName>
+                        abbiamo nello scom-
+                        partimento una coppia di innamorati
+                        che non fanno altro tutto il 
+                        tempo che abbracciarsi e baciarsi. Rie-
+                        sco a dormire per qualche ora tra le <time when="01:00:00">1</time> 
+                        e le <time when="06:00:00">06:00</time> del mattino. A <placeName ref="#CH">Chiusi</placeName>si arriva
+                        verso le <time when="06:30:00">06:30</time>. L’ultima tappa del nostro 
+                        viaggio: a <placeName ref="#RO">Roma</placeName>, si conclude coll’ar-
+                        rivo alle <time when="08:30:00">08:30</time>. Dopo aver depositati i 
+                        bagagli alla stazione di <placeName ref="#RO">Termini</placeName>, ci
+                        avviamo al <orgName ref="#MinInt">Ministero dell'Interno</orgName> al-
+                        le <time when="09:30:00">09:30</time> per sbrigare l’affare di papà. 
+                        Alle <time when="11:45:00">11:45</time> siamo ricevuti in udienza 
+                        dal <choice n="1">
+                            <abbr type="title">Comm.</abbr>
+                            <expan>Commendatore</expan>
+                        </choice> Pennetta, il quale ci conce-
+                        de un permesso per far visita a papà,
+                        a <placeName ref="#CA">Campagna</placeName> per <num type="cardinal" value="4">4</num> giorni. Dopo aver
+                        pranzato, fumo una sigaretta davanti la mamma. Con mia grande gioia lei
+                    </ab>
+                </div>
+            </body>
+        </text>
+    
+    
+        <standOff>
+            <listPerson> <!--lista persone-->
+    
+                <person xml:id="AlSm" role="testimone" source="https://www.pendragon.it/catalogo/manufacturers/alessandro-smulevich.html?tmpl=component">
+                    <persName>
+                        <forename>Alessandro</forename>
+                        <surname>Smulevich</surname>
+                    </persName>
+                    <note></note>
+                    <sex>M</sex>
+                    <birth>
+                        <date when=" 1923"> 1923</date>
+                        <placeName>
+                            <settlement type="municipality">Fiume</settlement>
+                            <country key="IT">Italia</country>
+                        </placeName>
+                    </birth>
+                    <death>
+                        <date when="2002">2002</date>
+                        <placeName>
+                            <settlement type="municipality"></settlement>
+                            <country key="IT"></country>
+                        </placeName>
+                    </death>
+                </person>
+    
+            </listPerson>
+    
+            <listPlace><!--lista luoghi-->
+                <place xml:id="ME" source="https://it.wikipedia.org/wiki/Mestre">
+                    <placeName>Mestre</placeName>
+                    <settlement type="municipality">Venezia</settlement>
+                    <settlement type="region">Veneto</settlement>
+                    <country key="IT">Italia</country>
+                </place>
+    
+                <place xml:id="PA" source="https://it.wikipedia.org/wiki/Padova">
+                    <placeName>Padova</placeName>
+                    <settlement type="region">Veneto</settlement>
+                    <country key="IT">Italia</country>
+                </place>
+    
+                <place xml:id="FI" source="https://it.wikipedia.org/wiki/Firenze">
+                    <placeName>Firenze</placeName>
+                    <settlement type="region">Toscana</settlement>
+                    <country key="IT">Italia</country>
+                </place>
+    
+                <place xml:id="CH" source="https://it.wikipedia.org/wiki/Chiusi">
+                    <placeName>Chiusi</placeName>
+                    <settlement type="province">Siena</settlement>
+                    <settlement type="region">Toscana</settlement>
+                    <country key="IT">Italia</country>
+                </place>
+    
+                <place xml:id="CA" source="https://it.wikipedia.org/wiki/Campagna_(Italia)">
+                    <placeName>Campagna</placeName>
+                    <settlement type="province">Salerno</settlement>
+                    <settlement type="region">Campania</settlement>
+                    <country key="IT">Italia</country>
+                </place>
+    
+            </listPlace>
+    
+            <listOrg> <!--lista organizzazioni-->
+                <org xml:id="MinInt" source="https://www.interno.gov.it/it"> <!-- Ministero dell'Interno -->
+                    <orgName> Ministero dell'Interno </orgName>
+                    <placeName> Roma </placeName>
+                    <desc>
+                        Il Ministero dell'interno è un dicastero del governo italiano. Ha competenza sull'ordine pubblico nella sua qualità di massima autorità nazionale di pubblica sicurezza.
+                    </desc>
+                </org>
+            </listOrg>
+    
+            <!--<listBibl></listBibl-->
+    
+        </standOff>
+    </TEI>
+
+
+
+</teiCorpus>

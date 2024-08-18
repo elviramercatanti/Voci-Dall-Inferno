@@ -121,19 +121,19 @@
             </textClass>
             <particDesc>
                 <listPerson>
-                    <person xml:id="EB" role="testimone" source="http://digital-library.cdec.it/cdec-web/persone/detail/person-it-cdec-eaccpf0001-009919/steinschreiber-bruck-edith.html">
+                    <person>
                         <persName xml:id="BRUCK" ref="https://it.wikipedia.org/wiki/Edith_Bruck">
                             <forename>Edith</forename>
                             <surname>Bruck</surname>
                         </persName>
                     </person>  
-                    <person xml:id="AS" role="intervistatrice">
+                    <person>
                         <persName ref="http://www.annasegre.it/">
                             <forename>Anna</forename>
                             <surname>Segre</surname>
                         </persName> 
                     </person>
-                    <person xml:id="GP" role="intervistatrice">
+                    <person>
                         <persName ref="http://www.lastambergadeilettori.com/2010/01/intervista-anna-segre-e-gloria.html">
                             <forename>Gloria</forename>
                             <surname>Pavoncello</surname>
@@ -159,14 +159,14 @@
                             lontana.
                         </item> 
 
-                        <item synch="#TR3">Per <persName ref="#EB">Edith Bruck</persName> il mondo è peggiorato e anche lo stesso antisemitismo è ricomparso, in tutta <placeName ref="TEI-ListPlaces.xml#EU">Europa</placeName>.
-                            Denuncia, poi, il fatto che <placeName ref="TEI-ListPlaces.xml#AU">Auschwitz</placeName> non venga visto come qualcosa che riguardi l'intera coscienza cristiana europea, bensì soltanto gli ebrei.
+                        <item synch="#TR3">Per <persName ref="#EB">Edith Bruck</persName> il mondo è peggiorato e anche lo stesso antisemitismo è ricomparso, in tutta <placeName ref="#EU">Europa</placeName>.
+                            Denuncia, poi, il fatto che <placeName ref="#AU">Auschwitz</placeName> non venga visto come qualcosa che riguardi l'intera coscienza cristiana europea, bensì soltanto gli ebrei.
                             Fa poi riferimento a <persName ref="#MA">Ahmadinejad</persName> e alle sue affermazioni razziste contro gli israeliani: secondo <persName ref="#EB">Edith Bruck</persName> le sue non sono le parole di un semplice pazzo, come non lo erano quelle di <persName ref="#AH">Hitler.</persName>
                         </item>
 
                         <item synch="#TR4">
                             <persName ref="#EB">Edith Bruck</persName> rivendica, poi, che tra le varie forme di sofferenza, così come tra i morti, ci sia differenza e sostiene che tale differenza sia quella che permetta di dare il giusto peso alle vittime. 
-                            Infine, denuncia il fatto che fino agli anni Sessanta i sopravvissuti non siano stati ascoltati e che, tutt'ora, l'<placeName ref="TEI-ListPlaces.xml#EU">Europa</placeName> non abbia fatto i conti col proprio passato. Come esempio a sostegno di ciò, <persName ref="#EB">Edith Bruck</persName> racconta della madre di un'amica 
+                            Infine, denuncia il fatto che fino agli anni Sessanta i sopravvissuti non siano stati ascoltati e che, tutt'ora, l'<placeName ref="#EU">Europa</placeName> non abbia fatto i conti col proprio passato. Come esempio a sostegno di ciò, <persName ref="#EB">Edith Bruck</persName> racconta della madre di un'amica 
                             tedesca, la quale tiene ancora sul proprio comodino una foto di <persName ref="#AH">Hitler.</persName> Inoltre, sostiene che dal senso di colpa dei tedeschi sia scaturito il silenzio, nemico del sapere.
                         </item>
 
@@ -182,35 +182,35 @@
                         </item>
 
                         <item synch="#TR7">
-                            <persName ref="#EB">Edith Bruck</persName> racconta di quando, a <placeName ref="TEI-ListPlaces.xml#DA">Dachau</placeName>, ha lavorato in una cucina di ufficiali tedeschi. Nello specifico, ricorda di un cuoco che, dopo averla presa in collo, le chiese quale fosse il proprio nome: questa domanda  
+                            <persName ref="#EB">Edith Bruck</persName> racconta di quando, a <placeName ref="#DA">Dachau</placeName>, ha lavorato in una cucina di ufficiali tedeschi. Nello specifico, ricorda di un cuoco che, dopo averla presa in collo, le chiese quale fosse il proprio nome: questa domanda  
                             le restituì non tanto l'identità, quanto la vita. Un altro episodio di altruismo vede un soldato lasciarle un po' di marmellata all'interno della propria gavetta. Questi gesti rappresentavano la luce che ha permesso a <persName ref="#EB">Edith Bruck</persName> di trovare la forza di andare avanti.
                         </item>
 
                         <item synch="#TR8">
                             <persName ref="#EB">Edith Bruck</persName> racconta della marcia della morte e si ricorda del terzo gesto d'umanità: un soldato le dà una patata calda. Al momento della marcia, la guerra percepiva che la guerra stesse finendo, ma non capiva chi stesse vincendo. Sempre relativamente a 
-                            quella marcia, <persName ref="#EB">Edith Bruck</persName> ricorda i violenti gesti gratuiti da parte dei soldati e il disprezzo ed il rifiuto dei contadini tedeschi. Durante questa marcia hanno attraversato circa 30 paesi, fino all'arrivo a <placeName ref="TEI-ListPlaces.xml#BB">Bergen-Belsen</placeName>. 
+                            quella marcia, <persName ref="#EB">Edith Bruck</persName> ricorda i violenti gesti gratuiti da parte dei soldati e il disprezzo ed il rifiuto dei contadini tedeschi. Durante questa marcia hanno attraversato circa 30 paesi, fino all'arrivo a <placeName ref="#BB">Bergen-Belsen</placeName>. 
                         </item>
 
-                        <item synch="#TR9a">A <placeName ref="TEI-ListPlaces.xml#BB">Bergen-Belsen,</placeName> <persName ref="#EB">Edith Bruck</persName> e gli altri deportati furono costretti a trascinare persone morte o semi-morenti all'interno della cosiddetta "tenda della morte". 
+                        <item synch="#TR9a">A <placeName ref="#BB">Bergen-Belsen,</placeName> <persName ref="#EB">Edith Bruck</persName> e gli altri deportati furono costretti a trascinare persone morte o semi-morenti all'interno della cosiddetta "tenda della morte". 
                         </item>
 
                         <item synch="#TR9b">
-                            <persName ref="#EB">Edith Bruck</persName> continua a raccontare del lavoro che l'hanno obbligata a svolgere a <placeName ref="TEI-ListPlaces.xml#BB">Bergen-Belsen,</placeName> ma il ricordo di quel momento è così doloroso, che chiede di poter cambiare discorso.</item>
+                            <persName ref="#EB">Edith Bruck</persName> continua a raccontare del lavoro che l'hanno obbligata a svolgere a <placeName ref="#BB">Bergen-Belsen,</placeName> ma il ricordo di quel momento è così doloroso, che chiede di poter cambiare discorso.</item>
 
                         <item synch="#TR10">
                             <persName ref="#EB">Edith Bruck</persName> racconta che, col finire della guerra, iniziava a cedere la stessa organizzazione della morte; nel caos aumentava la possibilità di morire e, così, la paura.
                         </item>
 
                         <item synch="#TR11">
-                            <persName ref="#AS">Anna Segre</persName> chiede a<persName ref="#EB">Edith Bruck</persName> quando sia stata deportata. <persName ref="#EB">Edith Bruck</persName> le dice di essere stata deportata nell'<date when="1943-04--">aprile del 1943,</date> con l'arrivo di <persName ref="#AE">Eichmann</persName> in <placeName ref="TEI-ListPlaces.xml#HU">
+                            <persName ref="#AS">Anna Segre</persName> chiede a<persName ref="#EB">Edith Bruck</persName> quando sia stata deportata. <persName ref="#EB">Edith Bruck</persName> le dice di essere stata deportata nell'<date when="1943-04--">aprile del 1943,</date> con l'arrivo di <persName ref="#AE">Eichmann</persName> in <placeName ref="#HU">
                                 <country>Ungheria,</country>
                             </placeName>  e di essere stata stata cinque settimane in un ghetto del capoluogo, prima di
-                            essere stata portata ad <placeName ref="TEI-ListPlaces.xml#AU">Auschwitz.</placeName>
+                            essere stata portata ad <placeName ref="#AU">Auschwitz.</placeName>
                         </item>
 
                         <item synch="#TR12">
                             <persName ref="#EB">Edith Bruck</persName> racconta due ricordi relativi alla figura di sua madre: il primo la vede compiere un gesto luttuoso, ossia tagliarsi i capelli, durante il periodo di trascorrenza nel ghetto; il secondo la vede fare una treccia col fiocco a <persName ref="#EB">Edith Bruck,</persName> all'interno di un 
-                            vagone bestiame. La singolarità di questo gesto aveva portato <persName ref="#EB">Edith Bruck</persName> a sospettare che i genitori sapessero qualcosa circa quello che stava accadendo loro. Ad esempio, ricorda come il padre richiamasse alla memoria dei figli quanto successo alle ragazze deportate dalla <placeName ref="TEI-ListPlaces.xml#SK">
+                            vagone bestiame. La singolarità di questo gesto aveva portato <persName ref="#EB">Edith Bruck</persName> a sospettare che i genitori sapessero qualcosa circa quello che stava accadendo loro. Ad esempio, ricorda come il padre richiamasse alla memoria dei figli quanto successo alle ragazze deportate dalla <placeName ref="#SK">
                                 <country>Slovacchia</country>
                             </placeName>, 
                             le quali venivano portate nei bordelli, stuprate e mutilate nei genitali. 
@@ -222,7 +222,7 @@
                         </item>
 
                         <item synch="#TR14">
-                            <persName ref="#EB">Edith Bruck</persName> racconta quella che definisce essere stata una cosa <q>"tipicamente tedesca":</q> a seguito del lavoro svolto a <placeName ref="TEI-ListPlaces.xml#BB">Bergen-Belsen,</placeName> lei e la sorella presero parte a un incarico che consisteva nel portare alla stazione alcuni giubbotti per i militari, in cambio di una
+                            <persName ref="#EB">Edith Bruck</persName> racconta quella che definisce essere stata una cosa <q>"tipicamente tedesca":</q> a seguito del lavoro svolto a <placeName ref="#BB">Bergen-Belsen,</placeName> lei e la sorella presero parte a un incarico che consisteva nel portare alla stazione alcuni giubbotti per i militari, in cambio di una
                             doppia razione di zuppa. Camminare con quel peso addosso, si rivelò così pesante, che <persName ref="#EB">Edith Bruck</persName> dovette lasciare alcuni dei giubbotti che stava portando. Questo gesto, però, fu seguito e ripetuto dalle altre deportate e ciò destò l'attenzione di un soldato, che le ha minacciate di uccidere tutte le seconde persone, se la 
                             colpevole non si fosse fatta avanti. <persName ref="#EB">Edith Bruck,</persName> dichiarata la propria colpa, fu violentemente picchiata dal soldato. La sorella, però, corse in suo soccorso, spingendo l'uomo a terra. Il fatto che un ebreo avesse avuto il coraggio di toccare un nazista, colpì al punto il soldato che decise di risparmiarle; non solo, per l'intera
                             marcia stette dietro a <persName ref="#EB">Edith Bruck,</persName> colpita da una devastante diarrea. Altrettanto <q>"tipicamente tedesco"</q> fu il fatto che, portato a termine l'incarico, le deportate non ricevettero la doppia razione di zuppa a loro promessa. 
@@ -255,8 +255,8 @@
 
                         <item synch="#TR20">
                             <persName ref="#AS">Anna Segre</persName> sostiene che sia difficile trovare un equilibrio nel tentativo di comunicazione circa l'Olocausto e chiede a <persName ref="#EB">Edith Bruck</persName> se la testimonianza stia finendo. <persName ref="#EB">Edith Bruck</persName>
-                            afferma di sì e riflette su cosa succederà dopo, quando tutti i testimoni se ne saranno andati: tutto sarà mistificato, e la gente crederà che sia tutto finito, accecata soprattutto da film come <title ref="TEI-ListBibl.xml#La_vita_è_bella">La vita è bella.</title> Infatti, secondo
-                            <persName ref="#EB">Edith Bruck,</persName> dovrebbero essere mandati in onda soltanto repertori originali, seppur pesanti, come quelli da lei visti a <placeName ref="TEI-ListPlaces.xml#DA">Dachau</placeName>.
+                            afferma di sì e riflette su cosa succederà dopo, quando tutti i testimoni se ne saranno andati: tutto sarà mistificato, e la gente crederà che sia tutto finito, accecata soprattutto da film come <title ref="#La_vita_è_bella">La vita è bella.</title> Infatti, secondo
+                            <persName ref="#EB">Edith Bruck,</persName> dovrebbero essere mandati in onda soltanto repertori originali, seppur pesanti, come quelli da lei visti a <placeName ref="#DA">Dachau</placeName>.
                             <persName ref="#EB">Edith Bruck</persName> rivolge una critica anche a <persName ref="#NF">Nedo Fiano</persName> che, come dice <persName ref="#AS">Anna Segre,</persName> spesso <q>"ripropone il carnefice" nelle sue testimonianze.</q>
                         </item>
 
@@ -268,32 +268,32 @@
                             Secondo <persName ref="#EB">Edith Bruck</persName> con i sopravvissuti morirà la verità. 
                         </item>
 
-                        <item synch="#TR23">Secondo <persName ref="#EB">Edith Bruck</persName> scegliere il <date when="1945-01-27">27 gennaio</date> come data per indicare la fine dell'Olocausto sarebbe sbagliato, considerando la quantità di morti avvenute successivamente. La <placeName ref="TEI-ListPlaces.xml#DEU">
+                        <item synch="#TR23">Secondo <persName ref="#EB">Edith Bruck</persName> scegliere il <date when="1945-01-27">27 gennaio</date> come data per indicare la fine dell'Olocausto sarebbe sbagliato, considerando la quantità di morti avvenute successivamente. La <placeName ref="#DEU">
                                 <country>Germania</country>
                             </placeName>, 
-                            sostiene <persName ref="#EB">Edith Bruck</persName> facendo riferimento a una cartina geografica da lei vista a <placeName ref="TEI-ListPlaces.xml#DA">Dachau,</placeName> era piena di campi di concentramento. 
+                            sostiene <persName ref="#EB">Edith Bruck</persName> facendo riferimento a una cartina geografica da lei vista a <placeName ref="#DA">Dachau,</placeName> era piena di campi di concentramento. 
                         </item>
 
                         <item synch="#TR24">
-                            <persName ref="#GP">Gloria Pavoncello</persName> chiede a <persName ref="#EB">Edith Bruck</persName> se sia stata liberata a <placeName ref="TEI-ListPlaces.xml#BB">Bergen-Belsen.</placeName> La testimone risponde di sì, dopo essere stata in sei campi di concentramento. La sua liberazione è avvenuta il 
-                            <date when="1945-04-15">15 aprile 1945.</date> Poi, <persName ref="#GP">Gloria Pavoncello</persName> le chiede se, dopo la marcia della morte -come spesso capitava alle donne- fosse finita a <placeName ref="TEI-ListPlaces.xml#RA">Ravensbruck</placeName>. <persName ref="EB">Edith Bruck</persName> specifica come quello fosse
+                            <persName ref="#GP">Gloria Pavoncello</persName> chiede a <persName ref="#EB">Edith Bruck</persName> se sia stata liberata a <placeName ref="#BB">Bergen-Belsen.</placeName> La testimone risponde di sì, dopo essere stata in sei campi di concentramento. La sua liberazione è avvenuta il 
+                            <date when="1945-04-15">15 aprile 1945.</date> Poi, <persName ref="#GP">Gloria Pavoncello</persName> le chiede se, dopo la marcia della morte -come spesso capitava alle donne- fosse finita a <placeName ref="#RA">Ravensbruck</placeName>. <persName ref="EB">Edith Bruck</persName> specifica come quello fosse
                             un campo generalmente destinato ai prigionieri politici, quali <persName ref="#LR">Lidia Rolfi</persName>. 
                         </item>
 
                         <item synch="#TR25">
-                            <persName ref="#EB">Edith Bruck</persName> specifica come <placeName ref="TEI-ListPlaces.xml#DA">Dachau</placeName> avesse molteplici succursali, tra le quali lei sarebbe stata in quelle di <placeName ref="TEI-ListPlaces.xml#KA">Kaufering</placeName> e <placeName ref="TEI-ListPlaces.xml#LA">Landsberg</placeName>;
-                            inoltre, afferma che sarebbe improprio parlare di <placeName ref="TEI-ListPlaces.xml#BI">Birkenau</placeName> come di un campo succursale rispetto ad <placeName ref="TEI-ListPlaces.xml#AU">Auschwitz</placeName> perchè questo si trovava in <placeName ref="TEI-ListPlaces.xml#PL">
+                            <persName ref="#EB">Edith Bruck</persName> specifica come <placeName ref="#DA">Dachau</placeName> avesse molteplici succursali, tra le quali lei sarebbe stata in quelle di <placeName ref="#KA">Kaufering</placeName> e <placeName ref="#LA">Landsberg</placeName>;
+                            inoltre, afferma che sarebbe improprio parlare di <placeName ref="#BI">Birkenau</placeName> come di un campo succursale rispetto ad <placeName ref="#AU">Auschwitz</placeName> perchè questo si trovava in <placeName ref="#PL">
                                 <country>Polonia</country>
-                            </placeName>, non in <placeName ref="TEI-ListPlaces.xml#DEU">
+                            </placeName>, non in <placeName ref="#DEU">
                                 <country>Germania.</country>
                             </placeName> 
                         </item>
 
                         <item synch="#TR26">
-                            <persName ref="#EB">Edith Bruck</persName> descrive <placeName ref="TEI-ListPlaces.xml#DA">Dachau,</placeName> primo campo di concentramento costruito in <placeName ref="TEI-ListPlaces.xml#DEU">
+                            <persName ref="#EB">Edith Bruck</persName> descrive <placeName ref="#DA">Dachau,</placeName> primo campo di concentramento costruito in <placeName ref="#DEU">
                                 <country>Germania.</country>
                             </placeName> Sarebbe stato creato per essere destinato alla deportazione di prigionieri politici, menomati fisici, omosessuali ecc. 
-                            sarebbe poi stato adibito a vero e proprio campo di sterminio, con tre forni crematori. Nella sua ultima visita a <placeName ref="TEI-ListPlaces.xml#DA">Dachau</placeName>, <persName ref="#EB">Edith Bruck</persName> ha visto come due di questi fossero stati ridipinti, mentre il terzo fosse prossimo alla distruzione. L'impressione generale ottenuta da
+                            sarebbe poi stato adibito a vero e proprio campo di sterminio, con tre forni crematori. Nella sua ultima visita a <placeName ref="#DA">Dachau</placeName>, <persName ref="#EB">Edith Bruck</persName> ha visto come due di questi fossero stati ridipinti, mentre il terzo fosse prossimo alla distruzione. L'impressione generale ottenuta da
                             quella visita, è che il campo fosse stato abbellito per i visitatori. Oltrettutto, <persName ref="#EB">Edith Bruck</persName> lamenta una mancanza di spiegazioni alle scolaresche che visitano il posto. Infatti, se non contestualizzate da qualcuno di competente, le immagini dei deportati proiettate nel campo, potrebbero sembrare ai ragazzi
                             un semplice estratto da un qualsiasi film fantascientifico, che sono abituati a vedere in televisione.
                         </item>
@@ -302,13 +302,13 @@
                             <persName ref="#AS">Anna Segre</persName> riflette su come, una volta tornati da un'esperienza del genere, uno sfasamento con la normalità sia inevitabile. <persName ref="#EB">Edith Bruck</persName> afferma che non si torni mai davvero e che nessuno ti capirà mai. Poi, si sofferma sul fatto che i sopravvissuti come lei non siano
                             stati affatto accolti, al loro ritorno, dal mondo, incapace di chieder loro perdono. Il mondo ti rifiuta, in quanto testimone di un'atrocità, la famiglia - che ella definisce <q>"una diaspora totale"-</q> cerca di rimetterti sui binari e tu non sai che fare della vita per cui hai lottato.
                             Una volta libere, <persName ref="#EB">Edith Bruck</persName> e sua sorella sono state accolte da un'associazione ebraica; poi, con solo una coperta e pochi fiorini, le due sono tornate al proprio paesino d'origine. Lì hanno trovato la propria casa in condizioni inagibili e i loro vecchi vicini terrorizzati dal fatto che potessero denunciarli ai comunisti.
-                            Dopodichè, racconta, si sono dirette a casa di una sorella dove, però, anzichè essere accolte, hanno trovato un'ulteriore conferma del fatto di essere viste come un peso. La sorella, con la quale <persName ref="#EB">Edith Bruck</persName> aveva condiviso i campi, si è poi diretta in <placeName ref="TEI-ListPlaces.xml#IL">
+                            Dopodichè, racconta, si sono dirette a casa di una sorella dove, però, anzichè essere accolte, hanno trovato un'ulteriore conferma del fatto di essere viste come un peso. La sorella, con la quale <persName ref="#EB">Edith Bruck</persName> aveva condiviso i campi, si è poi diretta in <placeName ref="#IL">
                                 <country>Israele</country>
                             </placeName>. Tempo dopo, anche 
                             <persName ref="#EB">Edith Bruck</persName> l'ha raggiunta; anche lì, non ha trovato accoglienza da parte di alcun parente. 
-                            Il fatto che sia rimasta in <placeName ref="TEI-ListPlaces.xml#ITA">
+                            Il fatto che sia rimasta in <placeName ref="#ITA">
                                 <country>Italia</country>
-                            </placeName> è stato un caso fortuito: stava attendendo dei soldi per andare in <placeName ref="TEI-ListPlaces.xml#AR">
+                            </placeName> è stato un caso fortuito: stava attendendo dei soldi per andare in <placeName ref="#AR">
                                 <country>Argentina</country>
                             </placeName> ma questi non sono mai arrivati.                             
                         </item>
@@ -317,7 +317,7 @@
                             <persName ref="#AS">Anna Segre</persName> chiede a <persName ref="#EB">Edith Bruck</persName> quante lingue sappia parlare e lei risponde di conoscerne, con grado di competenza diverso, sei: ungherese, tedesco, italiano, francese, inglese, yiddish. Quest'ultima era la lingua parlata in casa dai genitori. Poi, <persName ref="#AS">Anna Segre</persName> 
                             si dichiara molto colpita del fatto che <persName ref="#EB">Edith Bruck</persName> scriva in italiano, nonostante la sua lingua madre sia l'ungherese. <persName ref="#EB">Edith Bruck</persName> spiega come il fatto di utilizzare una lingua diversa da quella della propria infanzia, le permetta
                             di dire cose che, per pudore o per il troppo dolore causato dal loro ricordo, altrimenti non sarebbe riuscita a dire. 
-                            <persName ref="EB">Edith Bruck</persName> rievoca la dolcezza della lingua yiddish, che definisce <q>"bastarda, ma meravigliosa"</q>, e delle canzone in yiddish, capaci di evocare interi mondi. Poi, si sofferma a riflettere su come l'ebraismo yiddish sia ormai relegato a qualche angolo a a <placeName type="district" ref="TEI-ListPlaces.xml#WI">Williamsburg</placeName>.
+                            <persName ref="EB">Edith Bruck</persName> rievoca la dolcezza della lingua yiddish, che definisce <q>"bastarda, ma meravigliosa"</q>, e delle canzone in yiddish, capaci di evocare interi mondi. Poi, si sofferma a riflettere su come l'ebraismo yiddish sia ormai relegato a qualche angolo a a <placeName type="district" ref="#WI">Williamsburg</placeName>.
                         </item>
 
                         <item synch="#TR29">
@@ -938,6 +938,900 @@
 
 
     </standOff>
+    
+    <standOff>
+        <listPerson>
+        
+                    <person xml:id="EB" role="testimone" source="http://digital-library.cdec.it/cdec-web/persone/detail/person-it-cdec-eaccpf0001-009919/steinschreiber-bruck-edith.html">
+                        <persName xml:id="BRUCK" ref="https://it.wikipedia.org/wiki/Edith_Bruck">
+                            <forename>Edith</forename>
+                            <surname>Bruck</surname>
+                        </persName>
+                        <sex>F</sex>
+                        <birth>
+                            <date when="1931-05-31" cert="high">3 maggio 1931</date>
+                            <placeName> <!--ref-->
+                                <settlement type="town">Tiszabercel</settlement>
+                                <country key="HU">Ungheria</country>
+                            </placeName>
+                        </birth>
+                    </person>  
+                    
+                    <person xml:id="AS" role="intervistatrice">
+                        <persName ref="http://www.annasegre.it/">
+                            <forename>Anna</forename>
+                            <surname>Segre</surname>
+                        </persName> 
+                        <sex>F</sex>
+                    </person>
+                    
+                    <person xml:id="GP" role="intervistatrice">
+                        <persName ref="http://www.lastambergadeilettori.com/2010/01/intervista-anna-segre-e-gloria.html">
+                            <forename>Gloria</forename>
+                            <surname>Pavoncello</surname>
+                        </persName>
+                        <sex>F</sex>
+                    </person> 
+                    
+                    <!--Primo Levi-->
+                        <person xml:id="PL">     
+                                <persName>
+                                    <ref target="https://it.wikipedia.org/wiki/Primo_Levi"/>
+                                    <forename>Primo</forename>
+                                    <surname>Levi</surname>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="1919-07-31" cert="high">31 luglio 1919</date>
+                                    <placeName> <!--ref-->
+                                        <settlement type="town">Torino</settlement>
+                                        <country key="IT">Italy</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="1987-04-11" cert="high">11 aprile 1987</date>
+                                        <placeName>
+                                            <settlement type="town">Torino</settlement>
+                                            <country key="IT">Italia</country>
+                                        </placeName>
+                                </death>
+                        </person>
+
+                        <!--Mahmud Ahmadinejad-->
+                        <person xml:id="MA">      
+                                <persName role="president">
+                                    <ref target="https://it.wikipedia.org/wiki/Mahmud_Ahmadinejad"/>
+                                    <forename>Mahmud</forename>
+                                    <surname>Ahmadinejad</surname>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="1956-10-28" cert="high">28 ottobre 1956</date>
+                                </birth>
+                        </person>
+
+                        <!--Adolf Hitler-->
+                        <person xml:id="AH">   
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Adolf_Hitler"/>
+                                <forename>Adolf</forename>
+                                <surname>Hitler</surname>
+                            </persName>
+
+                            <sex>M</sex>
+
+                            <birth>
+                                <date when="1889-04-20" cert="high">20 aprile 1889</date>
+                                <placeName>
+                                    <settlement type="municipality">Braunau am Inn</settlement>
+                                    <country key="DE">Germania</country>
+                                </placeName>
+                            </birth>
+
+                            <death>
+                                <date when="1945-04-30" cert="high">30 aprile 1945</date>
+                                <placeName>
+                                    <settlement type="municipality">Berlino</settlement>
+                                    <country key="DE">Germania</country>
+                                </placeName>
+                            </death>
+                        </person>
+
+                        <!--Ronald Reagan-->
+                        <person xml:id="RR">     
+                                <persName>
+                                    <ref target="https://it.wikipedia.org/wiki/Ronald_Reagan"/>
+                                    <forename>Ronald</forename>
+                                    <surname>Reagan</surname>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="1911-02-06" cert="high">6 febbraio 1911</date>
+                                    <placeName> <!--ref-->
+                                        <settlement type="town">Tampico</settlement>
+                                        <country key="MX">Messico</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="2004-06-05" cert="high">5 giugno 2004</date>
+                                        <placeName>
+                                            <settlement type="town">Los Angeles</settlement>
+                                            <country key="CA">California</country>
+                                        </placeName>
+                                </death>
+                        </person>
+
+                        <!--Adolf Eichmann-->
+                        <person xml:id="AE">     
+                                <persName>
+                                    <ref target="https://it.wikipedia.org/wiki/Adolf_Eichmann"/>
+                                    <forename>Adolf</forename>
+                                    <surname>Eichman</surname>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="1906-03-19" cert="high">19 marzo 1906</date>
+                                    <placeName> <!--ref-->
+                                        <settlement type="town">Solingen</settlement>
+                                        <country key="DE">Germania</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="1962-05-31" cert="high">31 maggio 1962</date>
+                                        <placeName>
+                                            <settlement type="town">Ramla</settlement>
+                                            <country key="IL">Israele</country>
+                                        </placeName>
+                                </death>
+                        </person>
+
+
+                        <!--Rainer Fassbinder-->
+                        <person xml:id="RF">     
+                                <persName>
+                                    <ref target="https://it.wikipedia.org/wiki/Rainer_Werner_Fassbinder"/>
+                                    <forename>Rainer</forename>
+                                    <forename>Werner</forename>
+                                    <surname>Fassbinder</surname>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="1945-05-31" cert="high">31 maggio 1945</date>
+                                    <placeName> <!--ref-->
+                                        <settlement type="municipality">Bad Wörishofen</settlement>
+                                        <country key="DE">Germania</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="1982-06-10" cert="high">10 giugno 1982</date>
+                                        <placeName>
+                                            <settlement type="town">Monaco di Baviera</settlement>
+                                            <country key="DE">Germania</country>
+                                        </placeName>
+                                </death>
+                        </person>
+
+                        <!--Piero Terracina-->
+                        <person xml:id="PT">     
+                                <persName>
+                                    <ref target="https://it.wikipedia.org/wiki/Piero_Terracina"/>
+                                    <forename>Piero</forename>
+                                    <surname>Terracina</surname>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="1928-11-12" cert="high">12 novembre 1928</date>
+                                    <placeName> <!--ref-->
+                                        <settlement type="town">Roma</settlement>
+                                        <country key="IT">Italia</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="2019-12-08" cert="high">8 dicembre 2019</date>
+                                        <placeName>
+                                        <settlement type="town">Roma</settlement>
+                                        <country key="IT">Italia</country>
+                                        </placeName>
+                                </death>
+                        </person>
+
+                        <!--Susan Strasberg-->
+                        <person xml:id="SS">     
+                                <persName>
+                                    <ref target="https://it.wikipedia.org/wiki/Susan_Strasberg"/>
+                                    <forename>Susan</forename>
+                                    <surname>Strasberg</surname>
+                                </persName>
+
+                                <sex>F</sex>
+
+                                <birth>
+                                    <date when="1938-05-22" cert="high">22 maggio 1938</date>
+                                    <placeName> <!--ref-->
+                                        <settlement type="town">New York</settlement>
+                                        <country key="US">Stati Uniti d'America</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="1999-01-21" cert="high">21 gennaio 1999</date>
+                                        <placeName>
+                                            <settlement type="town">New York</settlement>
+                                            <country key="US">Stati Uniti d'America</country>
+                                        </placeName>
+                                </death>
+                        </person>
+
+                        <!--Gillo Pontecorvo-->
+                        <person xml:id="GP">     
+                                <persName>
+                                    <ref target="https://it.wikipedia.org/wiki/Gillo_Pontecorvo"/>
+                                    <forename>Gillo</forename>
+                                    <surname>Pontecorvo</surname>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="1919-11-19" cert="high">19 novembre 1919</date>
+                                    <placeName> <!--ref-->
+                                        <settlement type="town">Pisa</settlement>
+                                        <country key="IT">Italia</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="2006-10-12" cert="high">12 ottobre 2006</date>
+                                        <placeName>
+                                            <settlement type="town">Roma</settlement>
+                                            <country key="IT">Italia</country>
+                                        </placeName>
+                                </death>
+                        </person>
+
+                        <!--Josef Mengele-->
+                        <person xml:id="JM">     
+                                <persName>
+                                    <ref target="https://it.wikipedia.org/wiki/Josef_Mengele"/>
+                                    <forename>Josef</forename>
+                                    <surname>Mengele</surname>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="1911-03-16" cert="high">16 marzo 1911</date>
+                                    <placeName> <!--ref-->
+                                        <settlement type="town">Günzburg</settlement>
+                                        <country key="DE">Germania</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="1979-02-07" cert="high">7 febbraio 1979</date>
+                                        <placeName>
+                                            <settlement type="town">Bertioga</settlement>
+                                            <country key="BR">Brasile</country>
+                                        </placeName>
+                                </death>
+                        </person>
+
+                        <!--Oscar Schindler-->
+                        <person xml:id="OS">     
+                                <persName>
+                                    <ref target="https://it.wikipedia.org/wiki/Oskar_Schindler"/>
+                                    <forename>Oscar</forename>
+                                    <surname>Schindler</surname>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="1908-04-28" cert="high">28 aprile 1908</date>
+                                    <placeName> <!--ref-->
+                                        <settlement type="town">Zwittau</settlement>
+                                        <country key="CZ">Repubblica Ceca</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="1974-10-09" cert="high">9 ottobre 1974</date>
+                                        <placeName>
+                                            <settlement type="town">Hildeshem</settlement>
+                                            <country key="DE">Germania</country>
+                                        </placeName>
+                                </death>
+                        </person>
+
+                        <!--Bruno Bettelheim-->
+                        <person xml:id="BB">     
+                                <persName>
+                                    <ref target="https://it.wikipedia.org/wiki/Bruno_Bettelheim"/>
+                                    <forename>Bruno</forename>
+                                    <surname>Bettelheim</surname>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="1903-08-28" cert="high">28 agosto 1903</date>
+                                    <placeName> <!--ref-->
+                                        <settlement type="town">Vienna</settlement>
+                                        <country key="AT">Austria</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="1990-03-13" cert="high">13 marzo 1990</date>
+                                        <placeName>
+                                            <settlement type="town">Silver Spring</settlement>
+                                            <country key="US">Stati Uniti d'America</country>
+                                        </placeName>
+                                </death>
+                        </person>
+
+                        <!--Enrico Modigliani-->
+                        <person xml:id="EM">     
+                                <persName>
+                                    <ref target=""/>
+                                    <forename>Enrico</forename>
+                                    <surname>Modigliani</surname>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="1937">1937</date>
+                                    <placeName> <!--ref-->
+                                        <settlement type="town">Roma</settlement>
+                                        <country key="IT">Italia</country>
+                                    </placeName>
+                                </birth>
+                        </person>
+
+                        <!--Livia Levi-->
+                        <person xml:id="LL">     
+                                <persName>
+                                    <ref target="https://it.wikipedia.org/wiki/Lia_Levi"/>
+                                    <forename>Livia</forename>
+                                    <surname>Levi</surname>
+                                </persName>
+
+                                <sex>F</sex>
+
+                                <birth>
+                                    <date when="1931-11-09">9 novembre 1931</date>
+                                    <placeName> <!--ref-->
+                                        <settlement type="town">Pisa</settlement>
+                                        <country key="IT">Italia</country>
+                                    </placeName>
+                                </birth>
+                        </person>
+
+                        <!--Francesco Rosi-->
+                        <person xml:id="FR">     
+                                <persName>
+                                    <ref target="https://it.wikipedia.org/wiki/Francesco_Rosi"/>
+                                    <forename>Francesco</forename>
+                                    <surname>Rosi</surname>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="1922-11-15" cert="high">15 novembre 1922</date>
+                                    <placeName> <!--ref-->
+                                        <settlement type="town">Napoli</settlement>
+                                        <country key="IT">Italia</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="2015-01-10" cert="high">10 gennaio 2015</date>
+                                        <placeName>
+                                            <settlement type="town">Roma</settlement>
+                                            <country key="IT">Italia</country>
+                                        </placeName>
+                                </death>
+                        </person>
+
+                        <!--Tullia Zevi-->
+                        <person xml:id="TZ">     
+                                <persName>
+                                    <ref target="https://it.wikipedia.org/wiki/Tullia_Zevi"/>
+                                    <forename>Tullia</forename>
+                                    <surname>Zevi</surname>
+                                </persName>
+
+                                <sex>F</sex>
+
+                                <birth>
+                                    <date when="1919-02-02" cert="high">2 febbraio 1919</date>
+                                    <placeName> <!--ref-->
+                                        <settlement type="town">Milano</settlement>
+                                        <country key="IT">Italia</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="2011-01-22" cert="high">22 gennaio 2011</date>
+                                        <placeName>
+                                        <settlement type="town">Roma</settlement>
+                                        <country key="IT">Italia</country>
+                                        </placeName>
+                                </death>
+                        </person>
+
+                        <!--Nedo Fiano-->
+                        <person xml:id="NF">     
+                                <persName>
+                                    <ref target="https://it.wikipedia.org/wiki/Nedo_Fiano"/>
+                                    <forename>Nedo</forename>
+                                    <surname>Fiano</surname>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="1925-04-22" cert="high">22 aprile 1925</date>
+                                    <placeName> <!--ref-->
+                                        <settlement type="town">Firenze</settlement>
+                                        <country key="IT">Italia</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="2020-12-19" cert="high">19 dicembre 2020</date>
+                                        <placeName>
+                                            <settlement type="town">Milano</settlement>
+                                            <country key="IT">Italia</country>
+                                        </placeName>
+                                </death>
+                        </person>
+
+                        <!--Furio Colombo-->
+                        <person xml:id="FC">     
+                                <persName>
+                                    <ref target="https://it.wikipedia.org/wiki/Furio_Colombo"/>
+                                    <forename>Furio</forename>
+                                    <surname>Colombo</surname>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="1931-01-01" cert="high">1 gennaio 1931</date>
+                                    <placeName> <!--ref-->
+                                        <settlement type="municipality">Chatillon</settlement>
+                                        <country key="IT">Italia</country>
+                                    </placeName>
+                                </birth>
+                        </person>
+
+                        <!--Lidia Rolfi-->
+                        <person xml:id="LR">     
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Lidia_Beccaria_Rolfi"/>
+                                <forename>Lidia</forename>
+                                <surname>Rolfi</surname>
+                            </persName>
+
+                            <sex>F</sex>
+
+                            <birth>
+                                <date when="1925-04-08" cert="high">8 aprile 1925</date>
+                                <placeName> <!--ref-->
+                                    <settlement type="municipality">Mondovì</settlement>
+                                    <country key="IT">Italia</country>
+                                </placeName>
+                            </birth>
+
+                            <death>
+                                <date when="1966-01-17" cert="high">17 gennaio 1966</date>
+                                    <placeName>
+                                        <settlement type="municipality">Mondovì</settlement>
+                                        <country key="IT">Italia</country>
+                                    </placeName>
+                            </death>
+                    </person>
+
+                        <!--Hannah Arendt-->
+                        <person xml:id="HA">     
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Hannah_Arendt"/>
+                                <forename>Hannah</forename>
+                                <surname>Arendt</surname>
+                            </persName>
+
+                            <sex>F</sex>
+
+                            <birth>
+                                <date when="1906-10-14" cert="high">14 ottobre 1906</date>
+                                <placeName> <!--ref-->
+                                    <settlement type="town">Hannover</settlement>
+                                    <country key="DE">Germania</country>
+                                </placeName>
+                            </birth>
+
+                            <death>
+                                <date when="1975-12-04" cert="high">4 dicembre 1975</date>
+                                    <placeName>
+                                        <settlement type="town">New York</settlement>
+                                        <country key="US">Stati Uniti d'America</country>
+                                    </placeName>
+                            </death>
+                    </person>
+
+                        <!--Giorgio Perlasca-->
+                        <person xml:id="GPe">     
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Giorgio_Perlasca"/>
+                                <forename>Giorgio</forename>
+                                <surname>Perlasca</surname>
+                            </persName>
+
+                            <sex>M</sex>
+
+                            <birth>
+                                <date when="1910-01-31" cert="high">31 gennaio 1910</date>
+                                <placeName> <!--ref-->
+                                    <settlement type="town">Como</settlement>
+                                    <country key="IT">Italia</country>
+                                </placeName>
+                            </birth>
+                            <death>
+                                <date when="1992-08-15" cert="high">15 agosto 1992</date>
+                                    <placeName>
+                                        <settlement type="town">Padova</settlement>
+                                        <country key="IT">Italia</country>
+                                    </placeName>
+                            </death>
+                    </person>
+        </listPerson>
+        
+        <listPlace>
+             <!-- Continenti --> 
+                    <place xml:id="EU">
+                        <placeName>Europa</placeName>
+                        <country>Europa</country>
+                    </place>
+
+                    <!-- Stati -->
+                    <place xml:id="CSR">
+                        <placeName>Cecoslovacchia</placeName>
+                        <country>Cecoslovacchia</country>
+                    </place>
+
+                    <place xml:id="SK">
+                        <placeName>Slovacchia</placeName>
+                        <country>Slovacchia</country>
+                    </place>
+
+                    <place xml:id="DEU">
+                        <placeName>Germania</placeName>
+                        <country>Germania</country>
+                    </place>
+
+                    <place xml:id="ITA">
+                        <placeName>Italia</placeName>
+                        <country>Italia</country>
+                    </place>
+                    
+                    <place xml:id="PL">
+                        <placeName>Polonia</placeName>
+                        <country>Polonia</country>
+                    </place>
+
+                    <place xml:id="HU">
+                        <placeName>Ungheria</placeName>
+                        <country>Ungheria</country>
+                    </place>
+
+                    <place xml:id="IL">
+                        <placeName>Israele</placeName>
+                        <country>Israele</country>
+                    </place>
+
+                    <place xml:id="IR">
+                        <placeName>Iran</placeName>
+                        <country>Iran</country>
+                    </place>
+
+                    <place xml:id="AR">
+                        <placeName>Argentina</placeName>
+                        <country>Argentina</country>
+                    </place>
+
+                    <place xml:id="NL">
+                        <placeName>Olanda</placeName>
+                        <country>Olanda</country>
+                    </place>
+
+                    <place xml:id="UA">
+                        <placeName>Ucraina</placeName>
+                        <country>Ucraina</country>
+                    </place>
+
+                    <place xml:id="US">
+                        <placeName>Stati Uniti d'America</placeName>
+                        <country>Stati Uniti d'America</country>
+                    </place>
+
+                    <place xml:id="FR">
+                        <placeName>Francia</placeName>
+                        <country>Francia</country>
+                    </place>
+
+                    <place xml:id="AT">
+                        <placeName>Austria</placeName>
+                        <country>Austria</country>
+                    </place>
+
+
+
+                    <!-- Quartieri -->
+                    <place xml:id="WI">
+                        <placeName>Williamsburg</placeName>
+                       
+                        <country>Stati Uniti d'America</country>
+                       
+                    </place>
+
+                    <place xml:id="SanSaba">
+                        <placeName>San Saba</placeName>
+                        
+                        <country>Italia</country>
+                        
+                    </place>
+                    
+
+                    <!-- Città e paesi-->
+                    <place xml:id="AU">
+                        <placeName>Auschwitz</placeName>
+                        <country>Polonia</country>
+                        <location>
+                            
+                            <geo>50.602671, 19.245927</geo>
+                        </location>
+                    </place>
+
+                    <place xml:id="DA">
+                        <placeName>Dachau</placeName>
+                        <country>Germania</country>
+                            
+                        <location>
+                            
+                            <geo>48.2629984, 11.4339022</geo>
+                        </location>
+                    </place>  
+
+                    <place xml:id="BB">
+                        <placeName>Bergen-Belsen</placeName>
+                        <country>Germania</country>
+                        
+                    </place> 
+
+                    <place xml:id="LA">
+                        <placeName>Landsberg</placeName>
+                        <country>Germania</country>
+                        <location>
+                            
+                            <geo>48.050783, 10.8791300</geo>
+                        </location>
+                    </place>  
+
+                    <place xml:id="KA">
+                        <placeName>Kaufering</placeName>
+                        <country>Baviera</country>
+                        <location>
+                            
+                            <geo>48.0912100, 10.8703515</geo>
+                        </location>
+                    </place>  
+
+                    <place xml:id="BI">
+                        <placeName>Birkenau</placeName>
+                        <country>Polonia</country>
+                        <location>
+                            
+                            <geo>50.672841, 19.199021</geo>
+                        </location>
+                    </place>
+
+                    <place xml:id="TE">
+                        <placeName>Terezin</placeName>
+                        <country>Repubblica Ceca</country>
+                        <location>
+                            
+                            <geo>50.5109, 14.1504</geo>
+                        </location>
+                    </place>
+
+                    <place xml:id="KR">
+                        <placeName>Krakovia</placeName>
+                        <country>Polonia</country>
+                        <location>
+                            
+                            <geo>50.057531, 19.980216</geo>
+                        </location>
+                    </place>
+                    
+
+                    <place xml:id="BO">
+                        <placeName>Bologna</placeName>
+                        <country>Italia</country>
+                        <location>
+                            
+                            <geo>44.506687, 11.333056</geo>
+                        </location>
+                    </place>
+
+                    <place xml:id="BS">
+                        <placeName>Brescia</placeName>
+                        <country>Italia</country>
+                        <location>
+                            
+                            <geo>45.541553, 10.211802</geo>
+                        </location>
+                    </place>
+
+                    <place xml:id="MO">
+                        <placeName>Monteverde</placeName>
+                        <country>Italia</country>
+                        <location>
+                            
+                            <geo>41.878948, 12.437186</geo>
+                        </location>
+                    </place>
+
+                    <place xml:id="SA">
+                        <placeName>Salò</placeName>
+                        <country>Italia</country>
+                        <location>
+                            
+                            <geo>45.608392, 10.510477</geo>
+                        </location>
+                    </place>
+
+                    <place xml:id="RA">
+                        <placeName>Ravensbruck</placeName>
+                        <country>Germania</country>
+                        <location>
+                            
+                            <geo>53.191280, 13.163472</geo>
+                        </location>
+                    </place>
+
+                    <place xml:id="RO">
+                        <placeName>Roma</placeName>
+                        <country>Italia</country>
+                        <location>
+                            
+                            <geo>41.891775, 12.486137</geo>
+                        </location>
+                    </place>  
+
+                    <place xml:id="PI">
+                        <placeName>Pittsburgh</placeName>
+                        <country>Stati Uniti d'America</country>
+                        <location>
+                            
+                            <geo>40.440625, -79.995886</geo>
+                        </location>
+                    </place>
+
+                    <place xml:id="KRI">
+                        <placeName>Kristianstadt</placeName>
+                        <country>Svezia</country>
+                        <location>
+                            
+                            <geo>50.56.0293936, 14.1566778</geo>
+                        </location>
+                    </place>
+
+        </listPlace>
+        
+        <listBibl>
+              <bibl xml:id="Chi_ti_ama_così">
+                        <title>Chi ti ama così</title>
+                        <author ref="#EB">Edith Bruck</author>
+                        <publisher>Marsilio</publisher>
+                        <date when="1994">1994</date>
+                    </bibl>
+
+                    <bibl xml:id="Andremo_in_città">
+                        <title>Andremo in città</title>
+                        <author ref="#EB">Edith Bruck</author>
+                        <publisher>La nave di Teseo</publisher>
+                        <date when="1962">1962</date>
+                    </bibl>
+
+                    <bibl xml:id="Specchi">
+                        <title>Specchi</title>
+                        <author ref="#EB">Edith Bruck</author>
+                        <publisher>Edizioni di storia e letteratura</publisher>
+                        <date when="2005">2005</date>
+                    </bibl>
+
+                    <bibl xml:id="Monologo">
+                        <title>Monologo</title>
+                        <author ref="#EB">Edith Bruck</author>
+                        <publisher>Garzanti</publisher>
+                        <date when="1990">1990</date>
+                    </bibl>
+
+                    <bibl xml:id="Signora_Auschwitz">
+                        <title>Signora Auschwitz</title>
+                        <author ref="#EB">Edith Bruck</author>
+                        <publisher>Marsilio</publisher>
+                        <date when="1999">1999</date>
+                    </bibl>           
+
+                    <bibl xml:id="Sopravvivere">
+                        <title>Sopravvivere</title>
+                        <author ref="#BB">Bruno Bettelheim</author>
+                        <publisher>Feltrinelli</publisher>
+                        <date when="1989">1989</date>
+                    </bibl>          
+        </listBibl>
+        
+        <list>
+
+                    <head>Lista opere cinematografiche citate</head>
+
+                    <item xml:id="Kapò" n="film">
+                        <bibl>
+                            <title>Kapò</title>
+                            <author>Gillo Pontecorvo</author>
+                            <date when="1960">1960</date> 
+                        </bibl>                       
+                    </item>
+
+                    <item xml:id="La_vita_è_bella" n="film">
+                        <bibl>
+                            <title>La vita è bella</title>
+                            <author>Roberto Benigni</author>
+                            <date when="1997">1997</date> 
+                        </bibl>                       
+                    </item>
+
+                    <item xml:id="Schindlers_list" n="film">
+                        <bibl>
+                            <title>Schindler's list</title>
+                            <author>Steven Spielber</author>
+                            <date when="1993">1993</date> 
+                        </bibl>                       
+                    </item>
+
+                    <item xml:id="La_Tregua" n="film">
+                        <bibl>
+                            <title>La tregua</title>
+                            <author ref="#FR">Francesco Rosi</author>
+                            <date when="1997">1997</date>
+                        </bibl>
+                    </item>
+                    
+                </list>
+    </standOff>
+    
+    
     <text>
         <body>
             <div type="extraIntervista1">                
@@ -1037,11 +1931,11 @@
                         <sic>assutamente</sic>
                         <corr>assolutamente</corr>
                     </choice>
-                    passato e sta crescendo, no? In tutta <placeName ref="TEI-ListPlaces.xml#EU">Europa</placeName>, <del type="repetition">in tutta <placeName ref="TEI-ListPlaces.xml#EU">Europa</placeName>
+                    passato e sta crescendo, no? In tutta <placeName ref="#EU">Europa</placeName>, <del type="repetition">in tutta <placeName ref="#EU">Europa</placeName>
                     </del>, 
                     tra l'altro. E' una cosa che ti amareggia, <vocal>
                         <desc>eh eh</desc>
-                    </vocal>che tu devi ancora vivere e sopravvivere. A volte invidio <persName ref="TEI-ListPers.xml#PL">Primo Levi</persName> devo dire, 
+                    </vocal>che tu devi ancora vivere e sopravvivere. A volte invidio <persName ref="#PL">Primo Levi</persName> devo dire, 
                     <vocal>
                         <desc>eh</desc>
                     </vocal>, anche se io sono stata stravolta 
@@ -1055,10 +1949,10 @@
                         <sic>quella</sic>
                         <corr>quello</corr>  
                     </choice> 
-                    che accade nel mondo intorno a noi. Perchè credo che <placeName ref="TEI-ListPlaces.xml#AU">Auschwitz</placeName> doveva essere una lezione per l'umanità, non per noi. Perchè 
-                    <del type="reformulation">la</del> il <del type="repetition">il</del> problema è sempre pensano che <placeName ref="TEI-ListPlaces.xml#AU">Auschwitz</placeName>
+                    che accade nel mondo intorno a noi. Perchè credo che <placeName ref="#AU">Auschwitz</placeName> doveva essere una lezione per l'umanità, non per noi. Perchè 
+                    <del type="reformulation">la</del> il <del type="repetition">il</del> problema è sempre pensano che <placeName ref="#AU">Auschwitz</placeName>
                     riguarda gli ebrei. <placeName ref="#AU">Auschwitz</placeName> non riguarda gli ebrei, <del type="repetition">
-                        <placeName ref="TEI-ListPlaces.xml#AU">Auschwitz</placeName>
+                        <placeName ref="#AU">Auschwitz</placeName>
                     </del>
                     riguarda coloro che hanno creato, hanno collaborato, hanno <del type="repetition">hanno</del> <vocal>
                         <desc>eh</desc>
@@ -1080,7 +1974,7 @@
                         <sic>questa</sic>
                         <corr>questo</corr>
                     </choice>
-                    <persName ref="TEI-ListPers.xml#MA">Ahmadinejad</persName> e a uno vengono i brividi. Non perchè io temo di lui, ma è che lui ancora oggi, <del type="repetition">ancora oggi,</del> osa dire che lui spazza via
+                    <persName ref="#MA">Ahmadinejad</persName> e a uno vengono i brividi. Non perchè io temo di lui, ma è che lui ancora oggi, <del type="repetition">ancora oggi,</del> osa dire che lui spazza via
                     tutti gli ebrei e tutti gli israeliani e che <del type="repetition">che</del> il <del type="repetition">il</del> paese deve affondare <shift feature="voice" new="giggle"/>nel mare. Voglio dire che <del type="reformulation">ha un</del>
                     è <del type="repetition">è</del> una cosa che ti <del type="repetition">ti</del> ferisce, ti fa male, perchè per me 
                     <choice>
@@ -1101,10 +1995,10 @@
                 <u who="#AS" xml:id="a4" synch="#tlp7">C'è lo spazio, sì.</u>
 
                 <u who="#EB" xml:id="e4" synch="#tlp8">Per niente. E c'è lo spazio. E' questo che è una <del type="repetition">una</del> cosa <del type="truncation">abbast</del>.
-                    E' cominciato <persName ref="TEI-ListPers.xml#AH">Hitler</persName> anche così, voglio dire, non è <anchor xml:id="ebruck-01" synch="#TS01" n="1"/>che<anchor xml:id="ebruck-02" synch="#TS02" n="2"/> <del type="repetition">che</del> è una cosa molto diversa, molto lontana. Perchè i paesi moderati arabi stanno zitti, l'<placeName ref="TEI-ListPlaces.xml#EU">Europa</placeName> 
-                    dice: <q>"Vabbè, così, è un pazzo".</q> Non è un pazzo, dicevano che <persName ref="TEI-ListPers.xml#AH">Hitler</persName> era anche un pazzo, eppure è riuscito a organizzare, a fare e a coinvolgere il proprio paese e <del type="riformulation">i</del> tutta
-                    <placeName ref="TEI-ListPlaces.xml#EU">Europa</placeName> in quello che ha fatto. E quindi non è che riguarda soltanto lui quello che dice. Io <del type="reformulation">ri</del> io penso che oggi nel mondo globalizzato riguarda tutti noi quello che accade 
-                    nel <del type="repetition">nel</del> nell'<placeName ref="TEI-ListPlaces.xml#IR">
+                    E' cominciato <persName ref="#AH">Hitler</persName> anche così, voglio dire, non è <anchor xml:id="ebruck-01" synch="#TS01" n="1"/>che<anchor xml:id="ebruck-02" synch="#TS02" n="2"/> <del type="repetition">che</del> è una cosa molto diversa, molto lontana. Perchè i paesi moderati arabi stanno zitti, l'<placeName ref="#EU">Europa</placeName> 
+                    dice: <q>"Vabbè, così, è un pazzo".</q> Non è un pazzo, dicevano che <persName ref="#AH">Hitler</persName> era anche un pazzo, eppure è riuscito a organizzare, a fare e a coinvolgere il proprio paese e <del type="riformulation">i</del> tutta
+                    <placeName ref="#EU">Europa</placeName> in quello che ha fatto. E quindi non è che riguarda soltanto lui quello che dice. Io <del type="reformulation">ri</del> io penso che oggi nel mondo globalizzato riguarda tutti noi quello che accade 
+                    nel <del type="repetition">nel</del> nell'<placeName ref="#IR">
                         <country>Iran</country>
                     </placeName>, o quello che dice il <del type="repetition">il</del> Presidente iraniano è che tu devi sentire queste cose, ti <del type="repetition">ti</del>
                     <del type="repetition">ti</del> tu dici: <q>"Ma, che cominciamo da capo?"</q> Voglio dire che la paura, la <del type="repetition">la</del> le <del type="repetition">la</del> tragedia è che tu hai paura dell'umanità.<pause type="short"/> 
@@ -1121,7 +2015,7 @@
                             <corr>questa</corr>
                         </choice>
                     </del>
-                    sofferenza immane che ci ha toccato, sembra che è caduto in qualche maniera nel vuoto. Perchè all'inizio hanno mistificato, hanno taciuto, non si poteva parlare. Mi diceva anche <persName ref="TEI-ListPers.xml#PL">Primo Levi</persName> mille volte,
+                    sofferenza immane che ci ha toccato, sembra che è caduto in qualche maniera nel vuoto. Perchè all'inizio hanno mistificato, hanno taciuto, non si poteva parlare. Mi diceva anche <persName ref="#PL">Primo Levi</persName> mille volte,
                     lui stesso, tornando dai campi, non è stato ascoltato, come noi <emph>tutti</emph> non siamo stati ascoltati. Infatti, sto scrivendo un libro dove non siamo ascoltati, non si poteva dire niente perchè la risposta sproporzionata assurda era: 
                     <q>"Anche noi abbiamo sofferto, anche noi abbiamo fatto la fame".</q> Mentre la sofferenza è la sofferenza, c'è un'immensa differenza tra fame e fame, c'è differenza tra morti e morti, c'è differenza. Io dicevo, <vocal>
                         <desc>ah</desc>
@@ -1141,9 +2035,9 @@
                         <sic>quanto</sic>
                         <corr>quando</corr>
                     </choice>
-                    a <placeName ref="TEI-ListPlaces.xml#PI">Pittsburgh</placeName>, uno dei presidenti americani <vocal>
+                    a <placeName ref="#PI">Pittsburgh</placeName>, uno dei presidenti americani <vocal>
                         <desc>mh</desc>
-                    </vocal> non viene, io ho scritto un articolo, adesso mi viene in mente <persName ref="TEI-ListPers.xml#RR">Reagan</persName>, credo che era <persName ref="#RR">Reagan</persName>, si è inginocchiato in un cimitero 
+                    </vocal> non viene, io ho scritto un articolo, adesso mi viene in mente <persName ref="#RR">Reagan</persName>, credo che era <persName ref="#RR">Reagan</persName>, si è inginocchiato in un cimitero 
                     dove erano seppelliti dieci <foreign xml:lang="DE">SS</foreign> e con 
                     <choice>
                         <sic>gli altri</sic>
@@ -1161,7 +2055,7 @@
                         <sic>molto</sic>
                         <corr>morto</corr>
                     </choice>
-                    l'altro. Se <del type="repetition">se</del> tu entri nel campo di <placeName ref="TEI-ListPlaces.xml#DA">Dachau</placeName> oggi, io sono stata negli anni Ottanta, all'esterno c'è scritto: <q type="written">"Qui 
+                    l'altro. Se <del type="repetition">se</del> tu entri nel campo di <placeName ref="#DA">Dachau</placeName> oggi, io sono stata negli anni Ottanta, all'esterno c'è scritto: <q type="written">"Qui 
                     <choice>
                         <sic>sono morti</sic>
                         <corr>sono morte</corr>
@@ -1175,15 +2069,15 @@
                         <corr>degli</corr>
                     </choice>
                     scolari che andavano a vedere il museo, e non lo dici chi sono stati questi morti e <emph>perchè</emph> sono stati uccisi, allora io credo che il bambino penserà che, vabbè, durante il <orgName type="politycal">nazifascismo</orgName>, lì, in questo campo di lavoro, tra l'altro è un
-                    un campo di sterminio anche <placeName ref="TEI-ListPlaces.xml#DA">Dachau</placeName>, sono morti, <del type="truncation">l</del> <del type="repetition">
+                    un campo di sterminio anche <placeName ref="#DA">Dachau</placeName>, sono morti, <del type="truncation">l</del> <del type="repetition">
                         <del type="truncation">l</del>
-                    </del> la statistica di <persName ref="TEI-ListPers.xml#AE">Eichmann,</persName> voglio dire, che un morto colpisce e <num>10000</num> o <num>50000</num> non 
+                    </del> la statistica di <persName ref="#AE">Eichmann,</persName> voglio dire, che un morto colpisce e <num>10000</num> o <num>50000</num> non 
                     <choice>
                         <sic>colpisce</sic>
                         <corr>colpiscono.</corr>
                     </choice>
-                    E' la stessa cosa. Non lo sanno, quindi io credo che all'inizio fino agli anni Sessanta <pause type="short"/> non hanno toccato quasi l'argomento. I tedeschi stessi. Con il film di <persName ref="TEI-ListPers.xml#RF">Fassbinder</persName> <del type="riformulation">iniziano</del> cominciato
-                    proprio con il cinema, hanno cominciato a approfondire il loro passato. L'<placeName ref="TEI-ListPlaces.xml#EU">Europa</placeName> ancora non è arrivata al suo passato.
+                    E' la stessa cosa. Non lo sanno, quindi io credo che all'inizio fino agli anni Sessanta <pause type="short"/> non hanno toccato quasi l'argomento. I tedeschi stessi. Con il film di <persName ref="#RF">Fassbinder</persName> <del type="riformulation">iniziano</del> cominciato
+                    proprio con il cinema, hanno cominciato a approfondire il loro passato. L'<placeName ref="#EU">Europa</placeName> ancora non è arrivata al suo passato.
                 </u>
 
                 <u who="#AS">
@@ -1191,15 +2085,17 @@
                     <shift feature="voice" new="giggle"/>Assolutamente.<anchor xml:id="annaseg-04" synch="#TS04" n="4"/>
                 </u>
 
-                <u who="#AS" xml:id="a6" synch="#tlp11">A che film si riferisce di <persName ref="TEI-ListPers.xml#RF">Fassibinder</persName>?</u>
+                <u who="#AS" xml:id="a6" synch="#tlp11">A che film si riferisce di <persName ref="#RF">Fassibinder</persName>?</u>
 
                 <u who="#EB" xml:id="e6" synch="#tlp12">
                     <vocal>
                         <desc>Eh</desc>
                     </vocal> diversi film ha fatto lui negli anni Sessanta. <del type="riformulation">Dove</del> <del type="riformulation">delle</del>non dico <title>Alexanderplatz,</title>comunque diversi film dove ha toccato l'argomento della
-                    coscienza tedesca collettiva, parlo no? Perchè fino a quel momento, io, per esempio, hanno tradotto il mio libro <bibl>
-                        <title ref="TEI-ListBibl.xml#Chi_ti_ama_così">Chi ti ama così</title>
-                    </bibl>che hanno tradotto negli anni Sessanta dopo e non...hanno distribuito prima soltanto un estratto nella scuola, no? Quindi molto lentamente è entrato
+                    coscienza tedesca collettiva, parlo no? Perchè fino a quel momento, io, per esempio, hanno tradotto il mio libro <cit>
+                        <title>Chi ti ama così</title> <ref target="#Chi_ti_ama_così">
+                            <bibl>Chi ti ama così, Edith Bruck </bibl>
+                        </ref>
+                    </cit>che hanno tradotto negli anni Sessanta dopo e non...hanno distribuito prima soltanto un estratto nella scuola, no? Quindi molto lentamente è entrato
                     questo argomento nella scuola. Oggi hanno affrontato da diversi anni, ma secondo me troppo tardi, perchè 
                     <choice>
                         <sic>sono cresciuti</sic>
@@ -1269,8 +2165,8 @@
                         <sic>quanto</sic>
                         <corr>quando</corr>
                     </choice>
-                    gli scolari non vedono l'ora di andare a casa, di finire, di chiudere, di non parlare più della scuola. Quindi, volutamente, non so se è una cosa positiva o negativa, ancora questa macchia sulla coscienza dell'<placeName ref="TEI-ListPlaces.xml#EU">Europa</placeName>, <del type="reformulation">della nostra</del> del nostro Novecento, io credo che ancora non è
-                    <del type="repetition">non è</del> sparito ed è niente, perchè in qualche maniera hanno <del type="repetition">hanno</del> <del type="reformulation">in</del> io ho chiesto questa mia amica tedesca proprio: <q type="spoken" who="#BRUCK" toWhom="#friend">"Ma tua madre che tiene la fotografia di <persName ref="TEI-ListPers.xml#AH">Hitler</persName> sul comodino <pause type="short"/> Come mai? Non ha capito niente?"</q> 
+                    gli scolari non vedono l'ora di andare a casa, di finire, di chiudere, di non parlare più della scuola. Quindi, volutamente, non so se è una cosa positiva o negativa, ancora questa macchia sulla coscienza dell'<placeName ref="#EU">Europa</placeName>, <del type="reformulation">della nostra</del> del nostro Novecento, io credo che ancora non è
+                    <del type="repetition">non è</del> sparito ed è niente, perchè in qualche maniera hanno <del type="repetition">hanno</del> <del type="reformulation">in</del> io ho chiesto questa mia amica tedesca proprio: <q type="spoken" who="#BRUCK" toWhom="#friend">"Ma tua madre che tiene la fotografia di <persName ref="#AH">Hitler</persName> sul comodino <pause type="short"/> Come mai? Non ha capito niente?"</q> 
                     Lei 
                     <choice>
                         <orig>me</orig>
@@ -1307,11 +2203,11 @@
                         <sic>quanto</sic>
                         <corr>quando</corr>
                     </choice>
-                    vado nella scuola e parlo di quello che ho vissuto e io ho fatto <measure type="space" unit="km" quantity="1000">1000</measure> <unit>chilometri.</unit> a piedi attraverso mezza <placeName ref="TEI-ListPlaces.xml#DEU">
+                    vado nella scuola e parlo di quello che ho vissuto e io ho fatto <measure type="space" unit="km" quantity="1000">1000</measure> <unit>chilometri.</unit> a piedi attraverso mezza <placeName ref="#DEU">
                         <country>Germania,</country>
-                    </placeName> anzi quasi tutta l'<placeName ref="TEI-ListPlaces.xml#NL">
+                    </placeName> anzi quasi tutta l'<placeName ref="#NL">
                         <country>Olanda</country>
-                    </placeName> al confine con la <placeName ref="TEI-ListPlaces.xml#PL">
+                    </placeName> al confine con la <placeName ref="#PL">
                         <country>Polonia,</country>
                     </placeName>non è 
                     <choice>
@@ -1325,7 +2221,7 @@
                         <sic>continua</sic>
                         <corr>continuano</corr>
                     </choice>
-                    a negare e se l'<placeName ref="TEI-ListPlaces.xml#EU">Europa</placeName>, in qualche maniera continua a misitificare o <del type="repetition">o</del> continuano, come abbiamo parlato molte volte proprio con <persName ref="TEI-ListPers.xml#PL">Primo Levi</persName>, <del type="truncation">il re</del> con il revisionismo storico, 
+                    a negare e se l'<placeName ref="#EU">Europa</placeName>, in qualche maniera continua a misitificare o <del type="repetition">o</del> continuano, come abbiamo parlato molte volte proprio con <persName ref="#PL">Primo Levi</persName>, <del type="truncation">il re</del> con il revisionismo storico, 
                     e questo non assolutamente non risolve niente. Quindi per <del type="repetition">per</del> noi è una <del type="repetition">una</del> <vocal>
                         <desc>schiocca la lingua</desc>
                     </vocal> un'amarezza quotidiana, diciamo, ecco e quindi è una cosa molto, <del type="repetition">molto</del> dura e non c'è nella nostra vita, nella nostra esistenza, che siamo gli ultimi Mohicani<shift feature="voice" new="breathy"/> non.
@@ -1344,7 +2240,7 @@
                 </choice>
                 </u>
 
-                <u who="#AS" xml:id="a8" synch="#tlp15">La stessa cosa che dice <persName ref="TEI-ListPers.xml#PT">Pietro Terracina</persName>
+                <u who="#AS" xml:id="a8" synch="#tlp15">La stessa cosa che dice <persName ref="#PT">Pietro Terracina</persName>
                 </u>
 
                 <u who="#EB" xml:id="e8" synch="#tlp16">Non c'è nessuna speranza che <del type="repetition">che</del> <del type="repetition">che</del> noi possiamo vedere il <del type="repetition">il</del> mondo oltre il filo spinato. Siamo rimasti dietro il filo spinato, questo sicuro e questo riflette sui nostri pensieri, sulla nostra vita quotidiana,
@@ -1397,7 +2293,7 @@
                         <sic>la</sic>
                         <corr>lo</corr>
                     </choice>
-                    pubblicano, perchè io sono quella che scrive di <placeName ref="TEI-ListPlaces.xml#AU">Auschwitz</placeName> capito? Basta e io non posso, <del type="repetition">non posso</del> scrivere di <del type="repetition">di</del> <del type="repetition">di</del> altri <shift feature="voice" new="giggle"/>argomenti perchè vengo bocciata, per dire, capito? Infatti io mi sono
+                    pubblicano, perchè io sono quella che scrive di <placeName ref="#AU">Auschwitz</placeName> capito? Basta e io non posso, <del type="repetition">non posso</del> scrivere di <del type="repetition">di</del> <del type="repetition">di</del> altri <shift feature="voice" new="giggle"/>argomenti perchè vengo bocciata, per dire, capito? Infatti io mi sono
                     lamentata che per tutta la vita. 
                     <!--interruzione brusca della registrazione-->
                </u>
@@ -1477,23 +2373,35 @@
                         </choice>
                     </del>
                     la sofferenza e alcune sofferenze, non so, ti <del type="repetition">ti</del> racconto una cosa molto <del type="repetition">molto</del> strana, dove avevo capito che per ognuno la <del type="repetition">la</del> <del type="repetition">la</del> <del type="repetition">la</del> <del type="truncation">si</del> ha un significato diverso la sofferenza, no? Io sono andata la prima volta in
-                    <placeName ref="TEI-ListPlaces.xml#US">
+                    <placeName ref="#US">
                         <country>America</country>
-                    </placeName> nel <date when="1962">'62</date> con l'uscita di <bibl>
-                        <title ref="TEI-ListBibl.xml#Andremo_in_città">Andremo in città.</title>
-                    </bibl> E...con l'uscita di <del type="repetition">di</del> <del type="repetition">di</del> <bibl>
-                        <title ref="TEI-ListBibl.xml#Chi_ti_ama_così">Chi ti ama così</title>
-                    </bibl> poi ho portato nel <date when="1962">'62</date> <bibl>
-                        <title ref="TEI-ListBibl.xml#Andremo_in_città">Andremo in città</title>
-                    </bibl> in <placeName ref="TEI-ListPlaces.xml#US">
+                    </placeName> nel <date when="1962">'62</date> con l'uscita di <cit>
+                        <title>Andremo in città.</title>
+                        <ref target="#Andremo_in_città">
+                            <bibl>Andremo in città, Edith Bruck
+                    </bibl>
+                        </ref>
+                    </cit> E...con l'uscita di <del type="repetition">di</del> <del type="repetition">di</del> <cit>
+                        <title>Chi ti ama così</title>
+                        <ref target="#Chi_ti_ama_così">
+                            <bibl>Chi ti ama così, Edith Bruck
+                    </bibl>
+                        </ref>
+                    </cit> poi ho portato nel <date when="1962">'62</date> <cit>
+                        <title>Andremo in città</title>
+                        <ref target="#Andremo_in_città">
+                            <bibl>Andremo in città, Edith Bruck
+                    </bibl>
+                        </ref>
+                    </cit> in <placeName ref="#US">
                         <country>America</country>
                     </placeName>
-                    a una mia, <del type="truncation">l</del> la mia amica, la <persName ref="TEI-ListPers.xml#SS">Susan Strasberg</persName>
+                    a una mia, <del type="truncation">l</del> la mia amica, la <persName ref="#SS">Susan Strasberg</persName>
                 </u>
                 
                 <u who="AS" xml:id="a12" synch="#tlp24">Mh, mh.</u>
                 
-                <u who="#EB" xml:id="e13" synch="#tlp25">Perchè io ho lavorato con lei sul film di <persName ref="TEI-ListPers.xml#GP">Gillo Pontecorvo</persName> <title ref="TEI-ListBibl.xml#Kapò">
+                <u who="#EB" xml:id="e13" synch="#tlp25">Perchè io ho lavorato con lei sul film di <persName ref="#GP">Gillo Pontecorvo</persName> <title ref="#Kapò">
                         <foreign xml:lang="DE">Kapò.</foreign>
                     </title>
                 </u>
@@ -1506,7 +2414,7 @@
                     <sic>consigliere</sic>
                     <corr>consigliera</corr>
                 </choice>
-                non lo so, una cosa allucinante, poi ho mollato tutto, sono andato via dopo un mese. E <persName ref="TEI-ListPers.xml#SS">Susan</persName> mi ha chiesto: <q type="spoken" who="#Strasberg" toWhom="#Bruck">"Hai portato il mio...il tuo libro? Il tuo ultimo libro?"</q> Che è il mio secondo libro. Io ho detto: <q type="spoken" who="#Bruck" toWhom="#Strasberg">"Sì, ho portato."</q> Però mio nipote, che aveva
+                non lo so, una cosa allucinante, poi ho mollato tutto, sono andato via dopo un mese. E <persName ref="#SS">Susan</persName> mi ha chiesto: <q type="spoken" who="#Strasberg" toWhom="#Bruck">"Hai portato il mio...il tuo libro? Il tuo ultimo libro?"</q> Che è il mio secondo libro. Io ho detto: <q type="spoken" who="#Bruck" toWhom="#Strasberg">"Sì, ho portato."</q> Però mio nipote, che aveva
                 nove anni allora, disegnato sopra <del type="truncation">de</del> dei 
                 <choice>
                     <sic>conilietti</sic>
@@ -1624,7 +2532,7 @@
                         <sic>a</sic>
                         <corr>per</corr>
                     </choice>
-                    chi ama il caviale, ecco, voglio dire, la buccia di patate era. Io ho lavorato per quindici giorni, a <placeName ref="TEI-ListPlaces.xml#DA">Dachau</placeName>, in una cucina degli ufficiali dell'esercito. Ufficiali con
+                    chi ama il caviale, ecco, voglio dire, la buccia di patate era. Io ho lavorato per quindici giorni, a <placeName ref="#DA">Dachau</placeName>, in una cucina degli ufficiali dell'esercito. Ufficiali con
                     <choice>
                         <sic>la</sic>
                         <corr>le</corr>
@@ -1653,7 +2561,7 @@
                     della carota che grattavi, un <del type="repetition">un</del> pezzettino di <del type="repetition">di</del> bucce con
                     <orig>pomorognolo</orig>
                     delle <del type="repetition">delle</del> <del type="repetition">delle</del> patate ed era <pause type="short"/> il sogno, <del type="repetition">il sogno.</del>
-                    Poi c'è un'altra cosa che io vorrei sottolineare che forse non so se gli altri <shift feature="voice" new="giggle"/>fratelli di sorte o <del type="repetition">o</del> sorelle di <shift feature="voice" new="giggle"/>sorte, come dicevo <del type="reformulation">al</del> a <del type="repetition">a</del> <persName ref="TEI-ListPers.xml#PL">Primo</persName>: <q type="spoken" who="#Bruck" toWhom="#Levi">"noi siamo fratelli dei <shift feature="voice" new="giggle"/>
+                    Poi c'è un'altra cosa che io vorrei sottolineare che forse non so se gli altri <shift feature="voice" new="giggle"/>fratelli di sorte o <del type="repetition">o</del> sorelle di <shift feature="voice" new="giggle"/>sorte, come dicevo <del type="reformulation">al</del> a <del type="repetition">a</del> <persName ref="#PL">Primo</persName>: <q type="spoken" who="#Bruck" toWhom="#Levi">"noi siamo fratelli dei <shift feature="voice" new="giggle"/>
                         <foreign xml:lang="DE">lager"</foreign>
                     </q> perchè ci
                     <choice>
@@ -1665,34 +2573,56 @@
                         <sic>sul</sic>
                         <corr>su</corr>
                     </choice>
-                    mille, per esempio a <placeName ref="TEI-ListPlaces.xml#DA">Dachau</placeName>, in questo posto è anche scritto nel mio libro di poesia.
+                    mille, per esempio a <placeName ref="#DA">Dachau</placeName>, in questo posto è anche scritto nel mio libro di poesia.
                 </u>
 
                 <u who="AS" xml:id="a24" synch="#tlp48">
-                    <bibl>
-                        <title ref="TEI-ListBibl.xml#Specchi">Specchi?</title>
-                    </bibl>
+                    <cit>
+                        <title>Specchi</title>
+                        <ref target="#Specchi">
+                            <bibl>
+                                Specchi, Edith Bruck
+                            </bibl>
+                        </ref>
+                    </cit>?
                 </u>
 
                 <u who="#EB" xml:id="e25" synch="#tlp49">No.</u>
 
                 <u who="AS" xml:id="a25" synch="#tlp50">Quale?</u>
 
-                <u who="#EB" xml:id="e26" synch="#tlp51">No, <bibl>
-                        <title ref="TEI-ListBibl.xml#Monologo">Monologo</title>
-                    </bibl>
+                <u who="#EB" xml:id="e26" synch="#tlp51">No, 
+                
+                    <cit>
+                        <title>Monologo</title>
+                        <ref target="#Monologo">
+                            <bibl>
+                                Monologo, Edith Bruck
+                            </bibl>
+                        </ref>
+                    </cit>
                 </u>
 
                 <u who="AS" xml:id="a26" synch="#tlp52">
-                    <bibl>
-                        <title ref="TEI-ListBibl.xml#Monologo">Monologo</title>
-                    </bibl>
+                     <cit>
+                        <title>Monologo</title>
+                        <ref target="#Monologo">
+                            <bibl>
+                                Monologo, Edith Bruck
+                            </bibl>
+                        </ref>
+                    </cit>
                 </u>
 
                 <u who="#EB" xml:id="e27" synch="#tlp53">
-                    <bibl>
-                        <title ref="TEI-ListBibl.xml#Monologo">Monologo.</title>
-                    </bibl> E c'era un cuoco che mi ha fatto sedere sulle ginocchia e ha detto, mi ha chiesto: <q type="spoken" who="#cook" toWhom="#Bruck">"Come ti chiami?"</q>
+                    <cit>
+                        <title>Monologo</title>
+                        <ref target="#Monologo">
+                            <bibl>
+                                Monologo, Edith Bruck
+                            </bibl>
+                        </ref>
+                    </cit> E c'era un cuoco che mi ha fatto sedere sulle ginocchia e ha detto, mi ha chiesto: <q type="spoken" who="#cook" toWhom="#Bruck">"Come ti chiami?"</q>
                 </u>
 
                 <u who="AS" xml:id="a27" synch="#tlp54">Eh.</u>
@@ -1705,9 +2635,15 @@
                 </u>
 
                 <u who="GP">
-                    <anchor xml:id="gpavon-09" synch="#TS09" n="9"/>Sì in <bibl>
-                        <title ref="TEI-ListBibl.xml#Signora_Auschwitz">Signora Auschwitz</title>
-                    </bibl>
+                    <anchor xml:id="gpavon-09" synch="#TS09" n="9"/>Sì in 
+                    <cit>
+                        <title>Signora Auschwitz</title>
+                        <ref target="#Signora_Auschwitz">
+                            <bibl>
+                               Signora Auschwitz, Edith Bruck
+                            </bibl>
+                        </ref>
+                    </cit>
                     <anchor xml:id="gpavon-10" synch="#TS10" n="10"/>
                 </u>
 
@@ -1756,7 +2692,7 @@
                         <sic>queste</sic>
                         <corr>questi</corr> 
                     </choice>
-                    pochi segni di umanità sicuramente che hanno permesso in qualche maniera, almeno a me, perchè io ero con mia sorella tutto il tempo, di dire: <q>"Camminiamo"</q>. Anche perchè durante la marcia della morte che ho fatto da <placeName ref="TEI-ListPlaces.xml#KRI">Kristianstadt</placeName> a <placeName ref="TEI-ListPlaces.xml#BB">Bergen-Belsen.</placeName> Loro hanno detto, con dieci soldati in tutto e: <q type="spoken" who="#soldiers" toWhom="#deportees">"Chi non può camminare più si ferma, se vi 
+                    pochi segni di umanità sicuramente che hanno permesso in qualche maniera, almeno a me, perchè io ero con mia sorella tutto il tempo, di dire: <q>"Camminiamo"</q>. Anche perchè durante la marcia della morte che ho fatto da <placeName ref="#KRI">Kristianstadt</placeName> a <placeName ref="#BB">Bergen-Belsen.</placeName> Loro hanno detto, con dieci soldati in tutto e: <q type="spoken" who="#soldiers" toWhom="#deportees">"Chi non può camminare più si ferma, se vi 
                     fermate vi portiamo nel prossimo ospedale".</q> Le prime quattro sorelle si sono fermate e loro hanno ammazzate. Quindi noi abbiamo capito cosa vuol dire fermarsi. Fermarsi voleva dire morire, nel senso come 
                     <choice>
                         <sic>metafore</sic>
@@ -1856,7 +2792,7 @@
 
                 <u who="AS" xml:id="a31" synch="#tlp64">Sì,sì.</u>
 
-                <u who="#EB" xml:id="e33" synch="#tlp65">Quindi era un soldato normale, qualsiasi <anchor xml:id="ebruck-23" synch="#TS23" n="23"/>era un piccolo<anchor xml:id="ebruck-24" synch="#TS24" n="24"/> <persName ref="TEI-ListPers.xml#AH">Hitler</persName> <foreign xml:lang="DE">jugend</foreign> che <del type="repetition">che</del> <del type="repetition">che</del> ormai hanno raccattato tutti, <del type="repetition">hanno raccattato</del> anche oltre i quarantacinquenni
+                <u who="#EB" xml:id="e33" synch="#tlp65">Quindi era un soldato normale, qualsiasi <anchor xml:id="ebruck-23" synch="#TS23" n="23"/>era un piccolo<anchor xml:id="ebruck-24" synch="#TS24" n="24"/> <persName ref="#AH">Hitler</persName> <foreign xml:lang="DE">jugend</foreign> che <del type="repetition">che</del> <del type="repetition">che</del> ormai hanno raccattato tutti, <del type="repetition">hanno raccattato</del> anche oltre i quarantacinquenni
                         per richiamato 
                         <incident>
                             <desc>qualcuno tossisce</desc>  
@@ -1890,7 +2826,7 @@
                             <desc>qualcuno tossisce</desc>  
                         </incident>
                         schifose. Poi un altro e, con quello, possiamo anche fare una <shift feature="voice" new="giggle"/>pausa. Io sono arrivata
-                        a <placeName ref="TEI-ListPlaces.xml#BB">Bergen-Belsen</placeName> dopo questa marcia e a <placeName ref="TEI-ListPlaces.xml#BB">Bergen-Belsen</placeName> era ricoperto quasi del tutto di uomini morti. Tutto il campo, erano questi <del type="truncation">cada</del> cadaveri e agonizzanti. Corpi bianchi completamente magri, come con l'osso fuori, gli occhi spalancati e ci davano l'ordine <del type="truncation">im</del>. <!--reg si ferma-->
+                        a <placeName ref="#BB">Bergen-Belsen</placeName> dopo questa marcia e a <placeName ref="#BB">Bergen-Belsen</placeName> era ricoperto quasi del tutto di uomini morti. Tutto il campo, erano questi <del type="truncation">cada</del> cadaveri e agonizzanti. Corpi bianchi completamente magri, come con l'osso fuori, gli occhi spalancati e ci davano l'ordine <del type="truncation">im</del>. <!--reg si ferma-->
                 </u>
 
                 <u who="AS">
@@ -1974,7 +2910,7 @@
                 <u who="#EB" xml:id="e39" synch="#tlp76">Nel <date when="1944">'44,</date> <del type="reformulation">del</del> 
                     <sic>quanto</sic>
                     <corr>quando</corr>
-                    arrivato <persName ref="TEI-ListPers.xml#AE">Eichmann</persName> in <placeName ref="TEI-ListPlaces.xml#HU">
+                    arrivato <persName ref="#AE">Eichmann</persName> in <placeName ref="#HU">
                         <country>Ungheria</country>
                     </placeName>. Ci hanno <del type="repetition">ci hanno</del> deportato nell'<date when="1944-04">aprile del <anchor xml:id="ebruck-25" synch="#TS25" n="25"/>'44<anchor xml:id="ebruck-26" synch="#TS26" n="26"/>
                     </date>. No, prima siamo stati cinque settimane in un ghetto
@@ -1983,7 +2919,7 @@
                         <sic>sul</sic>
                         <corr>sui</corr>
                     </choice>
-                    vagoni bestiame. Ci hanno portato ad <placeName ref="TEI-ListPlaces.xml#AU">Auschwitz.</placeName> E vabbè, inutile che racconto perchè sennò finisco di nuovo come prima. E...poi...di mio padre e di mia madre non riesco a parlare, sennò finisco come prima, perchè mi ricordo che 
+                    vagoni bestiame. Ci hanno portato ad <placeName ref="#AU">Auschwitz.</placeName> E vabbè, inutile che racconto perchè sennò finisco di nuovo come prima. E...poi...di mio padre e di mia madre non riesco a parlare, sennò finisco come prima, perchè mi ricordo che 
                     <choice>
                         <orig>m'ha</orig>
                         <reg>mi ha</reg>
@@ -2018,12 +2954,12 @@
                 </u>
 
                 <u who="#EB" xml:id="e42" synch="#tlp82">Che qualcosa. Sì, <del type="repetition">sì,</del> <del type="repetition">sì.</del> Che è una cosa molto singolare che lei non. Però non ci ha detto niente,
-                    assolutamente nulla, <del type="repetition">nulla,</del> <del type="repetition">nulla.</del> Mio padre poi era...qualcosa sapevano, secondo me, perchè ha detto: <q type="spoken" who="#father" toWhom="#Bruck">"Ricordatevi cosa è successo in <placeName ref="TEI-ListPlaces.xml#SL">
+                    assolutamente nulla, <del type="repetition">nulla,</del> <del type="repetition">nulla.</del> Mio padre poi era...qualcosa sapevano, secondo me, perchè ha detto: <q type="spoken" who="#father" toWhom="#Bruck">"Ricordatevi cosa è successo in <placeName ref="#SL">
                             <country>Slovacchia</country>
-                        </placeName>".</q> Aveva parenti in <placeName ref="TEI-ListPlaces.xml#SL">
+                        </placeName>".</q> Aveva parenti in <placeName ref="#SL">
                         <country>Slovacchia</country>
                     </placeName>,
-                    in <placeName ref="TEI-ListPlaces.xml#UA">
+                    in <placeName ref="#UA">
                         <country>Ucraina</country>
                     </placeName>, che avevano, erano già...
                 </u>
@@ -2050,7 +2986,7 @@
                     <choice>
                         <sic>Prima</sic>
                         <corr>
-                            <persName ref="TEI-ListPers.xml#PL">Primo</persName>
+                            <persName ref="#PL">Primo</persName>
                         </corr>
                     </choice>
                     che 
@@ -2069,7 +3005,7 @@
                         <sic>quanto</sic>
                         <corr>quando</corr>
                     </choice>
-                    <persName ref="TEI-ListPers.xml#JM">Mengele</persName> veniva a selezionare e ci guardava nudi con le mani alzate, anche perchè 
+                    <persName ref="#JM">Mengele</persName> veniva a selezionare e ci guardava nudi con le mani alzate, anche perchè 
                     <choice>
                         <sic>fugava</sic>
                         <corr>frugava</corr>
@@ -2106,9 +3042,9 @@
 
                 <u who="#EB" xml:id="e47" synch="#tlp92">In che cosa?</u>
 
-                <u who="AS" xml:id="a45" synch="#tlp93">Nelle selezioni c'era un criterio? Queste selezioni di <persName ref="TEI-ListPers.xml#JM">Mengele</persName>.</u>
+                <u who="AS" xml:id="a45" synch="#tlp93">Nelle selezioni c'era un criterio? Queste selezioni di <persName ref="#JM">Mengele</persName>.</u>
 
-                <u who="#EB" xml:id="e48" synch="#tlp94">A selezione di <persName ref="TEI-ListPers.xml#JM">Mengele</persName> <del type="reformulation">selezionava le</del> prima di tutto fare esperimenti e quindi deve essere la persona totalmente <anchor xml:id="ebruck-27" synch="#TS27" n="27"/> apparentemente <anchor xml:id="ebruck-28" synch="#TS28" n="28"/>
+                <u who="#EB" xml:id="e48" synch="#tlp94">A selezione di <persName ref="#JM">Mengele</persName> <del type="reformulation">selezionava le</del> prima di tutto fare esperimenti e quindi deve essere la persona totalmente <anchor xml:id="ebruck-27" synch="#TS27" n="27"/> apparentemente <anchor xml:id="ebruck-28" synch="#TS28" n="28"/>
                     <choice>
                         <sic>sane</sic>
                         <corr>sana.</corr>
@@ -2159,7 +3095,7 @@
                         <sic>capitato</sic>
                         <corr>capitata</corr>
                     </choice>
-                    ad altre che non ti hanno raccontato. A <placeName ref="TEI-ListPlaces.xml#BB">Bergen-Belsen</placeName> dopo questo lavoro che <del type="repetition">che</del> non riesco a raccontar bene, hanno detto che se noi andiamo
+                    ad altre che non ti hanno raccontato. A <placeName ref="#BB">Bergen-Belsen</placeName> dopo questo lavoro che <del type="repetition">che</del> non riesco a raccontar bene, hanno detto che se noi andiamo
                     a portare alla stazione, che era <measure type="space" unit="km" quantity="8">8 <unit>chilometri</unit>
                     </measure> dei giubbotti per i militari, ci daranno doppia razione di zuppa 
                     <choice>    
@@ -2307,7 +3243,7 @@
 
                 <u who="AS" xml:id="a50" synch="#tlp103">Tutto è stato tipicamente nazista, anche dire: <q>"Doppia razione"</q> e poi non te lo do.</u>
 
-                <u who="#EB" xml:id="e53" synch="#tlp104">Anche <persName ref="TEI-ListPers.xml#OS">Schindler</persName> era tipicamente nazista. <shift feature="voice" new="giggle"/> Perchè</u>
+                <u who="#EB" xml:id="e53" synch="#tlp104">Anche <persName ref="#OS">Schindler</persName> era tipicamente nazista. <shift feature="voice" new="giggle"/> Perchè</u>
 
                 <u who="AS" xml:id="a51" synch="#tlp105">Sì.</u>
 
@@ -2319,18 +3255,18 @@
                     la sua bontà era soltanto il suo narcisismo. Non <del type="repetition">non</del> <del type="repetition">non</del> <del type="repetition">non</del> proprio. Comunque, era tipicamente nazista:
                     se tu avevi coraggio di anche guardare un nazista, ma alzar la mano, tu eri un eroe, eri un <del type="repetition">un.</del> Lo spaventava. Il coraggio di toccare un nazista, che era sacro, 
                     <del type="repetition">sacro</del> proprio <del type="repetition">sacro</del>. Una ebrea prigioniera, non è mai esistito. E' esistito <del type="reformulation">con</del> nel libro di 
-                    <persName ref="TEI-ListPers.xml#BB">Bettelheim</persName> non so se tu hai letto.
+                    <persName ref="#BB">Bettelheim</persName> non so se tu hai letto.
                 </u>
 
                 <u who="AS" xml:id="a52" synch="#tlp107">
-                    <title ref="TEI-ListBibl.xml#Sopravvivere">Sopravvivere?</title>
+                    <title ref="#Sopravvivere">Sopravvivere?</title>
                 </u>
 
                 <u who="#EB" xml:id="e55" synch="#tlp108">No.</u>
 
                 <u who="AS" xml:id="a53" synch="#tlp109">Io quello lì ho letto.</u>
 
-                <u who="#EB" xml:id="e56" synch="#tlp110">Racconta la sua esperienza a <placeName ref="TEI-ListPlaces.xml#DA">Dachau</placeName> dove racconta di una ragazza che i tedeschi hanno saputo che è una grande ballerina.
+                <u who="#EB" xml:id="e56" synch="#tlp110">Racconta la sua esperienza a <placeName ref="#DA">Dachau</placeName> dove racconta di una ragazza che i tedeschi hanno saputo che è una grande ballerina.
                     E <del type="repetition">e...</del>
                     <choice>
                         <sic>il tedesco</sic>
@@ -2434,9 +3370,14 @@
                     <anchor xml:id="annaseg-39" synch="#TS39" n="39"/>Gonfia.<anchor xml:id="annaseg-40" synch="#TS4" n="40"/>
                 </u>
 
-                <u who="GP" xml:id="g2" synch="#tlp125">C'è un neurologo di cui racconta nel libro <bibl>
-                        <title ref="TEI-ListBibl.xml#Signora_Auschwitz">Signora Auschwitz.</title>
-                    </bibl>
+                <u who="GP" xml:id="g2" synch="#tlp125">C'è un neurologo di cui racconta nel libro <cit>
+                        <title>Signora Auschwitz</title>
+                        <ref target="#Signora_Auschwitz">
+                            <bibl>
+                               Signora Auschwitz, Edith Bruck
+                            </bibl>
+                        </ref>
+                    </cit>
                 </u>
 
                 <u who="#EB" xml:id="e64" synch="#tlp126">Sì.</u>
@@ -2479,7 +3420,7 @@
 
                 <u who="#EB" xml:id="e68" synch="#tlp135">Quindi non <del type="repetition">non</del> allora ti sembra inutile. Però io ho sempre detto:<q type="spoken" who="#Bruck">"Anche se hanno capito, su <num>300,</num> <num>5</num> non è stato inutile questo viaggio, questa fatica"</q> o <q type="spoken" who="#Bruck">"Se,
                     finchè trovo tre lettori scriverò"</q> per dire, capito?
-                    E mi hanno chiesto una volta un giornalista:<q type="spoken" who="#journalist" toWhom="#Bruck">Signora <persName ref="TEI-ListPers.xml#EB">Bruck</persName> lei perchè scrive sempre della guerra?</q> dico: <q type="spoken" who="#Bruck" toWhom="#journalist">Perchè se riesco cambiare tre persone nella mia vita, vuol dire
+                    E mi hanno chiesto una volta un giornalista:<q type="spoken" who="#journalist" toWhom="#Bruck">Signora <persName ref="#EB">Bruck</persName> lei perchè scrive sempre della guerra?</q> dico: <q type="spoken" who="#Bruck" toWhom="#journalist">Perchè se riesco cambiare tre persone nella mia vita, vuol dire
                     che la mia vita non è stata inutile"</q>
                     Perchè non <del type="repetition">non</del> <del type="repetition">non</del> sai più cosa fare, come far capire. E 
                     <choice>
@@ -2497,7 +3438,7 @@
 
                 <u who="AS" xml:id="a62" synch="#tlp136">Ingestibile per le domande.</u>
 
-                <u who="#EB" xml:id="e69" synch="#tlp137">No, ma gira la testa, entri io a <placeName ref="TEI-ListPlaces.xml#BS">Brescia</placeName> quasi son
+                <u who="#EB" xml:id="e69" synch="#tlp137">No, ma gira la testa, entri io a <placeName ref="#BS">Brescia</placeName> quasi son
                     <choice>
                         <sic>caduto</sic>
                         <corr>caduta</corr> 
@@ -2507,16 +3448,21 @@
                         <orig>'sti</orig>
                         <reg>questi</reg>
                     </choice>
-                    ragazzi che ridacchiavano, tra l'altro. Perchè non puoi mettere insieme <num>300</num> ragazzi, nè <num>500</num> nè <num>700</num> a <placeName ref="TEI-ListPlaces.xml#MO">Monteverde</placeName> hanno messo nella palestra. E ha detto la maestra: <q type="spoken" who="#teacher" toWhom="#BRUCK">"Io so tutto adesso, l'ho istruito le 
+                    ragazzi che ridacchiavano, tra l'altro. Perchè non puoi mettere insieme <num>300</num> ragazzi, nè <num>500</num> nè <num>700</num> a <placeName ref="#MO">Monteverde</placeName> hanno messo nella palestra. E ha detto la maestra: <q type="spoken" who="#teacher" toWhom="#BRUCK">"Io so tutto adesso, l'ho istruito le 
                     <del type="repetition">le</del> ragazze, lei soltanto deve intervenire e loro faranno delle domande".</q> La maestra non sapeva niente. <q type="spoken" who="#teacher" toWhom="#BRUCK">"Lei è americana?"</q> 
                     <choice>
                         <orig>m'ha </orig>
                         <reg>mi ha</reg>
                     </choice>
                     detto. Cominciato così. 
-                    Poi, nella seconda o prima fila che ho scritto il <bibl>
-                        <title ref="TEI-ListBibl.xml#Signora_Auschwitz">Signora Auschwitz</title>
-                    </bibl> masticavano il <foreign xml:lang="EN">chewing gum</foreign> e uno aveva la <del type="repetition">la</del> <del type="repetition">la</del> <del type="repetition">la</del> cuffia. Io ho detto: 
+                    Poi, nella seconda o prima fila che ho scritto il <cit>
+                        <title>Signora Auschwitz</title>
+                        <ref target="#Signora_Auschwitz">
+                            <bibl>
+                               Signora Auschwitz, Edith Bruck
+                            </bibl>
+                        </ref>
+                    </cit> masticavano il <foreign xml:lang="EN">chewing gum</foreign> e uno aveva la <del type="repetition">la</del> <del type="repetition">la</del> <del type="repetition">la</del> cuffia. Io ho detto: 
                     <q type="spoken" who="#BRUCK">"Per favore li mandi via perchè sennò li interessa, io non parlo di mia madre e nè dei campi, quindi chi vuole uscire esca, esca prima, chi vuol rimanere rimanga".</q> E <num>4</num> o <num>5</num> sono alzate e sono uscite. Perchè no, non puoi <del type="repetition">non puoi</del>
                     usare anche noi sopravvissuti. Devo dire che noi siamo sfruttati fino al midollo, <del type="reformulation">non è</del>è un altro peso terribile questo. <q type="spoken" toWhom="#BRUCK">"È il suo dovere"</q>, mi dice al telefono <q type="spoken" toWhom="#BRUCK">"il suo dovere"</q>. Lo domando all'istituzione dell'educazione
                     che ha il dovere di insegnare nelle scuole a queste cose. Perché non protestano i professori, le professoresse? <vocal>
@@ -2536,21 +3482,21 @@
 
                 <u who="AS" xml:id="a63" synch="#tlp138">Tutte le istituzioni.</u>
 
-                <u who="#EB" xml:id="e70" synch="#tlp139">Appena c'è una richiesta della scuola, mi chiama: <q type="spoken" toWhom="#BRUCK">"Signora Bruck può andare a Salerno?"</q> Ho detto a <persName ref="TEI-ListPers.xml#EM">Enrico Modigliani</persName>: <q type="spoken" who="#BRUCK" toWhom="#Modigliani">"Enrico vacci".</q> 
+                <u who="#EB" xml:id="e70" synch="#tlp139">Appena c'è una richiesta della scuola, mi chiama: <q type="spoken" toWhom="#BRUCK">"Signora Bruck può andare a Salerno?"</q> Ho detto a <persName ref="#EM">Enrico Modigliani</persName>: <q type="spoken" who="#BRUCK" toWhom="#Modigliani">"Enrico vacci".</q> 
                     <q type="spoken" who="#Modigliani" toWhom="#BRUCK">"Io non ci vado"</q> <q type="spoken" toWhom="#BRUCK">"Tu non sei stato in campo, vai e parli".</q> Adesso vanno quelli che non sono stati, ma secondo me è sbagliato completamente. Non possono testimoniare, possono dire che sono stati in un collegio, sono stati nascosti dai vicini di casa, possono dire che erano in campagna, 
-                    ma con quello che noi vediamo intorno, <anchor xml:id="ebruck-45" synch="#TS45" n="45"/>ai ragazzi non non fa<anchor xml:id="ebruck-46" synch="#TS46" n="46"/> nessun effetto, secondo me. Solo la testimonianza diretta che ancora ha un minimo di reazione. Ma non possono andare lì. <persName ref="TEI-ListPers.xml#LL">Livia Levi</persName> mi dice stessa: <q type="spoken" who="#Levi" toWhom="#BRUCK">"Sai io ci vado, racconto, ma io sono stato dalle suore, sono stata benissimo, quasi diventata
+                    ma con quello che noi vediamo intorno, <anchor xml:id="ebruck-45" synch="#TS45" n="45"/>ai ragazzi non non fa<anchor xml:id="ebruck-46" synch="#TS46" n="46"/> nessun effetto, secondo me. Solo la testimonianza diretta che ancora ha un minimo di reazione. Ma non possono andare lì. <persName ref="#LL">Livia Levi</persName> mi dice stessa: <q type="spoken" who="#Levi" toWhom="#BRUCK">"Sai io ci vado, racconto, ma io sono stato dalle suore, sono stata benissimo, quasi diventata
                     cattolica. La Madonna con la la cosa blu mi piaceva tanto, l'azzurra"</q>. Cioè. Voglio dire, <del type="reformulation">non</del> allora dai un altro tipo di testimonianza, d'accordo di quello che hanno aiutato, quello che hanno difeso e quello che hanno dato i documenti falsi. È <del type="repetition">è</del> importante, certo, devi <del type="truncation">testi</del> anche di quello,
                     ma non devi parlare dei campi, però. Io non credo che chi non è stato in campo non <anchor xml:id="ebruck-47" synch="#TS47" n="47"/>deve<anchor xml:id="ebruck-48" synch="#TS48" n="48"/> parlare del campo. No, questo no, assolutamente. Può parlare uno storico dal punto di vista politico-storico, di quello che è stato il <orgName type="politycal">nazifascismo</orgName>, ma non dei campi <del type="repetition">dei campi.</del> Dei campi no. Però ormai siamo pochissimi. <vocal>
                         <desc>Beh,</desc>
                     </vocal>
-                    io l'ultimo incontro che fatto con  <del type="reformulation">le</del> i deportati a <placeName ref="TEI-ListPlaces.xml#RO">Roma</placeName> è stata una cosa penosa, proprio. Una ha mal di cuore, una ha <num>4</num> <foreign xml:lang="EN">bypass</foreign>, uno non sta in piedi, l'altro balbetta, l'altro racconta barzellette, l'altro parla romano, l'altro non sa parlare, non si può, non <del type="repetition">non</del> è 
+                    io l'ultimo incontro che fatto con  <del type="reformulation">le</del> i deportati a <placeName ref="#RO">Roma</placeName> è stata una cosa penosa, proprio. Una ha mal di cuore, una ha <num>4</num> <foreign xml:lang="EN">bypass</foreign>, uno non sta in piedi, l'altro balbetta, l'altro racconta barzellette, l'altro parla romano, l'altro non sa parlare, non si può, non <del type="repetition">non</del> è 
                     controproducente, secondo me. <pause type="short"/> Era triste, squallido proprio, non 
                     <choice>
                         <orig>m'è</orig>
                         <reg>mi è</reg>
                     </choice>
                     piaciuto per niente. 
-                    <persName ref="TEI-ListPers.xml#PT">Piero</persName>, ormai, arriva come un impiegato delle testimonianze.
+                    <persName ref="#PT">Piero</persName>, ormai, arriva come un impiegato delle testimonianze.
                 </u>
 
                 <u who="AS">
@@ -2561,7 +3507,7 @@
                     <anchor xml:id="annaseg-47" synch="#TS47" n="47"/>Possa parlare.<anchor xml:id="annaseg-48" synch="#TS48" n="48"/>
                 </u>
 
-                <u who="AS" xml:id="a64" synch="#tlp140">Sì,  <persName ref="TEI-ListPers.xml#PT">Piero</persName> è proprio...</u>
+                <u who="AS" xml:id="a64" synch="#tlp140">Sì,  <persName ref="#PT">Piero</persName> è proprio...</u>
 
                 <u who="#EB" xml:id="e71" synch="#tlp141">Una valigia piena di fotografie. <vocal>
                         <desc>Ehm</desc>
@@ -2590,7 +3536,7 @@
 
                 <u who="AS" xml:id="a68" synch="#tlp148">La testimonianza sta finendo.</u>
 
-                <u who="#EB" xml:id="e75" synch="#tlp149">E cosa sarà dopo? Questo era il problema di <persName ref="TEI-ListPers.xml#PL">Primo Levi.</persName> Mi ha chiesto: <q type="spoken" who="#Levi" toWhom="#BRUCK">"dopo di noi cosa succede? Sarà 
+                <u who="#EB" xml:id="e75" synch="#tlp149">E cosa sarà dopo? Questo era il problema di <persName ref="#PL">Primo Levi.</persName> Mi ha chiesto: <q type="spoken" who="#Levi" toWhom="#BRUCK">"dopo di noi cosa succede? Sarà 
                     <choice>
                         <sic>tutta</sic>
                         <corr>tutto</corr>
@@ -2600,11 +3546,11 @@
 
                 <u who="AS" xml:id="a69" synch="#tlp150">Sì.</u>
 
-                <u who="#EB" xml:id="e76" synch="#tlp151">Ci sarà questo <date>27 di gennaio</date> dove tutti pensano che è tutto finito, perché hanno visto <title ref="TEI-ListBibl.xml#La_vita_è_bella">La vita è bella</title> di <surname ref="#RB">Benigni.</surname>
-                    E tutti mi dicono: <q type="spoken">"Io so tutto, signora, ho visto <title ref="TEI-ListBibl.xml#La_vita_è_bella">La vita è bella</title>".</q>
+                <u who="#EB" xml:id="e76" synch="#tlp151">Ci sarà questo <date>27 di gennaio</date> dove tutti pensano che è tutto finito, perché hanno visto <title ref="#La_vita_è_bella">La vita è bella</title> di <surname ref="#RB">Benigni.</surname>
+                    E tutti mi dicono: <q type="spoken">"Io so tutto, signora, ho visto <title ref="#La_vita_è_bella">La vita è bella</title>".</q>
                 </u>
 
-                <u who="AS" xml:id="a70" synch="#tlp152">Né <title ref="TEI-ListBibl.xml#La_vita_è_bella">La vita è bella</title> né <title ref="TEI-ListBibl.xml#Schindlers_list">Schindler's list</title> purtroppo.</u>
+                <u who="AS" xml:id="a70" synch="#tlp152">Né <title ref="#La_vita_è_bella">La vita è bella</title> né <title ref="#Schindlers_list">Schindler's list</title> purtroppo.</u>
 
                 <u who="#EB" xml:id="e77" synch="#tlp153">No.</u>
 
@@ -2615,9 +3561,9 @@
                         <sic>Nessun</sic>
                         <corr>Nessuna</corr>
                     </choice>
-                    <foreign xml:lang="EN">fiction,</foreign> io son contro qualsiasi <foreign xml:lang="EN">fiction,</foreign> assolutamente. Anche <title ref="TEI-ListBibl.xml#La_tregua">La tregua</title> di <persName ref="TEI-ListPers.xml#PL">Primo Levi</persName> è brutto, non è buono per niente, di <persName ref="TEI-ListPers.xml#FR">Rosi</persName> che è ancora
+                    <foreign xml:lang="EN">fiction,</foreign> io son contro qualsiasi <foreign xml:lang="EN">fiction,</foreign> assolutamente. Anche <title ref="#La_tregua">La tregua</title> di <persName ref="#PL">Primo Levi</persName> è brutto, non è buono per niente, di <persName ref="#FR">Rosi</persName> che è ancora
                     un ottimo regista. Ma non può, non è possibile quei balli per strada, questi urli, queste danze. Cosa...Non <del type="repetition">non</del> lo so cosa si può fare, però io tenderei assolutamente a proiettare, anche se 
-                    durissimo a sopportare la visione. Io ho visto a <placeName ref="TEI-ListPlaces.xml#DA">Dachau</placeName> dei documenti mai visti, veri, <anchor xml:id="ebruck-49" synch="#TS49" n="49"/>
+                    durissimo a sopportare la visione. Io ho visto a <placeName ref="#DA">Dachau</placeName> dei documenti mai visti, veri, <anchor xml:id="ebruck-49" synch="#TS49" n="49"/>
                     <del type="repetition">veri.</del>
                     <anchor xml:id="ebruck-50" synch="#TS50" n="50"/>
                 </u>
@@ -2637,12 +3583,12 @@
                         <sic>englesi</sic>
                         <corr>inglesi</corr>
                     </choice>
-                    e i russi. Ci sono documenti e è abbastanza. E <del type="repetition">e</del> <del type="truncation">ba</del> null'altro: nè <title ref="TEI-ListBibl.xml#Schindlers_list">Schindler's list,</title> né <title ref="TEI-ListBibl.xml#La_tregua">La tregua,</title> né <del type="repetition">né</del> <title ref="TEI-ListBibl.xml#La_vita_è_bella">La vita bella</title>
+                    e i russi. Ci sono documenti e è abbastanza. E <del type="repetition">e</del> <del type="truncation">ba</del> null'altro: nè <title ref="#Schindlers_list">Schindler's list,</title> né <title ref="#La_tregua">La tregua,</title> né <del type="repetition">né</del> <title ref="#La_vita_è_bella">La vita bella</title>
                     per mai mai.
                 </u>
 
                 <u who="AS" xml:id="a73" synch="#tlp158">
-                    <title ref="TEI-ListBibl.xml#La_vita_è_bella">La vita è bella</title> l'ho trovato, sì.</u>
+                    <title ref="#La_vita_è_bella">La vita è bella</title> l'ho trovato, sì.</u>
 
                 <u who="#EB" xml:id="e80" synch="#tlp159">Mai. E' stato il più grande danno che hanno fatto.</u>
 
@@ -2654,7 +3600,7 @@
                 </u>
 
                 <u who="#EB" xml:id="e81" synch="#tlp161">
-                    <del type="truncation">lit</del> io ho <del type="truncation">li</del>litigato con <persName ref="TEI-ListPers.xml#TZ">Tullia Zevi</persName>. Poi <persName ref="TEI-ListPers.xml#TZ">Tullia</persName> ha rinnegato. Prima ha detto
+                    <del type="truncation">lit</del> io ho <del type="truncation">li</del>litigato con <persName ref="#TZ">Tullia Zevi</persName>. Poi <persName ref="#TZ">Tullia</persName> ha rinnegato. Prima ha detto
                     che almeno per i giovani rimane qualcosa e sapranno quello che è successo.  
                 </u>
 
@@ -2665,7 +3611,7 @@
 
                 <u who="#EB" xml:id="e82" synch="#tlp164">
                     <emph>
-                        <persName ref="TEI-ListPers.xml#TZ">Tullia</persName>
+                        <persName ref="#TZ">Tullia</persName>
                     </emph>
                 </u>
 
@@ -2682,9 +3628,9 @@
                 </u>
 
                 <u who="AS" xml:id="a76" synch="#tlp167">
-                    <persName ref="TEI-ListPers.xml#NF">Nedo</persName> <vocal>
+                    <persName ref="#NF">Nedo</persName> <vocal>
                         <desc>eh</desc>
-                    </vocal> <persName ref="TEI-ListPers.xml#NF">Nedo</persName> la fa fuori dal vaso mannaggia, guarda.</u>
+                    </vocal> <persName ref="#NF">Nedo</persName> la fa fuori dal vaso mannaggia, guarda.</u>
 
                 <u who="#EB" xml:id="e84" synch="#tlp168">Non si può. Sono andati a scuola, hanno recitato l'ordine dei tedeschi con <surname ref="#RB">Benigni</surname>, vi assicuro che è stata una delle cose più 
                     <choice>
@@ -2718,8 +3664,8 @@
 
                 <u who="AS" xml:id="a82" synch="#tlp179">A me <surname ref="#VC">Cerami</surname> non piace.</u>
 
-                <u who="#EB" xml:id="e90" synch="#tlp180">Lo sapevano quello che fanno. Non è un caso che hanno fatto <title ref="TEI-ListBibl.xml#La_vita_è_bella">La vita è bella.</title> Lo sapevano che in questa chiave accettabile i campi. E i campi poi non esistono, come ne in <title ref="TEI-ListBibl.xml#Schindlers_list">Schindler's list</title>
-                    non esiste il campo, esiste il ghetto di <placeName ref="TEI-ListPlaces.xml#KR">Cracovia</placeName>; ma non esiste, il campo. <anchor xml:id="ebruck-53" synch="#TS53" n="53"/>Funziona che entrati, no,<anchor xml:id="ebruck-54" synch="#TS54" n="54"/> neanche entrati assolutamente. <anchor xml:id="ebruck-55" synch="#TS55" n="55"/>E poi per gli americani.<anchor xml:id="ebruck-56" synch="#TS56" n="56"/> 
+                <u who="#EB" xml:id="e90" synch="#tlp180">Lo sapevano quello che fanno. Non è un caso che hanno fatto <title ref="#La_vita_è_bella">La vita è bella.</title> Lo sapevano che in questa chiave accettabile i campi. E i campi poi non esistono, come ne in <title ref="#Schindlers_list">Schindler's list</title>
+                    non esiste il campo, esiste il ghetto di <placeName ref="#KR">Cracovia</placeName>; ma non esiste, il campo. <anchor xml:id="ebruck-53" synch="#TS53" n="53"/>Funziona che entrati, no,<anchor xml:id="ebruck-54" synch="#TS54" n="54"/> neanche entrati assolutamente. <anchor xml:id="ebruck-55" synch="#TS55" n="55"/>E poi per gli americani.<anchor xml:id="ebruck-56" synch="#TS56" n="56"/> 
                 </u>
 
                 <u who="AS">
@@ -2747,7 +3693,7 @@
                 <u who="AS" xml:id="a83" synch="#tlp182">Ma non sono rappresentati, cioè.</u>
 
                 <u who="#EB" xml:id="e91" synch="#tlp183">Fra gli americani era accettabile una cosa del genere, per gli ebrei americani sentono profondamente in colpa per quello che è accaduto agli ebrei europei, perché non ci hanno fatto entrare. È stato chiesto da organizzazione mondiale
-                    ebraico di farci entrare in <placeName ref="TEI-ListPlaces.xml#US">
+                    ebraico di farci entrare in <placeName ref="#US">
                         <country>America</country>
                     </placeName>. Gli ebrei stessi hanno detto di no perché c'è troppa concorrenza, sul lavoro, su tutto; quindi loro non possono fare entrare. <surname ref="#FDR">Roosvelt</surname> stesso ha detto di no. Hanno pare che han convinto loro <surname ref="#FDR">Roosvelt.</surname> 
                     E quindi siccome sentono in colpa, hanno dato due <name type="prize" ref="#O">Oscar</name> a <surname ref="#RB">Benigni.</surname>
@@ -2784,14 +3730,14 @@
                 <u who="AS" xml:id="a85" synch="#tlp187">E' quello che volevo chiederle. Cioè allora al momento che <del type="truncation">ness</del>
                 </u>
 
-                <u who="#EB" xml:id="e94" synch="#tlp188">Calerà il <anchor xml:id="ebruck-59" synch="#TS59" n="59"/>grande silenzio<anchor xml:id="ebruck-60" synch="#TS60" n="60"/> e nel silenzio verrà fuori una verità che non sarà mai verità, soltanto negazione, mistificazione. Poi metteranno la corona il <date>27,</date> poi diranno due cose, poi, qualcuno dirà qualcosa: <q>io ho conosciuto la <persName ref="TEI-ListPers.xml#EB">Bruck</persName>, io ho letto un libro di <persName ref="TEI-ListPers.xml#PL">Primo Levi</persName>
+                <u who="#EB" xml:id="e94" synch="#tlp188">Calerà il <anchor xml:id="ebruck-59" synch="#TS59" n="59"/>grande silenzio<anchor xml:id="ebruck-60" synch="#TS60" n="60"/> e nel silenzio verrà fuori una verità che non sarà mai verità, soltanto negazione, mistificazione. Poi metteranno la corona il <date>27,</date> poi diranno due cose, poi, qualcuno dirà qualcosa: <q>io ho conosciuto la <persName ref="#EB">Bruck</persName>, io ho letto un libro di <persName ref="#PL">Primo Levi</persName>
                     </q>. E con quello, reciteranno qualche
                     verso e sarà un rito come qualsiasi altro, nè più nè meno. Poi diranno <distinct>che palle</distinct>
                     <choice>
                         <orig>'sti</orig>
                         <reg>questi</reg> 
                     </choice>
-                    ebrei. Allora facciamo anche quello del <del type="repetition">del</del> <placeName ref="TEI-ListPlaces.xml#SA">Salò</placeName>, facciamo anche <del type="truncation">quel</del> <vocal>
+                    ebrei. Allora facciamo anche quello del <del type="repetition">del</del> <placeName ref="#SA">Salò</placeName>, facciamo anche <del type="truncation">quel</del> <vocal>
                         <desc>eh.</desc>
                     </vocal> Che hanno già chiesto tra l'altro.
                 </u>
@@ -2847,9 +3793,9 @@
 
                 <u who="AS" xml:id="a90" synch="#tlp197">E certo. Sarà rappresentazione, icona.</u>
 
-                <u who="#EB" xml:id="e99" synch="#tlp198">Sì, sì. Quindi niente. Non so nemmeno, forse perché il luogo simbolo <placeName ref="TEI-ListPlaces.xml#AU">Auschwitz</placeName>, quindi, è stato scelto come il <date>27 di gennaio</date> come giorno della liberazione, però anche questo è sbagliato. Io ho detto anche a <persName ref="TEI-ListPers.xml#FC">Furio</persName> che ho visto anche l'altro ieri, che ha lottato tanto per fare <vocal>
+                <u who="#EB" xml:id="e99" synch="#tlp198">Sì, sì. Quindi niente. Non so nemmeno, forse perché il luogo simbolo <placeName ref="#AU">Auschwitz</placeName>, quindi, è stato scelto come il <date>27 di gennaio</date> come giorno della liberazione, però anche questo è sbagliato. Io ho detto anche a <persName ref="#FC">Furio</persName> che ho visto anche l'altro ieri, che ha lottato tanto per fare <vocal>
                         <desc>eh</desc>
-                    </vocal> <persName ref="TEI-ListPers.xml#FC">Furio Colombo</persName>.
+                    </vocal> <persName ref="#FC">Furio Colombo</persName>.
                     Però forse è sbagliato, non è sbagliato per il luogo, ma è sbagliato come data.
                 </u>
 
@@ -2868,31 +3814,31 @@
                         <sic>andate</sic>
                         <corr>andata</corr>
                     </choice>
-                    al Comune di <placeName ref="TEI-ListPlaces.xml#BO">Bologna</placeName> ho incominciato proprio che raccontando il dopo il <date>27</date>
+                    al Comune di <placeName ref="#BO">Bologna</placeName> ho incominciato proprio che raccontando il dopo il <date>27</date>
                 </u>
 
                 <u who="AS" xml:id="a92" synch="#tlp201">Aprile.</u>
 
-                <u who="#EB" xml:id="e101" synch="#tlp202">Sì, dopo il <date>27 gennaio.</date> Devi raccontare quello che era dopo, inutile che racconti, perché non era liberazione il <date>27,</date> di <placeName ref="TEI-ListPlaces.xml#AU">Auschwitz</placeName> sì, ma gli altri <num>1634</num> campi? <num>1634</num>
+                <u who="#EB" xml:id="e101" synch="#tlp202">Sì, dopo il <date>27 gennaio.</date> Devi raccontare quello che era dopo, inutile che racconti, perché non era liberazione il <date>27,</date> di <placeName ref="#AU">Auschwitz</placeName> sì, ma gli altri <num>1634</num> campi? <num>1634</num>
                 </u>
 
                 <u who="AS" xml:id="a93" synch="#tlp203">Era proprio ogni <measure type="space" unit="km" quantity="2">2</measure> <unit>chilometri.</unit> c'era un campo.</u>
 
-                <u who="#EB" xml:id="e102" synch="#tlp204">Dove arrivavano i russi, sono stati liberati quei campi, ma dove arrivati gli americani anglo-americani no, non è stato liberato. Ma <del type="reformulation">ogni, del</del> io ho visto la carta della <placeName ref="TEI-ListPlaces.xml#DEU">
+                <u who="#EB" xml:id="e102" synch="#tlp204">Dove arrivavano i russi, sono stati liberati quei campi, ma dove arrivati gli americani anglo-americani no, non è stato liberato. Ma <del type="reformulation">ogni, del</del> io ho visto la carta della <placeName ref="#DEU">
                         <country>Germania,</country>
                     </placeName> era piena di campi.</u>
 
                 <u who="AS" xml:id="a94" synch="#tlp205">
                     <shift feature="voice" new="whisper"/>Piena.</u>
 
-                <u who="#EB" xml:id="e103" synch="#tlp206">Piena. Cioè se tu vedi la carta, io avevo una immagine <del type="reformulation">di</del> della <placeName ref="TEI-ListPlaces.xml#DEU">
+                <u who="#EB" xml:id="e103" synch="#tlp206">Piena. Cioè se tu vedi la carta, io avevo una immagine <del type="reformulation">di</del> della <placeName ref="#DEU">
                         <country>Germania</country>
                     </placeName>,
                     <choice>
                         <sic>quanto</sic>
                         <corr>quando</corr>
                     </choice> 
-                    sono andata a <placeName ref="TEI-ListPlaces.xml#DA">Dachau</placeName> e io stessa ero sbalordita, incredula di fronte le strisce bianche segnalate perché era una striscia dietro l’altra.
+                    sono andata a <placeName ref="#DA">Dachau</placeName> e io stessa ero sbalordita, incredula di fronte le strisce bianche segnalate perché era una striscia dietro l’altra.
                 </u>
 
                 <u who="AS" xml:id="a95" synch="#tlp207">Il simbolino era una striscia bianca e...</u>
@@ -2902,31 +3848,31 @@
                         <sic>Striscia</sic>
                         <corr>strisce</corr>
                     </choice>
-                    bianche e dappertutto erano campi di concentramento. Meno quei pochi in <placeName ref="TEI-ListPlaces.xml#ITA">
+                    bianche e dappertutto erano campi di concentramento. Meno quei pochi in <placeName ref="#ITA">
                         <country>Italia:</country>
-                    </placeName> <placeName type="district" ref="TEI-ListPlaces.xml#SanSaba">San Saba</placeName> e pochissimi quelli tre/quattro in <placeName ref="TEI-ListPlaces.xml#FR">
+                    </placeName> <placeName type="district" ref="#SanSaba">San Saba</placeName> e pochissimi quelli tre/quattro in <placeName ref="#FR">
                         <country>Francia</country>
-                    </placeName> in e in <placeName ref="TEI-ListPlaces.xml#ITA">
+                    </placeName> in e in <placeName ref="#ITA">
                         <country>Italia</country>
-                    </placeName> e <placeName ref="TEI-ListPlaces.xml#AT">
+                    </placeName> e <placeName ref="#AT">
                         <country>Austria</country>
                     </placeName>. E <del type="truncation">poi</del>
                 </u>
 
-                <u who="AS" xml:id="a96" synch="#tlp209">La <placeName ref="TEI-ListPlaces.xml#PL">
+                <u who="AS" xml:id="a96" synch="#tlp209">La <placeName ref="#PL">
                         <country>Polonia</country>
                     </placeName>
                 </u>
 
                 <u who="#EB" xml:id="e105" synch="#tlp2010">
-                    <placeName ref="TEI-ListPlaces.xml#CSR">
+                    <placeName ref="#CSR">
                         <country>Cecoslovacchìa</country>
-                    </placeName>, <placeName ref="TEI-ListPlaces.xml#TE">Terezin</placeName> però <placeName ref="TEI-ListPlaces.xml#TE">Terezin</placeName> non 
+                    </placeName>, <placeName ref="#TE">Terezin</placeName> però <placeName ref="#TE">Terezin</placeName> non 
                     <choice>
                         <sic>ere</sic>
                         <corr>era</corr>
                     </choice>
-                    un vero campo. Era il campo modello per la <orgName>Croce Rossa,</orgName> <anchor xml:id="ebruck-65" synch="#TS65" n="65"/>da dove poi deportavano <anchor xml:id="ebruck-66" synch="#TS66" n="66"/> ad <placeName ref="TEI-ListPlaces.xml#AU">Auschwitz</placeName>. Sì. Era la facciata per la <orgName>Croce Rossa.</orgName> Insomma.
+                    un vero campo. Era il campo modello per la <orgName>Croce Rossa,</orgName> <anchor xml:id="ebruck-65" synch="#TS65" n="65"/>da dove poi deportavano <anchor xml:id="ebruck-66" synch="#TS66" n="66"/> ad <placeName ref="#AU">Auschwitz</placeName>. Sì. Era la facciata per la <orgName>Croce Rossa.</orgName> Insomma.
                 </u>
 
                 <u who="AS">
@@ -2935,14 +3881,14 @@
                     <anchor xml:id="annaseg-66" synch="#TS66" n="66"/>
                 </u>
 
-                <u who="GP" xml:id="g10" synch="#tlp211">Lei è stata liberata a <placeName ref="TEI-ListPlaces.xml#BB">Bergen-Belsen?</placeName>
+                <u who="GP" xml:id="g10" synch="#tlp211">Lei è stata liberata a <placeName ref="#BB">Bergen-Belsen?</placeName>
                 </u>
 
                 <u who="#EB" xml:id="e106" synch="#tlp212">Sì.</u>
 
-                <u who="GP" xml:id="g11" synch="#tlp213">Cioè dopo <placeName ref="TEI-ListPlaces.xml#AU">Auschwitz,</placeName> con la marcia della morte</u>
+                <u who="GP" xml:id="g11" synch="#tlp213">Cioè dopo <placeName ref="#AU">Auschwitz,</placeName> con la marcia della morte</u>
 
-                <u who="#EB" xml:id="e107" synch="#tlp214">Sono <del type="truncation">arriv</del> no, <anchor xml:id="ebruck-67" synch="#TS67" n="67"/>dopo <placeName ref="TEI-ListPlaces.xml#AU">Auschwitz</placeName> sono stata<anchor xml:id="ebruck-68" synch="#TS68" n="68"/> <del type="repetition">sono stata</del> a <placeName ref="TEI-ListPlaces.xml#DA">Dachau,</placeName> dopo <placeName ref="TEI-ListPlaces.xml#DA">Dachau</placeName> sono stata <del type="reformulation">nel</del> a <placeName ref="TEI-ListPlaces.xml#LA">Landsberg</placeName>, poi sono stata <vocal>
+                <u who="#EB" xml:id="e107" synch="#tlp214">Sono <del type="truncation">arriv</del> no, <anchor xml:id="ebruck-67" synch="#TS67" n="67"/>dopo <placeName ref="#AU">Auschwitz</placeName> sono stata<anchor xml:id="ebruck-68" synch="#TS68" n="68"/> <del type="repetition">sono stata</del> a <placeName ref="#DA">Dachau,</placeName> dopo <placeName ref="#DA">Dachau</placeName> sono stata <del type="reformulation">nel</del> a <placeName ref="#LA">Landsberg</placeName>, poi sono stata <vocal>
                         <desc>mh</desc>
                     </vocal> <vocal>
                         <desc>ehm</desc>
@@ -2951,7 +3897,7 @@
                 </u>
 
                 <u who="GP">
-                    <anchor xml:id="gpavon-67" synch="#TS67" n="67"/>Perchè aveva parlato di <placeName ref="TEI-ListPlaces.xml#DA">Dachau</placeName>
+                    <anchor xml:id="gpavon-67" synch="#TS67" n="67"/>Perchè aveva parlato di <placeName ref="#DA">Dachau</placeName>
                     <anchor xml:id="gpavon-68" synch="#TS68" n="68"/>
                 </u>
 
@@ -2960,7 +3906,7 @@
                         <desc>Ah,</desc>
                     </vocal> <num>6</num> campi.</u>
 
-                <u who="#EB" xml:id="e108" synch="#tlp216">E a <placeName ref="TEI-ListPlaces.xml#BB">Bergen-Belsen</placeName> due volte sono stata: prima volta e seconda volta. <vocal>
+                <u who="#EB" xml:id="e108" synch="#tlp216">E a <placeName ref="#BB">Bergen-Belsen</placeName> due volte sono stata: prima volta e seconda volta. <vocal>
                         <desc>Mh.</desc>
                     </vocal>
                 </u>
@@ -2969,7 +3915,7 @@
                     <anchor xml:id="gpavon-69" synch="#TS69" n="69"/>Poi è <anchor xml:id="gpavon-70" synch="#TS70" n="70"/>stata liberata a maggio?</u>
 
                 <u who="#EB">
-                    <anchor xml:id="ebruck-69" synch="#TS69" n="69"/>A <placeName ref="TEI-ListPlaces.xml#KRI">Kristianstadt</placeName>
+                    <anchor xml:id="ebruck-69" synch="#TS69" n="69"/>A <placeName ref="#KRI">Kristianstadt</placeName>
                     <anchor xml:id="ebruck-70" synch="#TS70" n="70"/>
                 </u>
 
@@ -2989,11 +3935,11 @@
                     </choice>
                 </u>
 
-                <u who="GP" xml:id="g15" synch="#tlp221">Comunque, <placeName ref="TEI-ListPlaces.xml#RA">Ravensbruck</placeName> no? Perché <anchor xml:id="gpavon-71" synch="#TS71" n="71"/>abbiamo visto che tutte le donne, dopo la marcia della morte erano andate a <placeName ref="TEI-ListPlaces.xml#RA">Ravensbruck</placeName>.<anchor xml:id="gpavon-72" synch="#TS72" n="72"/>
+                <u who="GP" xml:id="g15" synch="#tlp221">Comunque, <placeName ref="#RA">Ravensbruck</placeName> no? Perché <anchor xml:id="gpavon-71" synch="#TS71" n="71"/>abbiamo visto che tutte le donne, dopo la marcia della morte erano andate a <placeName ref="#RA">Ravensbruck</placeName>.<anchor xml:id="gpavon-72" synch="#TS72" n="72"/>
                 </u>
 
                 <u who="#EB">
-                    <anchor xml:id="ebruck-71" synch="#TS71" n="71"/>No, <del type="repetition">no,</del> <del type="repetition">no,</del> <del type="repetition">no,</del> <del type="repetition">no,</del> <del type="repetition">no,</del> <del type="repetition">no,</del> <placeName ref="TEI-ListPlaces.xml#RA">Ravensbruck</placeName> <del type="repetition">no.</del>
+                    <anchor xml:id="ebruck-71" synch="#TS71" n="71"/>No, <del type="repetition">no,</del> <del type="repetition">no,</del> <del type="repetition">no,</del> <del type="repetition">no,</del> <del type="repetition">no,</del> <del type="repetition">no,</del> <placeName ref="#RA">Ravensbruck</placeName> <del type="repetition">no.</del>
                     <anchor xml:id="ebruck-72" synch="#TS72" n="72"/>
                 </u>
 
@@ -3001,7 +3947,7 @@
 
                 <u who="GP" xml:id="g16" synch="#tlp223">Sì.</u>
 
-                <u who="#EB" xml:id="e112" synch="#tlp224">Non era proprio specificamente un campo ebraico. Dove c'era <persName ref="TEI-ListPers.xml#LR">Lidia 
+                <u who="#EB" xml:id="e112" synch="#tlp224">Non era proprio specificamente un campo ebraico. Dove c'era <persName ref="#LR">Lidia 
                     <choice>
                         <sic>Ridolfi</sic>
                         <corr>Rolfi</corr>
@@ -3015,26 +3961,26 @@
                         <sic>Tutte</sic>
                         <corr>Tutto</corr> 
                     </choice>
-                    questo gruppo di persone <del type="truncation">non</del> <placeName ref="TEI-ListPlaces.xml#KA">Kaufering,</placeName> lo <del type="truncation">sa</del> <del type="truncation">Da</del> <placeName ref="TEI-ListPlaces.xml#DA">Dachau</placeName> aveva cento succursali. <placeName ref="TEI-ListPlaces.xml#DA">Dachau</placeName> era un <foreign xml:lang="DE">hauptkamp</foreign>: un campo principale, che aveva come una banca,
+                    questo gruppo di persone <del type="truncation">non</del> <placeName ref="#KA">Kaufering,</placeName> lo <del type="truncation">sa</del> <del type="truncation">Da</del> <placeName ref="#DA">Dachau</placeName> aveva cento succursali. <placeName ref="#DA">Dachau</placeName> era un <foreign xml:lang="DE">hauptkamp</foreign>: un campo principale, che aveva come una banca,
                     banca centrale, cento succursali. Io sono stato in due 
                     <choice>
                         <sic>succursale</sic> 
                         <corr>succursali</corr>
                     </choice>
-                    di <placeName ref="#DA">Dachau.</placeName> <placeName ref="TEI-ListPlaces.xml#KA">Kaufering</placeName> <placeName ref="TEI-ListPlaces.xml#LA">Landsberg</placeName> era succursale di <placeName ref="TEI-ListPlaces.xml#DA">Dachau.</placeName> Ma aveva cento. 
+                    di <placeName ref="#DA">Dachau.</placeName> <placeName ref="#KA">Kaufering</placeName> <placeName ref="#LA">Landsberg</placeName> era succursale di <placeName ref="#DA">Dachau.</placeName> Ma aveva cento. 
                 </u>
 
-                <u who="GP" xml:id="g18" synch="#tlp227">Cioè come dire <placeName ref="TEI-ListPlaces.xml#AU">Auschwitz</placeName> e <placeName ref="TEI-ListPlaces.xml#BI">Birkenau?</placeName>
+                <u who="GP" xml:id="g18" synch="#tlp227">Cioè come dire <placeName ref="#AU">Auschwitz</placeName> e <placeName ref="#BI">Birkenau?</placeName>
                 </u>
 
                 <u who="#EB" xml:id="e114" synch="#tlp228">
                     <choice>
                         <sic>Birkenaur</sic>
                         <corr>
-                            <placeName ref="TEI-ListPlaces.xml#BI">Birkenau</placeName>
+                            <placeName ref="#BI">Birkenau</placeName>
                         </corr>
                     </choice>
-                    <placeName ref="TEI-ListPlaces.xml#AU">Auschwitz,</placeName> stessa cosa <measure type="space" unit="km" quantity="2">2</measure> <unit>chilometri.</unit>
+                    <placeName ref="#AU">Auschwitz,</placeName> stessa cosa <measure type="space" unit="km" quantity="2">2</measure> <unit>chilometri.</unit>
                 </u>
 
                 <u who="GP" xml:id="g19" synch="#tlp229">
@@ -3060,9 +4006,9 @@
                 </u>
 
                 <u who="#EB" xml:id="e116" synch="#tlp232">
-                    <placeName ref="TEI-ListPlaces.xml#AU">Auschwitz</placeName> non aveva succursale perché <placeName ref="TEI-ListPlaces.xml#AU">Auschwitz</placeName> era in <placeName ref="TEI-ListPlaces.xml#PL">
+                    <placeName ref="#AU">Auschwitz</placeName> non aveva succursale perché <placeName ref="#AU">Auschwitz</placeName> era in <placeName ref="#PL">
                         <country>Polonia,</country>
-                    </placeName> non in <placeName ref="TEI-ListPlaces.xml#DEU">
+                    </placeName> non in <placeName ref="#DEU">
                         <country>Germania.</country>
                     </placeName>
                 </u>
@@ -3072,13 +4018,13 @@
                         <desc>Mh mh</desc>
                     </vocal> sì, sì.</u>
 
-                <u who="#EB" xml:id="e117" synch="#tlp234">La <placeName ref="TEI-ListPlaces.xml#DEU">
+                <u who="#EB" xml:id="e117" synch="#tlp234">La <placeName ref="#DEU">
                         <country>Germania</country>
-                    </placeName> che aveva <del type="truncation">fa</del> <placeName ref="TEI-ListPlaces.xml#DA">Dachau</placeName> è stato il primo campo di concentramento che hanno costruito nel <date when="1933">'33</date> per <anchor xml:id="ebruck-77" synch="#TS77" n="77"/>
+                    </placeName> che aveva <del type="truncation">fa</del> <placeName ref="#DA">Dachau</placeName> è stato il primo campo di concentramento che hanno costruito nel <date when="1933">'33</date> per <anchor xml:id="ebruck-77" synch="#TS77" n="77"/>
                     <vocal>
                         <desc>eh</desc>
                     </vocal> antinazisti,<anchor xml:id="ebruck-78" synch="#TS78" n="78"/> per antinazisti, <del type="reformulation">per</del> poi dopo omosessuali, i nani, i minorati fisici. E <pause type="short"/> hanno cominciato così e poi dopo si è trasformato lentamente in un campo di sterminio con crematorio: c'erano uno, due, tre. 
-                    E il terzo, due trasformato tipo museo tolto la cosa della doccia, ripulito, ridipinto, si vede ancora dove impiccavano quando, quello si vede. E poi c'è un altro piccolo crematorio che stava crollando e mi ha detto, questa mia amica: <q type="spoken" who="#friend" toWhom="#BRUCK">"Guarda l'ultima volta forse che vedi, perché è stato spazzato via tutto quasi".</q> Tutte le baracche, appena sono arrivati, i tedeschi hanno distrutto tutto, quindi, <placeName ref="TEI-ListPlaces.xml#DA">Dachau</placeName> c'è soltanto <num>32</num> <vocal>
+                    E il terzo, due trasformato tipo museo tolto la cosa della doccia, ripulito, ridipinto, si vede ancora dove impiccavano quando, quello si vede. E poi c'è un altro piccolo crematorio che stava crollando e mi ha detto, questa mia amica: <q type="spoken" who="#friend" toWhom="#BRUCK">"Guarda l'ultima volta forse che vedi, perché è stato spazzato via tutto quasi".</q> Tutte le baracche, appena sono arrivati, i tedeschi hanno distrutto tutto, quindi, <placeName ref="#DA">Dachau</placeName> c'è soltanto <num>32</num> <vocal>
                         <desc>ee</desc>
                     </vocal> lotti,
                     dove erano le baracche con i numeri di pietra. E poi c'è contornato d'un mattone, lo spazio <del type="reformulation">del</del> della baracca e il numero, basta. Uno, due, tre. Insomma. Poi c'è la torre, originale ancora. L'ingresso no, non è originale, secondo me non era così. La cosa degli ufficiali adesso museo, dove stavano loro. E poi c'è due crematori che hanno lasciato, però hanno abbellito: all'ingresso c'è a destra due baracche modello che assolutamente lontani mille miglia di quello che la baracca, sembra due prigioni nuovi di 
@@ -3118,7 +4064,7 @@
                 </u>
 
                 <u who="#EB" xml:id="e120" synch="#tlp240">Lei mi ha detto:  <q type="spoken" who="#friend" toWhom="#BRUCK">"guarda, distruggeranno anche questo crematorio qua".</q> Che era un po' distante dagli altri due: si attraversava un ponticello, c'è ancora il ponticello, verso il crematorio e lì c'è due con un tetto normale come una casa, soltanto stanza di uniformi. E invece c'è uno separato completamente più piccolo che è originale, non hanno toccato, quindi sta un po' crollando e lei ha detto: <q type="spoken" who="#friend" toWhom="#BRUCK">"guarda che
-                    stanno per distruggerlo. Io ho sentito che stanno per distruggerlo".</q> Poi va un signore coi pantaloni, con la bicicletta, con la pinza a ai pantaloni così e le <del type="repetition">le</del> banalità del male, un omettino alla <persName ref="TEI-ListPers.xml#HA">Hannah Arendt</persName> <anchor xml:id="ebruck-81" synch="#TS81" n="81"/>capito?<anchor xml:id="ebruck-82" synch="#TS82" n="82"/>
+                    stanno per distruggerlo. Io ho sentito che stanno per distruggerlo".</q> Poi va un signore coi pantaloni, con la bicicletta, con la pinza a ai pantaloni così e le <del type="repetition">le</del> banalità del male, un omettino alla <persName ref="#HA">Hannah Arendt</persName> <anchor xml:id="ebruck-81" synch="#TS81" n="81"/>capito?<anchor xml:id="ebruck-82" synch="#TS82" n="82"/>
                 </u>
 
                 <u who="AS">
@@ -3176,7 +4122,7 @@
 
                 <u who="#EB" xml:id="e125" synch="#tlp250">
                     <anchor xml:id="ebruck-87" synch="#TS87" n="87"/> sì che loro <anchor xml:id="ebruck-88" synch="#TS88" n="88"/> volano, fanno, stanno nell'acqua, quello che vuoi tu, no? Nel senso che loro confondono, hanno sei anni, sett'anni                    
-                    Non capiscono che è stato fatto sugli esseri umani vivi. Che non è <foreign xml:lang="EN">fiction,</foreign> <del type="reformulation">non è</del> le <del type="repetition">le</del> e una cosa folle. Non c'è un maestro che spiega, non c'è uno storico che accompagna i ragazzi passo per passo. Poi entri una sala semi-buia dove continua a proiettare lo stesso film di <placeName ref="TEI-ListPlaces.xml#DA">Dachau,</placeName> carri <vocal>
+                    Non capiscono che è stato fatto sugli esseri umani vivi. Che non è <foreign xml:lang="EN">fiction,</foreign> <del type="reformulation">non è</del> le <del type="repetition">le</del> e una cosa folle. Non c'è un maestro che spiega, non c'è uno storico che accompagna i ragazzi passo per passo. Poi entri una sala semi-buia dove continua a proiettare lo stesso film di <placeName ref="#DA">Dachau,</placeName> carri <vocal>
                         <desc>eh</desc>
                     </vocal> <del type="reformulation">le</del> pieno di carri pieno di morti nudi che pendono tutte le parti, questi guidati da questi bravi
                     <del type="truncation">bava</del> bavaresi, cavalli con la maschera loro. Ed è una agghiacciante come immagine, io non ho mai visto, la prima volta. E si vede, c'è il <del type="repetition">il</del> viale e sul ciglio del viale è pieno di cadaveri nudi che caricano sui carri che pendono, buttano la testa dappertutto. Poi 
@@ -3330,7 +4276,7 @@
                         <sic>un</sic>
                         <corr>una</corr>
                     </choice>
-                    diaspora totale la famiglia. Non ti capisce tuo marito nemmeno, <pause type="short"/> magari piange con te, si vergogna per quello che ti è accaduto, come fosse colpevole, però non può aiutarti. Non può dividere <placeName ref="TEI-ListPlaces.xml#AU">Auschwitz</placeName> con te, nessuno. Nessuno. 
+                    diaspora totale la famiglia. Non ti capisce tuo marito nemmeno, <pause type="short"/> magari piange con te, si vergogna per quello che ti è accaduto, come fosse colpevole, però non può aiutarti. Non può dividere <placeName ref="#AU">Auschwitz</placeName> con te, nessuno. Nessuno. 
                     <choice>
                         <sic>Queste</sic>
                         <corr>questo</corr>
@@ -3372,7 +4318,7 @@
                             <corr>possibile</corr> 
                         </choice>
                     </del> una cosa così e quindi è molto difficile, <del type="repetition">molto difficile,</del> molto. Dopo la guerra è stata una tragedia, dopo la <del type="truncation">gue.</del>
-                    Dopo la guerra, per esempio, ci sono pochissimi libri che hanno scritto sul <del type="repetition">sul</del> sopravvissuti. E quello è un peccato perché è stata una tragedia. Ma noi siamo arrivati <del type="reformulation">a</del> con <num>6</num> mesi di ritardo in <placeName ref="TEI-ListPlaces.xml#HU">
+                    Dopo la guerra, per esempio, ci sono pochissimi libri che hanno scritto sul <del type="repetition">sul</del> sopravvissuti. E quello è un peccato perché è stata una tragedia. Ma noi siamo arrivati <del type="reformulation">a</del> con <num>6</num> mesi di ritardo in <placeName ref="#HU">
                         <country>Ungheria</country>
                     </placeName>, hanno rimpatriato per ultimo gli ungheresi, perché 
                     <choice>
@@ -3436,7 +4382,7 @@
                         <sic>ha</sic>
                         <corr>è</corr>
                     </choice>
-                    sopravvissuta in una casa-difesa, credo di <persName ref="TEI-ListPers.xml#GPe">Perlasca</persName>. Per alcuni mesi è stato un disastro. Poi 
+                    sopravvissuta in una casa-difesa, credo di <persName ref="#GPe">Perlasca</persName>. Per alcuni mesi è stato un disastro. Poi 
                     <choice>
                         <sic>d'un'</sic>
                         <corr>di un</corr>
@@ -3467,7 +4413,7 @@
                 </u>
                 
                 <u who="#EB" xml:id="e142" synch="#tlp286">
-                    <measure type="time" unit="year" quantity="14">14</measure> <measure type="time" unit="year" quantity="13">13</measure> metti. Mia sorella <measure type="time" unit="year" quantity="16">16</measure>. <measure type="time" unit="year" quantity="17">17</measure> al ritorno. E lei <del type="reformulation">è ne ni ga</del> poi alla fine è entrata in un gruppo di <foreign xml:lang="HEB">Aksharà</foreign> emigrati in <placeName ref="TEI-ListPlaces.xml#IL">
+                    <measure type="time" unit="year" quantity="14">14</measure> <measure type="time" unit="year" quantity="13">13</measure> metti. Mia sorella <measure type="time" unit="year" quantity="16">16</measure>. <measure type="time" unit="year" quantity="17">17</measure> al ritorno. E lei <del type="reformulation">è ne ni ga</del> poi alla fine è entrata in un gruppo di <foreign xml:lang="HEB">Aksharà</foreign> emigrati in <placeName ref="#IL">
                         <country>Israele</country>
                     </placeName> Mi ha lasciato, se n'è andata, perché non sopportava più questa vita che abbiamo fatto da 
                     <choice>
@@ -3477,11 +4423,11 @@
                     parenti. <pause type="short"/> Poi sono andata anche io. 
                 </u>
 
-                <u who="AS" xml:id="a119" synch="#tlp287">In <placeName ref="TEI-ListPlaces.xml#IL">
+                <u who="AS" xml:id="a119" synch="#tlp287">In <placeName ref="#IL">
                         <country>Israele</country>
                     </placeName>?</u>
                     
-                <u who="#EB" xml:id="e143" synch="#tlp288"> Avevo due zii in <placeName ref="TEI-ListPlaces.xml#IL">
+                <u who="#EB" xml:id="e143" synch="#tlp288"> Avevo due zii in <placeName ref="#IL">
                         <country>Israele</country>
                     </placeName> Mi hanno dato un caffellatte senza zucchero, dicendo che lo zucchero razionato, che hanno bisogno per i figli. Poi ho chiesto un aiuto perché ero in un campo di transito per <measure type="time" unit="month" quantity="6">6</measure> <unit>mesi</unit> anche lì. Han detto: <q type="spoken" who="#relatives" toWhom="#BRUCK">"Sei bella e giovane, fai così
                     <kinesic>
@@ -3490,18 +4436,18 @@
                     per strada, blocchi una macchina".</q> <foreign xml:lang="EN">Autostop.</foreign> L'accoglienza. 
                 </u>
 
-                <u who="AS" xml:id="a120" synch="#tlp289">E l'<placeName ref="TEI-ListPlaces.xml#ITA">
+                <u who="AS" xml:id="a120" synch="#tlp289">E l'<placeName ref="#ITA">
                         <country>Italia</country>
                     </placeName> poi?</u>
 
-                <u who="#EB" xml:id="e144" synch="#tlp290">In <placeName ref="TEI-ListPlaces.xml#ITA">
+                <u who="#EB" xml:id="e144" synch="#tlp290">In <placeName ref="#ITA">
                         <country>Italia</country>
                     </placeName> sono rimasta perché 
                     <choice>
                         <sic>stava</sic>
                         <corr>stavo</corr>
                     </choice>
-                    emigrando in <placeName ref="TEI-ListPlaces.xml#ARG">
+                    emigrando in <placeName ref="#ARG">
                         <country>Argentina.</country>
                     </placeName>
                 </u>
@@ -3656,7 +4602,7 @@
                     mondo, di un mondo scomparso completamente, tra l'altro. Non c'è più. Qualche angolino a <placeName>Williamsburg.</placeName> Queste cose qua, ma proprio non.
                 </u>
 
-                <u who="AS" xml:id="a132" synch="#tlp316">Si <del type="reformulation">il</del> l'ebraismo yiddish è stato distrutto da una parte, poi negli <placeName ref="TEI-ListPlaces.xml#US">
+                <u who="AS" xml:id="a132" synch="#tlp316">Si <del type="reformulation">il</del> l'ebraismo yiddish è stato distrutto da una parte, poi negli <placeName ref="#US">
                         <country>Stati Uniti</country>
                     </placeName> c'è, <anchor xml:id="annaseg-123" synch="#TS123" n="123"/>però<anchor xml:id="annaseg-124" synch="#TS124" n="124"/> lì non c'è più. <shift feature="voice" new="whisper"/>Non c'è più.</u>
 

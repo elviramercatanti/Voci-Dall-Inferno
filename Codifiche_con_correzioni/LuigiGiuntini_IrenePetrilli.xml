@@ -2039,16 +2039,18 @@
                                         <l> che con gli occhi e col naso facea <rhyme label="a"> zuffa </rhyme> </l>
                                     </lg>
                                 »</quote>
-                                <bibl>
-                                    <author ref="#dante">
-                                        <forename> Dante </forename>
-                                        <surname> Alighieri </surname>
-                                    </author>
-                                    <title level="s" ref="#DC"> La Divina Commedia </title>
-                                    <title level="m" ref="#dcInf"> Inferno </title>
-                                    <title level="a" ref="#infXVII"> Canto XVII </title>
-                                    vv. 106-108
-                                </bibl>
+                                <ref target="#infXVII">
+                                    <bibl>
+                                        <author ref="#dante">
+                                            <forename> Dante </forename>
+                                            <surname> Alighieri </surname>
+                                        </author>
+                                        <title level="s" ref="#DC"> La Divina Commedia </title>
+                                        <title level="m" ref="#dcInf"> Inferno </title>
+                                        <title level="a" ref="#infXVII"> Canto XVII </title>
+                                        vv. 106-108
+                                    </bibl>
+                                </ref>
                             </cit>
                             <ptr target="#n32"/>.
                             Non so se ho trascritto con esattezza questi versi danteschi, che tale 
@@ -2365,16 +2367,18 @@
                                                                      <quote>“ 
                                                                          <l> contraddizion che nol consente </l>
                                                                     ”</quote>
-                                                                     <bibl>
-                                                                         <author ref="#dante">
-                                                                             <forename> Dante </forename>
-                                                                             <surname> Alighieri </surname>
-                                                                         </author>
-                                                                         <title level="s" ref="#DC"> La Divina Commedia </title>
-                                                                         <title level="m" ref="#dcInf"> Inferno </title>
-                                                                         <title level="a" ref="#infXXVII"> Canto XXVII </title>
-                                                                         vv. 120
-                                                                     </bibl>
+                                                                    <ref target="#infXXVII">
+                                                                        <bibl>
+                                                                            <author ref="#dante">
+                                                                                <forename> Dante </forename>
+                                                                                <surname> Alighieri </surname>
+                                                                            </author>
+                                                                            <title level="s" ref="#DC"> La Divina Commedia </title>
+                                                                            <title level="m" ref="#dcInf"> Inferno </title>
+                                                                            <title level="a" ref="#infXXVII"> Canto XXVII </title>
+                                                                            vv. 120
+                                                                        </bibl>
+                                                                    </ref>
                                                                   </cit> <ptr target="#n36"/>come 
                             c’insegna, per altri assunti, padre <persName type="cultura" ref="#dante"> Dante </persName>» </said>.
                             Ma <persName ref="#ricc">Riccardi</persName> non si dava per vinto ed essendo ragioniere e, quindi, a corto 
@@ -2758,16 +2762,18 @@
                                 <quote>«
                                     <l> La notte ch’io passai con tanta pièta </l> 
                                 »</quote> <ptr target="#n41"/>
-                                <bibl>
-                                    <author ref="#dante">
-                                        <forename> Dante </forename>
-                                        <surname> Alighieri </surname>
-                                    </author>
-                                    <title level="s" ref="#DC"> La Divina Commedia </title>
-                                    <title level="m" ref="#dcInf"> Inferno </title>
-                                    <title level="a" ref="#infI"> Canto I </title>
-                                    v.21
-                                </bibl>
+                                <ref target="#infI">
+                                    <bibl>
+                                        <author ref="#dante">
+                                            <forename> Dante </forename>
+                                            <surname> Alighieri </surname>
+                                        </author>
+                                        <title level="s" ref="#DC"> La Divina Commedia </title>
+                                        <title level="m" ref="#dcInf"> Inferno </title>
+                                        <title level="a" ref="#infI"> Canto I </title>
+                                        v.21
+                                    </bibl>
+                                </ref>
                             </cit>,
                             
                             <cit type="explicit">
@@ -2779,17 +2785,18 @@
                                         <l> mosse di prima quelle cose <rhyme label="b"> belle </rhyme>; </l>
                                     </lg>
                                »</quote> <ptr target="#n42"/>
-                                
-                                <bibl>
-                                    <author ref="#dante">
-                                        <forename> Dante </forename>
-                                        <surname> Alighieri </surname>
-                                    </author>
-                                    <title level="s" ref="#DC"> La Divina Commedia </title>
-                                    <title level="m" ref="#dcInf"> Inferno </title>
-                                    <title level="a" ref="#infI"> Canto I </title>
-                                    vv.37-41
-                                </bibl>
+                                <ref target="#infI">
+                                    <bibl>
+                                        <author ref="#dante">
+                                            <forename> Dante </forename>
+                                            <surname> Alighieri </surname>
+                                        </author>
+                                        <title level="s" ref="#DC"> La Divina Commedia </title>
+                                        <title level="m" ref="#dcInf"> Inferno </title>
+                                        <title level="a" ref="#infI"> Canto I </title>
+                                        vv.37-41
+                                    </bibl>
+                                </ref>
                             </cit>,
                             
                             <cit type="explicit">
@@ -2804,16 +2811,18 @@
                                     </lg>
                                     »</quote> <ptr target="#n43"/> <ptr target="#n43"/>
                                 
-                                <bibl>
-                                    <author ref="#dante">
-                                        <forename> Dante </forename>
-                                        <surname> Alighieri </surname>
-                                    </author>
-                                    <title level="s" ref="#DC"> La Divina Commedia </title>
-                                    <title level="m" ref="#dcInf"> Inferno </title>
-                                    <title level="a" ref="#infI"> Canto I </title>
-                                    vv.65-66
-                                </bibl>
+                                <ref target="#infI">
+                                    <bibl>
+                                        <author ref="#dante">
+                                            <forename> Dante </forename>
+                                            <surname> Alighieri </surname>
+                                        </author>
+                                        <title level="s" ref="#DC"> La Divina Commedia </title>
+                                        <title level="m" ref="#dcInf"> Inferno </title>
+                                        <title level="a" ref="#infI"> Canto I </title>
+                                        vv.65-66
+                                    </bibl>
+                                </ref>
                             </cit>
                             
                             Senza contare la prepotente e vivacissima descrizione delle <num type="cardinale" value="3">tre</num> <term type="dantes" ref="#fiere">fiere</term> che, 
@@ -2835,16 +2844,18 @@
                                     </lg>
                                     »</quote> <ptr target="#n44"/>
                                 
-                                <bibl>
-                                    <author ref="#dante">
-                                        <forename> Dante </forename>
-                                        <surname> Alighieri </surname>
-                                    </author>
-                                    <title level="s" ref="#DC"> La Divina Commedia </title>
-                                    <title level="m" ref="#dcInf"> Inferno </title>
-                                    <title level="a" ref="#infII"> Canto II </title>
-                                    vv.1-3
-                                </bibl>
+                                <ref target="#infII">
+                                    <bibl>
+                                        <author ref="#dante">
+                                            <forename> Dante </forename>
+                                            <surname> Alighieri </surname>
+                                        </author>
+                                        <title level="s" ref="#DC"> La Divina Commedia </title>
+                                        <title level="m" ref="#dcInf"> Inferno </title>
+                                        <title level="a" ref="#infII"> Canto II </title>
+                                        vv.1-3
+                                    </bibl>
+                                </ref>
                             </cit>.
                         </p>
                         
@@ -3011,16 +3022,18 @@
                             Mentre ci auguriamo che ciò non accada, intorno al nostro tavolo, nel 
                             primo pomeriggio si aduna, si fa per dire, <cit type="explicit">
                                                                           <quote> "la bella scola "</quote> <ptr target="#n45"/>
-                                                                          <bibl>
-                                                                              <author ref="#dante">
-                                                                                  <forename> Dante </forename>
-                                                                                  <surname> Alighieri </surname>
-                                                                              </author>
-                                                                              <title level="s" ref="#DC"> La Divina Commedia </title>
-                                                                              <title level="m" ref="#dcInf"> Inferno </title>
-                                                                              <title level="a" ref="#infIV"> Canto IV </title>
-                                                                              v.94
-                                                                          </bibl>
+                                                                            <ref target="#infIV">
+                                                                                <bibl>
+                                                                                    <author ref="#dante">
+                                                                                        <forename> Dante </forename>
+                                                                                        <surname> Alighieri </surname>
+                                                                                    </author>
+                                                                                    <title level="s" ref="#DC"> La Divina Commedia </title>
+                                                                                    <title level="m" ref="#dcInf"> Inferno </title>
+                                                                                    <title level="a" ref="#infIV"> Canto IV </title>
+                                                                                    v.94
+                                                                                </bibl>
+                                                                            </ref>
                                                                        </cit>
                             
                             di coloro che,
@@ -3038,17 +3051,19 @@
                                 <item n="6"> <persName ref="#bss"> Basso </persName>, un calabrese, che sa molte
                                              cose su <persName type="cultura" ref="GdF"> Gioacchino da Fiore </persName> <ptr target="#n46"/>
                                              <cit type="explicit">
-                                                 <quote>" di spirito profetico dotato"</quote> <ptr target="#n47"/>
-                                                 <bibl>
-                                                     <author ref="#dante">
-                                                         <forename> Dante </forename>
-                                                         <surname> Alighieri </surname>
-                                                     </author>
-                                                     <title level="s" ref="#DC"> La Divina Commedia </title>
-                                                     <title level="m" ref="#dcPar"> Paradiso </title>
-                                                     <title level="a" ref="#parXII"> Canto XII </title>
-                                                     v.141
-                                                 </bibl>
+                                                <quote>" di spirito profetico dotato"</quote> <ptr target="#n47"/>
+                                                <ref target="#parXII">
+                                                    <bibl>
+                                                        <author ref="#dante">
+                                                            <forename> Dante </forename>
+                                                            <surname> Alighieri </surname>
+                                                        </author>
+                                                        <title level="s" ref="#DC"> La Divina Commedia </title>
+                                                        <title level="m" ref="#dcPar"> Paradiso </title>
+                                                        <title level="a" ref="#parXII"> Canto XII </title>
+                                                        v.141
+                                                    </bibl>
+                                                </ref>
                                              </cit>,
                                 </item>
                                 <item n="7"> <persName ref="#dmr"> De Marzi </persName>, un napoletano, innamoratissimo
@@ -3104,16 +3119,18 @@
                             del mio amico e il riprovevole pugilato.
                             Qualche minuto più tardi si scioglie <cit type="explicit">
                                                                     <quote> "la bella scola "</quote> <ptr target="#n45"/>
-                                                                    <bibl>
-                                                                         <author ref="#dante">
-                                                                             <forename> Dante </forename>
-                                                                             <surname> Alighieri </surname>
-                                                                         </author>
-                                                                         <title level="s" ref="#DC"> La Divina Commedia </title>
-                                                                         <title level="m" ref="#dcInf"> Inferno </title>
-                                                                         <title level="a" ref="#infIV"> Canto IV </title>
-                                                                         v.94
-                                                                     </bibl>
+                                                                    <ref target="#infIV">
+                                                                        <bibl>
+                                                                            <author ref="#dante">
+                                                                                <forename> Dante </forename>
+                                                                                <surname> Alighieri </surname>
+                                                                            </author>
+                                                                            <title level="s" ref="#DC"> La Divina Commedia </title>
+                                                                            <title level="m" ref="#dcInf"> Inferno </title>
+                                                                            <title level="a" ref="#infIV"> Canto IV </title>
+                                                                            v.94
+                                                                        </bibl>
+                                                                    </ref>
                                                                  </cit> 
                             con la promessa di adunarsi di nuovo quanto prima.
                             Dopo il rancio serale, ciascuno si corica, pensando al lavoro, che lo attende l’indomani.
@@ -3240,16 +3257,18 @@
                             <persName type="cultura" ref="#dante">Dante</persName>:
                             <cit type="explicit">
                                 <quote> «Dolce colore d’oriental zaffiro» </quote> <ptr target="#n54"/>
-                                <bibl>
-                                    <author ref="#dante">
-                                        <forename> Dante </forename>
-                                        <surname> Alighieri </surname>
-                                    </author>
-                                    <title level="s" ref="#DC"> La Divina Commedia </title>
-                                    <title level="m" ref="#dcPur"> Purgatorio </title>
-                                    <title level="a" ref="#purI"> Canto I </title>
-                                    v.13
-                                </bibl>
+                                <ref target="#purI">
+                                    <bibl>
+                                        <author ref="#dante">
+                                            <forename> Dante </forename>
+                                            <surname> Alighieri </surname>
+                                        </author>
+                                        <title level="s" ref="#DC"> La Divina Commedia </title>
+                                        <title level="m" ref="#dcPur"> Purgatorio </title>
+                                        <title level="a" ref="#purI"> Canto I </title>
+                                        v.13
+                                    </bibl>
+                                </ref>
                             </cit>
                             tanto è azzurro e senza una nuvola.
                             Soltanto dai boschi lontani si alza una leggera foschia, che digrada verso 
@@ -4313,16 +4332,18 @@
                                 <quote>«
                                     <l> dentro di sé con la sua rabbia </l>
                                     »</quote> <ptr target="n93"/>
-                                <bibl>
-                                    <author ref="#dante">
-                                        <forename> Dante </forename>
-                                        <surname> Alighieri </surname>
-                                    </author>
-                                    <title level="s" ref="#DC"> La Divina Commedia </title>
-                                    <title level="m" ref="#dcInf"> Inferno </title>
-                                    <title level="a" ref="#infVII"> Canto VII </title>
-                                    v. 9
-                                </bibl>
+                                <ref target="#infVII">
+                                    <bibl>
+                                        <author ref="#dante">
+                                            <forename> Dante </forename>
+                                            <surname> Alighieri </surname>
+                                        </author>
+                                        <title level="s" ref="#DC"> La Divina Commedia </title>
+                                        <title level="m" ref="#dcInf"> Inferno </title>
+                                        <title level="a" ref="#infVII"> Canto VII </title>
+                                        v. 9
+                                    </bibl>
+                                </ref>
                             </cit>.
                             Quando si è rosicchiato bene bene l’anima sua, se la prende con noi o, 
                             quando proprio non ne può più, con i <num type="cardinale" value="2">due</num> <term type="lager" ref="#mei"> Meister </term>.
@@ -4435,16 +4456,18 @@
                             <cit type="explicit">
                                 <quote>« 
                                     <l> fuor delle braccia del suo dolce amico </l>»</quote> <ptr target="#n95"/>
-                                <bibl>
-                                    <author ref="#dante">
-                                        <forename> Dante </forename>
-                                        <surname> Alighieri </surname>
-                                    </author>
-                                    <title level="s" ref="#DC"> La Divina Commedia </title>
-                                    <title level="m" ref="#dcPur"> Purgatorio </title>
-                                    <title level="a" ref="#purIX"> Canto IX </title>
-                                    v. 3
-                                </bibl>
+                                <ref target="#purIX">
+                                    <bibl>
+                                        <author ref="#dante">
+                                            <forename> Dante </forename>
+                                            <surname> Alighieri </surname>
+                                        </author>
+                                        <title level="s" ref="#DC"> La Divina Commedia </title>
+                                        <title level="m" ref="#dcPur"> Purgatorio </title>
+                                        <title level="a" ref="#purIX"> Canto IX </title>
+                                        v. 3
+                                    </bibl>
+                                </ref>
                             </cit>. E ne ha tutte le ragioni, perché godere del calore pur tiepido 
                             delle braccia di <persName type="cultura" ref="#tit"> Titone </persName> <ptr target="#n96"/> antico, ed uscirne fuori, scivolando su di un lungo 
                             ed alto tappeto di neve, è, anche per una dea del suo rango, un’assai risibile 

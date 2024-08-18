@@ -1,4 +1,5 @@
-<?xml_stylesheet type="text/xsl" href="Segre_Stile.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="it">
+<?xml_stylesheet type="text/xsl" href="Segre_Stile.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="it">
     <teiHeader>
         <fileDesc> <!-- Contiene la descrizione bibliografica completa del file elettronico -->
             <titleStmt> <!-- Raggruppa le informazioni relative al titolo dell'opera e ai responsibili del suo contenuto-->
@@ -6,7 +7,7 @@
             </titleStmt>
             <editionStmt> <!-- Raggruppa le informazioni relative a un'edizione del testo -->
                 <edition>Lavoro realizzato per la tesi di Laurea Triennale in Informatica Umanistica, Università di Pisa</edition>
-                <respStmt>
+                <respStmt xml:id="encoder">
                     <resp>Trascrizione e codifica a cura di:</resp>
                     <persName xml:id="SC">
                         <forename>Sofia</forename>
@@ -124,7 +125,7 @@
             </textDesc>
             <particDesc>
                 <listPerson>
-                    <person xml:id="LS" n="1" role="testimone" source="http://digital-library.cdec.it/cdec-web/persone/detail/person-7664/segre-liliana.html">
+                    <person>
                         <persName>
                             <forename>Liliana</forename>
                             <surname>Segre</surname>
@@ -138,7 +139,7 @@
                         </birth>
                         <ptr type="furtherinfo" target="https://it.wikipedia.org/wiki/Liliana_Segre"/>
                     </person>
-                    <person xml:id="AS" n="2" role="intervistatrice">
+                    <person>
                         <persName>
                             <forename>Anna</forename>
                             <surname>Segre</surname>
@@ -172,7 +173,7 @@
                             <persName ref="#LS">
                                 <forename>Liliana</forename>
                                 <surname>Segre</surname>
-                            </persName> parla quindi della storia del padre e dell'affettuoso rapporto che la legava a lui: un rapporto basato su tanti sguardi e su "un'infinità di silenzi". Afferma, inoltre, di essere stata profondamente gelosa di suo padre, di una gelosia mai più provata, né nei confronti di suo <rs ref="TEI-ListPerson.xml#ABP" type="person">marito</rs> né dei suoi <rs ref="TEI-ListPerson.xml#BelliPaci" type="person">figli</rs>. Il vuoto lasciato dalla sua perdita, 
+                            </persName> parla quindi della storia del padre e dell'affettuoso rapporto che la legava a lui: un rapporto basato su tanti sguardi e su "un'infinità di silenzi". Afferma, inoltre, di essere stata profondamente gelosa di suo padre, di una gelosia mai più provata, né nei confronti di suo <rs ref="#ABP" type="person">marito</rs> né dei suoi <rs ref="#BelliPaci" type="person">figli</rs>. Il vuoto lasciato dalla sua perdita, 
                             quindi, non sarebbe mai più stato colmato.
                         </item>        
                         <item synch="#TR3">
@@ -190,22 +191,22 @@
                            <persName ref="#LS">
                                 <forename>Liliana</forename>
                                 <surname>Segre</surname>
-                            </persName> inizia quindi a parlare della solidarietà all'interno del Campo: dopo aver citato alcuni esempi di persone solidali per eccellenza, quali <persName ref="TEI-ListPerson.xml#GB">
+                            </persName> inizia quindi a parlare della solidarietà all'interno del Campo: dopo aver citato alcuni esempi di persone solidali per eccellenza, quali <persName ref="#GB">
                                 <forename>Goti</forename>
                                 <surname>Bauer</surname>
-                            </persName> <persName ref="TEI-ListPerson.xml#MMK">
+                            </persName> <persName ref="#MMK">
                                 <forename>Massimiliano</forename>
                                 <surname>Kolbe</surname>
                             </persName>
-                           afferma, tuttavia, di non averla mai praticata personalmente né tanto meno conosciuta, se non in due occasioni speciali che ricorda molto bene e che qui riferisce. La prima volta fu quando ricevette da una prigioniera, una triangolo nero, un piatto di minestra in più rispetto alla solita razione. La seconda fu quando, tornando dal <placeName ref="TEI-ListPlace.xml#revier">revier</placeName> dove si era recata per farsi curare 
+                           afferma, tuttavia, di non averla mai praticata personalmente né tanto meno conosciuta, se non in due occasioni speciali che ricorda molto bene e che qui riferisce. La prima volta fu quando ricevette da una prigioniera, una triangolo nero, un piatto di minestra in più rispetto alla solita razione. La seconda fu quando, tornando dal <placeName ref="#revier">revier</placeName> dove si era recata per farsi curare 
                            un grosso ascesso (e dove, tuttavia, ricevette soltanto due sforbiciate da una terribile sorvegliante-infermiera), ricevette da un'altra prigioniera una rotella di carota fresca, un regalo veramente eccezionale.
                         </item>    
                         <item synch="#TR6">
-                           La testimone parla a questo punto del suo ritorno: avrebbe passato quattro mesi in <placeName ref="TEI-ListPlace.xml#Germania">Germania</placeName> prima di fare ritorno a casa sua, a <placeName ref="TEI-ListPlace.xml#Milano">Milano</placeName>, perché da giovane tredicenne qual era non aveva idea di dove si trovasse e di come potesse tornare in <placeName ref="TEI-ListPlace.xml#Italia">Italia</placeName>. Per questo, 
-                           avrebbe deciso di unirsi prima a un gruppo di prigionieri di guerra francesi e successivamente a un altro gruppo di italiani, assieme ai quali sarebbe stata accudita e curata dagli americani. Gli stessi americani avrebbero successivamente provveduto a dislocare tutti gli ex prigionieri in cinque paesi sul corso del fiume <placeName ref="TEI-ListPlace.xml#Elba">Elba</placeName>, e <persName ref="#LS">
+                           La testimone parla a questo punto del suo ritorno: avrebbe passato quattro mesi in <placeName ref="#Germania">Germania</placeName> prima di fare ritorno a casa sua, a <placeName ref="#Milano">Milano</placeName>, perché da giovane tredicenne qual era non aveva idea di dove si trovasse e di come potesse tornare in <placeName ref="#Italia">Italia</placeName>. Per questo, 
+                           avrebbe deciso di unirsi prima a un gruppo di prigionieri di guerra francesi e successivamente a un altro gruppo di italiani, assieme ai quali sarebbe stata accudita e curata dagli americani. Gli stessi americani avrebbero successivamente provveduto a dislocare tutti gli ex prigionieri in cinque paesi sul corso del fiume <placeName ref="#Elba">Elba</placeName>, e <persName ref="#LS">
                                 <forename>Liliana</forename>
                             </persName>
-                           sarebbe finita a <placeName ref="TEI-ListPlace.xml#Obermarschacht" xml:lang="de">Obermarschacht</placeName>.
+                           sarebbe finita a <placeName ref="#Obermarschacht" xml:lang="de">Obermarschacht</placeName>.
                         </item>                        
                     </list>
                 </ab>
@@ -327,6 +328,273 @@
             <when xml:id="TI04" since="#TI03" interval="1"/>
         </timeline>
     </standOff>
+    
+    <standOff>
+        <listPerson>
+                    <person xml:id="LS" n="1" role="testimone" source="http://digital-library.cdec.it/cdec-web/persone/detail/person-7664/segre-liliana.html">
+                        <persName>
+                            <forename>Liliana</forename>
+                            <surname>Segre</surname>
+                        </persName>
+                        <birth>
+                            <date when="1930-09-10">10 settembre 1930</date>
+                            <placeName>
+                                <settlement>Milano</settlement>
+                                <country>Italia</country>
+                            </placeName>
+                        </birth>
+                        <ptr type="furtherinfo" target="https://it.wikipedia.org/wiki/Liliana_Segre"/>
+                    </person>
+                    <person xml:id="AS" n="2" role="intervistatrice">
+                        <persName>
+                            <forename>Anna</forename>
+                            <surname>Segre</surname>
+                            <ptr type="furtherinfo" target="http://www.annasegre.it"/>
+                        </persName>
+                    </person>
+                    
+                    <person xml:id="GB">
+                    <persName>
+                        <forename type="given">Agata</forename>
+                        <forename full="abb">Goti</forename>
+                        <surname type="birth">Herskovitz</surname>
+                        <surname type="married">Bauer</surname>
+                    </persName>
+                    <sex>F</sex>
+                    <birth>
+                        <date when="1924-07-29">29 luglio 1924</date>
+                            <placeName>
+                                <settlement>Berehove</settlement>
+                                <country>Ucraina</country>
+                            </placeName>
+                    </birth>
+                    <ptr type="furtherInfo" target="https://it.wikipedia.org/wiki/Goti_Herskovits_Bauer"/>
+                </person>
+                
+                 <person xml:id="PL">
+                    <persName>
+                        <forename>Primo</forename>
+                        <surname>Levi</surname>
+                    </persName>
+                    <sex>M</sex>
+                    <birth>
+                        <date when="1919-07-31">31 luglio 1919</date>
+                        <placeName>
+                            <settlement>Torino</settlement>
+                            <country>Italia</country>
+                        </placeName>
+                    </birth>
+                    <death>
+                        <date when="1987-04-11">11 aprile 1987</date>
+                        <placeName>
+                            <settlement>Torino</settlement>
+                            <country>Italia</country>
+                        </placeName>
+                    </death>
+                    <ptr type="furtherInfo" target="https://it.wikipedia.org/wiki/Primo_Levi"/>
+                </person>
+                
+                <person xml:id="LN">
+                    <persName>
+                        <forename>Luciana</forename>
+                        <surname type="birth">Nissim</surname>
+                        <surname type="married">Momigliano</surname>
+                    </persName>
+                    <sex>F</sex>
+                    <birth>
+                        <date when="1919-10-20">20 ottobre 1919</date>
+                        <placeName>
+                            <settlement>Torino</settlement>
+                            <country>Italia</country>
+                        </placeName>
+                    </birth>
+                    <death>
+                        <date when="1998-12-01">1 dicembre 1998</date>
+                        <placeName>
+                            <settlement>Milano</settlement>
+                            <country>Italia</country>
+                        </placeName>
+                    </death>
+                    <ptr type="furtherInfo" target="https://it.wikipedia.org/wiki/Luciana_Nissim_Momigliano"/>
+                </person>
+                
+                 <person xml:id="NF">
+                    <persName>
+                        <forename>Nedo</forename>
+                        <surname>Fiano</surname>
+                    </persName>
+                    <sex>M</sex>
+                    <birth>
+                        <date when="1925-04-22">22 aprile 1925</date>
+                        <placeName>
+                            <settlement>Firenze</settlement>
+                            <country>Italia</country>
+                        </placeName>
+                    </birth>
+                    <death>
+                        <date when="2020-12-19">19 dicembre 2020</date>
+                        <placeName>
+                            <settlement>Milano</settlement>
+                            <country>Italia</country>
+                        </placeName>
+                    </death>
+                    <ptr type="furtherInfo" target="https://it.wikipedia.org/wiki/Nedo_Fiano"/>
+                </person>
+                
+                <person xml:id="GT">
+                    <persName>
+                        <forename>Giuliana</forename>
+                        <surname type="birth">Fiorentino</surname>
+                        <surname type="married">Tedeschi</surname>
+                    </persName>
+                    <sex>F</sex>
+                    <birth>
+                        <date when="1914-04-09">9 aprile 1914</date>
+                        <placeName>
+                            <settlement>Milano</settlement>
+                            <country>Italia</country>
+                        </placeName>
+                    </birth>
+                    <death>
+                        <date when="2010-06-28">28 giugno 2010</date>
+                        <placeName>
+                            <settlement>Torino</settlement>
+                            <country>Italia</country>
+                        </placeName>
+                    </death>
+                    <ptr type="furtherInfo" target="https://it.wikipedia.org/wiki/Giuliana_Fiorentino_Tedeschi"/>
+                </person>
+                
+                <person xml:id="MMK">
+                    <persName>
+                        <forename type="birth">Rajmund</forename>
+                        <forename type="religious">Massimiliano Maria</forename>
+                        <surname>Kolbe</surname>
+                    </persName>
+                    <sex>M</sex>
+                    <birth>
+                        <date when="1894-01-08">8 gennaio 1894</date>
+                        <placeName>
+                            <settlement>Zduńska Wola</settlement>
+                            <country>Polonia</country>
+                        </placeName>
+                    </birth>
+                    <death>
+                        <date when="1941-08-14">14 agosto 1941</date>
+                        <placeName>
+                            <settlement>Auschwitz</settlement>
+                            <country>Polonia</country>
+                        </placeName>
+                    </death>
+                    <note>Padre Massiliano Maria Kolbe è stato fatto santo nel 1982 da Papa Giovanni Paolo II, per essersi offerto volontario al posto di un altro condannato per andare nella camera a gas</note>
+                    <ptr type="furtherInfo" target="https://it.wikipedia.org/wiki/Massimiliano_Maria_Kolbe"/>
+                </person>
+                
+                <person xml:id="GC">
+                    <persName>
+                        <forename>Graziella</forename>
+                        <surname>Coen</surname>
+                    </persName>
+                    <sex>F</sex>
+                    <birth>
+                        <date when="1929-10-04">4 ottobre 1929</date>
+                        <placeName>
+                            <settlement>Roma</settlement>
+                            <country>Italia</country>
+                        </placeName>
+                    </birth>
+                    <death>
+                        <date when="2004">2004</date>
+                        <placeName>
+                            <country>Sud Africa</country>
+                        </placeName>
+                    </death>
+                    <ptr type="furtherInfo" target="http://digital-library.cdec.it/cdec-web/persone/detail/person-1704/coen-graziella.html?persone=%22Coen%2C+Graziella%22"/>
+                </person>
+        </listPerson>
+        
+        <listPlace>
+            <place xml:id="Svizzera">
+            <placeName>Svizzera</placeName>
+                <country>Svizzera</country>
+            </place>
+            
+            <place xml:id="Judenrampe">
+                <placeName>JudenRampe</placeName>
+                <ptr type="furtherInfo" target="https://www.assemblea.emr.it/cittadinanza/per-approfondire/formazione-pdc/viaggio-visivo/i-campi-di-auschwitz/i-crematori-di-birkenau/il-dottor-josef-mengele/approfondimenti/la-procedura-di-selezione-sulla-judenrampe"/>
+            </place>
+
+            <place xml:id="revier">
+                <placeName>Revier</placeName>
+                <ptr type="furtherInfo" target="https://deportati.it/dizionario/r/revier/"/>
+            </place>
+            
+            <place xml:id="Germania">
+                <placeName>Germania</placeName>
+                <country>Germania</country>
+            </place>
+
+            <place xml:id="Ungheria">
+            <placeName>Ungheria</placeName>
+                <country>Ungheria</country>
+            </place>
+            
+            <place xml:id="Cecoslovacchia">
+            <placeName>Cecoslovacchia</placeName>
+                <country>Cecoslovacchia</country>
+            </place>
+            
+             <place xml:id="Milano">
+                <placeName>Milano</placeName>
+                <country>Italia</country>
+                <location>
+                    <geo>45.469935, 9.179446</geo>
+                </location>
+            </place>
+            
+            <place xml:id="Auschwitz">
+                <placeName>Auschwitz</placeName>
+                <country>Polonia</country>
+                <location>
+                    <geo>50.602671, 19.245927</geo>
+                </location>
+            </place>
+            
+             <place xml:id="Polonia">
+             <placeName>Polonia</placeName>
+                <country>Polonia</country>
+            </place>
+            
+             <place xml:id="Luneburg">
+                <placeName>Luneburg</placeName>
+                <country>Germania</country>
+                <location>
+                    
+                    <geo>53.239158, 10.412282</geo>
+                </location>
+            </place> 
+            
+             <place xml:id="Elba">
+                <placeName type="river">Elba</placeName>
+               <country>Germania</country>
+            </place>
+            
+            <place xml:id="Obermarschacht">
+                <placeName>Obermarschacht</placeName>
+                 <country>Germania</country>
+                <location>
+                      <!-- Non sono state trovate le coordinate geografiche di questo luogo -->
+                </location>
+            </place>
+            
+            <place xml:id="Sud_Africa">
+                <placeName>Sud Africa</placeName>
+                    <country>Sud Africa</country>
+                </place>
+                
+                
+        </listPlace>
+    </standOff>
 
     <text>
         <body>
@@ -345,7 +613,7 @@
                     </vocal> <vocal>
                         <desc>Ehh</desc>
                     </vocal> Io a <persName>
-                        <forename ref="TEI-ListPerson.xml#GB">Goti</forename>
+                        <forename ref="#GB">Goti</forename>
                     </persName> anche ho chiesto <vocal>
                         <desc>inspira</desc>
                     </vocal> <vocal>
@@ -393,34 +661,34 @@
 
                 <u who="#LS" xml:id="LS5" synch="#TS10">No, perché <vocal>
                         <desc>ehm</desc>
-                    </vocal> <pause type="short"/> è la cosa dominante per tutti, perché a fronte di <persName ref="TEI-ListPerson.xml#PL">
+                    </vocal> <pause type="short"/> è la cosa dominante per tutti, perché a fronte di <persName ref="#PL">
                         <forename>Primo</forename> <surname>Levi</surname>
                     </persName> che ha potuto scrivere in quel modo così straordinariamente lucido come ha fatto, <pause type="short"/> ma aveva tutta la famiglia a casa, e l'ha ritrovata tutta, 
                 lasciamo stare che poi <vocal>
                         <desc>inspira</desc>
                     </vocal> possono essere andati a pezzi <pause type="short"/> ugualmente i suoi nervi proprio magari nella relazione coi parenti, così si dice, non lo so, <vocal>
                         <desc>inspira</desc>
-                    </vocal> ma lui, la <persName ref="TEI-ListPerson.xml#LN">
+                    </vocal> ma lui, la <persName ref="#LN">
                         <forename>Luciana</forename> <surname>Nissim</surname>
                     </persName>, queste erano
                 persone che erano state prese singolarmente a un'età in cui autonomamente avevano deciso come e dove fuggire, quando e perché, <vocal>
                         <desc>inspira</desc>
-                    </vocal> <pause type="short"/> <shift feature="pitch" new="asc"/>e <pause type="short"/> <shift feature="pitch" new="monot"/>che sapevano, perché erano in <placeName ref="TEI-ListPlace.xml#Svizzera">Svizzera</placeName> i parenti, quindi 
+                    </vocal> <pause type="short"/> <shift feature="pitch" new="asc"/>e <pause type="short"/> <shift feature="pitch" new="monot"/>che sapevano, perché erano in <placeName ref="#Svizzera">Svizzera</placeName> i parenti, quindi 
                 erano già sicuri che <pause type="short"/> il problema era <emph>loro, personale, <shift feature="tension" new="tense"/>era solo loro</emph>. <vocal>
                         <desc>inspira</desc>
                     </vocal> <shift feature="tense" new="leg"/> Allora, io credo che vissuta in quel modo la stessa vicenda, naturalmente con le diversità <del type="truncation">de...,</del> dei destini, <vocal>
                         <desc>inspira</desc>
                     </vocal> si potesse ragionare <pause type="short"/> ancora in 
-                termini, appunto, relativi a sé stessi. <pause type="medium"/> <shift feature="pitch" new="high"/>Chi, invece, <shift feature="pitch" new="monot"/>come me, come <persName ref="TEI-ListPerson.xml#GB">
+                termini, appunto, relativi a sé stessi. <pause type="medium"/> <shift feature="pitch" new="high"/>Chi, invece, <shift feature="pitch" new="monot"/>come me, come <persName ref="#GB">
                         <forename>Goti</forename>
-                    </persName>, come <persName ref="TEI-ListPerson.xml#NF">
+                    </persName>, come <persName ref="#NF">
                         <forename>Nedo</forename>
-                    </persName> - <pause type="medium"/> la <persName ref="TEI-ListPerson.xml#GT">
+                    </persName> - <pause type="medium"/> la <persName ref="#GT">
                         <forename>Giuliana</forename>
                     </persName> è 
                 ancora un fatto a parte, perché le bambine erano salvate, <vocal>
                         <desc>ehm</desc>
-                    </vocal> la <persName ref="TEI-ListPerson.xml#GT">
+                    </vocal> la <persName ref="#GT">
                         <forename>Giuliana</forename> <surname>Tedeschi</surname>
                     </persName>, <vocal>
                         <desc>inspira</desc>
@@ -443,20 +711,20 @@
                         <desc>inspira</desc>
                     </vocal>
                     <shift feature="loud" new="cresc"/> dico: <quote>"La solitudine"</quote>, <pause type="short"/> perché la solitudine, <emph>mia</emph>, che non è stata <pause type="short"/> uguale 
-                a quella di <persName ref="TEI-ListPerson.xml#NF">
+                a quella di <persName ref="#NF">
                         <forename>Nedo</forename>
-                    </persName>, a quella di <persName ref="TEI-ListPerson.xml#GB">
+                    </persName>, a quella di <persName ref="#GB">
                         <forename>Goti</forename>
                     </persName>, <del type="falseStart">è stata,</del> ognuno di noi ha avuto una solitudine <pause type="short"/> interiore diversa, <vocal>
                         <desc>inspira</desc>
                     </vocal> io in quel momento, che descrivo <shift feature="loud" new="dimin"/>sempre, quando sulla rampa, la 
-                <placeName ref="TEI-ListPlace.xml#Judenrampe" xml:lang="de">Judenrampe</placeName>, la rampa di arrivo, <incident>
+                <placeName ref="#Judenrampe" xml:lang="de">Judenrampe</placeName>, la rampa di arrivo, <incident>
                         <desc>rumore in sottofondo</desc>
                     </incident> ho lasciato la mano di mio padre, <shift feature="loud" new="cresc"/>sono stata <emph>sola</emph>, e a tredici anni prendersi carico di sé stessi <pause type="medium"/> è una cosa <pause type="medium"/> che è <emph>tremenda</emph>, <shift feature="pitch" new="high"/>che è difficilissima da sopportare, che
                 è... <pause type="short"/> quando fino a un minuto prima hai avuto quello che hai avuto di tesoro, di fortuna, di <del type="repetition">di di di</del> <vocal>
                         <desc>inspira</desc>
                     </vocal> meraviglia di rapporto, <del type="falseStart">di</del> <pause type="short"/> <emph>tale</emph> che io che ero senza mamma non ho <emph>mai</emph> sentito la mancanza della mamma, <pause type="short"/>quindi, era un essere avvolta da...<pause type="medium"/> Senza quasi parlarci
-                eh, perché mio <rs ref="TEI-ListPerson.xml#AlS" type="person">papà</rs> era di pochissime parole, <pause type="medium"/> <vocal>
+                eh, perché mio <rs ref="#AlS" type="person">papà</rs> era di pochissime parole, <pause type="medium"/> <vocal>
                         <desc>schiocco con la bocca</desc>
                     </vocal> era <shift feature="loud" new="dimin"/> un uomo schivo, era un uomo <vocal>
                         <desc>inspira</desc>
@@ -470,18 +738,18 @@
                     </vocal> e loro erano sposati, i miei genitori, 
                 da... <pause type="short"/> due anni, <pause type="medium"/> quindi <vocal>
                         <desc>ehh</desc>
-                    </vocal> mio <rs ref="TEI-ListPerson.xml#AlS" type="person">papà</rs> a trentun anni era vedovo, quindi era <pause type="short"/> un uomo che poi stava sempre a casa, non usciva mai, non <vocal>
+                    </vocal> mio <rs ref="#AlS" type="person">papà</rs> a trentun anni era vedovo, quindi era <pause type="short"/> un uomo che poi stava sempre a casa, non usciva mai, non <vocal>
                         <desc>inspira</desc>
                     </vocal> <del type="repetition">non</del> cercava - cosa che ho capito <shift feature="voice" new="giggle"/>poi dopo - <shift feature="pitch" new="monot"/> 
                 <del type="repetition">non cercava</del> neanche <del type="falseStart">quella, <del type="repetition">quella...</del>
                     </del> di rifarsi una vita, che sarebbe stato <pause type="short"/> <emph>normale</emph>, <vocal>
                         <desc>inspira</desc>
-                    </vocal> <emph>non aiutato certo da me</emph>, che ero, appena ho capito <pause type="short"/> che <rs ref="TEI-ListPerson.xml#AlS" type="person">papà</rs> era mio, di una gelosia così assoluta <shift feature="loud" new="dimin"/>che non sono mai stata gelosa così di mio <rs ref="TEI-ListPerson.xml#ABP" type="person">marito</rs>, né 
-                dei miei <rs ref="TEI-ListPerson.xml#BelliPaci" type="person">figli</rs> quando hanno <shift feature="loud" new="cresc"/>trovato <vocal>
+                    </vocal> <emph>non aiutato certo da me</emph>, che ero, appena ho capito <pause type="short"/> che <rs ref="#AlS" type="person">papà</rs> era mio, di una gelosia così assoluta <shift feature="loud" new="dimin"/>che non sono mai stata gelosa così di mio <rs ref="#ABP" type="person">marito</rs>, né 
+                dei miei <rs ref="#BelliPaci" type="person">figli</rs> quando hanno <shift feature="loud" new="cresc"/>trovato <vocal>
                         <desc>mmh</desc>
                     </vocal> fidanzate o amori, <vocal>
                         <desc>inspira</desc>
-                    </vocal> assolutamente, proprio io avrei sofferto in un modo <emph>tremendo</emph> se mio <rs ref="TEI-ListPerson.xml#AlS" type="person">papà</rs> avesse avuto una donna e quindi, <vocal>
+                    </vocal> assolutamente, proprio io avrei sofferto in un modo <emph>tremendo</emph> se mio <rs ref="#AlS" type="person">papà</rs> avesse avuto una donna e quindi, <vocal>
                         <desc>inspira</desc>
                     </vocal> senza dircelo mai, <vocal>
                         <desc>inspira</desc>
@@ -490,20 +758,20 @@
                     </vocal> 
                 <pause type="short"/> un'infinità di silenzi sono stati importantissimi tra noi, proprio <vocal>
                         <desc>inspira</desc>
-                    </vocal> di quelle persone che si capiscono senza parlare, ma proprio, a un livello anche infantile da parte mia eh, che non era <pause type="short"/> molto comune diciamo, quando poi dopo io ho avuto <rs ref="TEI-ListPerson.xml#BelliPaci" type="person">figli</rs> e <rs type="person">nipoti</rs> <vocal>
+                    </vocal> di quelle persone che si capiscono senza parlare, ma proprio, a un livello anche infantile da parte mia eh, che non era <pause type="short"/> molto comune diciamo, quando poi dopo io ho avuto <rs ref="#BelliPaci" type="person">figli</rs> e <rs type="person">nipoti</rs> <vocal>
                         <desc>inspira</desc>
                     </vocal> non è così, 
                 <vocal>
                         <desc>eh</desc>
-                    </vocal> con i miei <rs ref="TEI-ListPerson.xml#BelliPaci" type="person">figli</rs> io parlo e loro mi rispondono, perché c'è bisogno fra noi di questa comunicazione pur amandoci e... capendoci. <shift feature="pitch" new="high"/>Con mio <rs ref="TEI-ListPerson.xml#AlS" type="person">papà</rs>, <pause type="short"/> <shift feature="pitch" new="monot"/>se io ho ripensato a che discorsi abbiamo fatto, <pause type="long"/> <shift feature="voice" new="whisper"/>pochissimi, 
+                    </vocal> con i miei <rs ref="#BelliPaci" type="person">figli</rs> io parlo e loro mi rispondono, perché c'è bisogno fra noi di questa comunicazione pur amandoci e... capendoci. <shift feature="pitch" new="high"/>Con mio <rs ref="#AlS" type="person">papà</rs>, <pause type="short"/> <shift feature="pitch" new="monot"/>se io ho ripensato a che discorsi abbiamo fatto, <pause type="long"/> <shift feature="voice" new="whisper"/>pochissimi, 
                 <shift feature="loud" new="p"/>pochissimi, uno sguardo, un accenno, una parola, un... <del type="repetition">un</del> atteggiamento <emph>suo</emph> <pause type="short"/> per me <pause type="short"/> bastava, <pause type="short"/> il tutto con un'affettuosità enorme nei miei confronti. <vocal>
                         <desc>inspira</desc>
-                    </vocal> E anche era molto severo mio <rs ref="TEI-ListPerson.xml#AlS" type="person">papà</rs>, non era certo uno che... mi lasciasse fare tutto quello 
+                    </vocal> E anche era molto severo mio <rs ref="#AlS" type="person">papà</rs>, non era certo uno che... mi lasciasse fare tutto quello 
                 che volevo, assolutamente. <vocal>
                         <desc>inspira</desc>
                     </vocal> <pause type="medium"/> <incident>
                         <desc>il registratore viene mosso</desc>
-                    </incident> In quel momento io non ero più la bambina di mio <rs ref="TEI-ListPerson.xml#AlS" type="person">papà</rs>, <vocal>
+                    </incident> In quel momento io non ero più la bambina di mio <rs ref="#AlS" type="person">papà</rs>, <vocal>
                         <desc>inspira</desc>
                     </vocal>ma ero un'entità, <pause type="short"/>una <shift feature="voice" new="giggle"/>monade, appunto, un'entità <pause type="short"/> a sé stante 
                 <shift feature="loud" new="dimin"/>con un mondo nemico tutto intorno, quindi, <vocal>
@@ -515,7 +783,7 @@
                     </vocal> <pause type="short"/> che non c'è stata... <pause type="medium"/> <del type="repetition">non 
                 c'è stata</del> compagnia di <del type="repetition">di... di</del> nessun genere in campo o subito dopo, al ritorno, <vocal>
                         <desc>inspira</desc>
-                    </vocal> o anche affetto, <pause type="short"/> che l'abbia sanata, <shift feature="pitch" new="high"/>fino a quando non ho incontrato mio <rs ref="TEI-ListPerson.xml#ABP" type="person">marito</rs>, <shift feature="pitch" new="monot"/>allora, <pause type="medium"/> è tuttora un compagno nel senso <del type="falseStart">di</del> 
+                    </vocal> o anche affetto, <pause type="short"/> che l'abbia sanata, <shift feature="pitch" new="high"/>fino a quando non ho incontrato mio <rs ref="#ABP" type="person">marito</rs>, <shift feature="pitch" new="monot"/>allora, <pause type="medium"/> è tuttora un compagno nel senso <del type="falseStart">di</del> 
                 che non sono stata mai più sola, ecco, <pause type="short"/> proprio etimologico della parola. <vocal>
                         <desc>inspira</desc>
                     </vocal> <pause type="medium"/>Sull'umiliazione, <pause type="medium"/> l'umiliazione era totale, <pause type="medium"/> cosa c'era di non umiliante? Quando <pause type="short"/> non hai più <pause type="medium"/> niente e nessuno che ti voglia bene, <pause type="short"/> non hai 
@@ -582,12 +850,12 @@
                         <desc>inspira</desc>
                     </vocal> <vocal>
                         <desc>Eeh</desc>
-                    </vocal> <pause type="short"/> Chi ha avuto <persName ref="TEI-ListPerson.xml#GB">
+                    </vocal> <pause type="short"/> Chi ha avuto <persName ref="#GB">
                         <forename>Goti</forename>
                     </persName> 
                 come compagna di prigionia <vocal>
                         <desc>inspira</desc>
-                    </vocal> <pause type="short"/> ha potuto ricordare la solidarietà, <pause type="short"/> perché <persName ref="TEI-ListPerson.xml#GB">
+                    </vocal> <pause type="short"/> ha potuto ricordare la solidarietà, <pause type="short"/> perché <persName ref="#GB">
                         <forename>Goti</forename>
                     </persName> è stata, <pause type="short"/> <emph>è</emph> una fortuna per chi la conosce, per chi ce l'ha come amica perché, non ne parliamo, perché... chi ce l'ha come <del type="repetition">come</del>... famiglia  <vocal>
                         <desc>inspira</desc>
@@ -598,7 +866,7 @@
                         <desc>inspira</desc>
                     </vocal> <pause type="short"/> ma ci sono altri casi, addirittura le fanno sante... e...<vocal>
                         <desc>eh</desc>
-                    </vocal> <persName ref="TEI-ListPerson.xml#MMK">Padre <surname>Kolbe</surname>
+                    </vocal> <persName ref="#MMK">Padre <surname>Kolbe</surname>
                     </persName>, queste persone che hanno <vocal>
                         <desc>inspira</desc>
                     </vocal> <pause type="short"/> <vocal>
@@ -675,7 +943,7 @@
                     </vocal> e avevo tutte le ghiandole nello scheletro <del type="falseStart">che si ved-</del> <shift feature="pitch" new="high"/>
                 evidenti, <shift feature="loud" new="dimin"/>all'inguine, <vocal>
                         <desc>inspira</desc>
-                    </vocal> qui eccetera. <pause type="medium"/> Ma, siccome avevo il terrore <pause type="short"/> di andare al <placeName ref="TEI-ListPlace.xml#revier" xml:lang="de">revier</placeName> che era l'ambulatorio, che era <del type="falseStart">la</del> l'ospedale, <vocal>
+                    </vocal> qui eccetera. <pause type="medium"/> Ma, siccome avevo il terrore <pause type="short"/> di andare al <placeName ref="#revier" xml:lang="de">revier</placeName> che era l'ambulatorio, che era <del type="falseStart">la</del> l'ospedale, <vocal>
                         <desc>inspira</desc>
                     </vocal> <shift feature="pitch" new="high"/>mi ero tenuta questo ascesso spaventoso, <del type="falseStart">senza</del> <pause type="short"/> 
                 <del type="falseStart">non potevo</del> <pause type="short"/> tenevo il braccio staccato perché non potevo tenerlo giù, e in quel campo non si lavorava, per cui <pause type="short"/> trascinavo le mie giornate, <shift feature="loud" new="p"/>sicuramente con la febbre altissima, stando da cane, <vocal>
@@ -756,7 +1024,7 @@
                         <desc>inspira</desc>
                     </vocal> Due cose: <vocal>
                         <desc>schiocco con la bocca</desc>
-                    </vocal> prima dicevi del ritorno, <unclear cert="high" resp="#SC">che</unclear> quando sei tornata fino a che non hai incontrato... tuo <rs ref="TEI-ListPerson.xml#ABP" type="person">marito</rs> <del type="falseStart">non-,</del> sei stata di nuovo... <anchor xml:id="annseg-11" synch="#TT11" n="11"/> <del type="falseStart">sol-</del> <anchor xml:id="annseg-12" synch="#TT12" n="12"/> cioè sei stata ancora sola</u>
+                    </vocal> prima dicevi del ritorno, <unclear cert="high" resp="#SC">che</unclear> quando sei tornata fino a che non hai incontrato... tuo <rs ref="#ABP" type="person">marito</rs> <del type="falseStart">non-,</del> sei stata di nuovo... <anchor xml:id="annseg-11" synch="#TT11" n="11"/> <del type="falseStart">sol-</del> <anchor xml:id="annseg-12" synch="#TT12" n="12"/> cioè sei stata ancora sola</u>
                 
                 <u who="#LS">
                     <anchor xml:id="lilseg-11" synch="#TT11" n="11"/> Sola <anchor xml:id="lilseg-12" synch="#TT12" n="12"/>
@@ -772,7 +1040,7 @@
                         <desc>inspira</desc>
                     </vocal> Ma sai, <del type="falseStart">la... <del type="truncation">l-</del>,</del> <shift feature="loud" new="dimin"/> le storie del ritorno... anche lì <vocal>
                         <desc>mh</desc>
-                    </vocal> <persName ref="TEI-ListPerson.xml#PL">
+                    </vocal> <persName ref="#PL">
                         <forename>Primo</forename> <surname>Levi</surname>
                     </persName> ... <vocal>
                         <desc>mmh</desc>
@@ -816,19 +1084,19 @@
                     <vocal>
                         <desc>eeh</desc>
                     </vocal> <q>"No, non è vero quello che dici perché".</q> <pause type="short"/> <emph>No,</emph> <pause type="short"/> io mi ricordo nei primissimi <shift feature="loud" new="dimin"/> giorni del mio ritorno,
-                che non ricordo certo come una cosa bella... .<pause type="medium"/> Beh, ti racconto meglio del mio ritorno con più ordine <anchor xml:id="lilseg-13" synch="#TI01"/> <pause type="short"/> se vuoi. <pause type="short"/> Io <anchor xml:id="lilseg-14" synch="#TI02"/> son stata quattro mesi in <placeName ref="TEI-ListPlace.xml#Germania">Germania</placeName> prima di tornare <pause type="short"/> <vocal>
+                che non ricordo certo come una cosa bella... .<pause type="medium"/> Beh, ti racconto meglio del mio ritorno con più ordine <anchor xml:id="lilseg-13" synch="#TI01"/> <pause type="short"/> se vuoi. <pause type="short"/> Io <anchor xml:id="lilseg-14" synch="#TI02"/> son stata quattro mesi in <placeName ref="#Germania">Germania</placeName> prima di tornare <pause type="short"/> <vocal>
                         <desc>inspira</desc>
                     </vocal> perché, al <incident>
                         <desc>rumore lontano</desc>
                     </incident> contrario di
-                <persName ref="TEI-ListPerson.xml#GB">
+                <persName ref="#GB">
                         <forename>Goti</forename>
                     </persName> che <pause type="short"/> sapeva le lingue, <pause type="short"/> che <pause type="short"/> <shift feature="loud" new="p"/> praticamente di nascita e nei suoi primi anni <vocal>
                         <desc>inspira</desc>
-                    </vocal> <del type="falseStart">era...</del> abitava in... <placeName ref="TEI-ListPlace.xml#Ungheria">Ungheria</placeName>... in <placeName ref="TEI-ListPlace.xml#Cecoslovacchia">Cecoslovacchia</placeName> a seconda dei tempi <vocal>
+                    </vocal> <del type="falseStart">era...</del> abitava in... <placeName ref="#Ungheria">Ungheria</placeName>... in <placeName ref="#Cecoslovacchia">Cecoslovacchia</placeName> a seconda dei tempi <vocal>
                         <desc>inspira</desc>
                     </vocal>
-                geograficamente <unclear cert="medium" resp="#SC">spostate</unclear>, <pause type="medium"/> io ero proprio nata a <placeName ref="TEI-ListPlace.xml#Milano">Milano</placeName>, cresciuta qui, non conoscevo... <pause type="short"/> <shift feature="loud" new="cresc"/> <del type="falseStart">non sapevo nea-,</del> se uno m'avesse messo <shift feature="loud" new="dimin"/>una carta geografica davanti, <vocal>
+                geograficamente <unclear cert="medium" resp="#SC">spostate</unclear>, <pause type="medium"/> io ero proprio nata a <placeName ref="#Milano">Milano</placeName>, cresciuta qui, non conoscevo... <pause type="short"/> <shift feature="loud" new="cresc"/> <del type="falseStart">non sapevo nea-,</del> se uno m'avesse messo <shift feature="loud" new="dimin"/>una carta geografica davanti, <vocal>
                         <desc>inspira</desc>
                     </vocal> <del type="falseStart">e m'avesse detto</del> <shift feature="pitch" new="high"/> muta, 
                 <shift feature="pitch" new="monot"/>m'avesse detto: <q>"Tu dove sei?"</q> <pause type="short"/> io non l'avrei saputo, <pause type="short"/> <shift feature="loud" new="dimin"/>un po' per la mia ignoranza di tredicenne che non sapeva la geografia, <vocal>
@@ -837,8 +1105,8 @@
                         <desc>inspira</desc>
                     </vocal>
                 quando anche son stata lì, <del type="falseStart">in <unclear cert="medium" resp="#SC">pens-</unclear>
-                    </del> insomma ho incontrato gli americani e son stata libera, che da <placeName ref="TEI-ListPlace.xml#Auschwitz">Auschwitz</placeName> ero arrivata al nord della <placeName ref="TEI-ListPlace.xml#Germania">Germania</placeName>, <pause type="short"/> quindi oltretutto neanche dove <pause type="medium"/> <del type="repetition">dove</del> <pause type="short"/> vagamente avevo capito di essere in <placeName ref="TEI-ListPlace.xml#Polonia">Polonia</placeName>,
-                <shift feature="loud" new="cresc"/>ma <pause type="short"/> <shift feature="loud" new="dimin"/>la marcia della morte ci aveva portato nel nord della <placeName ref="TEI-ListPlace.xml#Germania">Germania</placeName>
+                    </del> insomma ho incontrato gli americani e son stata libera, che da <placeName ref="#Auschwitz">Auschwitz</placeName> ero arrivata al nord della <placeName ref="#Germania">Germania</placeName>, <pause type="short"/> quindi oltretutto neanche dove <pause type="medium"/> <del type="repetition">dove</del> <pause type="short"/> vagamente avevo capito di essere in <placeName ref="#Polonia">Polonia</placeName>,
+                <shift feature="loud" new="cresc"/>ma <pause type="short"/> <shift feature="loud" new="dimin"/>la marcia della morte ci aveva portato nel nord della <placeName ref="#Germania">Germania</placeName>
                 </u>
  
                 <incident start="#TI01" end="#TI02">
@@ -851,7 +1119,7 @@
                 <u who="#LS">
                     <anchor xml:id="lilseg-15" synch="#TT13" n="13"/> Sì, <anchor xml:id="lilseg-16" synch="#TT14" n="14"/> <pause type="medium"/> <shift feature="loud" new="pp"/>sì. E... quindi dopo, quando son stata libera, ho saputo che eravamo <vocal>
                         <desc>inspira</desc>
-                    </vocal> nella <placeName xml:lang="de" ref="TEI-ListPlace.xml#Luneburg">Luneburger heide</placeName>, cioè vicino a <placeName xml:lang="de" ref="TEI-ListPlace.xml#Luneburg">Luneburg</placeName>, se tu guardi è nel nord della <placeName ref="TEI-ListPlace.xml#Germania">Germania</placeName>. <vocal>
+                    </vocal> nella <placeName xml:lang="de" ref="#Luneburg">Luneburger heide</placeName>, cioè vicino a <placeName xml:lang="de" ref="#Luneburg">Luneburg</placeName>, se tu guardi è nel nord della <placeName ref="#Germania">Germania</placeName>. <vocal>
                         <desc>inspira</desc>
                     </vocal>
                 <pause type="short"/> <unclear cert="low" resp="#SC">Ero</unclear> lì, <pause type="short"/> sono libera, <shift feature="loud" new="dimin"/>e non so cosa fare di me, <pause type="short"/> perché <pause type="short"/> sempre in terra... tedesca sono, sempre senza altro che il mio corpo sono, <vocal>
@@ -908,7 +1176,7 @@
                         <desc>inspira</desc>
                     </vocal> io avevo imparato parecchio, capivo parecchio <incident>
                         <desc>lieve tonfo</desc>
-                    </incident> <pause type="short"/> e... <pause type="medium"/> comunque sono stata quattro mesi in <placeName ref="TEI-ListPlace.xml#Germania">Germania</placeName>, ma subito, quasi subito, mi sono unita <vocal>
+                    </incident> <pause type="short"/> e... <pause type="medium"/> comunque sono stata quattro mesi in <placeName ref="#Germania">Germania</placeName>, ma subito, quasi subito, mi sono unita <vocal>
                         <desc>inspira</desc>
                     </vocal> a un gruppo di... francesi prima, di italiani poi, <shift feature="loud" new="p"/>prigionieri 
                 di guerra <vocal>
@@ -919,7 +1187,7 @@
                         <unclear cert="medium" resp="#SC">era in</unclear>,</del> era anche interessante devo dire <vocal>
                         <desc>inspira</desc>
                     </vocal> e... <pause type="short"/> <del type="repetition">e</del> poi siamo stati dislocati dagli 
-                americani lungo l'<placeName ref="TEI-ListPlace.xml#Elba">Elba</placeName>, <pause type="short"/> hanno requisito <vocal>
+                americani lungo l'<placeName ref="#Elba">Elba</placeName>, <pause type="short"/> hanno requisito <vocal>
                         <desc>inspira</desc>
                     </vocal> cinque paesi e han mandato via i... tedeschi che, t'immagini, come ci odiavano ancora di più <vocal>
                         <desc>inspira</desc>
@@ -938,21 +1206,21 @@
                         <desc>rumore</desc>
                     </incident> svuotati questi <shift feature="loud" new="f"/>cinque paesi, <shift feature="loud" new="dimin"/> di cui io mi ricordo solo il <incident>
                         <desc>rumore</desc>
-                    </incident> nome di quello in cui stavo, che era <placeName ref="TEI-ListPlace.xml#Obermarschacht" xml:lang="de">Obermarschacht</placeName>, <vocal who="#AS">
+                    </incident> nome di quello in cui stavo, che era <placeName ref="#Obermarschacht" xml:lang="de">Obermarschacht</placeName>, <vocal who="#AS">
                         <desc>Mhmh</desc>
                     </vocal> <pause type="short"/>
-                <shift feature="loud" new="p"/>gli altri non mi ricordo, magari c'è tuttora lì <gap reason="inaudible"/>, ed erano bellissimi posti, sull'<placeName ref="TEI-ListPlace.xml#Elba">Elba</placeName>, <vocal>
+                <shift feature="loud" new="p"/>gli altri non mi ricordo, magari c'è tuttora lì <gap reason="inaudible"/>, ed erano bellissimi posti, sull'<placeName ref="#Elba">Elba</placeName>, <vocal>
                         <desc>lieve schiocco con la bocca</desc>
                     </vocal> tutta l'estate l'ho passata lì <pause type="short"/> mangiando. Gli orti abbandonati avevano della frutta meravigliosa, avevano patate, <shift feature="loud" new="dimin"/>avevano di tutto, 
                 <vocal>
                         <desc>inspira</desc>
                     </vocal> <shift feature="loud" new="cresc"/>i nostri... compagni... <shift feature="loud" new="dimin"/>dico 'nostri' perché io <incident>
                         <desc>rumore lontano</desc>
-                    </incident> <unclear cert="high" resp="#SC">ero con</unclear> <persName ref="TEI-ListPerson.xml#GC">
+                    </incident> <unclear cert="high" resp="#SC">ero con</unclear> <persName ref="#GC">
                         <forename>Graziella</forename> <surname>Coen</surname>
                     </persName> <vocal>
                         <desc>inspira</desc>
-                    </vocal> che <del type="falseStart">sta...</del> dopo è andata a stare in <placeName ref="TEI-ListPlace.xml#Sud_Africa">Sud Africa</placeName>
+                    </vocal> che <del type="falseStart">sta...</del> dopo è andata a stare in <placeName ref="#Sud_Africa">Sud Africa</placeName>
                 <shift feature="loud" new="dimin"/>e non so neanche più se sia lì o no, <unclear cert="medium" resp="#SC">però</unclear>, <shift feature="loud" new="cresc"/> due tre anni che non la sento, <vocal>
                         <desc>inspira</desc>
                     </vocal> <pause type="short"/> <vocal>
@@ -969,7 +1237,7 @@
                     <vocal>
                         <desc>ehmm</desc>
                     </vocal> <pause type="short"/> e abitavamo in una di queste cascine <pause type="short"/> <del type="falseStart">sci-,</del> signorili, perché erano molto più belle delle cascine <pause type="short"/> dei contadini italiani di allora <pause type="short"/> e... <shift feature="tempo" new="rall"/> c'erano una 
-                ventina di...<shift feature="loud" new="dimin"/> <del type="repetition">di</del> soldati, italiani, <pause type="short"/> <shift feature="loud" new="cresc"/>e erano talmente rispettosi, talmente <shift feature="loud" new="dimin"/>avevano capito che noi eravamo come <shift feature="loud" new="f"/>delle malate, io e <persName ref="TEI-ListPerson.xml#GC">
+                ventina di...<shift feature="loud" new="dimin"/> <del type="repetition">di</del> soldati, italiani, <pause type="short"/> <shift feature="loud" new="cresc"/>e erano talmente rispettosi, talmente <shift feature="loud" new="dimin"/>avevano capito che noi eravamo come <shift feature="loud" new="f"/>delle malate, io e <persName ref="#GC">
                         <forename>Graziella</forename>
                     </persName>, <vocal>
                         <desc>inspira</desc>
@@ -1005,7 +1273,7 @@
                         <desc>rumore in lontananza</desc>
                     </incident> per di più gli orti <pause type="short"/> abbandonati, <pause type="short"/> <incident>
                         <desc>rumori</desc>
-                    </incident> questi soldati andavano di notte al di là dell'<placeName ref="TEI-ListPlace.xml#Elba">Elba</placeName>, <vocal>
+                    </incident> questi soldati andavano di notte al di là dell'<placeName ref="#Elba">Elba</placeName>, <vocal>
                         <desc>inspira</desc>
                     </vocal> non solo a donne, <pause type="short"/> cosa che ho <shift feature="voice" new="giggle"/>capito <anchor xml:id="lilseg-33" synch="#TT29" n="29"/> dopo, <anchor xml:id="lilseg-34" synch="#TT30" n="30"/> <shift feature="loud" new="cresc"/>
                 ma anche portavano <pause type="short"/> <vocal>

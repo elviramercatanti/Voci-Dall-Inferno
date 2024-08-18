@@ -6290,8 +6290,10 @@
                                                                 <said>:” S’io fossi foco brucerei lo mondo, </said>
                     <lb facs="#riga_42.55"/>                    <said>S’io fossi acqua sommergerei la terra.”</said>
                                                             </q>
-                                                            <bibl>poesia <num>82</num> delle "Rime" di <name type="person" role="poet">(Cecco Angiolieri)</name>
-                        </bibl>
+                                                            <ref target="#CeccoAng">
+                                                                <bibl>poesia numero <num>82</num> delle "Rime"</bibl>
+                                                            </ref>
+                        
                                                         </cit>
                     <lb facs="#riga_42.56"/>Dio pietoso perché non rivolgi un tuo sguardo su questo mise=
                 </ab>
@@ -6854,7 +6856,9 @@
                     <lb facs="#riga_47.47"/>
                     <hi>mio posto avrebbe esclamato</hi> <cit type="explicit">
                         <quote>“E caddi come corpo morto cade.”</quote>
-                        <bibl>142° verso del quinto canto dell'inferno (Divina Commedia)</bibl>
+                        <ref target="#Dante5">
+                            <bibl>V canto Inferno, v. 142</bibl>
+                        </ref>
                     </cit>
                     <lb facs="#riga_47.48"/>
                     <name type="person">Erminio</name> mi diceva spesso:<said>” Se potessi ricordarmi che tu prendi </said>
@@ -11250,5 +11254,32 @@
             </div>
         </body>
     </text>
+    
+    <!--aggiunta di Elvira-->
+    <standOff>
+        <listBibl>
+            <biblStruct xml:id="Dante5">
+                <analytic>
+                    <title level="a"> Canto V </title>
+                </analytic>
+                <monogr>
+                    <author> Dante Alighieri </author>
+                    <title level="m"> Inferno </title>
+                    <imprint><date when="1314"> 1314 </date></imprint>
+                </monogr>
+                <series>
+                    <title level="s"> Divina Commedia </title>
+                </series>
+            </biblStruct>
+            
+            
+            <bibl xml:id="CeccoAng"> <!-- "Rime", Cecco Angiolieri -->
+                <author> Cecco Angiolieri </author>
+                <title> Rime </title>
+                <date> XIV secolo </date>
+            </bibl>
+            
+        </listBibl>
+    </standOff>
     
 </TEI>

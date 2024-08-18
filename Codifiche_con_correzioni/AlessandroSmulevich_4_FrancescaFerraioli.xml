@@ -6,16 +6,24 @@
 				<author>Francesca Ferraioli</author>
 			</titleStmt>
 			
-			<editionStmt>
-				<edition/>
-				<respStmt xml:id="encoder">
-					<resp>Encoding by</resp>
-					<persName xml:id="FF">
+			<!--aggiunta Elvira-->
+			<editionStmt> <!-- informazioni sull'edizione digitale -->
+                <edition>Edizione digitale realizzata per tesi di laurea triennale in Informatica Umanistica
+                    presso l'<orgName>Università di Pisa</orgName>
+				</edition>
+                <respStmt> <!-- responsabilità dei contenuti --> 
+                    <resp> Progetto coordinato da </resp>
+                    <persName xml:id="AMDG">Angelo Mario Del Grosso</persName>
+                    <persName xml:id="MRIC">Marina Riccucci</persName>                                      
+                </respStmt>
+                <respStmt xml:id="encoder"> <!-- responsabilità dei contenuti --> 
+                    <resp> Trascrizione e codifica a cura di </resp>
+                    <persName xml:id="FF">
                         <forename>Francesca</forename>
                         <surname>Ferraioli</surname>
                     </persName>
-				</respStmt>
-			</editionStmt>
+                </respStmt>
+            </editionStmt>
 			
 			<publicationStmt>
 				<publisher>Università di Pisa</publisher>
@@ -26,14 +34,14 @@
 			</publicationStmt>
 			<sourceDesc>
 							
-				<listPerson>
+				<!--<listPerson>
 					<person xml:id="AlSm" role="testimone" source="https://www.pendragon.it/catalogo/manufacturers/alessandro-smulevich.html?tmpl=component">
 						<persName>
 							<forename>Alessandro</forename>
 							<surname>Smulevich</surname>
 						</persName>
 					</person>
-				</listPerson>
+				</listPerson>-->
 				
 				<bibl>
 					<title>Diario di Alessandro Smulevich</title>
@@ -145,23 +153,23 @@
 			<pb n="4"/>
 				<ab type="paragrafo" n="1" xml:id="diario04_page">
 					<lb n="1" facs="#diario04_01"/>
-					per comprare della frutta a <name type="place">Salerno</name>
+					per comprare della frutta a <placeName ref="#SA">Salerno</placeName>
                     <pc type="comma">,</pc> pren-
 					<lb n="2" facs="#diario04_02"/>
-					diamo alle <time when="15:30:00">15:30</time> un treno per <name type="place">Eboli</name>
+					diamo alle <time when="15:30:00">15:30</time> un treno per <placeName ref="#EB">Eboli</placeName>
                     <pc type="comma">,</pc> que
 					<lb n="3" facs="#diario04_03"/>
-					sta volta in <num type="ordinal" value="3">3a</num> classe. Arriviamo ad <name type="place">Eboli</name>
+					sta volta in <num type="ordinal" value="3">3a</num> classe. Arriviamo ad <placeName ref="#EB">Eboli</placeName>
 					<lb n="4" facs="#diario04_04"/>
 					alle <time when="16:10:00">16:10</time>
                     <pc type="comma">,</pc> dove prendiamo la corriera che
 					<lb n="5" facs="#diario04_05"/>
-					conduce a <name type="place">Campagna</name>
+					conduce a <placeName ref="#CA">Campagna</placeName> 
                     <pc type="comma">,</pc> arrivando qui alle
 					<lb n="6" facs="#diario04_06"/>
 					<time when="17:00:00">17</time>circa. Alla fermata ci attendeva papà e <persName>
                         <forename>Leo</forename>
-                    </persName> con molti altri conoscenti. Ci rechiamo subito all<pc type="apostrophe">'</pc>albergo<pc type="comma">,</pc> dove prendiamo alloggio.	Commento: <name type="place">Campagna</name> è una graziosa cittadina incassata tra <w type="adjective">alti</w> monti<pc type="comma">,</pc> però con delle case alquanto <w type="adjective">vecchie</w>. La popolazione, di circa <num type="cardinal" value="8000">8.000</num> abitanti<pc type="comma">,</pc> è simpatica<pc type="comma">,</pc> un poco sudicia<pc type="comma">,</pc> ma molto gentile. Nell<pc type="apostrophe">'</pc>insieme il posto mi ha entusiasmato molto. Da stasera e durante tutto il mio soggiorno a <name type="place">Campagna</name> dormo con <persName>
+                    </persName> con molti altri conoscenti. Ci rechiamo subito all<pc type="apostrophe">'</pc>albergo<pc type="comma">,</pc> dove prendiamo alloggio.	Commento: <placeName ref="#CA">Campagna</placeName>  è una graziosa cittadina incassata tra <w type="adjective">alti</w> monti<pc type="comma">,</pc> però con delle case alquanto <w type="adjective">vecchie</w>. La popolazione, di circa <num type="cardinal" value="8000">8.000</num> abitanti<pc type="comma">,</pc> è simpatica<pc type="comma">,</pc> un poco sudicia<pc type="comma">,</pc> ma molto gentile. Nell<pc type="apostrophe">'</pc>insieme il posto mi ha entusiasmato molto. Da stasera e durante tutto il mio soggiorno a <placeName ref="#CA">Campagna</placeName>  dormo con <persName>
                         <forename>Leo</forename>
                     </persName> in una locanda<pc type="comma">,</pc> essendo i genitori ed <persName>
                         <forename>Esti</forename>
@@ -170,4 +178,42 @@
 			</div>
 		</body>
 	</text>
+
+
+	<standOff>
+		<listPerson>
+			<person xml:id="AlSm" role="testimone" source="https://www.pendragon.it/catalogo/manufacturers/alessandro-smulevich.html?tmpl=component">
+				<persName>
+					<forename>Alessandro</forename>
+					<surname>Smulevich</surname>
+				</persName>
+			</person>
+		</listPerson>
+
+		<listPlace>
+			<place xml:id="SA" source="https://it.wikipedia.org/wiki/Salerno">
+				<placeName>Salerno</placeName>
+				<settlement type="region">Campania</settlement>
+				<country key="IT">Italia</country>
+			</place>
+
+			<place xml:id="EB" source="https://it.wikipedia.org/wiki/Eboli">
+				<placeName>Eboli</placeName>
+				<settlement type="province">Salerno</settlement>
+				<settlement type="region">Campania</settlement>
+				<country key="IT">Italia</country>
+			</place>
+
+			<place xml:id="CA" source="https://it.wikipedia.org/wiki/Campagna_(Italia)">
+				<placeName>Campagna</placeName>
+				<settlement type="province">Salerno</settlement>
+				<settlement type="region">Campania</settlement>
+				<country key="IT">Italia</country>
+			</place>
+
+		</listPlace>
+
+		<!--<listOrg></listOrg>
+		<listBibl></listBibl>-->
+	</standOff>
 </TEI>

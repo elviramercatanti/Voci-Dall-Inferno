@@ -84,20 +84,20 @@
             </textDesc>
             <particDesc>
                 <listPerson>
-                    <person n="1" role="intervistatrice">
-                        <persName xml:id="a">
+                    <person n="1">
+                        <persName>
                             <forename>Anna</forename>
                             <surname>Segre</surname>
                             <ptr type="furtherinfo" target="http://www.annasegre.it"/>
                         </persName>
                     </person>
-                    <person n="1" role="intervistatrice">
-                        <persName xml:id="g">
+                    <person n="1">
+                        <persName>
                             <forename>Gloria</forename>
                             <surname>Pavoncello</surname>
                         </persName>
                     </person>
-                    <person xml:id="ik" n="2" role="testimone" source="https://www.ushmm.org/online/hsv/person_view.php?PersonId=4286976">
+                    <person n="2">
                         <persName>
                             <forename>Idek</forename>
                             <surname>Wolfowicz</surname>
@@ -807,6 +807,308 @@
                
         </timeline>
     </standOff>
+    
+    
+    <standOff>
+        <listPerson>
+            <person n="1" role="intervistatrice">
+                        <persName xml:id="a">
+                            <forename>Anna</forename>
+                            <surname>Segre</surname>
+                            <ptr type="furtherinfo" target="http://www.annasegre.it"/>
+                        </persName>
+                    </person>
+                    <person n="1" role="intervistatrice">
+                        <persName xml:id="g">
+                            <forename>Gloria</forename>
+                            <surname>Pavoncello</surname>
+                        </persName>
+                    </person>
+                    <person xml:id="ik" n="2" role="testimone" source="https://www.ushmm.org/online/hsv/person_view.php?PersonId=4286976">
+                        <persName>
+                            <forename>Idek</forename>
+                            <surname>Wolfowicz</surname>
+                        </persName>
+                        <birth when="1922"/>
+                        <death when="2017"/>
+                        <sex>Maschio</sex>
+                        <nationality>Polacca</nationality>
+                        
+                    </person>
+        </listPerson>
+        <listPerson type="real">
+                    <person role="madre" xml:id="MariaWolfowicz">
+                        <persName>
+                            <forename>
+                                Maria
+                            </forename>
+                            <surname>
+                                Wolfowicz
+                            </surname>
+                        </persName>
+                    </person>
+                    <person role="padre" xml:id="Wolf">
+                        <persName>
+                            <forename>
+                                Wolf
+                            </forename>
+                            <surname>
+                                Schwarzbach
+                            </surname>
+                        </persName>
+                    </person>
+                    <person role="sorella" xml:id="SaraWolfowicz">
+                        <persName>
+                            <forename>
+                                Sara
+                            </forename>
+                            <surname>
+                                Wolfowicz
+                            </surname>
+                        </persName>
+                    </person>
+                    <person role="nipote" xml:id="SimoneWolfowicz">
+                        <persName>
+                            <forename>
+                                Simone
+                            </forename>
+                            <surname>
+                                Wolfowicz
+                            </surname>
+                        </persName>
+                    </person>
+                    <!--<person role="intervistatrice" xml:id="a1">
+                        <persName >
+                            <forename>
+                                Anna
+                            </forename>
+                            <surname>
+                                Segre
+                            </surname>
+                        </persName>
+                    </person>-->
+                    <person role="figlia" xml:id="MiriamWolfowicz">
+                        <persName>
+                            <forename>
+                                Miriam
+                            </forename>
+                            <surname>
+                                Wolfowicz
+                            </surname>
+                        </persName>
+                    </person>
+                    <person xml:id="Hitler">
+                        <persName>
+                            <forename>
+                                Adolf
+                            </forename>
+                            <surname>
+                                Hitler
+                            </surname>
+                        </persName>
+                    </person>
+                   
+                </listPerson>
+                
+                <!--lista luoghi citati nelle cassette-->
+                <listPlace>
+                    <place xml:id="Auschwitz" ref="https://it.wikipedia.org/wiki/Campo_di_concentramento_di_Auschwitz">
+                        <placeName>
+                            Auschwitz
+                        </placeName>
+                    </place>
+                    <place xml:id="Tarnow" ref="https://it.wikipedia.org/wiki/Tarn%C3%B3w">
+                        <placeName>
+                            Tarnow
+                        </placeName>
+                    </place>
+                    <place xml:id="Polonia" ref="https://it.wikipedia.org/wiki/Polonia">
+                        <placeName>
+                            Polonia
+                        </placeName>
+                    </place>
+                    <place xml:id="Przemysl" ref="https://it.wikipedia.org/wiki/Przemy%C5%9Bl">
+                        <placeName>
+                            Przemysl
+                        </placeName>
+                    </place>
+                    <place xml:id="Plaszow" ref="https://it.wikipedia.org/wiki/Campo_di_concentramento_di_Krak%C3%B3w-P%C5%82asz%C3%B3w">
+                        <placeName>
+                            Plaszow
+                        </placeName>
+                    </place>
+                    <place xml:id="Mauthausen" ref="https://it.wikipedia.org/wiki/Campo_di_concentramento_di_Mauthausen">
+                        <placeName>
+                            Mauthausen
+                        </placeName>
+                    </place>
+                    <place xml:id="GusenEins" ref="https://it.wikipedia.org/wiki/Campo_di_concentramento_di_Gusen">
+                        <placeName>
+                            Gusen Eins 
+                        </placeName>
+                    </place>
+                    <place xml:id="GaliziaP" ref="https://it.wikipedia.org/wiki/Galizia_(Europa_centrale)">
+                        <placeName> 
+                            Galizia 
+                        </placeName>
+                    </place>
+                    <place xml:id="GaliziaS" ref="https://it.wikipedia.org/wiki/Galizia_(Spagna)">
+                        <placeName> 
+                            Galizia 
+                        </placeName>
+                    </place>
+                    <place xml:id="Katowice" ref="https://it.wikipedia.org/wiki/Katowice">
+                        <placeName> 
+                            Katowice 
+                        </placeName>
+                    </place>
+                    <place xml:id="Ucraina" ref="https://it.wikipedia.org/wiki/Ucraina">
+                        <placeName>
+                            Ucraina
+                        </placeName> 
+                    </place>
+                    <place xml:id="Kiev" ref="https://it.wikipedia.org/wiki/Kiev">
+                        <placeName>
+                            Kiev
+                        </placeName> 
+                    </place>
+                    <place xml:id="Italia" ref="https://it.wikipedia.org/wiki/Italia">
+                        <placeName>
+                            Italia
+                        </placeName> 
+                    </place>
+                    <place xml:id="Svezia" ref="https://it.wikipedia.org/wiki/Svezia">
+                        <placeName>
+                            Svezia
+                        </placeName>
+                    </place>
+                    <place xml:id="America" ref="https://it.wikipedia.org/wiki/America">
+                        <placeName>
+                            America
+                        </placeName> 
+                    </place>
+                    <place xml:id="Rochester" ref="https://it.wikipedia.org/wiki/Rochester_(New_York)">
+                        <placeName>
+                            Rochester
+                        </placeName> 
+                    </place>
+                    <place xml:id="NewYork" ref="https://it.wikipedia.org/wiki/New_York">
+                        <placeName>
+                            New York
+                        </placeName>
+                    </place>
+                    <place xml:id="Cracovia" ref="https://it.wikipedia.org/wiki/Cracovia">
+                        <placeName>
+                            Cracovia
+                        </placeName>
+                    </place>
+                    <place xml:id="Krakow" ref="https://it.wikipedia.org/wiki/Cracovia">
+                        <placeName>
+                            Krakow
+                        </placeName> 
+                    </place>
+                    <place xml:id="Roma" ref="https://it.wikipedia.org/wiki/Roma">
+                        <placeName>
+                            Roma
+                        </placeName>
+                    </place>
+                    <place xml:id="Austria" ref="https://it.wikipedia.org/wiki/Austria">
+                        <placeName>
+                            Austria
+                        </placeName>
+                    </place>
+                    <place xml:id="Bologna" ref="https://it.wikipedia.org/wiki/Bologna">
+                        <placeName>
+                            Bologna
+                        </placeName> 
+                    </place>
+                    <place xml:id="Wels" ref="https://it.wikipedia.org/wiki/Wels">
+                        <placeName>
+                            Wels
+                        </placeName>
+                    </place>
+                    <place xml:id="Linz" ref="https://it.wikipedia.org/wiki/Linz">
+                        <placeName>
+                            Linz
+                        </placeName>
+                    </place>
+                    <place xml:id="Innsbruck" ref="https://it.wikipedia.org/wiki/Innsbruck">
+                        <placeName>
+                            Innsbruck
+                        </placeName>
+                    </place>
+                    <place xml:id="Israele" ref="https://it.wikipedia.org/wiki/Israele">
+                        <placeName>
+                            Israele
+                        </placeName>
+                    </place>
+                    <place xml:id="Palestina" ref="https://it.wikipedia.org/wiki/Palestina">
+                        <placeName>
+                            Palestina
+                        </placeName>
+                    </place>
+                    <place xml:id="Bari" ref="https://it.wikipedia.org/wiki/Bari">
+                        <placeName>
+                            Bari
+                        </placeName>
+                    </place>
+                    <place xml:id="Ostia" ref="https://it.wikipedia.org/wiki/Ostia_(Roma)">
+                        <placeName>
+                            Ostia
+                        </placeName>
+                    </place>
+                    <place xml:id="Francia" ref="https://it.wikipedia.org/wiki/Francia">
+                        <placeName>
+                            Francia
+                        </placeName>
+                    </place>
+                    <place xml:id="Canada" ref="https://it.wikipedia.org/wiki/Canada">
+                        <placeName>
+                            Canada
+                        </placeName>
+                    </place>
+                    <place xml:id="Brasile" ref="https://it.wikipedia.org/wiki/Brasile">
+                        <placeName>
+                            Brasile
+                        </placeName>
+                    </place>
+                    <place xml:id="Svizzera" ref="https://it.wikipedia.org/wiki/Svizzera">
+                        <placeName>
+                            Svizzera
+                        </placeName>
+                    </place>
+                    <place xml:id="Europa" ref="https://it.wikipedia.org/wiki/Europa">
+                        <placeName>
+                            Europa
+                        </placeName>
+                    </place>
+                    <place xml:id="Australia" ref="https://it.wikipedia.org/wiki/Australia">
+                        <placeName>
+                            Australia
+                        </placeName>
+                    </place>
+                    <place xml:id="Ferrara" ref="https://it.wikipedia.org/wiki/Ferrara">
+                        <placeName>
+                            Ferrara
+                        </placeName>
+                    </place>
+                    <place xml:id="Venezia" ref="https://it.wikipedia.org/wiki/Venezia">
+                        <placeName>
+                            Venezia
+                        </placeName>
+                    </place>
+                    <place xml:id="Russia" ref="https://it.wikipedia.org/wiki/Russia">
+                        <placeName>
+                            Russia
+                        </placeName>
+                    </place>
+                    <place xml:id="AtlanticCity" ref="https://it.wikipedia.org/wiki/Atlantic_City">
+                        <placeName>
+                            Atlantic City
+                        </placeName>
+                    </place>
+                </listPlace>
+    </standOff>
     <text>
         <body>
             <!--cassetta-->
@@ -941,7 +1243,7 @@
                     suo padre come si chiamava? 
                 </u>
                 <u who="#ik" xml:id="I12" synch="TS23">
-                    <persName>
+                    <persName ref="#Wolf">
                         <forename>Wolf</forename>
                     </persName>
                 </u>
@@ -949,7 +1251,7 @@
                     <vocal>
                         <desc>Ah</desc>
                     </vocal>
-                    <persName>
+                    <persName ref="#Wolf">
                         <forename>Wolf</forename>
                         <surname>Wolfowicz</surname>
                     </persName>    
@@ -974,14 +1276,14 @@
                     e sua madre?  
                 </u>
                 <u who="#ik" xml:id="I15" synch="TS29"> 
-                    <persName>
+                    <persName ref="#MariaWolfowicz">
                         <forename>Maria</forename>
                     </persName> 
                     <vocal>
                         <desc>ehm</desc>
                     </vocal> 
                     veramere 
-                    <persName>
+                    <persName ref="#MiriamWolfowicz">
                         <forename>Miriam</forename>
                     </persName>
                     ma 
@@ -995,7 +1297,7 @@
                     chiamavamo 
                     <gap reason="inaudible"/> 
                     che vorrebbe dire
-                    <persName>
+                    <persName ref="#MariaWolfowicz">
                         <forename>Maria</forename>
                     </persName>  
                     <vocal who="#a">
@@ -1004,7 +1306,7 @@
                     io quando sono venuto in 
                     <placeName ref="#Italia">Italia</placeName> 
                     nel mio primo soggiorno italiano ho messo
-                    <persName>
+                    <persName ref="#MariaWolfowicz">
                         <forename>Maria</forename>
                     </persName>
                     <vocal who="#a">
@@ -1013,12 +1315,12 @@
                 </u>
                 <u who="#a" xml:id="A15" synch="TS30"> 
                     Eh vabbè scriviamo 
-                    <persName>
+                    <persName ref="#MariaWolfowicz">
                         <forename>Maria</forename>
                     </persName> 
                 </u>
                 <u who="#ik" xml:id="I16" synch="TS31">  
-                    <persName>
+                    <persName ref="#MariaWolfowicz">
                         <forename>Maria</forename>
                     </persName> 
                 </u>
@@ -1029,7 +1331,7 @@
                     <vocal>
                         <desc>eh</desc>
                     </vocal>
-                    <persName>
+                    <persName ref="#MariaWolfowicz">
                         <surname>Wolfowicz</surname>
                     </persName> 
                 </u>
@@ -1147,17 +1449,17 @@
                     Eh è morta purtroppo 
                     <gap reason="inaudible"/> 
                     anni fa è morta si chiamava 
-                    <persName> 
+                    <persName ref="#SaraWolfowicz"> 
                         <forename>Sara</forename>
                     </persName> 
                     <pause type="medium"/> 
                     che noi la chiamavamo Sala ma ammodo è 
-                    <persName> 
+                    <persName ref="#SaraWolfowicz"> 
                         <forename>Sara</forename>
                     </persName>
                     <vocal who="#a">
                         <desc>
-                            <persName> 
+                            <persName ref="#SaraWolfowicz"> 
                                 <forename>Sara</forename>
                             </persName> 
                         </desc>
@@ -1472,7 +1774,7 @@
                     <pause type="short"/>
                     nipote 5 anni fa 
                     che si chiama come me però 
-                    <persName>
+                    <persName ref="#SimoneWolfowicz">
                     <forename>Simone</forename>
                     </persName>
                     figlio non figlio mio nipote mio c’aveva 14 anni la scuola ebraica che c’era 
@@ -3232,7 +3534,7 @@
                 </u>
             <u who="#a" xml:id="A140" synch="TS281">  
                 e sua sorella
-                <persName>
+                <persName ref="#SaraWolfowicz">
                     <forename>Sara</forename>
                 </persName>  
                 che cognome 
@@ -3261,14 +3563,14 @@
                     <surname>Wolfowicz</surname>
                 </persName> 
                 anche lei 
-                <persName>
+                <persName ref="#SaraWolfowicz">
                     <forename>Sara</forename>
                 </persName>  
                     <anchor xml:id="ik-14" synch="#TT14"/>
             </u>
             <u who="#a" xml:id="A142" synch="TS285"> 
                 ma la moglie di <gap reason="inaudible"/> era 
-                <persName>
+                <persName ref="#SaraWolfowicz">
                     <forename>Sara</forename>
                 </persName>? 
                 O era un’altra 
@@ -3551,20 +3853,20 @@
                 <gap reason="inaudible"/> ci era questa 
                 cittadina che paesone era luogo di 
                 nascita di 
-                <persName>
+                <persName ref="#Hitler">
                     <surname>Hitler</surname>
                 </persName> 
             </u> 
             <u who="#a" xml:id="A160" synch="TS322"> 
                 si perché 
-                <persName>
+                <persName ref="#Hitler">
                     <surname>Hitler</surname>
                 </persName>  
                 era <gap reason="inaudible"/>
             </u> 
             <u who="#ik" xml:id="I161" synch="TS323"> 
                 e c’era la casa di 
-                <persName>
+                <persName ref="#Hitler">
                     <surname>Hitler</surname>
                 </persName>  
                 dentro c’era la commissione fatta dai nostri che rilasciavano 
@@ -4019,7 +4321,7 @@
                 <gap reason="inaudible"/> e mia figlia
             </u> 
             <u who="#a" xml:id="A188" synch="TS395"> 
-                <persName>
+                <persName ref="#MiriamWolfowicz">
                     <forename>Miriam</forename>
                 </persName>
             </u> 
@@ -4091,7 +4393,7 @@
                     <desc>tosse</desc>
                 </vocal> 
                 quello che non parlavo era inglese e parlano miei nipoti anche 
-                <persName>
+                <persName ref="#MiriamWolfowicz">
                     <forename>Miriam</forename>
                 </persName> 
                 mia figlia parla <gap reason="inaudible"/> 
@@ -4557,7 +4859,7 @@
     </body>
     <back>
         <!--lista persone citate nelle cassette-->
-        <listPerson type="real">
+        <!--<listPerson type="real">
                     <person role="madre">
                         <persName xml:id="MariaWolfowicz">
                             <forename>
@@ -4629,9 +4931,9 @@
                         </persName>
                     </person>
                    
-                </listPerson>
+                </listPerson>-->
                 <!--lista luoghi citati nelle cassette-->
-                <listPlace>
+                <!--<listPlace>
                     <place>
                         <placeName xml:id="Auschwitz" ref="https://it.wikipedia.org/wiki/Campo_di_concentramento_di_Auschwitz">
                             Auschwitz
@@ -4827,7 +5129,7 @@
                             Atlantic City
                         </placeName>
                     </place>
-                </listPlace>
+                </listPlace>-->
                 <!--lista termini citati nelle cassette-->
                 <list type="terminology"> 
                    

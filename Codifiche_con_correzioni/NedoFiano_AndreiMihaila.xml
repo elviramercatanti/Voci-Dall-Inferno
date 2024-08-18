@@ -6,7 +6,7 @@
             </titleStmt>
             <editionStmt>
                 <edition>Progetto svolto per la tesi di Laurea Triennale in Informatica Umanistica (Università di Pisa)</edition>
-                <respStmt>
+                <respStmt xml:id="encoder">
                     <resp>Trascrizione e codifica a cura di:</resp>
                     <persName xml:id="AM">
                         <forename>Andrei</forename>
@@ -101,7 +101,7 @@
                             <ptr type="furtherinfo" target="http://www.annasegre.it"/>
                         </persName>
                     </person>
-                    <person xml:id="NF" n="3" role="testimone" source="https://www.ushmm.org/online/hsv/person_view.php?PersonId=4286976">
+                    <person n="3">
                         <persName>
                             <forename>Nedo</forename>
                             <surname>Fiano</surname>
@@ -323,6 +323,221 @@
             <when xml:id="TS41" synch="#NF21" absolute="0:26:09"/>           
         </timeline>
     </standOff>
+    
+    <standOff>
+        <listPerson>
+           
+                    <person xml:id="LS" n="1">
+                        <persName>
+                            <forename>Liliana</forename>
+                            <surname>Segre</surname>
+                        </persName>
+                        <sex>F</sex>
+                        <birth>
+                            <date when="1930-09-10">10 settembre 1930</date>
+                            <placeName>
+                                <settlement>Milano</settlement>
+                                <country>Italia</country>
+                            </placeName>
+                        </birth>
+                        <ptr type="furtherinfo" target="https://it.wikipedia.org/wiki/Liliana_Segre"/>
+                    </person>
+                    <person xml:id="AS" n="2" role="intervistatrice">
+                        <persName>
+                            <forename>Anna</forename>
+                            <surname>Segre</surname>
+                            <ptr type="furtherinfo" target="http://www.annasegre.it"/>
+                        </persName>
+                    </person>
+                    
+                    <person xml:id="NF" n="3" role="testimone" source="https://www.ushmm.org/online/hsv/person_view.php?PersonId=4286976">
+                        <persName>
+                            <forename>Nedo</forename>
+                            <surname>Fiano</surname>
+                            <ptr type="furtherinfo" target="https://it.wikipedia.org/wiki/Nedo_Fiano"/>
+                        </persName>
+                        <sex> M </sex>
+                        <birth>
+                            <date when="1925-04-22">22 aprile 1925</date>
+                            <placeName>
+                                <settlement type="municipality">Firenze</settlement>
+                                <settlement type="region">Toscana</settlement>
+                                <country key="IT">Italia</country>
+                            </placeName>
+                        </birth>
+                        <death>
+                            <date when="2020-12-19">19 dicembre 2020</date>
+                            <placeName>
+                                <settlement type="municipality">Milano</settlement>
+                                <settlement type="region">Lombardia</settlement>
+                                <country key="IT">Italia</country>
+                            </placeName>
+                        </death>
+                    </person>
+                    
+                    <person xml:id="MO">
+                        <persName>
+                            <forename/>
+                            <surname>Mordenti</surname>
+                        </persName>
+                        <sex>M</sex>
+                    </person>
+                    
+                    <person xml:id="PL">
+                        <persName>
+                            <forename>Primo</forename>
+                            <surname>Levi</surname>
+                        </persName>
+                        <sex> M </sex>
+                        <birth>
+                            <date when="1919-07-31">31 luglio 1919</date>
+                            <placeName>
+                                <settlement type="municipality">Torino</settlement>
+                                <settlement type="region">Piemonte</settlement>
+                                <country key="IT">Italia</country>
+                            </placeName>
+                        </birth>
+                        <death>
+                            <date when="1987-04-11">11 aprile 1987</date>
+                            <placeName>
+                                <settlement type="municipality">Torino</settlement>
+                                <settlement type="region">Piemonte</settlement>
+                                <country key="IT">Italia</country>
+                            </placeName>
+                        </death>
+                    </person>
+                    
+                    <person xml:id="CA">
+                        <persName>
+                            <forename/>
+                            <surname>Calabresi</surname>
+                        </persName>
+                        <sex>F</sex>
+                    </person>
+                    
+                    <person xml:id="LEO">
+                        <persName>
+                            <forename>Leonardo</forename>
+                            <surname>da Vinci</surname>
+                        </persName>
+                        <sex> M </sex>
+                        <birth>
+                            <date when="1452-04-15">15 aprile 1452</date>
+                            <placeName>
+                                <settlement type="municipality">Anchiano</settlement>
+                                <settlement type="province">Firenze</settlement>
+                                <settlement type="region">Toscana</settlement>
+                                <country key="IT">Italia</country>
+                            </placeName>
+                        </birth>
+                        <death>
+                            <date when="1519-05-02">2 maggio 1519</date>
+                            <placeName>
+                                <settlement type="municipality">Amboise</settlement>
+                                <!--<settlement type="region"></settlement>-->
+                                <country key="IT">Francia</country>
+                            </placeName>
+                        </death>
+                    </person>
+                    
+                    <person xml:id="CH">
+                        <persName>
+                            <forename>Winston</forename>
+                            <surname>Churchill</surname>
+                        </persName>
+                        <sex> M </sex>
+                        <birth>
+                            <date when="1974-11-30">30 novembre 1974</date>
+                            <placeName>
+                                <settlement type="municipality">Woodstock</settlement>
+                                <settlement type="region">Oxfordshire</settlement>
+                                <country key="UK">Regno Unito</country>
+                            </placeName>
+                        </birth>
+                        <death>
+                            <date when="1965-01-24">24 gennaio 1965</date>
+                            <placeName>
+                                <settlement type="municipality">Londra</settlement>
+                                <!--<settlement type="region"></settlement>-->
+                                <country key="UK">Regno Unito</country>
+                            </placeName>
+                        </death>
+                    </person>
+                    
+                
+                
+            
+        </listPerson>
+        
+        <listPlace>
+            <place xml:id="VE" source="https://it.wikipedia.org/wiki/Venezia"> <!-- Venezia -->
+                <placeName>Venezia</placeName>
+                <!--<settlement type="province"></settlement>-->
+                <settlement type="region">Veneto</settlement>
+                <country key="IT">Italia</country>
+            </place>
+            
+            <place xml:id="AU" source="https://it.wikipedia.org/wiki/Campo_di_concentramento_di_Auschwitz"> <!-- Auschwitz -->
+                <placeName>Auschwitz</placeName>
+                <!--<settlement type="province"></settlement>-->
+                <!--<settlement type="region"></settlement>-->
+                <country key="PO">Polonia</country>
+            </place>
+            
+            <place xml:id="IS" source="https://it.wikipedia.org/wiki/Israele"> <!-- Israele -->
+                <placeName>Israele</placeName>
+                <!--<settlement type="province"></settlement>-->
+                <!--<settlement type="region"></settlement>-->
+                <country key="IS">Israele</country>
+            </place>
+            
+             <place xml:id="LO" source="https://it.wikipedia.org/wiki/Lombardia"> <!-- Lombardia -->
+                <placeName>Lombardia</placeName>
+                <!--<settlement type="province"></settlement>-->
+                <!--<settlement type="region"></settlement>-->
+                <country key="IT">Italia</country>
+            </place>
+            
+            <place xml:id="EU" source="https://it.wikipedia.org/wiki/Europa"> <!-- Europa -->
+                <placeName>Europa</placeName>
+                <!--<settlement type="province"></settlement>-->
+                <!--<settlement type="region"></settlement>-->
+                <!--<country key=""></country>-->
+            </place>
+            
+            
+            <place xml:id="GB" source="https://it.wikipedia.org/wiki/Inghilterra"> <!-- Inghilterra -->
+                <placeName>Inghilterra</placeName>
+                <!--<settlement type="province"></settlement>-->
+                <!--<settlement type="region"></settlement>-->
+                <country key="UK">Regno Unito</country>
+            </place>
+            
+            <place xml:id="FR" source="https://it.wikipedia.org/wiki/Francia"> <!-- Francia -->
+                <placeName>Francia</placeName>
+                <!--<settlement type="province"></settlement>-->
+                <!--<settlement type="region"></settlement>-->
+                <country key="FR">Francia</country>
+            </place>
+            
+            <place xml:id="GE" source="https://it.wikipedia.org/wiki/Germania"> <!-- Germania -->
+                <placeName>Germania</placeName>
+                <!--<settlement type="province"></settlement>-->
+                <!--<settlement type="region"></settlement>-->
+                <country key="GE">Germania</country>
+            </place>
+            
+            <place xml:id="BE" source="https://it.wikipedia.org/wiki/Berlino"> <!-- Berlino -->
+                <placeName>Berlino</placeName>
+                <!--<settlement type="province"></settlement>-->
+                <!--<settlement type="region"></settlement>-->
+                <country key="GE">Germania</country>
+            </place>
+            
+            
+        
+        </listPlace>
+    </standOff>
 
     <text>
         <body>
@@ -350,18 +565,18 @@
                 </u>
                 
                 <u who="#AS" xml:id="AS1" synch="#TS02">
-                    Nello specifico non si voleva aggiungere, perché il problema è che <persName>
+                    Nello specifico non si voleva aggiungere, perché il problema è che <persName ref="#MO">
                         <forename>Mordenti</forename>
                     </persName> 
                     mi ha chiesto <gap reason="inaudible"/> di scrivere...
                 </u>
                 <u who="#NF" xml:id="NF2" synch="#TS03">
-                    <persName>
+                    <persName ref="#MO">
                         <forename>Mordenti</forename>
                     </persName>?
                 </u>
                 <u who="#AS" xml:id="AS2" synch="#TS04">
-                    <persName>
+                    <persName ref="#MO">
                         <forename>Mordenti</forename>
                     </persName>.
                 </u>
@@ -499,7 +714,7 @@
                         <corr>la Shoah</corr>
                     </choice> 
                     <del type="repetition">la Shoah, la Shoah</del> è la stessa cosa. <pause type="short"/> Hanno messo le mani in tanti sopra la Shoah 
-                    <pause type="short"/>, parlando di <persName>
+                    <pause type="short"/>, parlando di <persName ref="#PL">
                         <forename>Primo</forename>
                         <surname>Levi</surname>
                     </persName>
@@ -541,7 +756,7 @@
                         <sic>'nsomma</sic>
                         <corr>insomma</corr>
                     </choice> <pause type="short"/>. 
-                    Io vado a leggere la storia di <del type="repetition">di di</del> <gap reason="inaudible"/> a <placeName>Venezia</placeName>, a parte 
+                    Io vado a leggere la storia di <del type="repetition">di di</del> <gap reason="inaudible"/> a <placeName ref="#VE">Venezia</placeName>, a parte 
                     che lui era <gap reason="inaudible"/>, io non ero <gap reason="inaudible"/>, ci sono delle affinità. <pause type="short"/> A me piace 
                     dire che cosa è rimasto ora di quella storia, <pause type="short"/> cos’è rimasto <vocal>
                         <desc>ehm</desc>
@@ -550,10 +765,10 @@
                     Parlo di chi l’ha vissuto naturalmente. <pause type="short"/> Io sono convinto che ne siamo usciti col corpo ma non certamente 
                     con <del type="repetition">con</del> la psiche, noi siamo ancora posseduti da quel ricordo in una maniera <pause type="medium"/> direi
                     proprio tragica. <unclear reason="inaudible" cert="high">Uno dei</unclear> momenti più impensabili di, <emph>guarda</emph>, ad 
-                    <placeName>Auschwitz</placeName>, ecco, poverina, <pause type="medium"/> la seconda <pause type="short"/> come mi comporto 
-                    nella vita, <del type="repetition">nella vita</del> mi comporto come mi sono comportato ad <placeName>Auschwitz</placeName> per 
+                    <placeName ref="#AU">Auschwitz</placeName>, ecco, poverina, <pause type="medium"/> la seconda <pause type="short"/> come mi comporto 
+                    nella vita, <del type="repetition">nella vita</del> mi comporto come mi sono comportato ad <placeName ref="#AU">Auschwitz</placeName> per 
                     sopravvivere, sono molto combattivo, sono molto determinato <pause type="medium"/>, poi mentre se non fossi stato <gap reason="inaudibile"/> ad 
-                    <placeName>Auschwitz</placeName>, sarei una persona più comune. So essere sgradevole, ma qualche volta so essere 
+                    <placeName ref="#AU">Auschwitz</placeName>, sarei una persona più comune. So essere sgradevole, ma qualche volta so essere 
                     anche gradevole, <unclear reason="inaudible" cert="high">
                         <choice>
                             <sic>'nsomma</sic>
@@ -586,7 +801,7 @@
                         <corr>insomma</corr>
                     </choice>, non solo, quel giorno sono andato a prendere i miei nipoti a scuola <pause type="medium"/> 
                     e ho visto uscire tutti questi <del type="truncation">ragazzi</del> ragazzini <gap reason="inaudible"/>. M’è venuto in mente 
-                    la scena di <placeName>Auschwitz</placeName> quando scendevano dai treni vecchie, bambini, <gap reason="inaudible"/>. I bambini erano contenti, 
+                    la scena di <placeName ref="#AU">Auschwitz</placeName> quando scendevano dai treni vecchie, bambini, <gap reason="inaudible"/>. I bambini erano contenti, 
                     finalmente potevano muoversi <vocal>
                         <desc>sospira</desc>
                     </vocal>, ma i bambini a differenza dei grandi tutti indiscriminatamente 
@@ -595,7 +810,7 @@
                     ricordo. <pause type="long"/> Per questo sono molto geloso di come questa cosa viene presentata, <pause type="medium"/> questa è stata la mia professoressa, 
                     è uscito ora il libro, <vocal>
                         <desc>si schiarisce la gola</desc>
-                    </vocal> <persName>
+                    </vocal> <persName ref="#CA">
                         <forename>Calabresi</forename>
                     </persName>, 
                     professoressa di scienze che si è suicidata in carcere. <pause type="medium"/>
@@ -660,7 +875,7 @@
                     però se non ci mettiamo in testa questo, <pause type="medium"/> sessant'anni dopo <pause type="short"/>, rischia di far balbettare 
                     a tutti <del type="falseStart">le stesse</del> le solite consunte parole <unclear reason="inaudible" cert="high">benissimo</unclear>. 
                     Siamo già in una fase di <pause type="short"/> abbastanza, per conto mio, abbastanza <del type="repetition">abbastanza</del> <pause type="short"/> 
-                    riscontrabile anche. <emph>La Shoah</emph> non è più una cosa strana. Ora prevale l'<placeName>Israele</placeName>, ora prevale la 
+                    riscontrabile anche. <emph>La Shoah</emph> non è più una cosa strana. Ora prevale l'<placeName ref="#IS">Israele</placeName>, ora prevale la 
                     cattiveria degli israeliani <pause type="short"/>, e poi c’è molto negazionismo in giro, <pause type="medium"/> che <pause type="short"/> 
                     aiuta il distacco. <vocal>
                         <desc>Mhh</desc>
@@ -689,7 +904,7 @@
                     <vocal>
                         <desc>sospira</desc>
                     </vocal>. Abbiamo una gigantesca bibliografia, direi che è molto difficile divergere dalle cose originali,
-                    per esempio <gap reason="inaudible"/> a <placeName>Venezia</placeName>, <emph>lui</emph> che potrebbe dire veramente delle cose 
+                    per esempio <gap reason="inaudible"/> a <placeName ref="#VE">Venezia</placeName>, <emph>lui</emph> che potrebbe dire veramente delle cose 
                     in più, è troppo piccolo rispetto <del type="falseStart">a quella</del>a quel gigantismo <gap reason="inaudible"/>. 
                     Lui infondo non ne parla mai nello specifico, non vuole essere un’accusa la mia <pause type="medium"/> <emph>ma</emph> ci sono 
                     delle cose che non si possono <emph>descrivere</emph>, <choice>
@@ -706,7 +921,7 @@
                     Per esempio un altro famoso, <unclear reason="inaudible" cert="low">l’Alba</unclear>, che io ho conosciuto molto bene, <pause type="medium"/> 
                     è un ebreo austriaco che è morto <gap reason="inaudible"/> <vocal>
                         <desc>Anna tossisce</desc>
-                    </vocal>, uomini ad <placeName>Auschwitz</placeName>. 
+                    </vocal>, uomini ad <placeName ref="#AU">Auschwitz</placeName>. 
                     Questo <del type="repetition">questo</del> è un libro che è veramente.. c’ha un verismo, c’ha una realtà che ecco, 
                     questo bisogna <gap reason="inaudible"/>, descritto <del type="falseStart">la<del type="repetition">la la</del>
                     </del> l’effetto del gas, 
@@ -719,7 +934,7 @@
                     I miei nipoti fanno dei quadretti strani senza prospettiva, <vocal>
                         <desc>ehm</desc>
                     </vocal>, alla loro maniera 
-                    questa è la pittura. Se la metti accanto a <persName>Leonardo</persName>
+                    questa è la pittura. Se la metti accanto a <persName ref="#LEO">Leonardo</persName>
                     <pause type="short"/> , cosa che tutt’ora che 
                     mi lascia sempre pieno di stupore, la grandiosità della pittura <pause type="short"/> , "Mona lisa", <pause type="short"/>
                     ma anche l'"Ultima Cena". <vocal>
@@ -809,8 +1024,8 @@
                    Io <vocal>
                         <desc>ride</desc>
                     </vocal>
-                    <unclear reason="inaudible" cert="high">vicino a</unclear> <persName>
-                        <forename>Chruchill</forename>
+                    <unclear reason="inaudible" cert="high">vicino a</unclear> <persName ref="#CH">
+                        <forename>Churchill</forename>
                     </persName> 
                    molte volte mi sono mangiato la parola <pause type="medium"/>, <vocal>
                         <desc>beh</desc>
@@ -870,7 +1085,7 @@
                     </vocal>, condivide... guardi do un esempio <emph>gigantesco</emph>. <del type="falseStart">Auschw</del> 
                    <vocal>
                         <desc>Ehm</desc>
-                    </vocal>, <placeName>Israele</placeName> è un prodotto di <placeName>Auscwhitz</placeName>?<pause type="short"/> 
+                    </vocal>, <placeName ref="#IS">Israele</placeName> è un prodotto di <placeName ref="#AU">Auscwhitz</placeName>?<pause type="short"/> 
                    Nel comportamento degli israeliani, <pause type="short"/> di fronte ai lutti, quanti ce ne sono stati anche nell’ultimo, c’è una forza
                    che proviene <pause type="medium"/> dalle <emph>determinazioni</emph> di sopravvivere. Questo è il messaggio che viene dato <pause type="short"/> e 
                    <pause type="medium"/>,<vocal>
@@ -883,9 +1098,9 @@
                    perché la vita, è quello il comandamento. La vita, devi vivere. Se noi pensiamo in questo 
                    piccolo paese <vocal>
                         <desc>ride</desc>
-                    </vocal>, meno della <placeName>Lombardia</placeName>, circondato dai nemici da 
+                    </vocal>, meno della <placeName ref="#LO">Lombardia</placeName>, circondato dai nemici da 
                    tutte le parti e che vuole ostinatamente vivere <pause type="short"/>, questo ricorda a me almeno <emph>simbolicamente</emph> 
-                   <placeName>Auschwitz</placeName>, e uno che è dentro <gap reason="inaudible"/>, che vuole sopravvivere malgrado tutto. 
+                   <placeName ref="#AU">Auschwitz</placeName>, e uno che è dentro <gap reason="inaudible"/>, che vuole sopravvivere malgrado tutto. 
                    Ma cosa vuoi sopravvivere che te se non oggi, domani ti bruceranno. <emph>No!</emph> Voglio vivere, io <emph>non</emph> voglio morire. 
                    Non lo <emph>accetto</emph>. Questo paese che contro <pause type="short"/> ogni <unclear reason="inaudible" cert="medium">calco</unclear> politico, 
                    militare, economico, sopravvive, che si trasforma un paese agricolo in un paese di tecnologia avanzata, <gap reason="inaudible"/> son tanti 
@@ -915,10 +1130,10 @@
                         <desc>eh</desc>
                     </vocal>beh, è difficile essere ebrei e lo sarà sempre. La <gap reason="inaudible"/> da 2400 anni. Noi non 
                    abbiamo avuto così tante persecuzioni, <emph>ovunque</emph> siamo stati cacciati e poi siamo ritornati da tutti i paesi 
-                   d’<placeName>Europa</placeName>: dall’<placeName>Inghilterra</placeName>, dalla <placeName>Francia</placeName>, dalla 
-                   <placeName>Germania</placeName>. Ho visto a <placeName>Berlino</placeName> la <pause type="short"/>, la nuova sinagoga <pause type="short"/>...
+                   d’<placeName ref="#EU">Europa</placeName>: dall’<placeName ref="#GB">Inghilterra</placeName>, dalla <placeName ref="#FR">Francia</placeName>, dalla 
+                   <placeName ref="#GE">Germania</placeName>. Ho visto a <placeName ref="#BE">Berlino</placeName> la <pause type="short"/>, la nuova sinagoga <pause type="short"/>...
                    son ritornati e ci vuole forza. <emph>Ci vuole</emph> una determinazione straordinaria, ci vuole uno spirito auschwitziano a 
-                   ritornare in <placeName>Germania</placeName>, a ricostruire la loro comunità, ad aprire le scuole, <del type="falseStart">questa è una cosa</del>
+                   ritornare in <placeName ref="#GE">Germania</placeName>, a ricostruire la loro comunità, ad aprire le scuole, <del type="falseStart">questa è una cosa</del>
                    <emph>questo</emph> è un grande messaggio. Ma è un popolo che <del type="falseStart">non è stato</del>, è stato <emph>ferito</emph>, non...
                 </u> 
             </div>
