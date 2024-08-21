@@ -117,26 +117,26 @@
         <profileDesc>
             <particDesc>
                 <listPerson>
-                    <person xml:id="GB" role="testimone" source="https://digital-library.cdec.it/cdec-web/persone/detail/person-3910/herskovits-agata.html?persone=%22Herskovits%2C+Agata%22">
+                    <person ref="#GB">
                         <persName>
-                            <forename type="first">Goti</forename>
+                            <forename>Goti</forename>
                             <surname type="birth">Herskovits</surname>
                             <!--<surname type="married">Bauer</surname>-->
                         </persName>
                     </person>
-                    <person xml:id="MR" role="intervistatrice">
+                    <person ref="#MR">
                         <persName>
                             <forename>Marina</forename>
                             <surname>Riccucci</surname>
                         </persName> 
                     </person>
-                    <person xml:id="LR" role="intervistatrice">
+                    <person ref="#LR">
                         <persName>
                             <forename>Laura</forename>
                             <surname>Ricotti</surname>
                         </persName>
                     </person>  
-                    <person xml:id="RB" role="partecipante">
+                    <person xml:id="#RB">
                         <persName>
                             <forename>Rosanna</forename>
                             <surname>Bauer</surname>
@@ -166,13 +166,24 @@
                             L'intervista prosegue chiedendo a <persName ref="#GB">Goti</persName> se ha mai testimoniato insieme a <persName ref="#LS">Liliana</persName>.
                             Goti risponde di sì, qualche volta hanno testimoniato insieme. In prima istanza a casa di <persName ref="#GP">Gianna Pavia</persName>, poi dice, "forse alla <orgName ref="#ADEI">ADEI</orgName>", l'associazione femminile, ma non è sicura.
                             Viene menzionato il nome di <persName ref="#TM">Teodoro Morgani</persName>, il quale invitò Goti a scrivere nel volume <bibl>
-                                <title ref="#quarantanni">Quarant'anni dopo</title>
+                                <cit>
+                                    <ref target="#quarantanni">
+                                        <bibl>Quarant'anni dopo</bibl>
+                                    </ref>
+                                </cit>
                             </bibl>. 
-                            Si parla anche dei saggi di Goti, il primo di questi è <bibl>
-                                <title ref="#UVS">Una vita segnata</title>
-                            </bibl>, il quale si trova all'interno del volume <bibl>
-                                <title ref="#VDS">Voci dalla Shoah</title>
-                            </bibl>. Goti e Teodoro avevano in comune 
+                            Si parla anche dei saggi di Goti, il primo di questi è 
+                                <cit>
+                                    <ref target="#UVS">
+                                        <bibl>Una vita segnata</bibl>
+                                    </ref>
+                                </cit>
+                            , il quale si trova all'interno del volume 
+                            <cit>
+                                <ref target="#VDS">
+                                    <bibl ref="#VDS">Voci dalla Shoah</bibl>
+                                </ref>
+                            </cit>. Goti e Teodoro avevano in comune 
                             la provenienza da <placeName ref="#FIUME">Fiume</placeName> e lui le disse di scrivere qualcosa, perché scrivere di una situazione vissuta proprio a <placeName ref="#FIUME">Fiume</placeName>, quasi nessuno poteva farlo.
                         </item>
                         <item synch="#tlri3">
@@ -196,9 +207,12 @@
                         </item>
                         <item synch="#tlri7">
                             Si parla poi di <persName ref="#EV">Elio Varutti</persName>, il quale ha ricostruito la storia degli ebrei di <placeName ref="#FIUME">Fiume</placeName> in un articolo.
-                            Il titolo è <bibl>
-                                <title ref="#EFT">Ebrei di Fiume in transito</title>
-                            </bibl>, e in particolare si è dedicato alla storia di un bambino. Si chiamava <persName ref="#AC">Alberto Czerkl</persName>.
+                            Il titolo è 
+                            <cit>
+                                <ref target="#EFT">
+                                    <bibl>Ebrei di Fiume in transito</bibl>
+                                </ref>
+                            </cit>, e in particolare si è dedicato alla storia di un bambino. Si chiamava <persName ref="#AC">Alberto Czerkl</persName>.
                             Si parla poi della scuola elementare frequentata da Goti, la <orgName ref="#DM">Daniele Manin</orgName>
                         </item>
                         <item synch="#tlri8">
@@ -397,6 +411,24 @@
 
     <standOff> <!-- contenitore per dati collegati -->
         <!--TimeLine Regesto Intervista TLRI, divisa in blocchi--> 
+        
+        <!-- 
+        Opzione 1
+        <timeline xml:id="TL1">
+            <when xml:id="tlri1" absolute="00:00:00"/>
+        </timeline>
+        <timeline xml:id="TL2">     
+            <when xml:id="tlri2" absolute="00:05:57"/>
+        </timeline>
+        
+        Opzione 2
+        <timeline xml:id="TL1">
+            <when xml:id="tlri1" absolute="00:00:00"/>
+            <when xml:id="tlri2" absolute="00:05:57"/>
+            ....
+        </timeline>
+        -->
+
         <timeline xml:id="tlri">
             <when xml:id="tlri1" absolute="00:00:00"/> <!-- inizio intervista -->
             <when xml:id="tlri2" absolute="00:05:57"/> 
@@ -1788,14 +1820,21 @@
                     <del type="falseStart">il</del> quando siamo andate a <del type="repetition">Siamo andate a</del> incontrare <persName ref="#LG">Liliana Segre</persName>, <vocal>
                         <desc>ehh</desc>
                     </vocal> 
-                Liliana ha detto "<cit>
+                Liliana ha detto 
+                    <cit type="reference">
+                        <quote>Per me Goti è come Virgilio per Dante</quote>
+                        <ref target="#divinacommedia">
+                            <bibl>Dante Alighieri, Divina Commedia</bibl>
+                        </ref>
+                    </cit>
+                    <!--<cit>
                         <quote>Per me Goti è come <bibl>
                                 <title ref="#DC">Virgilio</title>
                             </bibl> per <bibl>
                                 <title ref="#DC">Dante</title>
                             </bibl>
                         </quote>
-                    </cit>". 
+                    </cit>-->
                 <shift feature="voice" new="giggle" xml:id="n2" synch="#tln1"/> E ha iniziato il racconto di come, e di quando, abbia lei stessa iniziato a testimoniare. <seg type="c">E ci ha raccontato il <gap reason="inaudible" extent="3 words"/> di Bauer</seg>. <vocal>
                         <desc>Ehmm</desc>
                     </vocal> <del type="truncation">ci farebbe..</del> </u>
@@ -1861,7 +1900,12 @@
                 <u who="#MR" xml:id="r5" synch="#tlp12">
                 <persName ref="#LS">Liliana</persName> ci ha detto che l'ha conosciuta, che ha conosciuto lei, <vocal>
                         <desc>ehm</desc>
-                    </vocal> cui riconosce e ha ripetuto molte volte il titolo di <persName ref="#DC">Virgilio</persName>, <vocal>
+                    </vocal> cui riconosce e ha ripetuto molte volte il titolo di <cit type="reference">
+                        <quote>Virgilio</quote>
+                        <ref target="#divinacommedia">
+                            <bibl>Dante Alighieri, Divina Commedia</bibl>
+                        </ref>
+                    </cit>, <vocal>
                         <desc>ehm</desc>
                     </vocal> attraverso <persName ref="#GD">Giuliana Donati</persName>. E' vero?</u>
                 <u who="#GB" xml:id="b8" synch="#tlp13">
@@ -1996,19 +2040,36 @@
                     </vocal> saggi testimonianza. 
                 Cioè che lei ha firmato. <vocal>
                         <desc>Ehh</desc>
-                    </vocal> Il primo si intitola <title ref="#UVS">Una vita segnata</title>
+                    </vocal> 
+                    Il primo si intitola 
+                    <cit>
+                        <ref target="#UVS">
+                            <bibl>Una vita segnata</bibl>
+                        </ref>
+                    </cit>
                 </u>
                 <u who="#GB" xml:id="b30" synch="#tlp38">Può darsi il titolo
                 <anchor synch="#tls43"/>Ma<anchor synch="#tls44"/>
                 ma non so in che occasione</u>
-                <u who="#MR" xml:id="r26" synch="#tlp39">all'interno del volume <title ref="#VDS">Voci dalla Shoah</title>
+                <u who="#MR" xml:id="r26" synch="#tlp39">all'interno del volume 
+                    <cit>
+                        <ref target="#VDS">
+                            <bibl>Voci dalla Shoah</bibl>
+                        </ref>
+                    </cit>
                 </u>
                 <u who="#GB" xml:id="b32" synch="#tlp40">Sisì, Questo è
                 <anchor synch="#tls45"/>E poi<anchor synch="#tls46"/>
                 facile da trovare</u>
                 <u who="#MR" xml:id="r28" synch="#tlp41">E poi quella volta ha dichiarato che a scrivere era stata inviata dal suo concittadino <persName ref="#TM">Teodoro</persName>
                 <anchor synch="#tls47"/>sì, invitata, da lui, sì, è vero<anchor synch="#tls48"/>
-                invitata da lui a scrivere e ha, su questo invito, di questo <persName ref="#TM">Teodoro Morgani</persName>, lei ha scritto alcune pagine dentro il volume dello stesso "Mòrgani" che è <title ref="#quarantanni">Quarant'anni dopo</title>
+                invitata da lui a scrivere e ha, su questo invito, di questo <persName ref="#TM">Teodoro Morgani</persName>, lei ha scritto alcune pagine 
+                dentro il volume dello stesso "Mòrgani" che è 
+                    <cit>
+                        <ref target="#quarantanni">
+                            <bibl>Quarant'anni dopo</bibl>
+                        </ref>
+                    </cit>
                 </u>
                 <u who="#GB" xml:id="b35" synch="#tlp42">Sì, esatto. Ma "Mòrgani" <desc>Bauer ha detto "Morgàni" ma voleva corregge la pronuncia di "Mòrgani"</desc> non esiste</u>
                 <anchor synch="#tls49"/>
@@ -2291,7 +2352,12 @@
                     </vocal>, in un articolo che è uscito nel <date when="2019-01">gennaio del 2019</date>. <del type="truncation">In questo</del>
                 </u>
                 <u who="#GB" xml:id="b77" synch="#tlp111">Ma esiste questo libro? E' in vendita?</u>
-                <u who="#MR" xml:id="r71" synch="#tlp112">Allora, questo libro è stato presentato a <placeName ref="#FIUME">Fiume</placeName> nel <date when="2019-01">gennaio del '19</date> e io credo che esista, io l'ho letto direttamente nella versione online. Perché è stato pubblicato e consultabile anche in rete. Quindi <date when="2019-01">gennaio 2019</date>, un anno fa. Appunto questo studioso si chiama <persName ref="#EV">Elio Varutti</persName>. Il titolo è <title ref="#EFT">Ebrei di Fiume in transito</title>. Allora, <vocal>
+                <u who="#MR" xml:id="r71" synch="#tlp112">Allora, questo libro è stato presentato a <placeName ref="#FIUME">Fiume</placeName> nel <date when="2019-01">gennaio del '19</date> e io credo che esista, io l'ho letto direttamente nella versione online. Perché è stato pubblicato e consultabile anche in rete. Quindi <date when="2019-01">gennaio 2019</date>, un anno fa. Appunto questo studioso si chiama <persName ref="#EV">Elio Varutti</persName>. 
+                    Il titolo è <cit>
+                        <ref target="#EFT">
+                            <bibl>Ebrei di Fiume in transito</bibl>
+                        </ref>
+                    </cit>. Allora, <vocal>
                         <desc>ehm</desc>
                     </vocal>, <del type="truncation">Varutti</del>
                 </u>
@@ -3542,7 +3608,11 @@
                 Però poco dopo erano già liberi</u>
                 <u who="#MR" xml:id="r182" synch="#tlp435">Erano già liberi,
                 <anchor synch="#tls415"/>Sì, <del type="repetition">sì</del>..<anchor synch="#tls416"/> 
-                sì. Infatti poi lei ha, nel film "<title ref="#MEMORIA">Memoria</title>", 
+                sì. Infatti poi lei ha, nel film "<cit>
+                        <ref target="#MEMORIA">
+                            <bibl>Memoria</bibl>
+                        </ref>
+                    </cit>", 
                 <anchor synch="#tls417"/>
                     <gap reason="inaudible"/>
                     <anchor synch="#tls418"/> 
@@ -4036,7 +4106,14 @@
                 <anchor synch="#tls531"/>
                     <shift feature="voice" new="whisper"/>
                     <anchor synch="#tls532"/> 
-                quelli che erano già lì da più tempo e già lo sapevano. Era pieno il campo e noi siamo arrivati in una bolgia, dove tutti gli altri sapevano tutto e ci informavano. Era una cosa da infarto, venire a sapere una cosa così nel giro di un minuto.</u>
+                quelli che erano già lì da più tempo e già lo sapevano. Era pieno il campo e noi siamo arrivati in una 
+                    <cit type="reference">
+                        <quote>bolgia</quote>
+                        <ref target="#divinacommedia">
+                            <bibl>Dante Alighieri, Divina Commedia</bibl>
+                        </ref>
+                    </cit>
+                , dove tutti gli altri sapevano tutto e ci informavano. Era una cosa da infarto, venire a sapere una cosa così nel giro di un minuto.</u>
                 <pause type="medium" dur="pt6s"/>
                 <u who="#MR" xml:id="r203" synch="#tlp488">Quindi, <pause type="short" dur="pt2s"/> le poche donne che sono state mandate a destra e lei dirà no, quindi in qualche modo, non erano state, voi, mandate subito in gas. Siete state condotte <del type="reformulation">quella che lei ha chiamato</del> in quella che lei ha chiamato '<placeName>La baracca dell'amministrazione</placeName>'</u>
                 <u who="#GB" xml:id="b234" synch="#tlp489">Sì, perché loro 
@@ -4830,7 +4907,7 @@
                 <anchor synch="#tlc8"/>
             </div>
         </body> 
-        <back>
+        <!-- <back>
             <listOrg>
                 <org>
                     <orgName xml:id="RAI" ref="https://www.rai.it">RAI</orgName>
@@ -5140,7 +5217,7 @@
                 </person>
             </listPerson>
             <listPlace>
-                <!-- campi di concentramento -->
+                campi di concentramento 
                 <place>
                     <placeName xml:id="AUSCH" ref="https://it.wikipedia.org/wiki/Campo_di_concentramento_di_Auschwitz">Auschwitz</placeName>
                     <location>
@@ -5197,7 +5274,7 @@
                     </location>
                     <note>Il campo di concentramento di Theresienstadt è stata una struttura di internamento e deportazione utilizzata dalle forze tedesche durante la seconda guerra mondiale, tra il 24 novembre 1941 e il 9 maggio 1945.</note>
                 </place>
-                <!-- banchine -->
+                 banchine
                 <place>
                     <placeName xml:id="JUDENRAMPE" ref="https://it.wikipedia.org/wiki/Campo_di_concentramento_di_Auschwitz">Judenrampe</placeName>
                     <note>Piccola banchina ferroviaria, universalmente nota come la rampa degli ebrei o, in tedesco, Judenrampe e situata all'esterno del campo di Auschwitz, nei pressi dello scalo merci della stazione di Oświęcim.</note>
@@ -5206,7 +5283,7 @@
                     <placeName xml:id="BAHNRAMPE" ref="https://it.wikipedia.org/wiki/Campo_di_concentramento_di_Auschwitz">Bahnrampe</placeName>
                     <note>La linea ferroviaria fu prolungata all'interno del campo di Birkenau fino a una nuova banchina a tre binari chiamata Bahnrampe</note>
                 </place>
-                <!-- città, nazioni e regioni -->
+                città, nazioni e regioni
                  <place> 
                     <placeName xml:id="MI" ref="https://it.wikipedia.org/wiki/Milano">Milano</placeName>
                     <country>Italia</country>
@@ -5357,7 +5434,7 @@
                 <place>
                     <placeName xml:id="ML" ref="https://it.wikipedia.org/wiki/Massa_Lombarda">Massa Lombarda</placeName>
                     <location>
-                        <geo source="https://it.db-city.com/Italia--Emilia-Romagna--Ravenna--Massa-Lombarda">44.4462 11.8282</geo>
+                        <geo source="https://it.db-city.com/ItaliaEmilia-Romagna-Ravenna-Massa-Lombarda">44.4462 11.8282</geo>
                     </location>
                 </place>
                 <place>
@@ -5429,7 +5506,7 @@
                         <geo source="https://it.wikipedia.org/wiki/Vienna">48.208333 16.3725</geo>
                     </location>
                 </place>
-                <!-- scuole, edifici, luoghi, etc -->
+                scuole, edifici, luoghi, etc 
                 <place>
                     <placeName xml:id="AUM" ref="https://it.wikipedia.org/wiki/Auditorium_di_Milano">Auditorium</placeName> 
                     <country ref="#ITA">Italia</country>
@@ -5519,5 +5596,744 @@
                 </relation>
             </listRelation>
         </back>
+        -->
     </text>
+
+    <standOff>
+
+        <listOrg>
+            <org xml:id="RAI" ref="https://www.rai.it">
+                <orgName>RAI</orgName>
+                <desc>Radiotelevisione italiana S.p.A., conosciuta come Rai</desc>
+            </org>
+            <org xml:id="ADEI" ref="https://www.adeiwizo.org/">
+                <orgName>ADEI</orgName>
+                <desc>Associazione donne ebree d'Italia, è la principale associazione femminile di volontariato e senza fini di lucro ebraica italiana, fondata nel 1927</desc>
+            </org>
+            <org xml:id="CDEC" ref="https://www.cdec.it/">
+                <orgName>CDEC</orgName>
+                <desc>Fondazione centro di documentazione ebraica contemporanea</desc>
+            </org>
+        </listOrg>
+
+        <listPerson>
+            <person xml:id="GB" role="testimone" source="https://digital-library.cdec.it/cdec-web/persone/detail/person-3910/herskovits-agata.html?persone=%22Herskovits%2C+Agata%22">
+                <persName>
+                    <forename>Goti</forename>
+                    <surname type="birth">Herskovits</surname>
+                    <!--<surname type="married">Bauer</surname>-->
+                </persName>
+                
+                <sex>F</sex>
+                <birth>
+                    <date when="1924-07-29">29 luglio 1924</date>
+                    <placeName>
+                        <settlement type="municipality">Berehove</settlement> 
+                        <country ref="#IT">Italia</country>
+                    </placeName>
+                </birth>
+                
+            </person>
+            <person xml:id="MR" role="intervistatrice">
+                <persName>
+                    <forename>Marina</forename>
+                    <surname>Riccucci</surname>
+                </persName> 
+            </person>
+            <person xml:id="LR" role="intervistatrice">
+                <persName>
+                    <forename>Laura</forename>
+                    <surname>Ricotti</surname>
+                </persName>
+            </person>  
+            <person xml:id="RB" role="partecipante">
+                <persName>
+                    <forename>Rosanna</forename>
+                    <surname>Bauer</surname>
+                </persName>
+                <note>Figlia della testimone Goti Bauer</note>
+            </person>   
+            <person xml:id="LS">
+                <persName ref="https://it.wikipedia.org/wiki/Liliana_Segre">
+                    <forename>Liliana</forename>
+                    <surname>Segre</surname>
+                </persName>
+            </person>
+            <person xml:id="NF">
+                <persName>
+                    <forename>Nedo</forename>
+                    <surname>Fiano</surname> 
+                </persName>
+                <note>Uno dei testimoni menzionati da Goti Bauer all'inizio dell'intervista</note>
+            </person>
+            <person xml:id="GP">
+                <persName>
+                    <forename>Gianna</forename>
+                    <surname>Pavia</surname>
+                </persName>
+                <note>Amica in comune di Goti Bauer e Liliana Segre</note>
+            </person>
+            <person xml:id="GD">
+                <persName>
+                    <forename>Giuliana</forename>
+                    <surname>Donati</surname>
+                </persName>
+                <note>Goti Bauer ha conosciuto Liliana Segre attraverso Giuliana Donati</note>
+            </person>
+            <person xml:id="TM">
+                <persName ref="https://digital-library.cdec.it/cdec-web/persone/detail/person-it-cdec-eaccpf0001-000353/morgani-teodoro.html">
+                    <forename type="first">Teodoro</forename>
+                    <forename type="last">Morgenstern</forename>
+                    <surname>Morgani</surname>
+                </persName>         
+            </person>
+            <person xml:id="MP">
+                <persName ref="https://it.wikipedia.org/wiki/Marcello_Pezzetti">
+                    <forename>Marcello</forename>
+                    <surname>Pezzetti</surname>
+                </persName>
+            </person>
+            <person xml:id="WV">
+                <persName ref="https://it.wikipedia.org/wiki/Walter_Veltroni">
+                    <forename>Walter</forename>
+                    <surname>Veltroni</surname>
+                </persName>
+            </person>
+            <person xml:id="LLY">
+                <persName>
+                    <forename>Lilly</forename>
+                </persName>
+                <note>Sorella di Goti Bauer</note>
+            </person>
+            <person xml:id="GIULIO">
+                <persName>
+                    <forename>Giulio</forename> 
+                </persName>
+                <note>Fratello di Goti Bauer</note>
+            </person>
+            <person xml:id="EDM">
+                <persName>
+                    <forename>Edmondo</forename>
+                </persName>
+                <note>Fratello di Goti Bauer</note>
+            </person>
+            <person xml:id="TIBOR">
+                <persName>
+                    <forename>Tibor</forename>
+                </persName>
+                <note>Fratello di Goti Bauer</note>
+            </person>
+            <person xml:id="EV">
+                <persName>
+                    <forename>Elio</forename>
+                    <surname>Varutti</surname>
+                </persName>
+                <note>Studioso che ha ricostruito la storia di Fiume</note>
+            </person>
+            <person xml:id="DQ">
+                <persName>
+                    <forename>Daniele</forename>
+                    <surname>Quinti</surname>
+                </persName>
+                <note>Persona che riprende l'intervista</note>
+            </person>
+            <person xml:id="AC">
+                <persName>
+                    <forename>Alberto</forename>
+                    <surname>Czerkl</surname>
+                </persName>
+                <note>Bambino citato che ha frequentato la Daniele Manin</note>
+            </person>
+            <person xml:id="AB">
+                <persName>
+                    <forename>Angelina</forename> 
+                    <surname>Braida</surname>
+                </persName>
+                <note>Vicina di casa di Goti Bauer</note>
+            </person>
+            <person xml:id="KARL">
+                <persName>
+                    <forename>Karl</forename>
+                    <surname>Zelikovitz</surname>
+                </persName> 
+                <note>Rabbino</note>
+            </person>
+            <person xml:id="ALTMANN">
+                <persName>
+                    <surname>Altmann</surname>
+                </persName>
+                <note>La famiglia Altmann, di cui i figli sono Giuliano e Giuditta, e la madre è <persName ref="#MH">Margherita Herskovitz</persName>
+                </note>
+            </person>
+            <person xml:id="MH">
+                <persName>
+                    <forename>Margherita</forename>
+                    <surname>Herskovitz</surname>
+                </persName>
+                <note>Moglie della famiglia <persName ref="#ALTMANN">Altmann</persName>
+                </note>
+            </person>
+            <person xml:id="BUCCI">
+                <persName>
+                    <surname>Bucci</surname>
+                </persName>
+                <note>Le sorelle Bucci</note>
+            </person>
+            <person xml:id="MG">
+                <persName>
+                    <forename>Martino</forename>
+                    <surname>Godelli</surname>
+                </persName>
+                <note>Amico di Goti</note>
+            </person>
+            <person xml:id="GK">
+                <persName>
+                    <forename>Gisella</forename> 
+                    <surname>Kugler</surname>
+                </persName>
+                <note>Moglie di <persName ref="#MG">Martino Godelli</persName> e amica di Goti</note>
+            </person>
+            <person xml:id="KR">
+                <persName>
+                    <surname>Kruger</surname>
+                </persName>
+                <note>Sorelle Kruger</note>
+            </person>
+            <person xml:id="AS">
+                <persName>
+                    <forename>Arianna</forename>
+                    <surname>Szörényi</surname>
+                </persName>
+            </person>
+            <person xml:id="LP">
+                <persName>
+                    <forename>Liliana</forename>
+                    <surname>Picciotto</surname>
+                </persName>
+            </person>
+            <person xml:id="RV">
+                <persName>
+                    <surname>Ravasini</surname>
+                </persName>
+                <note>Il professor Ravasini</note>
+            </person>
+            <person xml:id="KROO">
+                <persName>
+                    <surname>Kroo</surname>
+                </persName>
+                <note>La famiglia Kroo, di cui i figli sono Alessandro e Giuseppe, mentre la madre è <persName ref="#NV">Nelly Vamos</persName>
+                </note>
+            </person>
+            <person xml:id="NV">
+                <persName>
+                    <forename>Nelly</forename>
+                    <surname>Vamos</surname>
+                </persName>
+                <note>Madre della famiglia <persName ref="#KROO">Kroo</persName>
+                </note>
+            </person>
+            <person xml:id="BERGER">
+                <persName>
+                    <surname>Berger</surname>
+                </persName>
+                <note>La famiglia Berger</note>
+            </person>
+            <person xml:id="NANNI">
+                <persName>
+                    <surname>Nanni</surname>
+                </persName>
+                <note>Il dottor Nanni</note>
+            </person>
+            <person xml:id="KUCHI">
+                <persName>
+                    <surname>Kuchi</surname>
+                </persName>
+                <note>La famiglia Kuchi</note>
+            </person>
+            <person xml:id="SCH">
+                <persName>
+                    <surname>Schuster</surname>
+                </persName>
+                <note>Cardinale Schuster</note>
+            </person>
+            <person xml:id="MROSSI">
+                <persName>
+                    <forename>Marcello</forename>
+                    <surname>Rossi</surname>
+                </persName>
+                <note>Maresciallo dei carabinieri</note>
+            </person>
+            <person xml:id="LIMENTANI">
+                <persName>
+                    <surname>Limentani</surname>
+                </persName>
+                <note>Un giovane di cui non sono riusciti a trovare la sua storia, il quale si trovava a <placeName ref="#SANV">San Vittore</placeName>
+                </note>
+            </person>
+            <person xml:id="EG1">
+                <persName>
+                    <forename>Egon</forename> 
+                    <surname>Grünberger</surname>
+                </persName> 
+                <note>Uno dei fratelli Grünberger, il quale riuscì a fuggire dal treno</note>
+            </person>
+            <person xml:id="EG2">
+                <persName>
+                    <forename>Erico</forename> 
+                    <surname>Grünberger</surname>
+                </persName> 
+                <note>Uno dei fratelli Grünberger, il quale morì ad <placeName ref="#AUSCH">Auschwitz</placeName>
+                </note>
+            </person>
+            <person xml:id="LANDAU">
+                <persName>
+                    <surname>Landau</surname>
+                </persName>
+                <note>Sorelle ungheresi</note>
+            </person>
+            <person xml:id="PADOAN" source="https://it.wikipedia.org/wiki/Daniela_Padoan">
+                <persName>
+                    <forename>Daniela</forename>
+                    <surname>Padoan</surname>
+                </persName>
+            </person>
+            <person xml:id="GROSS">
+                <persName>
+                    <forename>Suzi</forename>
+                    <surname>Gross</surname>
+                </persName>
+                <note>Prigioniera di <placeName ref="#AUSCH">Auschwitz</placeName> divenuta Kapo</note>
+            </person>
+            <person xml:id="RLEVI1">
+                <persName>
+                    <forename>Rachele</forename>
+                    <surname>Levi</surname>
+                </persName>
+                <note>Una delle sorelle Levi, incontrata da Goti al consolato</note>
+            </person>
+            <person xml:id="RLEVI2">
+                <persName>
+                    <forename>Rosa</forename>
+                    <surname>Levi</surname>
+                </persName>
+                <note>Una delle sorelle Levi</note>
+            </person>
+            <person xml:id="SDV">
+                <persName>
+                    <forename>Silvia</forename> 
+                    <surname>Di Veroli</surname>
+                </persName>
+                <note>Una romana che Goti incontra al consolato</note>
+            </person>
+            <person xml:id="CDC">
+                <persName>
+                    <forename>Costanza</forename> 
+                    <surname>Di Castro</surname>
+                </persName>
+                <note>Una signora romana che Goti incontra al consolato</note>
+            </person>
+            <person xml:id="REISS">
+                <persName>
+                    <surname>Reiss</surname>
+                </persName>
+                <note>Famiglia che ospitò Goti</note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <!-- campi di concentramento -->
+            <place xml:id="AUSCH" ref="https://it.wikipedia.org/wiki/Campo_di_concentramento_di_Auschwitz">
+                <placeName>Auschwitz</placeName>
+                <location>
+                    <geo>50.0267409 19.203459</geo>
+                </location>
+                <note>Il campo di concentramento di Auschwitz è stato un vasto complesso di campi di concentramento e di sterminio situato nelle vicinanze della cittadina polacca di Oświęcim</note>
+            </place>
+            <place xml:id="BW" ref="https://it.wikipedia.org/wiki/Campo_di_concentramento_di_Buchenwald">
+                <placeName>Buchenwald</placeName>
+                <location>
+                    <geo source="https://latitude.to/articles-by-country/de/germany/1543/buchenwald-concentration-camp">51.01999992 11.242165698</geo>
+                </location>
+                <note>Il campo di concentramento di Buchenwald, istituito nel luglio 1937, fu uno fra i più grandi campi della Germania nazista.</note>
+            </place>
+            <place xml:id="FERRAMONTI" ref="https://it.wikipedia.org/wiki/Campo_di_internamento_di_Ferramonti_di_Tarsia">
+                <placeName>Ferramonti</placeName>
+                <note>Il campo di concentramento di Ferramonti, nel comune di Tarsia in provincia di Cosenza, in origine conosciuto anche come campo di concentramento Media Valle di Crati</note>
+            </place>
+            <place xml:id="CF" ref="https://it.wikipedia.org/wiki/Campo_di_Fossoli">
+                <placeName>Carpi-Fossoli</placeName>
+                <location>
+                    <geo source="https://it.wikipedia.org/wiki/Campo_di_Fossoli">44.828333 10.902778</geo> 
+                </location>
+                <note>Il campo di Fossoli nacque nel 1942 come campo di prigionia a Fossoli, frazione di Carpi in provincia di Modena</note>
+            </place>
+            <place xml:id="BIRKENAU" ref="https://it.wikipedia.org/wiki/Campo_di_sterminio_di_Birkenau">
+                <placeName>Birkenau</placeName>
+                <location>
+                    <geo source="https://it.wikipedia.org/wiki/Campo_di_sterminio_di_Birkenau">50.0371 19.1752</geo>
+                </location>
+                <note>Il campo di sterminio di Birkenau fu uno dei tre campi principali che formavano il complesso concentrazionario situato nelle vicinanze di <placeName ref="AUSCH">Auschwitz</placeName>
+                </note>
+            </place>
+            <place xml:id="MONOWITZ" ref="https://it.wikipedia.org/wiki/Campo_di_lavoro_di_Monowitz">
+                <placeName>Monowitz</placeName>
+                <note>Il campo di lavoro di Monowitz fu uno dei tre campi principali che formavano il complesso concentrazionario situato nelle vicinanze di Auschwitz in Polonia.</note>
+            </place>
+            <place xml:id="WILI" ref="https://it.wikipedia.org/wiki/Campo_di_concentramento_di_Flossenb%C3%BCrg">
+                <placeName>Wilischthal</placeName>
+                <note>Uno dei 96 sotto-campi di <placeName ref="#FLOSS">Flossenbürg</placeName>
+                </note>
+            </place>
+            <place xml:id="FLOSS" ref="https://it.wikipedia.org/wiki/Campo_di_concentramento_di_Flossenb%C3%BCrg">
+                <placeName>Flossenbürg</placeName>
+                <location>
+                    <geo source="https://it.wikipedia.org/wiki/Campo_di_concentramento_di_Flossenb%C3%BCrg">49.735556 12.355833</geo>
+                </location>
+                <note>Il campo di concentramento di Flossenbürg fu un campo di concentramento nazista situato a circa metà strada fra Norimberga e Praga e attivo dal 1938 fino al 1945. A partire dal 1942 divenne il centro di un vasto sistema di 96 sottocampi che si estendeva su un territorio vastissimo</note>
+            </place>
+            <place xml:id="THERE" ref="https://it.wikipedia.org/wiki/Campo_di_concentramento_di_Theresienstadt">
+                <placeName>Theresienstadt</placeName>
+                <location>
+                    <geo source="https://it.wikipedia.org/wiki/Campo_di_concentramento_di_Theresienstadt">50.513333 14.166944</geo>
+                </location>
+                <note>Il campo di concentramento di Theresienstadt è stata una struttura di internamento e deportazione utilizzata dalle forze tedesche durante la seconda guerra mondiale, tra il 24 novembre 1941 e il 9 maggio 1945.</note>
+            </place>
+            <!-- banchine -->
+            <place xml:id="JUDENRAMPE" ref="https://it.wikipedia.org/wiki/Campo_di_concentramento_di_Auschwitz">
+                <placeName>Judenrampe</placeName>
+                <note>Piccola banchina ferroviaria, universalmente nota come la rampa degli ebrei o, in tedesco, Judenrampe e situata all'esterno del campo di Auschwitz, nei pressi dello scalo merci della stazione di Oświęcim.</note>
+            </place>
+            <place xml:id="BAHNRAMPE" ref="https://it.wikipedia.org/wiki/Campo_di_concentramento_di_Auschwitz">
+                <placeName>Bahnrampe</placeName>
+                <note>La linea ferroviaria fu prolungata all'interno del campo di Birkenau fino a una nuova banchina a tre binari chiamata Bahnrampe</note>
+            </place>
+            <!-- città, nazioni e regioni -->
+             <place xml:id="MI" ref="https://it.wikipedia.org/wiki/Milano"> 
+                <placeName>Milano</placeName>
+                <country>Italia</country>
+                <location>
+                    <geo>45.46427, 9.18951</geo>
+                </location>
+            </place>
+            <place xml:id="FIUME" ref="https://it.wikipedia.org/wiki/Fiume_(Croazia)">
+                <placeName>Fiume</placeName> 
+                <country ref="#CROAZIA">Croatia</country>
+                <location> 
+                    <geo>45.34306, 14.40917</geo>
+                </location>
+            </place>
+            <place xml:id="GE" ref="https://it.wikipedia.org/wiki/Genova">
+                <placeName>Genova</placeName>
+                <location>
+                    <geo>44.4264, 8.91519</geo> 
+                </location>
+            </place>
+            <place xml:id="EUO" ref="https://it.wikipedia.org/wiki/Europa_orientale">
+                <placeName>Europa Orientale</placeName> 
+                <note>L'espressione Europa orientale indica un raggruppamento di Paesi europe</note>
+            </place>
+            <place xml:id="CECO" ref="https://it.wikipedia.org/wiki/Cecoslovacchia">
+                <placeName>Cecoslovacchia</placeName>
+                <note>La Cecoslovacchia fu uno Stato europeo indipendente esistito dal 1918 al 1992. A seguito di una decisione parlamentare del 1992 fu decisa la scissione del paese in due entità statali separate che, dal 1º gennaio 1993, presero il nome di Repubblica Ceca e Slovacchia</note>
+            </place>
+            <place xml:id="POLONIA" ref="https://it.wikipedia.org/wiki/Polonia">
+                <placeName>Polonia</placeName>
+                <location>
+                    <geo>51.95375055 19.1343786</geo>
+                </location>
+            </place>
+            <place xml:id="AUST" ref="https://it.wikipedia.org/wiki/Australia">
+                <placeName>Australia</placeName>
+                <location>
+                    <geo source="https://www.geodatos.net/en/coordinates/australia">-25.274398, 133.775136</geo>
+                </location>
+            </place>
+            <place xml:id="ALBANIA" ref="https://it.wikipedia.org/wiki/Albania">
+                <placeName>Albania</placeName>
+                <location>
+                    <geo source="https://www.geodatos.net/en/coordinates/albania">41.153332, 20.168331</geo>
+                </location>
+            </place>
+            <place xml:id="TR" ref="https://it.wikipedia.org/wiki/Tirana">
+                <placeName>Tirana</placeName>
+                <country ref="#ALBANIA">Albania</country>
+                <location>
+                    <geo source="https://latitudelongitude.org/al/tirana/">41.3275, 19.81889</geo>
+                </location>
+            </place>
+            <place xml:id="UNGHERIA" ref="https://it.wikipedia.org/wiki/Ungheria">
+                <placeName>Ungheria</placeName>
+                <location>
+                    <geo source="https://www.geodatos.net/en/coordinates/hungary">47.162494, 19.503304</geo>
+                </location> 
+            </place>
+            <place xml:id="CLUJ" ref="https://it.wikipedia.org/wiki/Cluj-Napoca">
+                <placeName>Cluj</placeName>
+                <location>
+                    <geo source="https://www.geodatos.net/en/coordinates/romania/cluj-napoca">46.76667, 23.6</geo> 
+                </location>
+                <country ref="#ROMANIA">Romania</country>
+            </place>
+            <place xml:id="ROMANIA" ref="https://it.wikipedia.org/wiki/Romania">
+                <placeName>Romania</placeName>
+                <location>
+                    <geo source="https://www.geodatos.net/en/coordinates/romania">45.943161, 24.96676</geo>
+                </location>
+            </place>
+            <place xml:id="TRANSILVANIA" ref="https://it.wikipedia.org/wiki/Transilvania">
+                <placeName>Transilvania</placeName>
+                <note>Regione storica che costituisce la parte occidentale e centrale dell'odierna Romania.</note>
+            </place>
+            <place xml:id="AFRICA" ref="https://it.wikipedia.org/wiki/Africa">
+                <placeName>Africa</placeName>
+            </place>
+            <place xml:id="ER" ref="https://it.wikipedia.org/wiki/Eritrea">
+                <placeName>Eritrea</placeName>
+                <country ref="#AFRICA">Africa</country>
+                <location>
+                    <geo source="https://www.geodatos.net/en/coordinates/eritrea">15.179384, 39.782334</geo>
+                </location>
+            </place>
+            <place xml:id="JUGO" ref="https://it.wikipedia.org/wiki/Jugoslavia">
+                <placeName>Jugoslavia</placeName>
+                <note>Fu fu un'entità statale che, a più riprese e attraverso diversi assetti istituzionali, amministrò la penisola balcanica occidentale per gran parte del XX secolo</note>
+            </place>
+            <place xml:id="CROAZIA" ref="https://it.wikipedia.org/wiki/Croazia">
+                <placeName>Croazia</placeName>
+                <location>
+                    <geo source="https://www.geodatos.net/en/coordinates/croatia">45.1, 15.2</geo>
+                </location>
+            </place>
+            <place xml:id="SLOVENIA" ref="https://it.wikipedia.org/wiki/Slovenia">
+                <placeName>Slovenia</placeName>
+                <location>
+                    <geo source="https://www.geodatos.net/en/coordinates/slovenia/">46.151241, 14.995463</geo>
+                </location>
+            </place>
+            <place xml:id="SERBIA" ref="https://it.wikipedia.org/wiki/Serbia">
+                <placeName>Serbia</placeName>
+                <location>
+                    <geo source="https://www.geodatos.net/en/coordinates/serbia/">44.016521, 21.005859</geo>
+                </location>
+            </place>
+            <place xml:id="ITA" ref="https://it.wikipedia.org/wiki/Italia">
+                <placeName>Italia</placeName>
+                <location>
+                    <geo source="https://latitude.to/map/it/italy">41.29246 12.5736108</geo>
+                </location>
+            </place>
+            <place xml:id="SUSSAK" ref="https://it.wikipedia.org/wiki/Sussak">
+                <placeName>Sussak</placeName>
+                <location>
+                    <geo source="https://latitude.to/articles-by-country/hr/croatia/61605/susak">44.5166646 14.2999988</geo>
+                </location>
+            </place>
+            <place xml:id="GORIZIA" ref="https://it.wikipedia.org/wiki/Gorizia">
+                <placeName>Gorizia</placeName>
+                <location>
+                    <geo source="https://latitude.to/map/it/italy/cities/gorizia">45.94088 13.62167</geo>
+                </location>
+            </place>
+            <place xml:id="GERMANIA" ref="https://it.wikipedia.org/wiki/Germania">
+                <placeName>Germania</placeName>
+                <location>
+                    <geo source="https://latitude.to/map/de/germany">51.1642292 10.4541194</geo>
+                </location>
+            </place>
+            <place xml:id="EU" ref="https://it.wikipedia.org/wiki/Europa">
+                <placeName>Europa</placeName>
+            </place>
+            <place xml:id="NORVEGIA" ref="https://it.wikipedia.org/wiki/Norvegia">
+                <placeName>Norvegia</placeName>
+                <location>
+                    <geo source="https://latitude.to/map/no/norway">64.5783089 17.888237</geo>
+                </location>
+            </place>
+            <place xml:id="VISERBA" ref="https://it.wikipedia.org/wiki/Viserba">
+                <placeName>Viserba</placeName>
+                <location>
+                    <geo source="https://www.coordinategeografiche.it/coordinate/latitudinelongitudine/IT/viserba/2693">44.093333 12.536111</geo>
+                </location>
+            </place>
+            <place xml:id="ML" ref="https://it.wikipedia.org/wiki/Massa_Lombarda">
+                <placeName>Massa Lombarda</placeName>
+                <location>
+                    <geo source="https://it.db-city.com/Italia--Emilia-Romagna--Ravenna--Massa-Lombarda">44.4462 11.8282</geo>
+                </location>
+            </place>
+            <place xml:id="TS" ref="https://it.wikipedia.org/wiki/Trieste">
+                <placeName>Trieste</placeName>
+                <location>
+                    <geo source="https://latitude.to/map/it/italy/cities/trieste">45.64325 13.7903</geo>
+                </location>
+            </place>
+            <place xml:id="LUGANO" ref="https://it.wikipedia.org/wiki/Lugano">
+                <placeName>Lugano</placeName>
+                <location>
+                    <geo source="https://latitude.to/map/ch/switzerland/cities/lugano">46.01008 8.96004</geo>
+                </location>
+            </place>
+            <place xml:id="SWI" ref="https://it.wikipedia.org/wiki/Svizzera">
+                <placeName>Svizzera</placeName>
+                <location>
+                    <geo source="https://www.geodatos.net/en/coordinates/switzerland?utm_content=cmp-true">46.818188 8.227512</geo>
+                </location>
+            </place>
+            <place xml:id="ISRAELE" ref="https://it.wikipedia.org/wiki/Israele">
+                <placeName>Israele</placeName>
+                <location>
+                    <geo source="https://www.geodatos.net/en/coordinates/israel">31.046051 34.851612</geo>
+                </location>
+            </place>
+            <place xml:id="PALESTINA" ref="https://it.wikipedia.org/wiki/Palestina">
+                <placeName>Palestina</placeName>
+            </place>
+            <place xml:id="VARESE" ref="https://it.wikipedia.org/wiki/Varese">
+                <placeName>Varese</placeName>
+                <location>
+                    <geo source="https://latitudelongitude.org/it/varese/">45.81934 8.82223</geo>
+                </location>
+            </place>
+            <place xml:id="GHIRLA" ref="https://it.wikipedia.org/wiki/Ghirla">
+                <placeName>Ghirla</placeName>
+                <location>
+                    <geo source="https://it.wikipedia.org/wiki/Ghirla">45.92507 8.82176</geo>
+                </location>
+            </place>
+            <place xml:id="CREMENAGA" ref="https://it.wikipedia.org/wiki/Cremenaga">
+                <placeName>Cremenaga</placeName>
+                <location>
+                    <geo source="https://it.wikipedia.org/wiki/Cremenaga">45.990278 8.804167</geo>
+                </location>
+            </place>
+            <place xml:id="PONTE" ref="https://it.wikipedia.org/wiki/Lavena_Ponte_Tresa">
+                <placeName>Ponte Tresa</placeName>
+                <location>
+                    <geo source="https://it.wikipedia.org/wiki/Lavena_Ponte_Tresa">45.966667 8.85</geo>
+                </location>
+            </place>
+            <place xml:id="COMO" ref="https://it.wikipedia.org/wiki/Como">
+                <placeName>Como</placeName>
+                <location>
+                    <geo source="https://it.wikipedia.org/wiki/Como">45.81025 9.086139</geo>
+                </location>
+            </place>
+            <place xml:id="PRAGA" ref="https://it.wikipedia.org/wiki/Praga">
+                <placeName>Praga</placeName>
+                <location>
+                    <geo source="https://it.wikipedia.org/wiki/Praga">50.0875 14.421389</geo>
+                </location>
+            </place>
+            <place xml:id="VIENNA" ref="https://it.wikipedia.org/wiki/Vienna">
+                <placeName>Vienna</placeName>
+                <location>
+                    <geo source="https://it.wikipedia.org/wiki/Vienna">48.208333 16.3725</geo>
+                </location>
+            </place>
+            <!-- scuole, edifici, luoghi, etc -->
+            <place xml:id="AUM" ref="https://it.wikipedia.org/wiki/Auditorium_di_Milano">
+                <placeName>Auditorium</placeName> 
+                <country ref="#ITA">Italia</country>
+                <settlement ref="#MI">Milano</settlement>
+            </place>
+            <place xml:id="DM">
+                <placeName>Daniele Manin</placeName>
+                <note>Scuola elementare di Fiume</note>
+            </place>
+            <place xml:id="CB">
+                <placeName>Cesare Battisti</placeName>
+                <note>Scuola elementare di Fiume</note>
+            </place>
+            <place xml:id="SINAGOGA">
+                <placeName>Sinagoga</placeName>
+                <note>Termine che definisce il luogo di preghiera della religione ebraica</note>
+            </place>
+            <place xml:id="CARCERECOMO">
+                <placeName>Carcere di Como</placeName>
+                <country ref="#ITA">Italia</country>
+                <settlement ref="#COMO">Como</settlement>
+            </place>
+            <place xml:id="SANV" ref="https://it.wikipedia.org/wiki/Carcere_di_San_Vittore">
+                <placeName>Carcere di San Vittore</placeName>
+                <country ref="#ITA">Italia</country>
+                <settlement ref="#MI">Milano</settlement>
+                <location>
+                    <geo source="https://it.wikipedia.org/wiki/Carcere_di_San_Vittore">45.461937 9.165688</geo>
+                </location>
+            </place>
+        </listPlace>
+
+        <listBibl>
+            <!-- riferimenti a Dante -->
+            <biblStruct xml:id="divinacommedia"> Dante Alighieri, Divina Commedia
+                <analytic>
+                    <title level="a">Riferimento Divina Commedia</title>
+                </analytic>
+                <author>Dante Alighieri</author>
+                <series>
+                    <title level="s">Divina Commedia</title>
+                </series>
+            </biblStruct>
+
+            <!--Quello che era inserito prima: <bibl>
+                <title xml:id="divinacommedia">Divina Commedia</title>
+                <author>Dante Alighieri</author>
+                <note>Nell'intervista appaiono tre riferimenti implici al lessico e ai personaggi danteschi</note>
+            </bibl>-->
+
+            <!-- altri articoli/libri/saggi citati -->
+            <bibl xml:id="UVS">
+                <title>Una vita segnata</title>
+                <author ref="#GB">Goti Bauer</author>
+                <note>Saggio contenuto nell'opera <title ref="VDS">Voci dalla Shoah</title>
+                </note>
+            </bibl>
+            <bibl xml:id="VDS" source="https://www.gasparieditore.it/voci-dalla-shoah">
+                <title>Voci dalla Shoah</title>
+                <author ref="#GB">Goti Bauer</author>
+                <author ref="#LS">Liliana Segre</author>
+                <author>Ytzhak Katzenelson</author>
+                <author ref="NF">Nedo Fiano</author>
+                <author>Oliver Lustig</author>
+                <date when="2020">2020</date>
+            </bibl>
+            <bibl xml:id="quarantanni">
+                <title>Quarant'anni dopo</title>
+                <author ref="TM">Teodoro Morgani</author>
+            </bibl>
+            <bibl xml:id="EFT">
+                <title>Ebrei di Fiume in transito</title>
+                <author ref="EV">Elio Varutti</author>
+            </bibl>
+            <bibl xml:id="MEMORIA" type="movie">
+                <title>Memoria</title>
+                <note>Titolo del film citato</note>
+            </bibl>
+        </listBibl>
+
+        <listRelation>
+            <relation ref="#LLY" name="sister" active="#GB">
+            <desc>Lilly, sorella di Goti Bauer</desc>
+            </relation> 
+            <relation ref="#GIULIO" name="brother" active="#GB">
+            <desc>Giulio, fratello di Goti Bauer</desc>
+            </relation>
+            <relation ref="#EDM" name="brother" active="#GB">
+            <desc>Edmondo, fratello di Goti Bauer</desc>
+            </relation>
+            <relation ref="#TIBOR" name="brother" active="#GB">
+            <desc>Tibor, fratello di Goti Bauer</desc>
+            </relation>
+            <relation ref="#RB" name="daughter" active="#GB">
+            <desc>Rosanna Bauer, figlia di Goti Bauer</desc>
+            </relation>
+            <relation ref="#EG1" name="brother" active="#EG2">
+            <desc>Fratelli Grünberger</desc>
+            </relation>
+            <relation ref="#RLEVI1" name="sister" active="#RLEVI2">
+            <desc>Sorelle Rosa e Rachele Levi</desc>
+            </relation>
+        </listRelation>
+    </standOff>
+
 </TEI>

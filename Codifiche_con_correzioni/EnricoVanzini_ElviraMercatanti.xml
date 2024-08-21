@@ -787,7 +787,7 @@
                 <orgName> Sonderkommando</orgName>
                 <placeName> Germania </placeName>
                 <desc>
-                   Wehrmacht è il nome assunto dalle Forze Armate tedesche con la riforma del 1935 e per tutta la durata della seconda guerra mondiale, fino al 20 agosto 1946, quando fu formalmente sciolta dopo la resa incondizionata della Germania del 7 maggio 1945.
+                   Il termine Sonderkommando identificò gli speciali gruppi di deportati, per la maggior parte di origine ebraica, obbligati a collaborare con le autorità nazionalsocialiste all'interno dei campi di sterminio nel contesto della Shoah.
                 </desc>
             </org>
             
@@ -795,7 +795,7 @@
                 <orgName> Wehrmacht</orgName>
                 <placeName> Germania </placeName>
                 <desc>
-                   Il termine Sonderkommando identificò gli speciali gruppi di deportati, per la maggior parte di origine ebraica, obbligati a collaborare con le autorità nazionalsocialiste all'interno dei campi di sterminio nel contesto della Shoah.
+                    Wehrmacht è il nome assunto dalle Forze Armate tedesche con la riforma del 1935 e per tutta la durata della seconda guerra mondiale, fino al 20 agosto 1946, quando fu formalmente sciolta dopo la resa incondizionata della Germania del 7 maggio 1945.
                 </desc>
             </org>
             
@@ -806,13 +806,24 @@
                    La Geheime Staatspolizei, comunemente abbreviata in Gestapo, era la polizia segreta della Germania nazista.
                 </desc>
             </org>
+            
+             <org xml:id="SS" source="https://it.wikipedia.org/wiki/Schutzstaffel"> <!-- SCHUTZ-STAFFEL -->
+                <orgName>Schutz-Staffel</orgName>
+                <placeName>Germania</placeName>
+                <desc>
+                    Le Schutz-Staffel, meglio note come SS, furono un'organizzazione paramilitare del Partito Nazionalsocialista Tedesco dei Lavoratori create nella Germania nazista.
+                </desc>
+            </org>
         </listOrg>
         
         <listBibl>
-            <biblStruct xml:id="Inferno">
+             <biblStruct xml:id="Inferno">
+                <analytic>
+                    <title level="a">Riferimento alla Divina Commedia</title>
+                </analytic>
                 <monogr>
                     <author> Dante Alighieri </author>
-                    <title level="m"> Inferno </title>
+                    <title level="m"> Divina Commedia </title>
                     <imprint>
                         <date when="1314"> 1314 </date>
                     </imprint>
@@ -820,6 +831,7 @@
                 <series>
                     <title level="s">Divina Commedia</title>
                 </series>
+                
             </biblStruct>
             
             
@@ -861,9 +873,15 @@
                 <u who="#INTERVISTATORE" xml:id="I1" synch="#TS01">
                     Se c'è un libro che bisogna assolutamente leggere per capire quella che è stata<pause/> la prima guerra mondiale vista dal di dentro<kinesic>
                         <desc>gesto con la mano per indicare dall'interno</desc>
-                    </kinesic> dalle persone che l'hanno subita<pause/> è senza dubbio <cit>Un anno sull'altipiano<ref target="#AA"><bibl>Un anno sull'altipiano, Emilio Lussu</bibl></ref></cit>
+                    </kinesic> dalle persone che l'hanno subita<pause/> è senza dubbio <cit>Un anno sull'altipiano<ref target="#AA">
+                            <bibl>Un anno sull'altipiano, Emilio Lussu</bibl>
+                        </ref>
+                    </cit>
                     di <persName ref="#EL">Emilio Lussu</persName>
-                    <pause/> e se c'è un libro<pause/> che bisogna assolutamente leggere per capire che cosa è stato l'olocausto dalla parte di chi c'è stato dentro<pause/> anche se con una testimonianza tutta particolare<pause/> è senza dubbio il libro <cit>L'ultimo Sonderkommando italiano<ref target="#USI"><bibl>L’ultimo Sonderkommando italiano, Enrico Vanzini</bibl></ref></cit>
+                    <pause/> e se c'è un libro<pause/> che bisogna assolutamente leggere per capire che cosa è stato l'olocausto dalla parte di chi c'è stato dentro<pause/> anche se con una testimonianza tutta particolare<pause/> è senza dubbio il libro <cit>L'ultimo Sonderkommando italiano<ref target="#USI">
+                            <bibl>L’ultimo Sonderkommando italiano, Enrico Vanzini</bibl>
+                        </ref>
+                    </cit>
                     <pause/> di <persName ref="#VANZINI">Enrico Vanzini</persName>
                     <pause/> o meglio<pause/> curato da <persName ref="#RB">Roberto Brumat</persName>
                     <pause/> che ha per così dire agevolato<pause/> signor <persName ref="#VANZINI">Enrico</persName>
@@ -912,7 +930,9 @@
                 </u>
         
                 <u who="#INTERVISTATORE" xml:id="I4" synch="#TS07">
-                    ricorda perfettamente io credo quel giorno<pause/> in cui<pause/> è arrivato<pause/> <del type="reformulation">beh</del> innanzitutto mi dica una cosa<pause/> che cosa vuol dire spieghiamolo a casa cosa si nasconde dietro la parola <foreign xml:lang="de"><orgName ref="#SK">Sonderkommando</orgName></foreign> 
+                    ricorda perfettamente io credo quel giorno<pause/> in cui<pause/> è arrivato<pause/> <del type="reformulation">beh</del> innanzitutto mi dica una cosa<pause/> che cosa vuol dire spieghiamolo a casa cosa si nasconde dietro la parola <foreign xml:lang="de">
+                        <orgName ref="#SK">Sonderkommando</orgName>
+                    </foreign> 
                 </u>
 
                 <u who="#VANZINI" xml:id="V4" synch="#TS08">
@@ -1324,7 +1344,9 @@
                     eh si fidati e siamo andati là <choice>
                         <orig>c'era</orig>
                         <reg>c'erano</reg>
-                    </choice> due della <foreign xml:lang="de"><orgName ref="#WE">Wehrmacht</orgName></foreign>
+                    </choice> due della <foreign xml:lang="de">
+                        <orgName ref="#WE">Wehrmacht</orgName>
+                    </foreign>
                     <pause/> due militari come siamo entrati col calcio del mitra ci han buttati a terra sulla schiena questa qua era una spia una <rs type="person">ragazza</rs> spia italiana giovane che lo faceva per i soldi vede allora quando che
                     <vocal>
                         <desc>ehm</desc>
@@ -1344,11 +1366,13 @@
                     <pause/> c'era la
                     <foreign xml:lang="de">
                         <choice>
-                            <abbr><orgName ref="#GE">Gestapo</orgName></abbr>
+                            <abbr>
+                                <orgName ref="#GE">Gestapo</orgName>
+                            </abbr>
                             <expan>Geheime Staatspolizei</expan>
                         </choice> </foreign> le<foreign xml:lang="de">
                         <choice>
-                            <abbr>SS</abbr>
+                            <abbr><orgName ref="#SS">SS</orgName></abbr>
                             <expan>Schutzstaffel</expan>
                         </choice> </foreign>
                     <pause/> lì borghesi<pause/> ci han preso ci han messo i cosi ai polsi e anche alle
@@ -1433,7 +1457,7 @@
                 <u who="#VANZINI" xml:id="V35" synch="TS70">
                     ha fatto <anchor xml:id="van-81" synch="#TT81"/> <del type="repetition">ha</del> ha detto <anchor xml:id="van-82" synch="#TT82"/> <vocal>
                         <desc>ehm</desc>
-                    </vocal> non <del type="truncation">pa</del> parroco ha detto niente parroco e io come dire <del type="repetition">questo</del> questo poveretto no  <anchor xml:id="van-83" synch="#TT83"/> non ha nessuno <anchor xml:id="van-84" synch="#TT84"/> è anche giusto no che gli faccio come il segno come benedirlo e gli faccio come il segno della croce no prima di buttarlo in  <cit type="implicit">
+                    </vocal> non <del type="truncation">pa</del> parroco ha detto niente parroco e io come dire <del type="repetition">questo</del> questo poveretto no  <anchor xml:id="van-83" synch="#TT83"/> non ha nessuno <anchor xml:id="van-84" synch="#TT84"/> è anche giusto no che gli faccio come il segno come benedirlo e gli faccio come il segno della croce no prima di buttarlo in  <cit type="reference">
                             <quote>questo inferno</quote>
                             <ref target="#Inferno">
                             <bibl>Inferno, Divina Commedia</bibl>
@@ -1514,7 +1538,9 @@
                     </vocal> ho detto dove vanno no<pause/> m'ha detto vanno ad <placeName ref="#Au">Auschwitz</placeName>
                     <pause/> 
                     là è il concentramento dei <unclear reason="inaudible">ribei</unclear> <del type="truncation">de</del> <anchor xml:id="van-97" synch="#TT97"/> degli ebrei <anchor xml:id="van-98" synch="#TT98"/> e allora<pause/> ho detto mamma mia e vedo questi uomini che gli danno i tedeschi gli danno pezzi di pane no<pause/> cose come formaggio e ho detto a noi ci fanno morire e qua come mai che c'eran<del type="reformulation">e</del> poi vedo che entra <del type="repetition">un camion</del> un camion <del type="truncation">del</del> della
-                    <foreign xml:lang="de"><orgName ref="#WE">Wehrmacht</orgName></foreign>no<pause/> militare<pause/> e si gira e si mette dalla parte di dietro <anchor xml:id="van-99" synch="#TT99"/> dove c'era<anchor xml:id="van-100" synch="#TT100"/> 
+                    <foreign xml:lang="de">
+                        <orgName ref="#WE">Wehrmacht</orgName>
+                    </foreign>no<pause/> militare<pause/> e si gira e si mette dalla parte di dietro <anchor xml:id="van-99" synch="#TT99"/> dove c'era<anchor xml:id="van-100" synch="#TT100"/> 
                     <del type="reformulation">verso</del> questi<pause/> aprono tirano su il telone <pause/> e là c'erano due mitragliatrici e ho cominciato a sentir sparare <pause/> <choice>
                         <orig>tutta</orig>
                         <reg>tutti</reg>
@@ -1790,7 +1816,10 @@
                 </u>
 
                 <u who="#INTERVISTATORE" xml:id="I53" synch="#TS105">
-                    ecco mi racconta questo episodio qua perchè io <del type="repetition">quando</del> quando mi ha raccontato prima di entrare in registrazione questo episodio <anchor xml:id="int-151" synch="#TT151"/> io ho pensato<anchor xml:id="int-152" synch="#TT152"/> a padre Cristoforo ai <cit>Promessi Sposi<ref target="#PS"><bibl>I promessi sposi, Alessandro Manzoni</bibl></ref></cit>
+                    ecco mi racconta questo episodio qua perchè io <del type="repetition">quando</del> quando mi ha raccontato prima di entrare in registrazione questo episodio <anchor xml:id="int-151" synch="#TT151"/> io ho pensato<anchor xml:id="int-152" synch="#TT152"/> a padre Cristoforo ai <cit>Promessi Sposi<ref target="#PS">
+                            <bibl>I promessi sposi, Alessandro Manzoni</bibl>
+                        </ref>
+                    </cit>
                     <anchor xml:id="int-153" synch="#TT153"/> che portava <anchor xml:id="int-154" synch="#TT154"/> nella bisaccia <anchor xml:id="int-155" synch="#TT155"/> un pezzo di pane <anchor xml:id="int-156" synch="#TT156"/> indurito ormai dal tempo 
                 </u>
                 

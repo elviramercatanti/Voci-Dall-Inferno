@@ -1,5 +1,4 @@
-<?xml_stylesheet type="text/xsl" href="Segre_Stile.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="it">
+<?xml_stylesheet type="text/xsl" href="Segre_Stile.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="it">
     <teiHeader>
         <fileDesc> <!-- Contiene la descrizione bibliografica completa del file elettronico -->
             <titleStmt> <!-- Raggruppa le informazioni relative al titolo dell'opera e ai responsibili del suo contenuto-->
@@ -1657,11 +1656,25 @@
             
         </listPlace>
         
+        
+        <listOrg>
+             <org xml:id="CRI" source="https://cri.it/"> <!-- Croce Rossa -->
+                <orgName> Croce Rossa Italiana </orgName>
+                <placeName> Milano </placeName>
+                <desc>
+                    La Croce Rossa Italiana è un'organizzazione di volontariato, componente del Movimento Internazionale della Croce Rossa e della Mezzaluna Rossa e operante nel territorio italiano.
+                </desc>
+            </org>
+        </listOrg>
+        
         <listBibl>
              <biblStruct xml:id="Inferno">
+                <analytic>
+                    <title level="a">Riferimento alla Divina Commedia</title>
+                </analytic>
                 <monogr>
                     <author> Dante Alighieri </author>
-                    <title level="m"> Inferno </title>
+                    <title level="m"> Divina Commedia </title>
                     <imprint>
                         <date when="1314"> 1314 </date>
                     </imprint>
@@ -1811,7 +1824,7 @@
                 <vocal>
                         <desc>lieve schiocco con la bocca</desc>
                     </vocal> e, a <placeName ref="#Bolzano">Bolzano</placeName>, tutti dovevamo scendere e iscriverci, <shift feature="loud" new="dimin"/>in una specie di elenco che la <orgName>Croce Rossa</orgName> teneva, <shift feature="loud" new="pp"/>
-                - <unclear cert="low" resp="#SC">poi</unclear> si era svegliata la <orgName>Croce Rossa</orgName> che prima... aveva dormito - <vocal>
+                - <unclear cert="low" resp="#SC">poi</unclear> si era svegliata la <orgName ref="#CRI">Croce Rossa</orgName> che prima... aveva dormito - <vocal>
                         <desc>inspira</desc>
                     </vocal> <shift feature="loud" new="cresc"/> <vocal>
                         <desc>eh</desc>
@@ -1982,11 +1995,11 @@
                     </vocal> <pause type="short"/> e... <del type="repetition">e</del> volevo bene a <del type="repetition">a</del> tutti loro, <pause type="short"/> <shift feature="loud" new="cresc"/>ma la
                 delusione che ho letto nei loro occhi, questo imbarazzo tremendo <vocal>
                         <desc>inspira</desc>
-                    </vocal> che superava <pause type="short"/> la gioia di dire: <cit type="implicit">
+                    </vocal> che superava <pause type="short"/> la gioia di dire: <cit type="reference">
                         <quote>
-                            <q>"Miracolo che questa qui è tornata da un 
+                            <q>Miracolo che questa qui è tornata da un 
                             inferno
-                        simile"</q>
+                        simile</q>
                         </quote>
                             <ref target="#Inferno">
                             <bibl>Inferno, Divina Commedia</bibl>

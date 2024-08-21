@@ -103,8 +103,8 @@
                     </additional>
                 </msDesc>
                 
-                <listPerson>
-                    <person xml:id="FR" role="testimone" source="http://digital-library.cdec.it/cdec-web/persone/detail/person-2927/feld-romana.html">
+                <!--<listPerson>
+                    <person>
                         <persName>
                             <forename>Romana</forename>
                             <surname>Feld</surname>
@@ -135,7 +135,7 @@
                         </event>
                         </listEvent>
                     </person>
-                    <person xml:id="MAV">
+                    <person>
                         <persName>
                             <forename>Massimo Adolfo</forename>
                             <surname>Vitale</surname>
@@ -161,8 +161,8 @@
                             <desc> Gli viene affidata la presidenza del Comitato Ricerche Deportati Ebrei (CRDE) </desc>
                         </event>
                     </person>
-                </listPerson>
-                <listPlace>
+                </listPerson>-->
+                <!--<listPlace>
                     <place type="city" xml:id="FO">
                         <placeName>Fossoli</placeName>
                         <location>
@@ -181,7 +181,9 @@
                         </location>
                         <desc>Campo di concentramento</desc>
                     </place>
-                </listPlace>
+                </listPlace>-->
+                
+              
             </sourceDesc>
         </fileDesc>
         
@@ -1560,18 +1562,18 @@
                         </choice> una all'altra<pc>.</pc>
                     </s>
                     <s type="sentence" xml:id="S106"> Ri
-                   <lb xml:id="FR_lb_260" n="6" facs="#FR_line_260" rend="hyphen" break="no"/>cordavo i quadri di <persName>Amos <choice>
+                   <lb xml:id="FR_lb_260" n="6" facs="#FR_line_260" rend="hyphen" break="no"/>cordavo i quadri di <persName ref="#AN">Amos <choice>
                                 <sic>Natini</sic>
                                 <corr>Nattini</corr>
                             </choice>
                         </persName> illustranti la
                    <lb xml:id="FR_lb_261" n="7" facs="#FR_line_261"/>
-                        <title>Divina Commedia </title> di <persName>Dante</persName>
+                        <title>Divina Commedia </title> di <persName ref="#Dante">Dante</persName>
                         <pc>.</pc>
                     </s>
-                    <s type="sentence" xml:id="S107"> I quadri dell'inferno
+                    <s type="sentence" xml:id="S107"> <cit type="reference"><quote>I quadri dell'inferno
                    <lb xml:id="FR_lb_262" n="8" facs="#FR_line_262"/>con i cortei delle anime dannate<pc>,</pc> diventavano
-                   <lb xml:id="FR_lb_263" n="9" facs="#FR_line_263"/>realtà<pc>.</pc>
+                   <lb xml:id="FR_lb_263" n="9" facs="#FR_line_263"/>realtà</quote><ref target="#divinacommedia"><bibl>Divina Commedia, Dante Alighieri</bibl></ref></cit><pc>.</pc>
                     </s>
                     <s type="sentence" xml:id="S108"> Altre volte le giovani un pò deboli<pc>,</pc> pro
                    <lb xml:id="FR_lb_264" n="10" facs="#FR_line_264" rend="hyphen" break="no"/>venienti <choice>
@@ -1601,8 +1603,8 @@
                 </p>
                 <p>
                    <lb xml:id="FR_lb_273" n="19" facs="#FR_line_273"/>
-                    <s type="sentence" xml:id="S110">E' impossibile con le povere parole ridare
-                   <lb xml:id="FR_lb_274" n="20" facs="#FR_line_274"/>quadro esatto dell'inferno vissuto<pc>.</pc>
+                    <s type="sentence" xml:id="S110"><cit type="reference"><quote>E' impossibile con le povere parole ridare
+                   <lb xml:id="FR_lb_274" n="20" facs="#FR_line_274"/>quadro esatto dell'inferno vissuto</quote><ref target="#divinacommedia"><bibl>Dante Alighieri, Divina Commedia</bibl></ref></cit><pc>.</pc>
                     </s>
                     <s type="sentence" xml:id="S111"> Ogni giorno
                    <lb xml:id="FR_lb_275" n="21" facs="#FR_line_275"/>era <choice>
@@ -1711,4 +1713,148 @@
             </div>
         </body>
     </text>
+    
+    
+    
+    <standOff>
+        <listPerson>
+                    <person xml:id="FR" role="testimone" source="http://digital-library.cdec.it/cdec-web/persone/detail/person-2927/feld-romana.html">
+                        <persName>
+                            <forename>Romana</forename>
+                            <surname>Feld</surname>
+                        </persName>
+                        <sex>F</sex>
+                        <birth> 
+                            <date when="1912-08-15">15 Agosto 1912</date>
+                            <placeName>
+                                <settlement type="city">Leopoli</settlement>
+                                <country key="PL">Polonia</country>
+                            </placeName>
+                        </birth>
+                        <listEvent>
+                        <event from="1940-06-20" to="1944-04-5">
+                            <label> Internamento e detenzione</label>
+                            <desc> Internata a <placeName>Ercia (Macerata)</placeName> e detenuta nel campo di <placeName ref="#FO">Fossoli (Modena)</placeName>
+                                </desc>
+                        </event>
+                        <event when="1944-04-5">
+                            <label> Deportazione </label>
+                            <desc> Partita da <placeName ref="#FO"> Fossoli </placeName> e deportata nel campo di sterminio di <placeName ref="#AU">Auschwitz(Birkenau)</placeName>
+                                </desc>
+                        </event>
+                        <event when="1945-01-27">
+                            <label>Liberazione</label>
+                            <desc> Liberata dal campo di sterminio di <placeName ref="#AU">Auschwitz(Birkenau)</placeName>
+                                </desc>
+                        </event>
+                        </listEvent>
+                    </person>
+                    <person xml:id="MAV">
+                        <persName>
+                            <forename>Massimo Adolfo</forename>
+                            <surname>Vitale</surname>
+                        </persName>
+                        <sex>M</sex>
+                        <occupation>Comandante,colonnello</occupation>
+                        <birth>
+                            <date when="1885-11-13">13 Novembre 1885</date>
+                            <placeName>
+                                <settlement type="city">Torino</settlement>
+                                <country key="IT">Italia</country>
+                            </placeName>
+                        </birth>
+                        <death>
+                            <date when="1968-05-5">5 Maggio 1968</date>
+                            <placeName>
+                                <settlement type="city">Civitavecchia</settlement>
+                                <country key="IT">Italia</country>
+                            </placeName>
+                        </death>
+                        <event when="1945">
+                            <label>Presidenza</label>
+                            <desc> Gli viene affidata la presidenza del Comitato Ricerche Deportati Ebrei (CRDE) </desc>
+                        </event>
+                    </person>
+                    <person xml:id="AN">
+                        <persName>
+                            <forename>Amos</forename>
+                            <surname>Nattini</surname>
+                        </persName>
+                        <sex>M</sex>
+                        <occupation>Pittore</occupation>
+                        <birth>
+                            <date when="1892-03-16">16 marzo 1892</date>
+                            <placeName>
+                                <settlement type="city">Genova</settlement>
+                                <country key="IT">Italia</country>
+                            </placeName>
+                        </birth>
+                        <death>
+                            <date when="1995-10-03">3 ottobre 1985</date>
+                            <placeName>
+                                <settlement type="city">Parma</settlement>
+                                <country key="IT">Italia</country>
+                            </placeName>
+                        </death>
+                        
+                    </person>
+                    <person xml:id="Dante">
+                        <persName>
+                            <forename>Dante</forename>
+                            <surname>Alighieri</surname>
+                        </persName>
+                        <sex>M</sex>
+                        
+                        <birth>
+                            <date when="1265">1265</date>
+                            <placeName>
+                                <settlement type="city">Firenze</settlement>
+                                <country key="IT">Italia</country>
+                            </placeName>
+                        </birth>
+                        <death>
+                            <date when="1321">1321</date>
+                            <placeName>
+                                <settlement type="city">Ravenna</settlement>
+                                <country key="IT">Italia</country>
+                            </placeName>
+                        </death>
+                        
+                    </person>
+                </listPerson>
+                <listPlace>
+                    <place type="city" xml:id="FO">
+                        <placeName>Fossoli</placeName>
+                        <location>
+                        <district type="comune">Carpi</district>
+                        <district type="provincia">Modena</district>
+                        <region>Emilia-Romagna</region>
+                        <country key="IT">Ialia</country>
+                        </location>
+                        <desc>Campo di raccolta e transito verso i lager</desc>
+                    </place>
+                    <place type="building" xml:id="AU">
+                        <placeName>Auschwitz</placeName>
+                        <location>
+                        <district type="comune">Oświęcim</district>
+                        <country key="PL">Polonia</country>
+                        </location>
+                        <desc>Campo di concentramento</desc>
+                    </place>
+                </listPlace>
+                
+                
+                <listBibl>
+                     <biblStruct xml:id="divinacommedia"> Dante Alighieri, Divina Commedia
+                        <analytic>
+                            <title level="a">Riferimento Divina Commedia</title>
+                        </analytic>
+                        <author>Dante Alighieri</author>
+                        <series>
+                            <title level="s">Divina Commedia</title>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+                
+    </standOff>
 </TEI>

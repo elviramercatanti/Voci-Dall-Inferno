@@ -1748,6 +1748,16 @@
 
         </listPlace>
         
+        <listOrg>
+             <org xml:id="CRI" source="https://cri.it/"> <!-- Croce Rossa -->
+                <orgName> Croce Rossa Italiana </orgName>
+                <placeName> Milano </placeName>
+                <desc>
+                    La Croce Rossa Italiana è un'organizzazione di volontariato, componente del Movimento Internazionale della Croce Rossa e della Mezzaluna Rossa e operante nel territorio italiano.
+                </desc>
+            </org>
+        </listOrg>
+        
         <listBibl>
               <bibl xml:id="Chi_ti_ama_così">
                         <title>Chi ti ama così</title>
@@ -3872,7 +3882,7 @@
                         <sic>ere</sic>
                         <corr>era</corr>
                     </choice>
-                    un vero campo. Era il campo modello per la <orgName>Croce Rossa,</orgName> <anchor xml:id="ebruck-65" synch="#TS65" n="65"/>da dove poi deportavano <anchor xml:id="ebruck-66" synch="#TS66" n="66"/> ad <placeName ref="#AU">Auschwitz</placeName>. Sì. Era la facciata per la <orgName>Croce Rossa.</orgName> Insomma.
+                    un vero campo. Era il campo modello per la <orgName ref="#CRI">Croce Rossa,</orgName> <anchor xml:id="ebruck-65" synch="#TS65" n="65"/>da dove poi deportavano <anchor xml:id="ebruck-66" synch="#TS66" n="66"/> ad <placeName ref="#AU">Auschwitz</placeName>. Sì. Era la facciata per la <orgName ref="#CRI">Croce Rossa.</orgName> Insomma.
                 </u>
 
                 <u who="AS">

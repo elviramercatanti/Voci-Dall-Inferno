@@ -1440,35 +1440,35 @@
             </listPlace>
             
         <listOrg>
-            <org>
-                <orgName xml:id="KA" ref="https://en.wikipedia.org/wiki/Kanada_warehouses,_Auschwitz">Kanàda</orgName>
+            <org xml:id="KA" ref="https://en.wikipedia.org/wiki/Kanada_warehouses,_Auschwitz">
+                <orgName>Kanàda</orgName>
             </org>
-            <org>
-                <orgName xml:id="TR" ref="https://it.wikipedia.org/wiki/Germania_nazista">Terzo Reich</orgName>
+            <org xml:id="TR" ref="https://it.wikipedia.org/wiki/Germania_nazista">
+                <orgName>Terzo Reich</orgName>
             </org>
-            <org>
-                <orgName xml:id="LA" ref="https://it.wikipedia.org/wiki/Lager">Lager</orgName>
+            <org xml:id="LA" ref="https://it.wikipedia.org/wiki/Lager">
+                <orgName>Lager</orgName>
             </org>
-            <org>
-                <orgName xml:id="CR" ref="https://it.wikipedia.org/wiki/Croce_Rossa_Italiana">Croce Rossa</orgName>
+            <org xml:id="CR" ref="https://it.wikipedia.org/wiki/Croce_Rossa_Italiana">
+                <orgName>Croce Rossa</orgName>
             </org>
-            <org>
-                <orgName xml:id="FU" ref="https://it.wikipedia.org/wiki/Gradi_delle_Schutzstaffel">Führer</orgName>
+            <org xml:id="FU" ref="https://it.wikipedia.org/wiki/Gradi_delle_Schutzstaffel">
+                <orgName>Führer</orgName>
             </org>
-            <org>
-                <orgName xml:id="SE" ref="https://scuolaebraica.it/">Scuola Ebraica</orgName>
+            <org xml:id="SE" ref="https://scuolaebraica.it/">
+                <orgName>Scuola Ebraica</orgName>
             </org>
-            <org>
-                <orgName xml:id="SCT" ref="https://dsrom.de/it/front-page-italiano/">Scuola Tedesca</orgName>
+            <org xml:id="SCT" ref="https://dsrom.de/it/front-page-italiano/">
+                <orgName>Scuola Tedesca</orgName>
             </org> 
-            <org>
-                <orgName xml:id="GI" ref="https://www.goethe.de/ins/it/it/sta/rom.html">Göthe Institut</orgName>
+            <org xml:id="GI" ref="https://www.goethe.de/ins/it/it/sta/rom.html">
+                <orgName>Göthe Institut</orgName>
             </org> 
-            <org>
-                <orgName xml:id="MS" ref="https://www.museodellashoah.it/">Museo della Shoah</orgName>
+            <org xml:id="MS" ref="https://www.museodellashoah.it/">
+                <orgName>Museo della Shoah</orgName>
             </org> 
-            <org>
-                <orgName xml:id="PO" ref="https://it.wikipedia.org/wiki/Premio_Oscar">Premio Oscar</orgName>
+            <org xml:id="PO" ref="https://it.wikipedia.org/wiki/Premio_Oscar">
+                <orgName>Premio Oscar</orgName>
             </org> 
         </listOrg>
     </standOff>

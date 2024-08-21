@@ -67,7 +67,45 @@
                 </msDesc>
                 
                 
-                <listPerson>
+                
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <ab>
+                    Lettere codificate nell'ambito del Tirocinio per la Laurea Triennale in Informatica Umanistica dello studente Leonardo Colombini, nipote materno del personaggio di cui si analizzano i manoscritti.
+                    Tirocinio supervisionato dal professor Angelo Maria Del Grosso. Lavoro svolto nell'ambito del progetto d'ateneo "Voci dall'Inferno" coordinato dalla professoressa Marina Riccucci.
+                </ab>
+            </projectDesc>
+            <samplingDecl>
+                <ab>
+                    Il corpus di lettere analizzato è estratto dall'insieme di testimonianze fisiche che col tempo sono state raccolte dalla famiglia.
+                    Per creare il corpus sono state scelte lettere ricevute e inviate durante (e dopo) la prigionia di Alberto Pacini.
+                </ab>
+            </samplingDecl>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <date from="1943-09-12" to="1945-09-03">12/09/1943</date>
+            </creation>
+            <settingDesc>
+                <ab>
+                    Le lettere sono state scritte e ricevute durante la deportazione tedesca di Alberto Pacini, mentre genitori, moglie e figlia erano a casa.
+                    Alberto Pacini è stato deportato poichè IMI: con Internati Militari Italiani si intendono i soldati italiani catturati, rastrellati e deportati nei territori della Germania nei giorni immediatamente successivi alla proclamazione dell'armistizio dell'Italia, l'8 settembre 1943. 
+                </ab>
+            </settingDesc>
+            <langUsage>
+                <language ident="IT" usage="78">Italiano</language>
+                <language ident="GE" usage="10">Tedesco</language>
+                <language ident="FR" usage="10">Francese</language>
+                <language ident="EN" usage="1">Inglese</language>
+                <language ident="PO" usage="1">Polacco</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <standOff>
+        <listPerson>
                     <person xml:id="AlP" role="testimone" source="https://istorecolivorno.it/2020/09/08/8-settembre/">
                         <persName>
                             <forename>Alberto</forename>
@@ -474,43 +512,6 @@
                     </place>
 
                 </listPlace>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <projectDesc>
-                <ab>
-                    Lettere codificate nell'ambito del Tirocinio per la Laurea Triennale in Informatica Umanistica dello studente Leonardo Colombini, nipote materno del personaggio di cui si analizzano i manoscritti.
-                    Tirocinio supervisionato dal professor Angelo Maria Del Grosso. Lavoro svolto nell'ambito del progetto d'ateneo "Voci dall'Inferno" coordinato dalla professoressa Marina Riccucci.
-                </ab>
-            </projectDesc>
-            <samplingDecl>
-                <ab>
-                    Il corpus di lettere analizzato è estratto dall'insieme di testimonianze fisiche che col tempo sono state raccolte dalla famiglia.
-                    Per creare il corpus sono state scelte lettere ricevute e inviate durante (e dopo) la prigionia di Alberto Pacini.
-                </ab>
-            </samplingDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date from="1943-09-12" to="1945-09-03">12/09/1943</date>
-            </creation>
-            <settingDesc>
-                <ab>
-                    Le lettere sono state scritte e ricevute durante la deportazione tedesca di Alberto Pacini, mentre genitori, moglie e figlia erano a casa.
-                    Alberto Pacini è stato deportato poichè IMI: con Internati Militari Italiani si intendono i soldati italiani catturati, rastrellati e deportati nei territori della Germania nei giorni immediatamente successivi alla proclamazione dell'armistizio dell'Italia, l'8 settembre 1943. 
-                </ab>
-            </settingDesc>
-            <langUsage>
-                <language ident="IT" usage="78">Italiano</language>
-                <language ident="GE" usage="10">Tedesco</language>
-                <language ident="FR" usage="10">Francese</language>
-                <language ident="EN" usage="1">Inglese</language>
-                <language ident="PO" usage="1">Polacco</language>
-            </langUsage>
-        </profileDesc>
-    </teiHeader>
-
-    <standOff>
         <!-- VIAGGIO DA VENEZIA A FALLINGBOSTEL, tra 7 settembre e 25 settembre -->
         <listEvent>
             <event type="cattura" when="1943-09-12">
