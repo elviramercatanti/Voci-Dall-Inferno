@@ -299,7 +299,9 @@
                                 La sera del <date when="1943-10-24">giorno in cui arrivarono</date> <persName ref="#AW">Arminio</persName> fu interrogato dal <persName ref="#Mengele">
                                 <roleName>dottor</roleName> Mengele</persName>, il quale voleva conoscere la situazione italiana dopo la caduta del fascismo, dopo il <date when="1943-07-25" resp="#GB" cert="high">25 luglio</date>. Nonostante <persName ref="#AW">Arminio</persName> volesse spaventarlo gli raccontò che il popolo italiano era felice di terminare la guerra. Ci furono altri interrogatori simili (avvennero per 4-6 sere) ed in cambio <persName ref="#Mengele">Mengele</persName> regalava del cibo ad <persName ref="#AW">Arminio</persName>. 
                                 <rs ref="#AW" resp="#GB">Quest'ultimo</rs> ricorda che <persName ref="#Mengele">Mengele</persName> di solito quando era in funzione metteva il camice bianco sopra la divisa da ufficiale delle <choice>
-                                <abbr><orgName ref="#SS">SS</orgName></abbr>
+                                <abbr>
+                                    <orgName ref="#SS">SS</orgName>
+                                </abbr>
                                 <expan xml:lang="de">Schutzstaffel</expan>
                             </choice> con le mostrine raffiguranti delle croci. 
 
@@ -321,13 +323,17 @@
                                 <num>700</num> <unit>metri</unit>
                             </measure> di profondità, dove non sarebbero sopravvissuti per più di <date dur="PT14D">due settimane</date>.
                                 Durante la selezione furono fatti denudare tutti tranne <persName ref="#AW">Arminio</persName>, in quanto interprete, mentre il blockaltester prendeva nota dei numeri. Tra gli italiani <persName ref="#AW">Arminio</persName> ricorda il giovanile <persName ref="#LeonelloDS">Leonello Della Seta</persName> (54 anni) e il figlio <persName ref="#GiancarloDS">Giancarlo</persName>(15 anni) il quale nonostante fosse di grossa statura soffriva di distrofia muscolare: erano stati catturati a <placeName ref="#RO">Roma</placeName> presentandosi alla porta il <date when="1943-10-16">16 ottobre 1943</date>. <rs ref="#GiancarloDS #LeonelloDS">Essi</rs> si aspettavano le guardie della <orgName>finanza</orgName> poiché raccoglievano generi alimentari illegalmente invece si trovarono di fronte le <choice>
-                                <abbr><orgName ref="#SS">SS</orgName></abbr>
+                                <abbr>
+                                    <orgName ref="#SS">SS</orgName>
+                                </abbr>
                                 <expan xml:lang="de">Schutzstaffel</expan>
                             </choice> che arrestarono <rs ref="#GiancarloDS #LeonelloDS">loro due</rs> ma non la <rs>
                                 <persName ref="#LauraM">moglie Della Seta</persName>
                             </rs> e la <rs ref="#PaolaDS">figlia</rs> che si erano nascoste nella stanza dei generi alimentari.
                                 Poiché <persName ref="#AW">Arminio</persName> aveva simpatia per i <rs ref="#GiancarloDS #LeonelloDS">Della Seta</rs> e poiché non gli sembrava che fossero stati selezionati per <placeName ref="#Ja">Jaworzno</placeName> raccontò a <persName ref="#LeonelloDS">Leonello Della Seta</persName> la verità riguardo <rs ref="#Ja" resp="#GB">quel luogo</rs> che gli era stata comunicata da un medico. Per evitare che <persName ref="#GiancarloDS">Giancarlo</persName> partisse per <placeName ref="#Ja">Jaworzno</placeName>, poiché invece venne selezionato, <persName ref="#AW">Arminio</persName>, accogliendo le parole del <rs ref="#LeonelloDS">padre</rs>, scambiò gli anelli d'oro che aveva fatto entrare nel campo con delle pasticche che servivano per alzare la temperatura corporea: <persName ref="#GiancarloDS">Giancarlo</persName> le prese prima di partire, la temperatura era salita a 39 gradi e le <choice>
-                                <abbr><orgName ref="#SS">SS</orgName></abbr>
+                                <abbr>
+                                    <orgName ref="#SS">SS</orgName>
+                                </abbr>
                                 <expan xml:lang="de">Schutzstaffel</expan>
                             </choice> decisero di non farlo partire.
                                 Fu così che i restanti 42, compresi <persName ref="#AW">Arminio</persName> e i <rs ref="#GiancarloDS #LeonelloDS">Della Seta</rs>, furono invece inviati nell'ex <placeName ref="#GhettoWA">ghetto di Varsavia</placeName>.
@@ -348,10 +354,14 @@
 
                             <item synch="#TR6"> <!--arrivo a Varsavia-->
                                 Quando arrivarono a <placeName ref="#WA">Varsavia</placeName> non c'erano più solo le <choice>
-                                <abbr><orgName ref="#SS">SS</orgName></abbr>
+                                <abbr>
+                                    <orgName ref="#SS">SS</orgName>
+                                </abbr>
                                 <expan xml:lang="de">Schutzstaffel</expan>
                             </choice> ma anche degli ucraini: gli era stata promessa la libertà dal comunismo e così si erano iscritti nella <orgName>polizia ucraina</orgName> apposita per il supporto alle <choice>
-                                <abbr><orgName ref="#SS">SS</orgName></abbr>
+                                <abbr>
+                                    <orgName ref="#SS">SS</orgName>
+                                </abbr>
                                 <expan xml:lang="de">Schutzstaffel</expan>
                             </choice>. Le divise dei due comparti erano simili ma non uguali. 
                                 Appena aprirono i vagoni i prigionieri vennero colpiti con gli scudisci.
@@ -359,7 +369,9 @@
 
                             <item synch="#TR7">  <!--ricordi di uccisioni a Birkenau-->
                                 <persName ref="#AW">Arminio</persName> ritorna con i ricordi a <placeName ref="#Bi">Birkenau</placeName>: alcuni trasporti provenienti dal <placeName ref="#GhettoWA">ghetto di Varsavia</placeName>, che erano stati portati a <placeName ref="#Bi">Birkenau</placeName> per essere uccisi, si erano ribellati e avevano attaccato le <choice>
-                                <abbr><orgName ref="#SS">SS</orgName></abbr>
+                                <abbr>
+                                    <orgName ref="#SS">SS</orgName>
+                                </abbr>
                                 <expan xml:lang="de">Schutzstaffel</expan>
                             </choice> generando un grande baccano; quando vennero gli ungheresi le cinque camere a gas non bastavano, allora crearono una fossa enorme riempita con del petrolio e vi gettarono nudi chi doveva perire i quali corpi vennero così consumati; infine <persName ref="#AW">Arminio</persName> ricorda una ballerina italiana partigiana che dopo aver capito che sarebbe stata spinta in questa fossa era riuscita a tirar fuori la rivoltella dalla fondina di un ufficiale uccidendolo.
                             </item>
@@ -408,32 +420,44 @@
                                 Con il tempo il gruppo degli italiani iniziò a prelevare anche il legname dalle case distrutte: essendo secco veniva utilizzato per creare delle cataste sulle quali i tedeschi bruciavano alcuni polacchi non ebrei che avevano arrestato a <placeName ref="#WA">Varsavia</placeName>. <persName ref="#AW">Arminio</persName> ricorda anche il comando che doveva far saltare le case con la dinamite per recuperare tutti i materiali prima dell'evacuazione dal campo.
 
                                 <persName ref="#AW">Arminio</persName> racconta che c'erano ancora alcuni ebrei nascosti nei sotterranei del <rs ref="#GhettoWA" resp="#GB">ghetto</rs> che venivano aiutati da alcuni polacchi per l'alimentazione. In relazione a ciò, il gruppo degli italiani inoltre svolgeva un altro lavoro: accompagnati da una <choice>
-                                <abbr><orgName ref="#SS">SS</orgName></abbr>
+                                <abbr>
+                                    <orgName ref="#SS">SS</orgName>
+                                </abbr>
                                 <expan xml:lang="de">Schutzstaffel</expan>
                             </choice> uscivano dal campo, ma sempre dentro il <rs ref="#GhettoWA" resp="#GB">ghetto</rs>, dovevano scendere nelle fogne per recuperare ciò che era possibile ancora recuperare (di solito oggetti di valore dai cadaveri) e mettere tutto in un secchio da dare alle <choice>
-                                <abbr><orgName ref="#SS">SS</orgName></abbr>
+                                <abbr>
+                                    <orgName ref="#SS">SS</orgName>
+                                </abbr>
                                 <expan xml:lang="de">Schutzstaffel</expan>
                             </choice>.
                                 Una mattina, tra <date notBefore="1944-01" notAfter="1944-02" resp="#GB">Gennaio/Febbraio 1944</date>, scesero nella fogna nuovamente e trovarono un sopravvissuto: egli presentò ai prigionieri la propria famiglia che gli giaceva vicino senza vita. In quell'occasione i prigionieri tornarono su con il cesto vuoto ma con l'intenzione di portare a quell'uomo del cibo il giorno dopo. Purtroppo questo non accadde perché la sentinella li portò in un altro posto. 
                                 La sera all'appello il comandante portò di fronte a tutti il sopravvissuto chiedendo se qualcuno lo conoscesse per poi impiccarlo. <persName ref="#AW">Arminio</persName> scoprì che fu la <choice>
-                                <abbr><orgName ref="#SS">SS</orgName></abbr>
+                                <abbr>
+                                    <orgName ref="#SS">SS</orgName>
+                                </abbr>
                                 <expan xml:lang="de">Schutzstaffel</expan>
                             </choice> che li accompagnò il giorno prima a trovare il sopravvissuto: egli scese nelle fogne perché chiunque avrebbe trovato superstiti avrebbe ricevuto in premio <date dur="PT14D">due settimane</date> di licenza e 500 marchi.
                             </item>
 
                             <item synch="#TR12"> <!--benevolenza a Varsavia-->
                                 Ogni <date dur="PT14D">due settimane</date> veniva da <placeName ref="#Bi">Birkenau</placeName> un comando di <choice>
-                                <abbr><orgName ref="#SS">SS</orgName></abbr>
+                                <abbr>
+                                    <orgName ref="#SS">SS</orgName>
+                                </abbr>
                                 <expan xml:lang="de">Schutzstaffel</expan>
                             </choice> per fare le selezioni tra gli operai di <placeName ref="#WA">Varsavia</placeName>. Una volta <persName ref="#AW">Arminio</persName>, sconsolato per il pensiero della <rs resp="#GB">
                                 <persName ref="#ReginaP #ClaraW #MoiseP #CarlottaP">sua famiglia</persName>
                             </rs> e fisiologicamente sofferente per il freddo, andò incontro ad una <choice>
-                                <abbr><orgName ref="#SS">SS</orgName></abbr>
+                                <abbr>
+                                    <orgName ref="#SS">SS</orgName>
+                                </abbr>
                                 <expan xml:lang="de">Schutzstaffel</expan>
                             </choice> chiedendogli di prendere nota anche del suo numero nonostante sapesse la sorte che gli sarebbe toccata. Di fronte a questa richiesta l'ufficiale gli dette uno schiaffo perché la guerra stava per finire e <rs ref="#AW" resp="#GB">lui</rs> sarebbe stato uno stupido a offrirsi volontario.
                                 
                                 Un altro ufficiale si dimostrò benevolente: durante il giorno, di fronte ai superiori, urlava e sbraitava contro i prigionieri, mentre la sera veniva nella baracca degli italiani a parlare e a portagli il vestiario delle <choice>
-                                <abbr><orgName ref="#SS">SS</orgName></abbr>
+                                <abbr>
+                                    <orgName ref="#SS">SS</orgName>
+                                </abbr>
                                 <expan xml:lang="de">Schutzstaffel</expan>
                             </choice> che aveva rubato per loro: erano mutande di carta che proteggevano moltissimo dal freddo.
                             </item>
@@ -441,19 +465,27 @@
                             <item synch="#TR13"> <!--confronto Varsavia/Birkenau e Isaac Saul Senor-->
                                 <placeName ref="#WA">Varsavia</placeName> era molto simile a <placeName ref="#Bi">Birkenau</placeName> per quanto riguarda il cibo: gli veniva dato del tè e usavano una scodella per ognuno.
                                 Poi c'era l'appello: se il tempo era nebbioso non uscivano, rimanevano in piedi sull'attenti in attesa che la nebbia sparisse perché le <choice>
-                                <abbr><orgName ref="#SS">SS</orgName></abbr>
+                                <abbr>
+                                    <orgName ref="#SS">SS</orgName>
+                                </abbr>
                                 <expan xml:lang="de">Schutzstaffel</expan>
                             </choice> temevano che qualcuno scappasse come effettivamente fece un ebreo di <placeName ref="#Sal">Salonicco</placeName> nascondendosi tra i mattoni che erano stati comprati da un contadino polacco.
 
                                 A <placeName ref="#WA">Varsavia</placeName> <persName ref="#AW">Arminio</persName> conobbe il <rs ref="#IsaacSS" resp="#GB">dirigente del vestiario delle <choice>
-                                    <abbr><orgName ref="#SS">SS</orgName></abbr>
+                                    <abbr>
+                                        <orgName ref="#SS">SS</orgName>
+                                    </abbr>
                                     <expan xml:lang="de">Schutzstaffel</expan>
                                 </choice>
                             </rs>, un ebreo di <placeName ref="#Sal">Salonicco</placeName> che parlava l'italiano alla perfezione: <persName ref="#IsaacSS">Isaac Senor</persName>. <rs ref="#IsaacSS" resp="#GB">Egli</rs>, una volta alla settimana, con un camion e accompagnato da sottufficiale della <choice>
-                                <abbr><orgName ref="#SS">SS</orgName></abbr>
+                                <abbr>
+                                    <orgName ref="#SS">SS</orgName>
+                                </abbr>
                                 <expan xml:lang="de">Schutzstaffel</expan>
                             </choice>, andava in una lavanderia dove si innamorò di una ragazza ebrea clandestina. Insieme decisero di scappare unendosi ai partigiani e <persName ref="#IsaacSS">Isaac</persName> mise appunto un piano: voleva far ubriacare con la vodka il sottufficiale che lo accompagnava in lavanderia per poi pugnalarlo e scappare. Però quando tentò di fare tutto ciò il sottufficiale non morì ma con le grida mise in allarme il campo: una pattuglia di <choice>
-                                <abbr><orgName ref="#SS">SS</orgName></abbr>
+                                <abbr>
+                                    <orgName ref="#SS">SS</orgName>
+                                </abbr>
                                 <expan xml:lang="de">Schutzstaffel</expan>
                             </choice> arrestò <persName ref="#IsaacSS">Isaac</persName> per tentato omicidio, venne riportato nel campo e messo in una cella. <persName ref="#IsaacSS">Isaac</persName> però era sicurissimo che poiché intratteneva degli affari con il comandante egli lo avrebbe sicuramente salvato: così non accadde e la mattina dopo lo impiccarono poiché il sottufficiale assaltato si rivolse direttamente al comando generale di <placeName ref="#B">Berlino</placeName> il quale lo premiò con una licenza di <date dur="PT14D">due settimane</date>.
                                 Durante l'impiccagione vicino ad <persName ref="#AW">Arminio</persName> c'era <rs ref="#IsraelS" resp="#GB">il fratello di <persName ref="#IsaacSS">Isaac</persName>
@@ -479,7 +511,9 @@
                                 <addName type="nickname">Tischler</addName>
                             </persName>, il fabbro. 
                                 Arrivarono a piedi fino a <placeName ref="#EKU">Kutno</placeName>, dove ci fu lo scontro tra i carri armati tedeschi e la cavalleria polacca. <rs ref="#EKU" resp="#GB">Lì</rs> salirono su dei vagoni ferroviari scortati da delle <choice>
-                                <abbr><orgName ref="#SS">SS</orgName></abbr>
+                                <abbr>
+                                    <orgName ref="#SS">SS</orgName>
+                                </abbr>
                                 <expan xml:lang="de">Schutzstaffel</expan>
                             </choice>, arrivarono a <placeName ref="#DA">Dachau</placeName> e poi a <placeName ref="#MU">Muhldorf</placeName>, nel <placeName ref="#WalV">Waldlager <num>V</num>
                             </placeName>. 
@@ -497,7 +531,9 @@
                             </persName> aveva deciso di non uscire con gli altri dal <rs ref="#GhettoWA" resp="#GB">ghetto</rs>: proprio mentre <persName ref="#AW">Arminio</persName> stava raccontando tutto ciò qualcuno bussò alla porta e <persName ref="#AW">Arminio</persName> fu sorpreso nel vedere <rs ref="#Tis" resp="#GB">il suo amico</rs> sano e salvo. <persName ref="#Tis">
                                 <addName type="nickname">Tischler</addName>
                             </persName> gli raccontò che i polacchi, dopo aver notato che le <choice>
-                                <abbr><orgName ref="#SS">SS</orgName></abbr>
+                                <abbr>
+                                    <orgName ref="#SS">SS</orgName>
+                                </abbr>
                                 <expan xml:lang="de">Schutzstaffel</expan>
                             </choice> erano poche, attaccarono il <rs ref="#GhettoWA" resp="#GB">ghetto</rs> salvando i 300 deportati rimasti. Essi vennero messi in una scuola ma questa fu bombardata, morirono tutti tranne <persName ref="#Tis">
                                 <addName type="nickname">Tischler</addName>
@@ -505,7 +541,9 @@
 
                                 Durante il percorso per arrivare a <placeName ref="#EKU">Kutno</placeName> <persName ref="#AW">Arminio</persName> ricorda che per cibarsi usava la scusa di andare a fare i bisogni nei campi per poi grattare le patate dal fondo, nasconderle nei calzoni e mangiarle crude.
                                 La sete invece era un problema. Arrivarono ad un fiume: iniziarono a bere quando un ebreo ungherese si spinse un po' più lontano e allora le <choice>
-                                <abbr><orgName ref="#SS">SS</orgName></abbr>
+                                <abbr>
+                                    <orgName ref="#SS">SS</orgName>
+                                </abbr>
                                 <expan xml:lang="de">Schutzstaffel</expan>
                             </choice> lo uccisero. L'acqua si sporcò di sangue e i prigioneri furono obbligati a bere quell'acqua insanguinata.
                             </item>
@@ -513,12 +551,16 @@
                             <item synch="#TR17"> <!-- Dachau -->
                                 Dopo diversi giorni arrivarono a <placeName ref="#DA">Dachau</placeName>: un ebreo ungherese regalò ad <persName ref="#AW">Arminio</persName> una comune rapa, non quella per gli animali che erano soliti dargli.
                                 A <placeName ref="#DA">Dachau</placeName> rimasero un <date from="1944-08-06" to="1944-08-07" resp="#GB">paio di giorni</date> e gli italiani erano solamente tre, <persName ref="#AW">Arminio</persName>, <persName ref="#LelloDS">Lello Di Segni</persName> e <persName ref="#IsaccoS">Isacco Sermoneta</persName>. <rs ref="#IsaccoS" resp="#GB">Quest'ultimo</rs> tentò di scappare dal <placeName ref="#WalV">Waldlager</placeName> e <persName ref="#AW">Arminio</persName> riuscì a far credere al comandante del campo, che faceva parte della <orgName xml:lang="de">Wehrmacht</orgName>, che <rs ref="#IsaccoS" resp="#GB">l'uomo</rs> fosse già matto prima della deportazione e quindi di risparmiarlo. Nonostante ciò <persName ref="#IsaccoS">Isacco Sermoneta</persName> venne trasferito a <placeName ref="#DA">Dachau</placeName> e identificato con un segno rosso che dava la libertà alle <choice>
-                                <abbr><orgName ref="#SS">SS</orgName></abbr>
+                                <abbr>
+                                    <orgName ref="#SS">SS</orgName>
+                                </abbr>
                                 <expan xml:lang="de">Schutzstaffel</expan>
                             </choice> di sparargli se si fosse avvicinato al recinto. A <placeName ref="#DA">Dachau</placeName> <persName ref="#IsaccoS">Isacco</persName> ebbe la possibilità di parlare con <persName ref="#EnzoS">Enzo Sereni</persName>.
 
                                 <persName ref="#AW">Arminio</persName> ricorda l'ebreo <persName ref="#DiPorto">Di Porto</persName> che a <placeName ref="#WA">Varsavia</placeName>, grazie a <rs ref="#AW" resp="#GB">lui</rs>, fu trasferito nella baracca/ospedale dove i prigionieri non lavoravano e stavamo leggermente meglio rispetto agli altri. Purtroppo <rs ref="#DiPorto" resp="#GB">egli</rs> morì perché i 300 professioni non furono gli unici a non uscire da <placeName ref="#WA">Varsavia</placeName>, anche gli ammalati, che vennero uccisi durante l'evacuazione dalle <choice>
-                                <abbr><orgName ref="#SS">SS</orgName></abbr>
+                                <abbr>
+                                    <orgName ref="#SS">SS</orgName>
+                                </abbr>
                                 <expan xml:lang="de">Schutzstaffel</expan>
                             </choice>.
                             </item>
@@ -535,7 +577,9 @@
                                 <persName ref="#AW">Arminio</persName> racconta che lì era interprete di italiani liberi non ebrei che lavoravano e si erano sedimentati in <placeName ref="#DE">Germania</placeName>. Addirittura, delle volte, <persName ref="#AW">Arminio</persName> curava la traduzione della corrispondenza tra questi italiani e le proprie famiglie e in cambio riceveva qualcosa.
 
                                 Un giorno nel tunnel un ufficiale delle <choice>
-                                <abbr><orgName ref="#SS">SS</orgName></abbr>
+                                <abbr>
+                                    <orgName ref="#SS">SS</orgName>
+                                </abbr>
                                 <expan xml:lang="de">Schutzstaffel</expan>
                             </choice> vide <persName ref="#AW">Arminio</persName> fermo in piedi senza lavorare e nonostante <rs ref="#AW" resp="#GB">lui</rs> gli avesse detto di fare l'interprete gli diede una pedata e lo costrinse a portare un sacco di <measure>
                                 <num>50</num> <unit>kg</unit>
@@ -544,34 +588,50 @@
 
                             <item synch="#TR19"> <!--episodio a Poing-->
                                 Il <date when="1945-05-01">primo maggio</date> arrivarono a <placeName ref="#Po">Poing</placeName> in treno. Un comandante delle <choice>
-                                <abbr><orgName ref="#SS">SS</orgName></abbr>
+                                <abbr>
+                                    <orgName ref="#SS">SS</orgName>
+                                </abbr>
                                 <expan xml:lang="de">Schutzstaffel</expan>
                             </choice> disse a tutti i prigionieri che la guerra era finita e che erano liberi. <persName ref="#AW">Arminio</persName>, con una partigiana torinese e <rs ref="#TriesteB" resp="#GB">una ebrea milanese</rs>, si accingeva a camminare verso il centro della <rs ref="#Po" resp="#GB">cittadina</rs> quando incontrò dei prigionieri di guerra americani che gli dissero che la guerra per loro non era finita. Continuarono a camminare quando sentirono degli spari di mitragliatrici: videro delle auto carrette con delle sentinelle e degli aviatori. 
                                 Secondo <persName ref="#AW">Arminio</persName> quel comandante delle <choice>
-                                <abbr><orgName ref="#SS">SS</orgName></abbr>
+                                <abbr>
+                                    <orgName ref="#SS">SS</orgName>
+                                </abbr>
                                 <expan xml:lang="de">Schutzstaffel</expan>
                             </choice> voleva scappare ma non volendo lasciar traccia dei prigionieri aveva telefonato al comando dicendo che gli ebrei erano fuggiti uccidendo diverse <choice>
-                                <abbr><orgName ref="#SS">SS</orgName></abbr>
+                                <abbr>
+                                    <orgName ref="#SS">SS</orgName>
+                                </abbr>
                                 <expan xml:lang="de">Schutzstaffel</expan>
                             </choice>. 
                                 <persName ref="#AW">Arminio</persName> e le <rs ref="#TriesteB" resp="#GB">due donne</rs> si salvarono dagli spari facendo finta di essere morti e poi ripresero a camminare fino ad arrivare alla piazza. Lì c'era il comandante con il sindaco che stavano riunendo tutti i fuggitivi davanti al comune: il comandante affermava che gli ebrei avevano cercato di ucciderli e che lo avrebbe provato verificando se essi avevano con sé coltelli, forbici eccetera (in quel caso li avrebbe uccisi). <persName ref="#AW">Arminio</persName> aveva con sé una carta topografica che gli era stata regalata da un ufficiale anti-nazista della <choice>
-                                <abbr><orgName ref="#SS">SS</orgName></abbr>
+                                <abbr>
+                                    <orgName ref="#SS">SS</orgName>
+                                </abbr>
                                 <expan xml:lang="de">Schutzstaffel</expan>
                             </choice> nel Waldlager per il suo 31esimo compleanno mentre lavorava per l'<orgName>organizzazione Todt</orgName> e un rasoio regalatogli da un aiutante dell'ufficiale. <persName ref="#AW">Arminio</persName> per salvarsi mangiò la carta topografica e coprì con la scarpa il rasoio che lentamente aveva fatto scendere. Al passaggio del comandante <persName ref="#AW">Arminio</persName> si salvò.
                             </item>
 
                             <item synch="#TR20"> <!--Tutzing: liberazione-->
                                 Le <choice>
-                                <abbr><orgName ref="#SS">SS</orgName></abbr>
+                                <abbr>
+                                    <orgName ref="#SS">SS</orgName>
+                                </abbr>
                                 <expan xml:lang="de">Schutzstaffel</expan>
                             </choice> avevano in programma di trasferire tramite treno i restanti prigionieri verso le <placeName ref="#Alpi">alpi</placeName>, così li incamminarono verso la stazione della <rs ref="#Po" resp="#GB">cittadina</rs>. Durante il percorso ad un certo punto <persName ref="#AW">Arminio</persName> sentì degli spari: le <choice>
-                                <abbr><orgName ref="#SS">SS</orgName></abbr>
+                                <abbr>
+                                    <orgName ref="#SS">SS</orgName>
+                                </abbr>
                                 <expan xml:lang="de">Schutzstaffel</expan>
                             </choice> stavano uccidendo un gruppo di donne. Nonostante ciò, le <choice>
-                                <abbr><orgName ref="#SS">SS</orgName></abbr>
+                                <abbr>
+                                    <orgName ref="#SS">SS</orgName>
+                                </abbr>
                                 <expan xml:lang="de">Schutzstaffel</expan>
                             </choice> intimarono di andare avanti fino a che non arrivarono ai vagoni. <persName ref="#AW">Arminio</persName> essendo l'ultimo entrò nel vagone delle donne ungheresi che al passaggio dell'ufficiale della <choice>
-                                <abbr><orgName ref="#SS">SS</orgName></abbr>
+                                <abbr>
+                                    <orgName ref="#SS">SS</orgName>
+                                </abbr>
                                 <expan xml:lang="de">Schutzstaffel</expan>
                             </choice> che lo cercava nascosero <rs ref="#AW" resp="#GB">l'interprete</rs> aggiungendo che era malato di tifo per spaventare l'ufficiale che scappò via. 
                                 Durante il tragitto <persName ref="#AW">Arminio</persName> insegnò alle donne delle canzoni italiane, come fece a <placeName ref="#WA">Varsavia</placeName> quando lavorò con dei polacchi non ebrei che erano cantanti dell'<placeName type="opera">opera di <placeName ref="#WA">Varsavia</placeName>
@@ -584,7 +644,9 @@
                                 Il treno si fermò e <persName ref="#AW">Arminio</persName> parlò con un soldato in divisa italiana (era un prigioniero italiano catturato <date notBefore="1943-09-08">dopo l'8 settembre</date>) che gli disse che in realtà li stavano trasportando al <placeName ref="#Ko">lago di Kochel</placeName> per ucciderli tutti. Inoltre egli invitava <persName ref="#AW">Arminio</persName> a scappare.
                                 A quel punto però <rs ref="#CapBlasi" resp="#GB">un ufficiale della <orgName xml:lang="de">Wehrmacht</orgName>
                             </rs>, <persName ref="#CapBlasi">Blasi</persName>, che divenne il comandante del trasporto, prese la parola dicendo che, nonostante <rs ref="#CapBlasi" resp="#GB">lui</rs> avesse avuto l'ordine di portare i prigionieri a <placeName ref="#Ko">Kochel</placeName> per consegnarli ad un comando speciale delle <choice>
-                                <abbr><orgName ref="#SS">SS</orgName></abbr>
+                                <abbr>
+                                    <orgName ref="#SS">SS</orgName>
+                                </abbr>
                                 <expan xml:lang="de">Schutzstaffel</expan>
                             </choice>, aveva deciso di tornare indietro alla stazione della città di <placeName ref="#Tu">Tutzing</placeName> per salvarli. In cambio però voleva che si ricordassero del gesto che aveva fatto. Dopo poco arrivarono i carri armati americani Patton che presero i prigionieri in custodia.
                             </item>
@@ -592,7 +654,9 @@
                             <!--Feldafing-->
                             <item synch="#TR21a"> 
                                 Il comandante della truppa americana era <persName ref="#IrvingJS">Jutennens Smith</persName>. Dopo aver ucciso le <choice>
-                                <abbr><orgName ref="#SS">SS</orgName></abbr>
+                                <abbr>
+                                    <orgName ref="#SS">SS</orgName>
+                                </abbr>
                                 <expan xml:lang="de">Schutzstaffel</expan>
                             </choice> rimaste, grazie ai prigioneri, e soprattutto ad <persName ref="#AW">Arminio</persName> e ad un certo <persName ref="#ErnstL">Landau</persName>, ebbero salva la vita due aufseherinnen e il <persName ref="#CapBlasi">
                                 <roleName type="military">comandante</roleName> Blasi</persName> che si erano comportati umanamente.
@@ -1933,12 +1997,31 @@
 
     <listPerson>
             <!--Testimone-->
-            <person xml:id="AW" role="testimone">
-                <persName>
-                    <forename>Arminio</forename>
-                    <surname>Wachsberger</surname>
-                </persName>
-            </person>
+            <person xml:id="AW" role="testimone" source="http://digital-library.cdec.it/cdec-web/persone/detail/person-8295/wachsberger-arminio.html">
+                        <persName>
+                            <forename>Arminio</forename>
+                            <surname>Wachsberger</surname>
+                        </persName>
+                        
+                         <sex>M</sex>
+
+                        <birth>
+                            <date when="1913-11-04" cert="high">4 Novembre 1913</date>
+                            <placeName ref="#FM">
+                                <settlement type="municipality">Fiume</settlement>
+                                <country key="HR">Croazia</country>
+                            </placeName>
+                        </birth>
+
+                        <death>
+                            <date when="2002-04-24" cert="high">24 Aprile 2002</date>
+                                <placeName ref="#MI">
+                                    <settlement type="municipality">Milano</settlement>
+                                    <country key="IT">Italia</country>
+                                </placeName>
+                        </death>
+                        
+                    </person>
 
             <!--Intervistatrice-->
             <person xml:id="MA" role="intervistatrice">
@@ -4509,7 +4592,9 @@
                         <corr resp="#GB">nel</corr>
                     </choice> <date when="1944-05" resp="#GB">maggio</date>
                     <pause/> è stata presa dalla <choice>
-                        <abbr><orgName ref="#SS">SS</orgName></abbr>
+                        <abbr>
+                            <orgName ref="#SS">SS</orgName>
+                        </abbr>
                         <expan xml:lang="de">Schutzstaffel</expan>
                     </choice> tedesca e<kinesic>
                         <desc>indica con la mano sinistra qualcosa alla sua sinistra simulando il concetto di "esterno"</desc>
@@ -4882,7 +4967,9 @@
                     <anchor xml:id="arm-79" synch="#TT79"/>
                     <del type="truncation">er</del>
                     <anchor xml:id="arm-80" synch="#TT80"/> era vestito da ufficiale delle <choice>
-                        <abbr><orgName ref="#SS">SS</orgName></abbr>
+                        <abbr>
+                            <orgName ref="#SS">SS</orgName>
+                        </abbr>
                         <expan xml:lang="de">Schutzstaffel</expan>
                     </choice>
                     <kinesic>
@@ -5582,7 +5669,9 @@
                     <pause/> quella specie di armadio a <vocal>
                         <desc>mm</desc>
                     </vocal> muro<pause/> <surplus resp="#GB" cert="high">e</surplus> entrano ma invece della <orgName>finanza</orgName> erano della <choice>
-                        <abbr><orgName ref="#SS">SS</orgName></abbr>
+                        <abbr>
+                            <orgName ref="#SS">SS</orgName>
+                        </abbr>
                         <expan xml:lang="de">Schutzstaffel</expan>
                     </choice>
                     <pause/> <surplus resp="#GB" cert="high">e</surplus> non si sono accorti di questo secondo <supplied resp="#GB" cert="medium" reason="omitted">spazio</supplied> e <kinesic>
@@ -5812,7 +5901,9 @@
                     </vocal> <del type="truncation">s</del> sapevo però<pause/> che il nostro <kinesic>
                         <desc>indica sé stesso con la mano sinistra</desc>
                     </kinesic> <term ref="#blockaltester" xml:lang="de">blockaltester</term> sarebbe il capo baracca<pause/> conosceva<pause/> un sottufficiale delle <choice>
-                        <abbr><orgName ref="#SS">SS</orgName></abbr>
+                        <abbr>
+                            <orgName ref="#SS">SS</orgName>
+                        </abbr>
                         <expan xml:lang="de">Schutzstaffel</expan>
                     </choice> che era <kinesic iterated="true">
                         <desc>con la mano destra indica qualcosa a sinistra</desc>
@@ -5820,7 +5911,9 @@
                         <sic>nella</sic>
                         <corr resp="#GB">nel</corr>
                     </choice> <term ref="#revier" xml:lang="de">revier</term> della <choice>
-                        <abbr><orgName ref="#SS">SS</orgName></abbr>
+                        <abbr>
+                            <orgName ref="#SS">SS</orgName>
+                        </abbr>
                         <expan xml:lang="de">Schutzstaffel</expan>
                     </choice> cioè<pause/> nell'ospedale da campo<pause/> <del type="truncation">d</del> dei tedeschi<pause/> <anchor xml:id="arm-117" synch="#TT117"/>
                     <del type="truncation">do</del>
@@ -5837,7 +5930,9 @@
                         <del type="repetition">per i</del> per i <del type="truncation">s</del>
                         <anchor xml:id="arm-120" synch="#TT120"/>
                     </del> si <del type="truncation">pe</del> per i soldati della <choice>
-                        <abbr><orgName ref="#SS">SS</orgName></abbr>
+                        <abbr>
+                            <orgName ref="#SS">SS</orgName>
+                        </abbr>
                         <expan xml:lang="de">Schutzstaffel</expan>
                     </choice> che erano lì <vocal>
                         <desc>ehm deglutisce</desc>
@@ -6927,7 +7022,9 @@
                         <desc>agita la mano sinistra con l'indice alzato e sgrana gli occhi</desc>
                     </kinesic> <del type="falseStart">non <del type="truncation">so</del>
                     </del> non c'è più la <choice>
-                        <abbr><orgName ref="#SS">SS</orgName></abbr>
+                        <abbr>
+                            <orgName ref="#SS">SS</orgName>
+                        </abbr>
                         <expan xml:lang="de">Schutzstaffel</expan>
                     </choice>
                     <pause/> <seg part="I" xml:id="s16a" next="#s16b">a <placeName ref="#WA">Varsavia</placeName>
@@ -6937,7 +7034,9 @@
                     </incident>
                     <placeName ref="#Bi">Birkenau</placeName>
                     <pause/> e a <placeName ref="#Au">Auschwitz</placeName> eran le <choice>
-                        <abbr><orgName ref="#SS">SS</orgName></abbr>
+                        <abbr>
+                            <orgName ref="#SS">SS</orgName>
+                        </abbr>
                         <expan xml:lang="de">Schutzstaffel</expan>
                     </choice> pure<pause/> che<pause/> <term ref="#tc" xml:lang="de">
                         <unclear reason="inaudible" resp="#GB" cert="low">totem <distinct type="military">comando</distinct>
@@ -6950,7 +7049,9 @@
                         <reg resp="#GB">le quali</reg>
                     </choice> <supplied resp="#GB" cert="medium" reason="omitted">
                         <choice>
-                            <abbr><orgName ref="#SS">SS</orgName></abbr>
+                            <abbr>
+                                <orgName ref="#SS">SS</orgName>
+                            </abbr>
                             <expan xml:lang="de">Schutzstaffel</expan>
                         </choice>
                     </supplied> portavano il teschio qui<pause/> ma bensì <kinesic>
@@ -6982,7 +7083,9 @@
                         <sic>udentiche</sic>
                         <corr resp="#GB">identiche</corr>
                     </choice> alla <choice>
-                        <abbr><orgName ref="#SS">SS</orgName></abbr>
+                        <abbr>
+                            <orgName ref="#SS">SS</orgName>
+                        </abbr>
                         <expan xml:lang="de">Schutzstaffel</expan>
                     </choice> ma leggermente diverse per distinguerli<pause/> <del type="falseStart">per far <del type="truncation">vede</del>
                     </del>
@@ -6993,7 +7096,9 @@
                     <pause/> colpivano<pause/> perché <vocal>
                         <desc>ehm</desc>
                     </vocal> tutta la pratica della <choice>
-                        <abbr><orgName ref="#SS">SS</orgName></abbr>
+                        <abbr>
+                            <orgName ref="#SS">SS</orgName>
+                        </abbr>
                         <expan xml:lang="de">Schutzstaffel</expan>
                     </choice> era di<pause/> infierire contro la <distinct type="informal">gente</distinct> per <choice>
                         <sic>renderli</sic>
@@ -7035,7 +7140,9 @@
                     </distinct> <supplied resp="#GB" cert="medium" reason="omitted">essi</supplied>
                     <emph> si erano ribellati</emph>
                     <pause/> e hanno <emph>attaccato</emph> la <choice>
-                        <abbr><orgName ref="#SS">SS</orgName></abbr>
+                        <abbr>
+                            <orgName ref="#SS">SS</orgName>
+                        </abbr>
                         <expan xml:lang="de">Schutzstaffel</expan>
                     </choice> lì <choice>
                         <sic>è successo</sic>
@@ -7288,7 +7395,9 @@
                     </vocal>
                     <pause/> <emph>mattoni</emph>
                     <pause/> che la <choice>
-                        <abbr><orgName ref="#SS">SS</orgName></abbr>
+                        <abbr>
+                            <orgName ref="#SS">SS</orgName>
+                        </abbr>
                         <expan xml:lang="de">Schutzstaffel</expan>
                     </choice> <emph>vendeva</emph> a questi contadini<pause/> polacchi<pause/> <surplus resp="#GB" cert="medium">che</surplus> <kinesic>
                         <desc>scuote la testa</desc>
@@ -7299,7 +7408,9 @@
                     <pause/> <kinesic>
                         <desc>avvicina i palmi delle mani per poi ruotarle</desc>
                     </kinesic> giravano i mattoni perché la <choice>
-                        <abbr><orgName ref="#SS">SS</orgName></abbr>
+                        <abbr>
+                            <orgName ref="#SS">SS</orgName>
+                        </abbr>
                         <expan xml:lang="de">Schutzstaffel</expan>
                     </choice> <kinesic>
                         <desc>con l'indice destro disegna in aria</desc>
@@ -8098,7 +8209,9 @@
                         <desc>si tocca il petto con l'indice destro</desc>
                     </kinesic> <surplus resp="#GB" cert="medium">insieme</surplus> con noi<pause/> questo <term xml:lang="de">kapò</term> <del type="truncation">qu</del> quando si arrivava davanti la <distinct type="military">sentinella</distinct>
                     <pause/> della <choice>
-                        <abbr><orgName ref="#SS">SS</orgName></abbr>
+                        <abbr>
+                            <orgName ref="#SS">SS</orgName>
+                        </abbr>
                         <expan xml:lang="de">Schutzstaffel</expan>
                     </choice>
                     <pause/> doveva uscire <kinesic>
@@ -8602,7 +8715,9 @@
                         <desc>stringe entrambe le mani a pugno</desc>
                     </kinesic> a rinforzarmi con questo oro<pause/> che però era proibitissimo perché appena arrivati a <placeName ref="#WA">Varsavia</placeName>
                     <pause/> la prima cosa che ha fatto l'<choice>
-                        <abbr><orgName ref="#SS">SS</orgName></abbr>
+                        <abbr>
+                            <orgName ref="#SS">SS</orgName>
+                        </abbr>
                         <expan xml:lang="de">Schutzstaffel</expan>
                     </choice> è <supplied resp="#GB" cert="medium" reason="omitted">stato</supplied> guardare le bocche di tutti quanti<pause/> per vedere <kinesic iterated="true">
                         <desc>fa finta di scrivere sul palmo della mano sinistra</desc>
@@ -8654,7 +8769,9 @@
                     <anchor xml:id="ma-255" synch="#TT255"/>
                     <del type="falseStart">e</del>
                     <anchor xml:id="ma-256" synch="#TT256"/> ed <del type="falseStart">e</del> non erano <choice>
-                        <abbr><orgName ref="#SS">SS</orgName></abbr>
+                        <abbr>
+                            <orgName ref="#SS">SS</orgName>
+                        </abbr>
                         <expan xml:lang="de">Schutzstaffel</expan>
                     </choice> <choice>
                         <orig>m'ha</orig>
@@ -8667,7 +8784,9 @@
                     <kinesic>
                         <desc>porta indietro la testa e alza il mento con gli occhi sgranati</desc>
                     </kinesic> <emph>no</emph> <del type="truncation">d</del> dentro<anchor xml:id="arm-258" synch="#TT258"/> nel campo erano <choice>
-                        <abbr><orgName ref="#SS">SS</orgName></abbr>
+                        <abbr>
+                            <orgName ref="#SS">SS</orgName>
+                        </abbr>
                         <expan xml:lang="de">Schutzstaffel</expan>
                     </choice>
                 </u>
@@ -8676,7 +8795,9 @@
                     <vocal>
                         <desc>ah</desc>
                     </vocal> erano <choice>
-                        <abbr><orgName ref="#SS">SS</orgName></abbr>
+                        <abbr>
+                            <orgName ref="#SS">SS</orgName>
+                        </abbr>
                         <expan xml:lang="de">Schutzstaffel</expan>
                     </choice>
                 </u>
@@ -8777,7 +8898,9 @@
                     <vocal>
                         <desc>deglutisce</desc>
                     </vocal> una mattina<pause/> <del type="falseStart">il</del> andiamo a lavoro accompagnati sempre dalla <choice>
-                        <abbr><orgName ref="#SS">SS</orgName></abbr>
+                        <abbr>
+                            <orgName ref="#SS">SS</orgName>
+                        </abbr>
                         <expan xml:lang="de">Schutzstaffel</expan>
                     </choice>
                     <pause/> <del type="falseStart">per</del> si usciva<pause/> <kinesic>
@@ -8908,7 +9031,9 @@
                 <u who="#AW" xml:id="AW109" synch="#TS221">
                     siamo tornati su<pause/> <del type="truncation">s</del> con <supplied resp="#GB" reason="omitted" cert="medium">il</supplied> cesto <emph>vuoto</emph>
                     <pause/> la <choice>
-                        <abbr><orgName ref="#SS">SS</orgName></abbr>
+                        <abbr>
+                            <orgName ref="#SS">SS</orgName>
+                        </abbr>
                         <expan xml:lang="de">Schutzstaffel</expan>
                     </choice> dice <q type="spoken">come <del type="falseStart">in</del> non avete trovato niente</q> <q type="spoken" who="#AW">
                         <kinesic>
@@ -9001,7 +9126,9 @@
                         <desc>guarda verso il basso con la mano alla bocca</desc>
                     </kinesic> <pause dur="PT3S"/>
                     <supplied resp="#GB" cert="medium" reason="omitted">la <choice>
-                            <abbr><orgName ref="#SS">SS</orgName></abbr>
+                            <abbr>
+                                <orgName ref="#SS">SS</orgName>
+                            </abbr>
                             <expan xml:lang="de">Schutzstaffel</expan>
                         </choice> continua</supplied> <q type="spoken">
                         <kinesic iterated="true">
@@ -9043,7 +9170,9 @@
                     </kinesic> si <del type="falseStart">al <del type="repetition">a</del> a</del> insieme a questa<anchor xml:id="arm-274" synch="#TT274"/> impiccagione<pause/> e adesso poi più tardi <kinesic>
                         <desc>alza il mento e le sopracciglia</desc>
                     </kinesic> si è saputo il perché<pause/> quello della <choice>
-                        <abbr><orgName ref="#SS">SS</orgName></abbr>
+                        <abbr>
+                            <orgName ref="#SS">SS</orgName>
+                        </abbr>
                         <expan xml:lang="de">Schutzstaffel</expan>
                     </choice> <kinesic iterated="true">
                         <desc>indica sé stesso con la mano sinistra</desc>
@@ -9104,7 +9233,9 @@
                         <date dur="PT14D">due settimane</date>
                     </emph> da <placeName ref="#Bi">Birkenau</placeName>
                     <pause/> veniva un <distinct type="military">comando</distinct> di <choice>
-                        <abbr><orgName ref="#SS">SS</orgName></abbr>
+                        <abbr>
+                            <orgName ref="#SS">SS</orgName>
+                        </abbr>
                         <expan xml:lang="de">Schutzstaffel</expan>
                     </choice> <choice>
                         <sic>sanitari</sic>
@@ -9146,7 +9277,9 @@
                     </kinesic> prende nota del numero<pause/> e <del type="truncation">f</del> così finiva<pause/> adesso cosa è successo <vocal>
                         <desc>eh</desc>
                     </vocal> <surplus resp="#GB" cert="medium">questo</surplus> <supplied resp="#GB" cert="medium" reason="omitted">c'</supplied>era un ufficiale<pause/> della <choice>
-                        <abbr><orgName ref="#SS">SS</orgName></abbr>
+                        <abbr>
+                            <orgName ref="#SS">SS</orgName>
+                        </abbr>
                         <expan xml:lang="de">Schutzstaffel</expan>
                     </choice>
                     <pause/> tedesco <distinct type="political">nazista</distinct>
@@ -9235,7 +9368,9 @@
                     <pause/> <kinesic>
                         <desc>indica con la mano sinistra qualcosa di fronte a lui (probabilmente l'intervistatrice)</desc>
                     </kinesic> questo ufficiale della <choice>
-                        <abbr><orgName ref="#SS">SS</orgName></abbr>
+                        <abbr>
+                            <orgName ref="#SS">SS</orgName>
+                        </abbr>
                         <expan xml:lang="de">Schutzstaffel</expan>
                     </choice> <choice>
                         <orig>m'ha</orig>
@@ -9271,7 +9406,9 @@
                         <kinesic iterated="true">
                             <desc>agita con decisione la mano sinistra con l'indice alzato</desc>
                         </kinesic> <emph>un altro</emph> ufficiale della <choice>
-                            <abbr><orgName ref="#SS">SS</orgName></abbr>
+                            <abbr>
+                                <orgName ref="#SS">SS</orgName>
+                            </abbr>
                             <expan xml:lang="de">Schutzstaffel</expan>
                         </choice>
                     </seg> anche questo lo <emph>devo</emph> raccontare perché è la verità<pause/>
@@ -9295,7 +9432,9 @@
                     <pause/> <gloss target="#bek">la baracca con dentro il <emph>vestiario</emph> <kinesic>
                             <desc>indica di fronte a lui con la mano destra</desc>
                         </kinesic> per la <choice>
-                            <abbr><orgName ref="#SS">SS</orgName></abbr>
+                            <abbr>
+                                <orgName ref="#SS">SS</orgName>
+                            </abbr>
                             <expan xml:lang="de">Schutzstaffel</expan>
                         </choice>
                     </gloss> <kinesic>
@@ -9303,7 +9442,9 @@
                     </kinesic> non per noi<anchor xml:id="arm-289" synch="#TT289"/>
                     <pause/>
                     <anchor xml:id="arm-290" synch="#TT290"/> <emph>lui rubava</emph> <supplied resp="#GB" cert="medium" reason="omitted">il</supplied> vestiario della <choice>
-                        <abbr><orgName ref="#SS">SS</orgName></abbr>
+                        <abbr>
+                            <orgName ref="#SS">SS</orgName>
+                        </abbr>
                         <expan xml:lang="de">Schutzstaffel</expan>
                     </choice> per <kinesic>
                         <desc>indica sé stesso con la mano sinistra</desc>
@@ -9561,7 +9702,9 @@
                 <u who="#AW" xml:id="AW126" synch="#TS255">
                     e adesso le devo raccontare di un altro fenomeno perché è eccezionale<pause/> da noi<pause/> a <placeName ref="#WA">Varsavia</placeName>
                     <pause/> c'era il<pause/> dirigente del <term ref="#bek" xml:lang="de">bekleidungskammer</term> della <choice>
-                        <abbr><orgName ref="#SS">SS</orgName></abbr>
+                        <abbr>
+                            <orgName ref="#SS">SS</orgName>
+                        </abbr>
                         <expan xml:lang="de">Schutzstaffel</expan>
                     </choice>
                     <pause/> <supplied resp="#GB" cert="medium" reason="omitted">che</supplied> sarebbe <del type="truncation">l</del> <choice>
@@ -9570,7 +9713,9 @@
                     </choice> <vocal>
                         <desc>ehmm</desc>
                     </vocal> <emph>vestiario</emph> per la <choice>
-                        <abbr><orgName ref="#SS">SS</orgName></abbr>
+                        <abbr>
+                            <orgName ref="#SS">SS</orgName>
+                        </abbr>
                         <expan xml:lang="de">Schutzstaffel</expan>
                     </choice>
                     <pause/> <seg part="I" xml:id="s30a" next="#s30b">
@@ -9617,11 +9762,15 @@
                     <pause/> e<pause/> <emph>
                         <rs ref="#IsaacSS" resp="#GB">lui</rs>
                     </emph> una volta alla settimana<pause/> con un camion della <choice>
-                        <abbr><orgName ref="#SS">SS</orgName></abbr>
+                        <abbr>
+                            <orgName ref="#SS">SS</orgName>
+                        </abbr>
                         <expan xml:lang="de">Schutzstaffel</expan>
                     </choice> accompagnato da un <del type="falseStart">
                         <del type="truncation">uffici</del> ufficiale</del> sottufficiale della <choice>
-                        <abbr><orgName ref="#SS">SS</orgName></abbr>
+                        <abbr>
+                            <orgName ref="#SS">SS</orgName>
+                        </abbr>
                         <expan xml:lang="de">Schutzstaffel</expan>
                     </choice>
                     <pause/>
@@ -9638,7 +9787,9 @@
 
                 <u who="#MA" xml:id="MA127" synch="#TS258">
                     <anchor xml:id="ma-319" synch="#TT319"/>i vestiti<anchor xml:id="ma-320" synch="#TT320"/> delle <choice>
-                        <abbr><orgName ref="#SS">SS</orgName></abbr>
+                        <abbr>
+                            <orgName ref="#SS">SS</orgName>
+                        </abbr>
                         <expan xml:lang="de">Schutzstaffel</expan>
                     </choice> comunque non è che <vocal>
                         <desc>mm</desc>
@@ -9657,7 +9808,9 @@
                     <kinesic>
                         <desc>si tocca il petto con entrambe le mani</desc>
                     </kinesic> non nostri <emph>no</emph> erano quelli della <choice>
-                        <abbr><orgName ref="#SS">SS</orgName></abbr>
+                        <abbr>
+                            <orgName ref="#SS">SS</orgName>
+                        </abbr>
                         <expan xml:lang="de">Schutzstaffel</expan>
                     </choice>
                     <anchor xml:id="arm-322" synch="#TT322"/> lenzuola <vocal>
@@ -9714,11 +9867,15 @@
                     <pause/> ha cominciato a <emph>urlare</emph> <kinesic>
                         <desc>con la mano sinistra indica la sua bocca e poi qualcosa di fronte a lui simulando l'atto di "far fuoriuscire parole dalla bocca</desc>
                     </kinesic> questa <del type="truncation">s</del> <distinct type="military">sentinella</distinct> della<pause/> <choice>
-                        <abbr><orgName ref="#SS">SS</orgName></abbr>
+                        <abbr>
+                            <orgName ref="#SS">SS</orgName>
+                        </abbr>
                         <expan xml:lang="de">Schutzstaffel</expan>
                     </choice> <del type="falseStart">i</del>
                     <pause/> vicino passa una <distinct type="military">pattuglia</distinct> di <choice>
-                        <abbr><orgName ref="#SS">SS</orgName></abbr>
+                        <abbr>
+                            <orgName ref="#SS">SS</orgName>
+                        </abbr>
                         <expan xml:lang="de">Schutzstaffel</expan>
                     </choice> che sente queste grida<pause/> <kinesic iterated="true">
                         <desc>agita le mani per dire "diciamo"</desc>
@@ -9828,7 +9985,9 @@
                         <desc>indica qualcosa di fronte a lui con la mano destra come se lo riferisse a un interlocutore immaginario</desc>
                     </kinesic> <persName ref="#IsaacSS">Isaac Senor</persName>
                     <pause/> accompagnato dalla <choice>
-                        <abbr><orgName ref="#SS">SS</orgName></abbr>
+                        <abbr>
+                            <orgName ref="#SS">SS</orgName>
+                        </abbr>
                         <expan xml:lang="de">Schutzstaffel</expan>
                     </choice> e lo fanno montare sulla forca<pause/> <kinesic iterated="true">
                         <desc>alza le sopracciglia e ruota in senso orario il polso della mano sinistra con l'indice sinistro alzato</desc>
@@ -10372,7 +10531,9 @@
 
                 <u who="#MA" xml:id="MA146" synch="#TS296">
                     chi vi <anchor xml:id="ma-343" synch="#TT343"/>scortava<anchor xml:id="ma-344" synch="#TT344"/> delle <choice>
-                        <abbr><orgName ref="#SS">SS</orgName></abbr>
+                        <abbr>
+                            <orgName ref="#SS">SS</orgName>
+                        </abbr>
                         <expan xml:lang="de">Schutzstaffel</expan>
                     </choice>
                     <anchor xml:id="ma-345" synch="#TT345"/>
@@ -10385,7 +10546,9 @@
                     <kinesic>
                         <desc>muove la testa per dire "si"</desc>
                     </kinesic> si delle <choice>
-                        <abbr><orgName ref="#SS">SS</orgName></abbr>
+                        <abbr>
+                            <orgName ref="#SS">SS</orgName>
+                        </abbr>
                         <expan xml:lang="de">Schutzstaffel</expan>
                     </choice>
                     <anchor xml:id="arm-346" synch="#TT346"/>
@@ -10543,7 +10706,9 @@
                             <desc>sgrana gli occhi</desc>
                         </kinesic> <del type="truncation">s</del>
                     </del> avendo saputo che <del type="truncation">s</del> erano rimasti pochi <supplied resp="#GB" cert="medium" reason="omitted">uomini</supplied> della <choice>
-                        <abbr><orgName ref="#SS">SS</orgName></abbr>
+                        <abbr>
+                            <orgName ref="#SS">SS</orgName>
+                        </abbr>
                         <expan xml:lang="de">Schutzstaffel</expan>
                     </choice> e <kinesic iterated="true">
                         <desc>indica qualcosa di fronte a lui (probabilmente l'intervistatrice) con la mano destra</desc>
@@ -10696,7 +10861,9 @@
                     </kinesic> si è spinto un po' più in fuori<pause/> allora <kinesic>
                         <desc>simula l'atto di sparare</desc>
                     </kinesic> la <choice>
-                        <abbr><orgName ref="#SS">SS</orgName></abbr>
+                        <abbr>
+                            <orgName ref="#SS">SS</orgName>
+                        </abbr>
                         <expan xml:lang="de">Schutzstaffel</expan>
                     </choice> <choice>
                         <sic>le</sic>
@@ -11042,7 +11209,9 @@
                     <anchor xml:id="arm-374" synch="#TT374"/> al recinto<pause/> <kinesic>
                         <desc>porta avanti entrambe le mani che formano una "O" e le alza</desc>
                     </kinesic> la <choice>
-                        <abbr><orgName ref="#SS">SS</orgName></abbr>
+                        <abbr>
+                            <orgName ref="#SS">SS</orgName>
+                        </abbr>
                         <expan xml:lang="de">Schutzstaffel</expan>
                     </choice> aveva il diritto di sparare<pause/> perché era un <emph>criminale</emph>
                     <pause/> riconosciuto e <rs ref="#IsaccoS" resp="#GB">lui</rs> non è scappato<pause/> <kinesic iterated="true">
@@ -11628,7 +11797,9 @@
                         <seg xml:lang="de" xml:id="trad33">arbeit ainze fuhrer</seg>
                     </unclear> <span corresp="#trad33">
                         <supplied resp="#GB" cert="medium" reason="omitted">l'</supplied> ufficiale delle <choice>
-                            <abbr><orgName ref="#SS">SS</orgName></abbr>
+                            <abbr>
+                                <orgName ref="#SS">SS</orgName>
+                            </abbr>
                             <expan xml:lang="de">Schutzstaffel</expan>
                         </choice>
                     </span>
@@ -11805,7 +11976,9 @@
                     </vocal>
                     <pause/> <seg part="F" xml:id="s40b" prev="#s40a">viene il comandante</seg>
                     <pause/> che era della <choice>
-                        <abbr><orgName ref="#SS">SS</orgName></abbr>
+                        <abbr>
+                            <orgName ref="#SS">SS</orgName>
+                        </abbr>
                         <expan xml:lang="de">Schutzstaffel</expan>
                     </choice> e dice a noi del <placeName ref="#WalV">Waldlager</placeName>
                     <pause/> <q type="spoken" xml:id="q30">
@@ -11958,7 +12131,9 @@
                     <distinct type="military">sentinelle</distinct>
                     <pause/> con <supplied resp="#GB" cert="medium" reason="omitted">degli</supplied> <del type="truncation">a</del> <distinct type="technical">aviatori</distinct> <supplied resp="#GB" cert="medium" reason="omitted">perché</supplied> c'era un campo d'<distinct type="technical">aviazione</distinct>
                     <pause/> quel comandante della <choice>
-                        <abbr><orgName ref="#SS">SS</orgName></abbr>
+                        <abbr>
+                            <orgName ref="#SS">SS</orgName>
+                        </abbr>
                         <expan xml:lang="de">Schutzstaffel</expan>
                     </choice>
                     <pause/> ha voluto <distinct type="common_saying">tagliar la corda</distinct>
@@ -12106,7 +12281,9 @@
                             <desc>fa il numero "2" con la mano sinistra</desc>
                         </kinesic> <surplus resp="#GB" cert="high">avevo</surplus> una <distinct type="technical">carta topografica</distinct>
                     </seg> che me l'aveva regalata quell'ufficiale della <choice>
-                        <abbr><orgName ref="#SS">SS</orgName></abbr>
+                        <abbr>
+                            <orgName ref="#SS">SS</orgName>
+                        </abbr>
                         <expan xml:lang="de">Schutzstaffel</expan>
                     </choice>
                     <pause/> che <kinesic>
@@ -12185,7 +12362,9 @@
                     <vocal>
                         <desc>click con la lingua</desc>
                     </vocal> <seg part="F" xml:id="s43b" prev="#s43a">adesso passava questo<pause/> ufficiale della <choice>
-                            <abbr><orgName ref="#SS">SS</orgName></abbr>
+                            <abbr>
+                                <orgName ref="#SS">SS</orgName>
+                            </abbr>
                             <expan xml:lang="de">Schutzstaffel</expan>
                         </choice>
                     </seg>
@@ -12275,7 +12454,9 @@
                         <sic>in</sic>
                         <corr resp="#GB">nel</corr>
                     </choice> <placeName ref="#WalV">Waldlager</placeName> c'era un sottufficiale della <choice>
-                        <abbr><orgName ref="#SS">SS</orgName></abbr>
+                        <abbr>
+                            <orgName ref="#SS">SS</orgName>
+                        </abbr>
                         <expan xml:lang="de">Schutzstaffel</expan>
                     </choice>
                     <pause/> <surplus resp="#GB" cert="medium">che era quello</surplus> incaricato dal <kinesic>
@@ -12360,7 +12541,9 @@
 
                 <u who="#AW" xml:id="AW190" synch="#TS383">
                     a piedi in mezzo a un campo<pause/> <unclear reason="inaudible" resp="#GB" cert="low">a</unclear> un certo momento<pause/> le <distinct type="military">sentinelle</distinct> della <choice>
-                        <abbr><orgName ref="#SS">SS</orgName></abbr>
+                        <abbr>
+                            <orgName ref="#SS">SS</orgName>
+                        </abbr>
                         <expan xml:lang="de">Schutzstaffel</expan>
                     </choice> spariscono<pause/> le vediamo tutte dietro di noi<pause/> e sentiamo degli spari<kinesic>
                         <desc>fa l'espressione di un "mah" che esprime incertezza</desc>
@@ -12392,7 +12575,9 @@
                             <desc>muove le mani dall'interno verso la telecamera</desc>
                         </kinesic> sono infilato</emph> in questo vagone<pause/> delle <emph>donne</emph>
                     <pause/> l'ufficiale della <choice>
-                        <abbr><orgName ref="#SS">SS</orgName></abbr>
+                        <abbr>
+                            <orgName ref="#SS">SS</orgName>
+                        </abbr>
                         <expan xml:lang="de">Schutzstaffel</expan>
                     </choice> passando dice <q type="spoken">
                         <seg xml:lang="de" xml:id="trad47">wo ist der <term ref="#dolmetscher" xml:lang="de">dolmetscher</term>
@@ -12711,7 +12896,9 @@
                         <desc>sgrana gli occhi e agita l'indice destro per dire "no"</desc>
                     </kinesic> <emph>non era più</emph>
                     <pause/> quello della <choice>
-                        <abbr><orgName ref="#SS">SS</orgName></abbr>
+                        <abbr>
+                            <orgName ref="#SS">SS</orgName>
+                        </abbr>
                         <expan xml:lang="de">Schutzstaffel</expan>
                     </choice>
                     <pause/> ma bensì un ufficiale della <orgName xml:lang="de" ref="#WE">Wehrmacht</orgName> che era <kinesic>
@@ -12785,7 +12972,9 @@
                             <desc>tocca il palmo sinistro con l'indice destro come se stesse leggendo</desc>
                         </kinesic> vedete cosa c'è scritto<pause/> che io devo portare<pause/> il gruppo di prigionieri<pause/> a <emph>
                             <placeName ref="#Ko">Kochel</placeName> e consegnarli</emph> al <distinct type="military">comando</distinct> speciale della <choice>
-                            <abbr><orgName ref="#SS">SS</orgName></abbr>
+                            <abbr>
+                                <orgName ref="#SS">SS</orgName>
+                            </abbr>
                             <expan xml:lang="de">Schutzstaffel</expan>
                         </choice>
                     </q>
@@ -12845,7 +13034,9 @@
                         <sic>della</sic>
                         <corr resp="#GB">delle</corr>
                     </choice> <choice>
-                        <abbr><orgName ref="#SS">SS</orgName></abbr>
+                        <abbr>
+                            <orgName ref="#SS">SS</orgName>
+                        </abbr>
                         <expan xml:lang="de">Schutzstaffel</expan>
                     </choice>
                     <incident>
@@ -12942,7 +13133,9 @@
                         <desc>deglutisce</desc>
                     </vocal>
                     <pause/> e<pause/> i suoi<pause/> aiutanti<pause/> vedevano uno della <choice>
-                        <abbr><orgName ref="#SS">SS</orgName></abbr>
+                        <abbr>
+                            <orgName ref="#SS">SS</orgName>
+                        </abbr>
                         <expan xml:lang="de">Schutzstaffel</expan>
                     </choice> <kinesic>
                         <desc>simula il gesto di sparare</desc>
@@ -12992,7 +13185,9 @@
                         </kinesic> anche queste due <term xml:id="aufseherinnen" xml:lang="de">aufseherinnen</term>
                     </q> <term ref="#aufseherinnen" xml:lang="de">aufseherinnen</term> vuol dire <gloss target="#aufseherinnen">
                         <emph>sorvegliati</emph> della <choice>
-                            <abbr><orgName ref="#SS">SS</orgName></abbr>
+                            <abbr>
+                                <orgName ref="#SS">SS</orgName>
+                            </abbr>
                             <expan xml:lang="de">Schutzstaffel</expan>
                         </choice> tedesca<pause/> <supplied resp="#GB" cert="medium" reason="omitted">che</supplied> <kinesic>
                             <desc>muove le mani dal collo verso il basso</desc>
@@ -13000,7 +13195,9 @@
                             <sic>vestiti</sic>
                             <corr resp="#GB">vestite</corr>
                         </choice> come le <choice>
-                            <abbr><orgName ref="#SS">SS</orgName></abbr>
+                            <abbr>
+                                <orgName ref="#SS">SS</orgName>
+                            </abbr>
                             <expan xml:lang="de">Schutzstaffel</expan>
                         </choice> solo <supplied resp="#GB" cert="medium" reason="omitted">con</supplied> una gonna anziché i pantaloni</gloss> <q type="spoken" xml:id="q39">
                         <choice>
@@ -13297,7 +13494,9 @@
                         <desc>alza il mento</desc>
                     </kinesic> poi è venuta la <orgName xml:lang="en">
                         <choice>
-                            <abbr><orgName ref="#UNRRA">UNRRA</orgName></abbr> <expan resp="#AW">United Nation <choice>
+                            <abbr>
+                                <orgName ref="#UNRRA">UNRRA</orgName>
+                            </abbr> <expan resp="#AW">United Nation <choice>
                                     <sic>Rehabilitation</sic>
                                     <corr resp="#GB">Relief and Rehabilitation Administration</corr>
                                 </choice>
@@ -13402,7 +13601,8 @@
                         <desc>agita la mano sinistra con il pollice e l'indice alzati</desc>
                     </kinesic> però sotto la <orgName xml:lang="en">
                         <choice>
-                            <orgName ref="#UNRRA">UNRRA</orgName><expan resp="#AW">United Nation <choice>
+                            <orgName ref="#UNRRA">UNRRA</orgName>
+                            <expan resp="#AW">United Nation <choice>
                                     <sic>Rehabilitation</sic>
                                     <corr resp="#GB">Relief and Rehabilitation Administration</corr>
                                 </choice>

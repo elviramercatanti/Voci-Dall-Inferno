@@ -1176,7 +1176,23 @@
                         <forename>Ida</forename>
                         <surname>Marcheria</surname>
                     </persName>
+                    <sex>F</sex>
+                    <birth>
+                        <date when="1929-08-13"> 13 agosto 1929 </date>
+                        <placeName>
+                            <settlement type="municipality"> Trieste </settlement>
+                            <country key="IT"> Italia </country>
+                        </placeName>
+                    </birth>
+                    <death>
+                        <date when="2011-10-03"> 3 ottobre 2011</date>
+                        <placeName>
+                            <settlement type="municipality"> Roma </settlement>
+                            <country key="IT"> Italia </country>
+                        </placeName>
+                    </death>
                 </person>
+                
                 <person xml:id="AS" role="intervistatrice">
                     <persName ref="http://www.annasegre.it/">
                         <forename>Anna</forename>

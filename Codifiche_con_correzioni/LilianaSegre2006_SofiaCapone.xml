@@ -338,7 +338,7 @@
                         <birth>
                             <date when="1930-09-10">10 settembre 1930</date>
                             <placeName>
-                                <settlement>Milano</settlement>
+                                <settlement type="municipality">Milano</settlement>
                                 <country>Italia</country>
                             </placeName>
                         </birth>

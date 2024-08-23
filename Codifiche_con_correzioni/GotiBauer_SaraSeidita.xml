@@ -5620,8 +5620,8 @@
             <person xml:id="GB" role="testimone" source="https://digital-library.cdec.it/cdec-web/persone/detail/person-3910/herskovits-agata.html?persone=%22Herskovits%2C+Agata%22">
                 <persName>
                     <forename>Goti</forename>
-                    <surname type="birth">Herskovits</surname>
-                    <!--<surname type="married">Bauer</surname>-->
+                    <!--<surname type="birth">Herskovits</surname>-->
+                    <surname type="married">Bauer</surname>
                 </persName>
                 
                 <sex>F</sex>
