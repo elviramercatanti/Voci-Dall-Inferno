@@ -381,15 +381,15 @@
 					<time when="07:00:00">
 	                <orig> 7 </orig>
 	                <reg>7:00</reg>
-	                </time>. Ho veduto la <persName ref="TinaSorella"> Tina </persName>
-					<corr> (sorella) </corr> la <persName ref="CarlaCugina"> Carla </persName>
+	                </time>. Ho veduto la <persName ref="#TinaSorella"> Tina </persName>
+					<corr> (sorella) </corr> la <persName ref="#CarlaCugina"> Carla </persName>
 	                <corr>cugina</corr>
 					<lb facs="#PPriga14" n="14"/>
-					e la zia <persName ref="IdaZia"> Ida </persName> che mi hanno trovato piangendo, ho tentato di
+					e la zia <persName ref="#IdaZia"> Ida </persName> che mi hanno trovato piangendo, ho tentato di
 					<lb facs="#PPriga15" n="15"/>
 					incoraggiarle ma avevo anch'io il nodo alla gola. Dove si va?
 					<lb facs="#PPriga16" n="16"/>
-					Chi dice ad <placeName ref="#A">Aulla</placeName>, chi a <placeName ref="#V"> Villafranca
+					Chi dice ad <placeName ref="#AU">Aulla</placeName>, chi a <placeName ref="#V"> Villafranca
 						    </placeName>ad ogni modo, senza mai
 					<lb facs="#PPriga17" n="17"/>
 					sostare, oltrepassiamo <placeName ref="#SSM">
@@ -397,17 +397,17 @@
 	                            <orig>S. Stefano</orig>
 	                            <reg>Santo Stefano Magra</reg>
 	                        </corr>
-	                </placeName>,<placeName> Aulla </placeName> e sostiamo a <placeName ref="#T"> Terrarossa</placeName> alle
+	                </placeName>,<placeName ref="#AU"> Aulla </placeName> e sostiamo a <placeName ref="#T"> Terrarossa</placeName> alle
 					<time when="14:00:00"> 14</time> 
 					<lb facs="#PPriga18" n="18"/>
 					e alle<time when="15:00:00"> 15</time> si riprende il cammino con la speranza di sostare
 					<lb facs="#PPriga19" n="19"/>
-					 a<placeName> Villafranca</placeName>
+					 a<placeName ref="#V"> Villafranca</placeName>
 	                <damage degree="high" hand="unknown"/>
 					<lb facs="#PPriga20" n="20"/>
 					<unclear reason="faded">
 	                <supplied reason="illegible"> Ho avuto la fortuna di vedere
-					<persName ref="RenzoFratello"> Renzo</persName> (mio fratello) diretto alla volta di<placeName ref="#SP">
+					<persName ref="#RenzoFratello"> Renzo</persName> (mio fratello) diretto alla volta di<placeName ref="#SP">
 					 La Spezia</placeName>
 	                        </supplied>
 	                    </unclear> 
@@ -416,12 +416,12 @@
 					<lb facs="#PPriga22" n="22"/>
 					<unclear reason="faded">
 	                <supplied reason="illegible" source="#DAT"> i nostri sospetti abbiamo oltrepassato</supplied>
-	                        <placeName> Villafranca</placeName>
+	                        <placeName ref="#V"> Villafranca</placeName>
 	                    </unclear>,<placeName ref="#F"> Filattiera</placeName>,<placeName ref="#SC"> Scorcetoli</placeName>e 
 					<lb facs="#PPriga23" n="23"/>
 	                <unclear reason="faded">
 	                        <supplied reason="illegible"> finalmente, dopo 41 km di cammino</supplied>
-					giungiamo, affranti a<placeName ref="#PO"> Pontremoli</placeName>
+					giungiamo, affranti a<placeName ref="#P"> Pontremoli</placeName>
 	                    </unclear> 
 					<lb facs="#PPriga24" n="24"/>
 					<unclear reason="faded">
@@ -463,9 +463,9 @@
 	                </unclear> 
 					<lb facs="#PPriga31" n="31"/>
 					<gap reason="illegible"/>
-					<persName ref="Borghetti">
+					<persName ref="#Borghetti">
 	                        <surname> Borghetti</surname>
-	                    </persName> che lo zio<persName ref="UmbertoZio"> Umberto
+	                    </persName> che lo zio<persName ref="#UmbertoZio"> Umberto
 					</persName> mi vuol vedere e chiede che 
 					<lb facs="#PPriga32" n="32"/>
 					 notizie ci sono e non è mai soddisfatto
@@ -529,7 +529,7 @@
 				    <lb facs="#SPriga8" n="43"/>
 					
 					<unclear reason="faded"><!-- mettere estensione di unclear -->
-	                <persName ref="Borghetti">
+	                <persName ref="#Borghetti">
 	                            <surname> Borghetti</surname>
 	                        </persName> e mi porta un paio di zoccoloni</unclear>
 					<lb facs="#SPriga9" n="44"/>
@@ -547,7 +547,7 @@
 	                </unclear>
 					<lb facs="#SPriga13" n="48"/>
 	                <unclear reason="faded">
-	                <gap reason="illegible"/> a<placeName ref="KL"> Klagenfurt</placeName>
+	                <gap reason="illegible"/> a<placeName ref="#KL"> Klagenfurt</placeName>
 					 noi non abbiamo ancora</unclear>
 					<lb facs="#SPriga14" n="49"/>
 	                <unclear reason="faded">
@@ -627,21 +627,21 @@
 				<ab>
 				<lb facs="#SPriga30" n="65"/>
 				Alle<time when="10:00:00"> 10</time> prendiamo le Site, si arriva alle<time when="12:00:00">
-				12</time> al<geogName ref="#PO"> PO</geogName>. Traghettiamo con
+				12</time> al<placeName ref="#FIUME"> PO</placeName>. Traghettiamo con
 				<lb facs="#SPriga31" n="66"/>
 				una barca pochi per volta. Alle<time when="14:00:00"> 14</time> due Site ci attendono sulla
 				<lb facs="#SPriga32" n="67"/>
-				strada per conducia a<placeName>
+				strada per conducia a<placeName ref="#PES">
                         <settlement> Peschiera</settlement>
                     </placeName>. Passiamo
-				<placeName>
+				<placeName ref="#MAN">
                         <settlement> Mantova</settlement>
                     </placeName> e giungiamo
 				<lb facs="#SPriga33" n="68"/>
 				a destinazione alle<time when="15:00:00"> 15</time>. Siamo albergati nella fortezza di
 				<lb facs="#SPriga34" n="69"/>
-                <persName> Carlo Alberto</persName> sul<geogName> Lago di<settlement> Garda</settlement>
-                    </geogName>
+                <persName> Carlo Alberto</persName> sul <placeName ref="#GAR"><geogName> Lago di<settlement> Garda</settlement>
+                    </geogName></placeName>
 				<lb facs="#SPriga35" n="70"/>
 				Zuppa di patate, molto<supplied reason="illegible" source="#DAT"> lunga, una pagnotta e un po' di formaggio.</supplied>
 				<lb facs="#SPriga36" n="71"/>
@@ -655,7 +655,7 @@
 		<!-- lista dei termini di riferimento nel testo -->
 		<listPlace type="termRef" rend="bulleted">
 			<place xml:id="C" n="2" facs="pagina 1">
-				<placeName>
+				<placeName ref="#C">
 					Carrara
 				</placeName>
 				<location>
@@ -1001,6 +1001,22 @@
 				<note xml:id="n16">
 				    <placeName n="query">Peschiera del Garda</placeName> <note>è un comune italiano di 10 856 abitanti della provincia di Verona in Veneto. È il comune più occidentale della regione. </note>
 				</note>
+			</place>
+			<place xml:id="GAR" n="31" facs="pagina 2">
+				<placeName>
+					Lago di Garda
+				</placeName>
+				<location>
+					<region key="Lombardia">
+						Lombardia, Veneto, Trentino-Alto Adige
+					</region>
+					<country key="IT">
+						Italia
+					</country>
+					
+				</location>
+				
+				
 			</place>
 			<place xml:id="MAN" n="31" facs="pagina 2">
 				<placeName>

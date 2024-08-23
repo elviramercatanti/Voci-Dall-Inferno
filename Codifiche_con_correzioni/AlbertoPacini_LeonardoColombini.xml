@@ -112,7 +112,8 @@
                             <surname>Pacini</surname>
                         </persName>
                         <sex>M</sex>
-                        <birth when="1919-09-11">11 Settembre 1919
+                        <birth>
+                            <date when="1919-09-11">11 Settembre 1919</date>
                             <placeName>
                                 <settlement type="città">Livorno</settlement>
                                 <country>Italia</country>

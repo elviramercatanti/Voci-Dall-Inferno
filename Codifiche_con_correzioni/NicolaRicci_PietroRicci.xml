@@ -33,16 +33,7 @@
 			</publicationStmt>
 			<sourceDesc>
 			    
-			    
-			    <listPerson><!--Elvira: aggiunta di <listPerson>--> 
-			        <person role="testimone">
-			            <persName>
-			                <forename>Nicola</forename>
-			                <surname>Ricci</surname>
-			            </persName>	            
-			        </person>
-			    </listPerson>
-			    
+			   
 			    
 				<bibl>
 					<title>Untitled</title>
@@ -11257,6 +11248,16 @@
     
     <!--aggiunta di Elvira-->
     <standOff>
+    
+        <listPerson><!--Elvira: aggiunta di <listPerson>--> 
+	        <person role="testimone">
+	            <persName>
+	                <forename>Nicola</forename>
+	                <surname>Ricci</surname>
+	            </persName>	            
+	        </person>
+	    </listPerson>
+        
         <listBibl>
             <biblStruct xml:id="Dante5">
                 <analytic>
@@ -11265,7 +11266,9 @@
                 <monogr>
                     <author> Dante Alighieri </author>
                     <title level="m"> Inferno </title>
-                    <imprint><date when="1314"> 1314 </date></imprint>
+                    <imprint>
+                        <date when="1314"> 1314 </date>
+                    </imprint>
                 </monogr>
                 <series>
                     <title level="s"> Divina Commedia </title>
