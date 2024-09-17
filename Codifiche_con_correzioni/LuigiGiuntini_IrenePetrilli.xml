@@ -46,7 +46,7 @@
                     <msIdentifier>
 						<country/>
 						<settlement/>
-						<repository/>
+						<repository>Collezione privata famiglia Giuntini</repository>
 					</msIdentifier>
                     <physDesc>
                         <objectDesc form="manuscript_diary">
@@ -1426,7 +1426,7 @@
                             <said direct="true" who="#lg">«Sarà meglio andare a letto</said> - suggerii - 
                             <said direct="true" who="#lg">Nel sonno si dimenticano tutti i cattivi pensieri e le pessime previsioni»</said>.
                             <said direct="true" who="#GA">«Sarà meglio»</said> assentì, ma poco convinto, <persName ref="#GA">Gino</persName>, cui la serata, per quanto 
-                            bella nel suo aspetto esteriore, causava nel suo animo un <term type="dantes" ref="#inferno">inferno</term> di ansie 
+                            bella nel suo aspetto esteriore, causava nel suo animo un <term type="dante" ref="#inferno">inferno</term> di ansie 
                             angosciose.
                             <said direct="true" who="#lg"> «Domani, quando ci sveglieremo, tante cose ci sembreranno meno 
                             tristi e penose di quanto ora ci appaiano» </said>.
@@ -1887,7 +1887,7 @@
                             sul <placeName ref="#lagoLad">lago Ladoga</placeName>.
                             L’ascoltiamo con attenzione. Dalle sue parole trapela con chiarezza il 
                             suo odio per la guerra. Come dargli torto! Se noi stiamo male, immaginiamoci
-                            come staranno i suoi figlioli in quell’<term type="dantes" ref="#inferno">inferno</term> che è il fronte orientale 
+                            come staranno i suoi figlioli in quell’<term type="dante" ref="#inferno">inferno</term> che è il fronte orientale 
                             e settentrionale.
                         </p>
                         <p>
@@ -2030,7 +2030,7 @@
                             rovesciamo la lordura del mastello e risaliamo, ansanti, il pendio. Sulla strada, 
                             mi volto indietro. Nell’alba, che schiariva, intravedevo appena le ripe del 
                             cratere dal quale a fatica eravamo usciti. Balenante nella memoria il ricordo 
-                            della <term type="dantes" ref="#bolg">bolgia</term> dantesca dei lusingatori: 
+                            della <term type="dante" ref="#bolg">bolgia</term> dantesca dei lusingatori: 
                             <cit type="explicit">
                                 <quote>«
                                     <lg type="terzina" rhyme="aba">
@@ -2277,7 +2277,7 @@
                             grave impedimento forse di carattere gastrico, (spesso mi regala infatti la sua 
                             modesta colazione e qualche caramella) o polmonare. Non parla mai di
                             politica, e questo non mi meraviglia, considerando il severo controllo politico 
-                            e militare di questo paese <term type="dantes" ref="#inferno">infernale</term>, ed è con me molto educato e gentile.
+                            e militare di questo paese <term type="dante" ref="#inferno">infernale</term>, ed è con me molto educato e gentile.
                         </p>
                         <p>
                             Annoto un curioso colloquio di qualche giorno fa.
@@ -2825,7 +2825,7 @@
                                 </ref>
                             </cit>
                             
-                            Senza contare la prepotente e vivacissima descrizione delle <num type="cardinale" value="3">tre</num> <term type="dantes" ref="#fiere">fiere</term> che, 
+                            Senza contare la prepotente e vivacissima descrizione delle <num type="cardinale" value="3">tre</num> <term type="dante" ref="#fiere">fiere</term> che, 
                             nemmeno per un momento, mi faceva pensare al sotteso significato allegorico che, esse, secondo noti critici, potevano rappresentare.
                             In questa sofferta analisi mi dibattei per una lunga ora, spesso ritornando a capo del canto, sempre, però, più convinto che, al di là delle remore 
                             allegoriche, lo sforzo di <persName type="cultura" ref="#dante">Dante</persName> di sottrarsi qua e là da esse, mi sembrava in 
@@ -4825,7 +4825,7 @@
                             Molte volte queste guardie nere intervengono duramente senza alcun 
                             motivo, redarguendo o picchiando operai ed operaie che, a loro insindacabile 
                             giudizio, non si comportano secondo il rigorosissimo regolamento interno 
-                            della fabbrica. E in quest’<term type="dantes" ref="#inferno"> inferno </term> essere còlti in qualche attimo di riposo 
+                            della fabbrica. E in quest’<term type="dante" ref="#inferno">inferno </term> essere còlti in qualche attimo di riposo 
                             volano
                             <list rend="inline">
                                 <item n="1"> schiaffi, </item>
@@ -5421,7 +5421,7 @@
                             di the aromatico.
                             Poi chiedo scusa e, non potendone più, vado a letto. Domattina niente 
                             controllo, niente proiettili. Niente di niente! In poche ore sembra svanito 
-                            quel passato d’<term type="dantes" ref="#inferno"> inferno </term> che ho vissuto dall’<date when="1943-09-08"> 8 settembre 1943 </date> ad oggi.
+                            quel passato d’<term type="dante" ref="#inferno">inferno </term> che ho vissuto dall’<date when="1943-09-08"> 8 settembre 1943 </date> ad oggi.
                         </p>
                         
                         <div type="post" xml:id="postilla">
@@ -6718,6 +6718,10 @@
                         <country key="IT"> Italia </country>
                     </placeName>
                 </death>
+                
+                <note>
+                    Nato a Ponsacco (PI) l'8 gennaio 1921. Catturato il 9 settembre 1943 all'Aeroporto di Verona Boscomantico. Internato a Pößneck (Turingia). Liberato il 14 aprile 1945. 
+                </note>
             </person>
 
             <!-- Maggiore C, pag. 10 -->
@@ -9132,20 +9136,20 @@
             
             <!-- Bolgia -->
             <item xml:id="bolg">
-                <term> Bolgia </term>
+                <term>Bolgia </term>
                 <ptr target="https://www.treccani.it/enciclopedia/bolgia_%28Enciclopedia-Dantesca%29/"/>
             </item>
             
             <!-- Fiere -->
             <item xml:id="fiere">
-                <num type="cardinale" value="3"> Tre </num>
-                <term> Fiere </term>
+                <!--<num type="cardinale" value="3"> Tre </num>-->
+                <term>Fiere </term>
                 <ptr target="https://divinacommedia.dante.global/inferno/person/fiere.htm"/>
             </item>
             
             <!-- Inferno -->
             <item xml:id="inferno">
-                <term> Inferno </term>
+                <term>Inferno </term>
                 <ptr target="https://it.wikipedia.org/wiki/Inferno_(Divina_Commedia)"/>
             </item>
 

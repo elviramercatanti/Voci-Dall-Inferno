@@ -6206,7 +6206,7 @@
                     </placeName> diretti al campo di 
                     <lb facs="#riga_42.7"/>concentramento.
                     <lb facs="#riga_42.8"/>
-                    <hi xml:id="dante4">Si va verso la fame, si va verso il freddo, si va verso l'<hi>inferno</hi>
+                    <hi xml:id="dante4"><cit type="implicit"><quote>Si va verso la fame, si va verso il freddo, si va verso l'<hi>inferno</quote><ref target="#Dante3"><bibl>III canto Inferno, vv. 1-3.</cit></hi>
                     </hi>. 
                     <lb facs="#riga_42.9"/>Già prima del nostro arrivo, strane voci circolavano nel campo 
                     <lb facs="#riga_42.10"/>circa la partenza per il fronte. Il primo scaglione sarebbe par=
@@ -6376,11 +6376,11 @@
                     <lb facs="riga_43.47"/>sco, l'uomo scimmia che piantato al centro controlla se qualcuno
                     <lb facs="riga_43.48"/>non segue il moto circolatorio della massa.
                     <lb facs="riga_43.49"/>
-                    <hi xml:id="dante2">Sembra di essere nell'<hi>inferno</hi> di <name type="person" role="poet">Dante</name>! i <hi>condannati</hi> traspor=</hi>
+                    <hi xml:id="dante2"><ref type="allusion" target="#">Sembra di essere nell'<hi><term type="dante" ref="#inferno">inferno</term></hi> di <name type="person" role="poet"><term type="dante" ref="#dante_alighieri">Dante</term></name>! i <hi>condannati</hi> traspor=</hi>
                     <lb facs="riga_43.50"/>
                     <hi>tati da un vento gelato sono costretti a correre continuamen=</hi>
                     <lb facs="riga_43.51"/>
-                    <hi>te. Poco ci manca!</hi>
+                    <hi>te. Poco ci manca!</hi><bibl>Inferno, Divina Commedia</bibl></ref>
                     <lb facs="riga_43.52"/>Dalla foresta sita al limite del campo, ogni tanto si levano 
                     <lb facs="riga_43.53"/>gruppi di corvi e con il loro pesante volo ci girano sopra 
                     <lb facs="riga_43.54"/>gracchiando a più non posso.
@@ -6471,7 +6471,7 @@
                         <add>i</add>
                     </subst>ene 
                     <lb facs="riga_44.38"/>a rialzare il nostro morale. Chissà, se si presenterà qualche occasione per ten=
-                    <lb facs="riga_44.39"/>tare di fuggire da questo <hi>inferno</hi>. <name type="person">Bernardi</name> allegro, mi chiama 
+                    <lb facs="riga_44.39"/>tare di fuggire da questo <hi><term type="dante" ref="#inferno">inferno</term></hi>. <name type="person">Bernardi</name> allegro, mi chiama 
                     <lb facs="riga_44.40"/>a vedere una colonna di prigionieri che arriva<del rend="overstrike">
                         <gap reason="unclear" extent="1" unit="chars"/>
                     </del>no dalla <placeName>
@@ -6843,7 +6843,7 @@
                     </subst>irono da collaudo 
                     <lb facs="#riga_47.44"/>rispettivamente per il puro acciaio della baionetta<del rend="overstrike">tedesca</del> e per 
                     <lb facs="#riga_47.45"/>la <term>punta chiodata</term> di una scarpa tedesca. Dopodiché non fui più 
-                    <lb facs="#riga_47.46"/>in grado di analizzare i miei pensieri e <name type="person">Dante</name>,<hi xml:id="dante1"> il divino poeta al </hi>
+                    <lb facs="#riga_47.46"/>in grado di analizzare i miei pensieri e <name type="person"><term type="dante" ref="#dante">Dante</term></name>,<hi xml:id="dante1"> il <term type="dante" ref="#divino_poeta">divino poeta</term> al </hi>
                     <lb facs="#riga_47.47"/>
                     <hi>mio posto avrebbe esclamato</hi> <cit type="explicit">
                         <quote>“E caddi come corpo morto cade.”</quote>
@@ -7830,7 +7830,7 @@
                     <lb facs="#riga_57.51"/>di tegole, di pezzi di legno e di oggetti vari, lam=
                     <lb facs="#riga_57.52"/>pi accecanti. Bocconi, porta aperta, mani a protezione del cranio,
                     <lb facs="#riga_57.53"/>gambe divaricate, attendevo che mi cadesse addosso 
-                    <lb facs="#riga_57.54"/>il muro o che finisse quell'<hi>inferno</hi>. un <said>“crac”</said> di un corpo 
+                    <lb facs="#riga_57.54"/>il muro o che finisse quell'<hi><term type="dante" ref="#inferno">inferno</term></hi>. un <said>“crac”</said> di un corpo 
                 </ab>
             </div>
             <div type="pagina" xml:id="p58">
@@ -9125,7 +9125,7 @@
                         <del rend="overtype">me</del>
                         <add>ni</add>
                     </subst> al suolo, non persuasi che quel=
-                    <lb/>l’<hi>inferno</hi> era finito, che finalmente ci si poteva rimettere
+                    <lb/>l’<hi><term type="dante" ref="#inferno">inferno</term></hi> era finito, che finalmente ci si poteva rimettere
                     <lb/>in piedi. Ad uno ad uno, convergemmo verso il cantiere, ma mol=
                     <lb/>ti mancavano e pure quella sera, con la tristezza per la 
                     <lb/>perdita dei ca<subst>
@@ -9252,7 +9252,7 @@
                     <lb/>mento, ridevo per una facezia che mi stava raccontando <name type="person">Ermi=</name>
                     <lb/>
                     <name>nio</name>, quando li sentimmo partire.  <num value="6">Sei</num> o <num value="7">sette</num>. Non finimmo nean=
-                    <lb/>che di guardarci negli occhi che ci scoppiò l’<hi>inferno</hi> tra i 
+                    <lb/>che di guardarci negli occhi che ci scoppiò l’<hi><term type="dante" ref="#inferno">inferno</term></hi> tra i 
                     <lb/>piedi. Ci scoppiarono tutti sul piazzale, caddi di schianto, 
                     <lb/>proiettato a terra sulla schiena, infilai la testa sotto la 
                     <lb/>cesta di ferro della betoniera ed attesi lo scoppio degli 
@@ -10072,20 +10072,20 @@
                     <lb facs="#riga_77.8"/>speranza, questa solo dei nostri aguzzini, di poter sfuggire 
                     <lb facs="#riga_77.9"/>alla morsa delle truppe alleate che ci incalzano <orig>a tergo</orig>. 
                     <lb facs="#riga_77.10"/>
-                    <hi xml:id="dante3">Se il <name type="person" role="poet">divino poeta</name> appostato su qualche cima delle circostanti</hi> 
+                    <hi xml:id="dante3"><ref type="allusion" target="#">Se il <name type="person" role="poet"><term type="dante" ref="#divino_poeta">divino poeta</term></name> appostato su qualche cima delle circostanti</hi> 
                     <lb facs="#riga_77.11"/>
                     <hi>colline ci avesse potuto vedere passare senz’altro ci avrebbe </hi>
                     <lb facs="#riga_77.12"/>
-                    <hi>scambiato per qualche stuolo di quelle <hi>anime</hi> perse da lui collo=</hi>
+                    <hi>scambiato per qualche stuolo di quelle <hi><term type="dante" ref="#anime">anime</term></hi> perse da lui collo=</hi>
                     <lb facs="#riga_77.13"/>
-                    <hi>cate in un <hi>cerchio dell’inferno</hi>, che costantemente girano portan=</hi>
+                    <hi>cate in un <hi><term type="dante" ref="#cerchio_inferno">cerchio dell’inferno</term></hi>, che costantemente girano portan=</hi>
                     <lb facs="#riga_77.14"/>
-                    <hi>do il fardello dei loro <hi>peccati</hi>, stimolati dai fer<subst>
+                    <hi>do il fardello dei loro <hi><term type="dante" ref="#peccati">peccati</term></hi>, stimolati dai fer<subst>
                             <del rend="overtype">co</del>
                             <add>oc</add>
                         </subst>i morsi di </hi>
                     <lb facs="#riga_77.15"/>
-                    <hi>una moltitudine di mastini, visi pallidi, emaciati, stracciati, </hi>
+                    <hi>una moltitudine di mastini, visi pallidi, emaciati, stracciati<bibl>Inferno, Divina Commedia</bibl></ref>, </hi>
                     <lb facs="#riga_77.16"/>
                     <hi>camminiamo. È inutile che io rifaccia i tristi episodi verifi=</hi>
                     <lb facs="#riga_77.17"/>
@@ -10895,7 +10895,7 @@
                     <lb/>tinata e di come me la sono cavata. <said>- “E di quei ragazzi che accompagna=</said>
                     <lb/>
                     <said>sti dal dottore?”</said> Domanda a cui non seppi dare una risposta. Peri=
-                    <lb/>ti, periti senz’altro nell’<hi>inferno</hi> del bombardamento della mattina=
+                    <lb/>ti, periti senz’altro nell’<hi><term type="dante" ref="#inferno">inferno</term></hi> del bombardamento della mattina=
                     <lb/>ta. Solo <name type="person">Valzecchi</name> aveva marcato visit<subst>
                         <del rend="overtype">o</del>
                         <add>a</add>
@@ -11259,6 +11259,24 @@
 	    </listPerson>
         
         <listBibl>
+
+            <biblStruct xml:id="Dante3">
+                <analytic>
+                    <title level="a"> Canto III </title>
+                </analytic>
+                <monogr>
+                    <author> Dante Alighieri </author>
+                    <title level="m"> Inferno </title>
+                    <imprint>
+                        <date when="1314"> 1314 </date>
+                    </imprint>
+                </monogr>
+                <series>
+                    <title level="s"> Divina Commedia </title>
+                </series>
+            </biblStruct>
+
+
             <biblStruct xml:id="Dante5">
                 <analytic>
                     <title level="a"> Canto V </title>
@@ -11283,6 +11301,44 @@
             </bibl>
             
         </listBibl>
+
+
+         <!-- Lista dei termini danteschi -->
+                <list type="termini_danteschi" xml:id="listaTerminiDante">
+                    
+                    <!-- Inferno -->
+                    <item xml:id="inferno">
+                        <term>Inferno </term>
+                        <ptr target="https://it.wikipedia.org/wiki/Inferno_(Divina_Commedia)"/>
+                    </item>
+
+                    <item xml:id="anime">
+                        <term>anime</term>
+                    </item>
+
+                     <item xml:id="cerchio_inferno">
+                        <term>cerchio dell’inferno</term>
+                    </item>
+
+                    <item xml:id="divino_poeta">
+                        <term>divino poeta</term>
+                    </item>
+
+
+                    <!--Dante Alighieri-->
+                    <item xml:id="dante_alighieri">
+                        <term>Dante</term>
+                    </item>
+
+                    <!--peccati-->
+                    <item xml:id="peccati">
+                        <term>peccati</term>
+                    </item>
+
+
+
+
+                </list>
     </standOff>
     
 </TEI>

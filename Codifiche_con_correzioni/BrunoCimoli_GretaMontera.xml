@@ -4,7 +4,7 @@
 			<titleStmt>
 				<title xml:id="titolotestimonianza" xml:lang="ita" type="main">Diario di Bruno Cimoli</title>
 				<!-- alt ovvero titolo tradotto -->
-				<author ref="#BC" role="testimone">
+				<author ref="#BC">
 					Bruno Cimoli
 				</author>
 				<respStmt xml:id="TRASP">
@@ -87,6 +87,7 @@
 								Italia
 							</region>
 						</placeName>
+						<repository>ANPI, Massa</repository>
 					</msIdentifier>
 					<msContents>
 						<msItem>
@@ -640,8 +641,10 @@
 				<lb facs="#SPriga33" n="68"/>
 				a destinazione alle<time when="15:00:00"> 15</time>. Siamo albergati nella fortezza di
 				<lb facs="#SPriga34" n="69"/>
-                <persName> Carlo Alberto</persName> sul <placeName ref="#GAR"><geogName> Lago di<settlement> Garda</settlement>
-                    </geogName></placeName>
+                <persName> Carlo Alberto</persName> sul <placeName ref="#GAR">
+                            <geogName> Lago di<settlement> Garda</settlement>
+                    </geogName>
+                        </placeName>
 				<lb facs="#SPriga35" n="70"/>
 				Zuppa di patate, molto<supplied reason="illegible" source="#DAT"> lunga, una pagnotta e un po' di formaggio.</supplied>
 				<lb facs="#SPriga36" n="71"/>
@@ -1114,6 +1117,8 @@
 					<forename>Bruno</forename>
 					<surname>Cimoli</surname>
 				</persName>	
+				
+				<note>Nato a La Spezia l'11 febbraio 1927. Catturato a Forno (MS) nell’agosto del 1943 dalle milizie di Mussolini. Deportato a Gesundbrunnen, poi a Wriezen, quindi a Peenemünde. Liberato a Dresda nel 1945.</note>
 			</person>
 			
 			<person xml:id="TinaSorella">

@@ -817,22 +817,24 @@
         </listOrg>
         
         <listBibl>
-             <biblStruct xml:id="Inferno">
+            
+             <biblStruct xml:id="Dante"> 
                 <analytic>
-                    <title level="a">Riferimento alla Divina Commedia</title>
+                    <title level="a">Canto non identificabile</title>
                 </analytic>
                 <monogr>
                     <author> Dante Alighieri </author>
-                    <title level="m"> Divina Commedia </title>
+                    <title level="m"> Inferno </title>
                     <imprint>
                         <date when="1314"> 1314 </date>
                     </imprint>
                 </monogr>
+                <author>Dante Alighieri</author>
                 <series>
                     <title level="s">Divina Commedia</title>
                 </series>
-                
             </biblStruct>
+            
             
             
              <bibl xml:id="PS"> <!-- Promessi sposi -->
@@ -859,6 +861,18 @@
             
             
         </listBibl>
+        
+         <list type="termini_danteschi" xml:id="listaTerminiDante">
+            
+
+            <!-- Inferno -->
+            <item xml:id="inferno">
+                <term>Inferno </term>
+                <ptr target="https://it.wikipedia.org/wiki/Inferno_(Divina_Commedia)"/>
+            </item>
+
+        </list>
+        
     </standOff>
 
 
@@ -1372,7 +1386,9 @@
                             <expan>Geheime Staatspolizei</expan>
                         </choice> </foreign> le<foreign xml:lang="de">
                         <choice>
-                            <abbr><orgName ref="#SS">SS</orgName></abbr>
+                            <abbr>
+                                <orgName ref="#SS">SS</orgName>
+                            </abbr>
                             <expan>Schutzstaffel</expan>
                         </choice> </foreign>
                     <pause/> lì borghesi<pause/> ci han preso ci han messo i cosi ai polsi e anche alle
@@ -1457,12 +1473,10 @@
                 <u who="#VANZINI" xml:id="V35" synch="TS70">
                     ha fatto <anchor xml:id="van-81" synch="#TT81"/> <del type="repetition">ha</del> ha detto <anchor xml:id="van-82" synch="#TT82"/> <vocal>
                         <desc>ehm</desc>
-                    </vocal> non <del type="truncation">pa</del> parroco ha detto niente parroco e io come dire <del type="repetition">questo</del> questo poveretto no  <anchor xml:id="van-83" synch="#TT83"/> non ha nessuno <anchor xml:id="van-84" synch="#TT84"/> è anche giusto no che gli faccio come il segno come benedirlo e gli faccio come il segno della croce no prima di buttarlo in  <cit type="reference">
-                            <quote>questo inferno</quote>
-                            <ref target="#Inferno">
+                    </vocal> non <del type="truncation">pa</del> parroco ha detto niente parroco e io come dire <del type="repetition">questo</del> questo poveretto no  <anchor xml:id="van-83" synch="#TT83"/> non ha nessuno <anchor xml:id="van-84" synch="#TT84"/> è anche giusto no che gli faccio come il segno come benedirlo e <ref type="allusion" target="#Dante">gli faccio come il segno della croce prima di buttarlo in questo <term type="dante" target="#inferno">inferno</term>
                             <bibl>Inferno, Divina Commedia</bibl>
                         </ref>
-                        </cit>
+                        
                     <pause/> mi ricordo che quel giorno là c'erano venti centimetri di neve nevicava<pause/> era una domenica<pause/> 
                     e allora arriva un carro perchè alla domenica e al sabato mandavano in giro i carri trainati da noi poveretti che non avevamo neanche la forza<pause/> con su magari 20 30 40 morti<pause/> e questo carro è passato dall'infermeria per ultimo perchè veniva verso i forni e ha caricato 5 o 6 persone<pause/> 
                     e io sono andato fuori con questo francese che mi aiutava e ho preso i primi di dietro e quando che ho preso questo qua mi sembrava ancora come tiepido mi sembrava non proprio quel freddo <anchor xml:id="van-85" synch="#TT85"/> di morte no<anchor xml:id="van-86" synch="#TT86"/> <pause/> e allora ho <del type="truncation">de</del> 
