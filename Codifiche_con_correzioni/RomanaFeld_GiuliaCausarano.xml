@@ -52,7 +52,7 @@
                                 <country>Italia</country>   
                             </address>
                         </institution>
-                        <repository> CDEC Digital Library </repository>
+                        <repository> Centro di Documentazione Ebraica Contemporanea </repository> <!--CDEC Digital Library-->
                         <collection> Archivio - Fondo <persName ref="#MAV">Massimo Adolfo Vitale</persName> </collection>
                         <collection> Serie: "Ricerca sulla Deportazione" (CRDE) </collection>
                         <collection> Sottoserie: "Vicissitudini dei singoli" </collection>
@@ -1568,12 +1568,18 @@
                             </choice>
                         </persName> illustranti la
                    <lb xml:id="FR_lb_261" n="7" facs="#FR_line_261"/>
-                        <title>Divina Commedia </title> di <persName ref="#Dante">Dante</persName>
+                        <title><term type="dante" ref="#divina_commedia">Divina Commedia</term> </title> di <persName ref="#Dante"><term type="dante" ref="#dante_alighieri">Dante</term></persName>
                         <pc>.</pc>
                     </s>
-                    <s type="sentence" xml:id="S107"> <cit type="reference"><quote>I quadri dell'inferno
-                   <lb xml:id="FR_lb_262" n="8" facs="#FR_line_262"/>con i cortei delle anime dannate<pc>,</pc> diventavano
-                   <lb xml:id="FR_lb_263" n="9" facs="#FR_line_263"/>realtà</quote><ref target="#divinacommedia"><bibl>Divina Commedia, Dante Alighieri</bibl></ref></cit><pc>.</pc>
+                    <s type="sentence" xml:id="S107"> <ref type="allusion" target="#Dante">
+                           I quadri dell'<term type="dante" ref="#inferno">inferno</term>
+                   <lb xml:id="FR_lb_262" n="8" facs="#FR_line_262"/>con i cortei delle <term type="dante" ref="#anime_dannate">anime dannate</term><pc>,</pc> diventavano
+                   <lb xml:id="FR_lb_263" n="9" facs="#FR_line_263"/>realtà
+                           
+                                <bibl>Inferno, Divina Commedia</bibl>
+                            </ref>
+                       
+                        <pc>.</pc>
                     </s>
                     <s type="sentence" xml:id="S108"> Altre volte le giovani un pò deboli<pc>,</pc> pro
                    <lb xml:id="FR_lb_264" n="10" facs="#FR_line_264" rend="hyphen" break="no"/>venienti <choice>
@@ -1603,8 +1609,15 @@
                 </p>
                 <p>
                    <lb xml:id="FR_lb_273" n="19" facs="#FR_line_273"/>
-                    <s type="sentence" xml:id="S110"><cit type="reference"><quote>E' impossibile con le povere parole ridare
-                   <lb xml:id="FR_lb_274" n="20" facs="#FR_line_274"/>quadro esatto dell'inferno vissuto</quote><ref target="#divinacommedia"><bibl>Dante Alighieri, Divina Commedia</bibl></ref></cit><pc>.</pc>
+                    <s type="sentence" xml:id="S110">
+                        <ref type="allusion" target="#Dante">
+                            <quote>E' impossibile con le povere parole ridare
+                   <lb xml:id="FR_lb_274" n="20" facs="#FR_line_274"/>quadro esatto dell'<term type="dante" ref="#inferno">inferno</term> vissuto</quote>
+                            
+                                <bibl>Inferno, Divina Commedia</bibl>
+                            </ref>
+                        
+                        <pc>.</pc>
                     </s>
                     <s type="sentence" xml:id="S111"> Ogni giorno
                    <lb xml:id="FR_lb_275" n="21" facs="#FR_line_275"/>era <choice>
@@ -1748,6 +1761,8 @@
                                 </desc>
                         </event>
                         </listEvent>
+                        
+                        <note>Nata a Leopoli, in Polonia, il 15 agosto 1912. Figlia di Giacomo e Brandel Guttman. Deportata nel campo di sterminio di Auschwitz il <date when="1944-04-10">10 aprile 1944</date>. È sopravvissuta alla Shoah.</note>
                     </person>
                     <person xml:id="MAV">
                         <persName>
@@ -1845,16 +1860,55 @@
                 
                 
                 <listBibl>
-                     <biblStruct xml:id="divinacommedia"> Dante Alighieri, Divina Commedia
+                     <!-- riferimenti a Dante -->
+                    <biblStruct xml:id="Dante"> 
                         <analytic>
-                            <title level="a">Riferimento Divina Commedia</title>
+                            <title level="a">Canto non identificabile</title>
                         </analytic>
+                        <monogr>
+                            <author> Dante Alighieri </author>
+                            <title level="m"> Inferno </title>
+                            <imprint>
+                                <date when="1314"> 1314 </date>
+                            </imprint>
+                        </monogr>
                         <author>Dante Alighieri</author>
                         <series>
                             <title level="s">Divina Commedia</title>
                         </series>
                     </biblStruct>
                 </listBibl>
+
+
+                 <!-- Lista dei termini danteschi -->
+                <list type="termini_danteschi" xml:id="listaTerminiDante">
+                    
+                    <!-- Inferno -->
+                    <item xml:id="inferno">
+                        <term>Inferno </term>
+                        <ptr target="https://it.wikipedia.org/wiki/Inferno_(Divina_Commedia)"/>
+                    </item>
+
+                    <!-- Anime Dannate -->
+                    <item xml:id="anime_dannate">
+                        <term>anime dannate</term>
+                    </item>
+
+                    <!--Divina Commedia-->
+                    <item xml:id="divina_commedia">
+                        <term>Divina Commedia</term>
+                    </item>
+
+                    <!--Dante Alighieri-->
+                    <item xml:id="dante_alighieri">
+                        <term>Dante</term>
+                    </item>
+
+
+
+
+                </list>
+               
                 
     </standOff>
 </TEI>

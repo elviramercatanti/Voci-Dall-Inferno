@@ -1,4 +1,5 @@
-<!--dichiarazione DTD--><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<!--dichiarazione DTD-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc> 
             <titleStmt>
@@ -30,6 +31,19 @@
                             <p>Microfono di prossimità mixato in qualità cassetta audio digitale</p>
                         </equipment>
                         <date>2005</date>
+                        
+                        <equipment>
+                            <!--attrezzatura usata-->
+                            <p/>
+                        </equipment>
+                        <broadcast>
+                            <bibl>
+                                <author>Anna Segre</author>
+                                <author>Gloria Pavoncello</author>
+                                <title>Shlomo Venezia 2005</title>
+                                <date when="2005">2005</date>
+                            </bibl>
+                        </broadcast>
                     </recording> 
                 </recordingStmt>
             </sourceDesc> 
@@ -121,6 +135,8 @@
                                 <country key="IT">Italia</country>
                             </placeName>
                     </death>
+                    
+                    <note>Nato a Salonicco il 29 dicembre 1923, figlio di Itzhak e Angel Doudoun. Perseguitato razziale. Arrestato ad Atene il 24 marzo 1944 dai tedeschi. Detenuto nel carcere di Haydari. Arrivato ad Auschwitz l'11 aprile 1944 all'età di 20 anni. Matricola 182727. Liberato a Ebensee dagli americani il 6 maggio 1945. È sopravvissuto alla Shoah.</note>
                 </person>
                 <person xml:id="KAUFMANN"> 
                     <persName> 
@@ -592,7 +608,26 @@
                 <placeName>Cracovia</placeName>
             </place>
         </listPlace> 
+
+         <!-- Lista dei termini danteschi -->
+                <list type="termini_danteschi" xml:id="listaTerminiDante">
+                    
+                    <!-- Inferno -->
+                    <item xml:id="inferno">
+                        <term>Inferno </term>
+                        <ptr target="https://it.wikipedia.org/wiki/Inferno_(Divina_Commedia)"/>
+                    </item>
+
+                    <!-- Purgatorio -->
+                    <item xml:id="purgatorio">
+                        <term>purgatorio </term>
+                    </item>
+
+
+                </list>
+
     <!--timeline relativa alle macro-aree del discorso-->
+    <timeline xml:id="TL1">
         <timeline xml:id="TL-1MATL" unit="ms">
             <when xml:id="TL1MA-w3" absolute="0:00:00.0"/>
             <when xml:id="TL1MA-w0" absolute="0:00:26.0"/>
@@ -600,7 +635,9 @@
             <when xml:id="TL1MA-w4" absolute="0:26:47.0"/>
             <when xml:id="TL1MA-w2" absolute="1:10:32.0"/>
         </timeline>
-    <!--timeline relativa ai cambi di parlante-->
+        </timeline>
+        
+        <!--timeline relativa ai cambi di parlante-->
         <timeline origin="1" xml:id="TL-1CP" unit="ms"> 
             <when xml:id="TC1" synch="#S1" absolute="0:00:00.0"/>
             <when xml:id="TC2" synch="#V1" absolute="0:00:08.0"/>
@@ -802,7 +839,11 @@
     <text type="source" xml:id="txt-1" xml:lang="it">
         <body>
             <div xml:id="macro1" synch="#MA1">
-                <u who="#SEGRE" xml:id="S1" synch="#TC1">Ha detto <rs type="person"><persName ref="#PT">Piero</persName></rs> che nel libro quello della <rs type="person"><persName ref="#LPF">Picciotto-Fargion</persName></rs> ci sono molte imprecisioni 
+                <u who="#SEGRE" xml:id="S1" synch="#TC1">Ha detto <rs type="person">
+                        <persName ref="#PT">Piero</persName>
+                    </rs> che nel libro quello della <rs type="person">
+                        <persName ref="#LPF">Picciotto-Fargion</persName>
+                    </rs> ci sono molte imprecisioni 
                 a questo punto vi chiedo a tutti quanti</u>
                 <u who="#VENEZIA" xml:id="V1" synch="#TC2">Quello è il fatto anche sul libro</u> 
                 <u who="#SEGRE" xml:id="S2" synch="#TC3">Cioè io</u>
@@ -906,7 +947,7 @@
                 <gap reason="inaudible" extent="4 words"/>ci avevano detto che davano lavoro a tutti i giovani, 
                 quelli che erano più anziani sarebbero rimasti a casa e le mamme accudivano i bambini tutte queste cose, siamo arrivati contenti 
                 perché senza mangiare e senza niente eravamo ormai sfiniti finalmente si spalancano questi portelloni,<pause/> una cosa da non credere 
-                <del type="falseStart">un </del>un inferno, <gap reason="inaudible" extent="4 words"/>già avevan cominciato per disumanizzare la persona 
+                <del type="falseStart">un </del>un <term type="dante" ref="#inferno">inferno</term>, <gap reason="inaudible" extent="4 words"/>già avevan cominciato per disumanizzare la persona 
                 andare sui treni e diventato proprio <del type="falseStart">un</del> una cosa che neanche posso posso dirla che cosa potesse essere ecco. allora visto dove si era 
                 fermato che anche lì abbiamo visto il punto dove io son sceso uscendo, era il primo binario il binario morto dove venivano condotte queste 
                 carrozze questi carri bestiame, spalancano e faccio un salto perché era scosceso, non è che era dritto un vecchio come poteva scendere, 
@@ -1058,12 +1099,18 @@
                 <u who="#PAVONCELLO" xml:id="P5" synch="#TC39">
                     <vocal>
                         <desc>ah</desc>
-                    </vocal> <rs type="person"><persName ref="#RDN">Raimondo di Neris</persName></rs>
+                    </vocal> <rs type="person">
+                        <persName ref="#RDN">Raimondo di Neris</persName>
+                    </rs>
                 </u>
                 <u who="#SEGRE" xml:id="S18" synch="#TC40">
-                    <rs type="person"><persName ref="#RDN">Raimondo di Neris</persName></rs>
+                    <rs type="person">
+                        <persName ref="#RDN">Raimondo di Neris</persName>
+                    </rs>
                 </u>
-                <u who="#VENEZIA" xml:id="V18" synch="#TC41">pensate che con <rs type="person"><persName ref="#RDN">Raimondo di Neris</persName></rs> non lo conoscevo solo 
+                <u who="#VENEZIA" xml:id="V18" synch="#TC41">pensate che con <rs type="person">
+                        <persName ref="#RDN">Raimondo di Neris</persName>
+                    </rs> non lo conoscevo solo 
                 raccontandogli che siamo usciti da <placeName ref="#AU">Auschwitz</placeName> per andare via stavamo nello stesso vagone cioè però non è che 
                 c'era solidarietà non sapevi neanche chi era chi non era e dopo parlando così "in quella stazione 
                 gli operai ci buttavano i pacchi" eravamo tutti affamati io "come no, mi ricordo si" e da lì siamo usciti dalla 
@@ -1118,8 +1165,8 @@
                 di fare in quel periodo lo stavano terminando quel missile, il missile uno avevano fatto e stavano per terminare 
                 il missile due che aveva una gittata più <pause/> però questo io non l'ho visto noi facevamo solo la galleria e 
                 scavavamo proprio dentro dentro, ogni volta dovevamo arrivare in fondo che si stava caldi era già diverso non era 
-                più come quell'affare dove stavo prima, per me era come se fossi stato già libero perché era l'inferno e sono 
-                andato in purgatorio era differente, ma per dire e lì son stato circa un mese e mezzo due dopodiché mi hanno 
+                più come quell'affare dove stavo prima, per me era come se fossi stato già libero perché era l'<term type="dante" ref="#inferno">inferno</term> e sono 
+                andato in <term type="dante" ref="#purgatorio">purgatorio</term> era differente, ma per dire e lì son stato circa un mese e mezzo due dopodiché mi hanno 
                 trasferito in un altro campo ed era andato in disgrazia perché anche lì erano tunnel però non eran caldi e 
                 come entravi là era acqua da tutte le parti e ti bagnavi e così rimanevi <incident>
                         <desc>rumore di auto in 
@@ -1213,12 +1260,24 @@
                 viene una signora che era della comunità di <placeName ref="#TR">Trieste</placeName> dice "sono incaricata dalla comunità" 
                 <gap reason="inaudible" extent="6 words"/> comunque un'associazione ebraica dice "ci sarebbe" 
                 <gap reason="inaudible" extent="15 seconds"/> ogni tanto<pause/> una volta mi chiede se conoscevo 
-                un certo <rs type="person"><persName ref="#NS">Niccolò Sagi</persName></rs>
+                un certo <rs type="person">
+                        <persName ref="#NS">Niccolò Sagi</persName>
+                    </rs>
                     <pause/> dico "se mi porta la foto le posso dire ma nomi non"<pause/> e 
                 hanno dopo 15 giorni una foto,"come no questo era così e così una persona molto alta</u>
-                <u who="#SEGRE" xml:id="S24" synch="#TC57">volevo portare anche <rs type="person"><persName ref="#NS"> Sagi</persName></rs>, perché c'ho anche di <rs type="person"><persName ref="#NS">Sagi</persName></rs> le fotografie, altre foto di <rs type="person"><persName ref="#NS"> Sagi</persName></rs>
+                <u who="#SEGRE" xml:id="S24" synch="#TC57">volevo portare anche <rs type="person">
+                        <persName ref="#NS"> Sagi</persName>
+                    </rs>, perché c'ho anche di <rs type="person">
+                        <persName ref="#NS">Sagi</persName>
+                    </rs> le fotografie, altre foto di <rs type="person">
+                        <persName ref="#NS"> Sagi</persName>
+                    </rs>
                 </u>
-                <u who="#VENEZIA" xml:id="V26" synch="#TC58">il papà di lui era <rs type="person"><persName ref="#NS">Niccolò</persName></rs>, <rs type="person"><persName ref="#LS">Luigi</persName></rs>, allora anche lì è una storia abbastanza<pause/> 
+                <u who="#VENEZIA" xml:id="V26" synch="#TC58">il papà di lui era <rs type="person">
+                        <persName ref="#NS">Niccolò</persName>
+                    </rs>, <rs type="person">
+                        <persName ref="#LS">Luigi</persName>
+                    </rs>, allora anche lì è una storia abbastanza<pause/> 
                 loro erano arrivati una settimana prima di me e difatti abbiamo guardato il numero di matricola il loro era 
                 3000 numeri più corto del mio allora pensate voi in una settimana di differenza 3000 e non calcolando altri 
                 che non c'avevano il numero perché quelli erano numerati allora il papà di lui ha avuto anche lui la disgrazia 
@@ -1238,7 +1297,11 @@
                 "non è il momento non è il momento" e andava avanti finchè sono arrivati tutti questi ungheresi che erano 420 ungheresi 
                 <gap reason="inaudible" extent="4 words"/> e allora questi nostri capi hanno deciso di organizzare di fare per conto nostro, 
                 però con le unghie non puoi fare niente devi aver munizioni qualche pistola qualche mitra c'era comunque non era riuscita 
-                questa è troppo lunga e questo papà di <rs type="person">Sagi</rs> di  <rs type="person"><persName ref="#LS">Luigi</persName></rs>, <rs type="person"><persName ref="#NS">Niccolò</persName></rs> si chiamava hanno detto <gap reason="inaudible" extent="8 words"/> 
+                questa è troppo lunga e questo papà di <rs type="person">Sagi</rs> di  <rs type="person">
+                        <persName ref="#LS">Luigi</persName>
+                    </rs>, <rs type="person">
+                        <persName ref="#NS">Niccolò</persName>
+                    </rs> si chiamava hanno detto <gap reason="inaudible" extent="8 words"/> 
                 e la moglie non voleva credere perché l'aspettava finchè è morta anche lei ultimamente sette otto anni fa è morta a 92 anni e 
                 sempre continuava a chiedere insomma alla fine invece lui è stato molto non ha voluto mai parlare del padre, tutto ciò che 
                 sapeva <gap reason="inaudible" extent="7 words"/> una volta l'ho preso io, perché è un argomento abbastanza delicato dico 
@@ -1250,9 +1313,17 @@
                 <u who="#VENEZIA" xml:id="V29" synch="#TC64">c'ha una bambina che è un amore un amore una bambina intelligentissima 
                 piccolina già con quegli occhi che mi pare di vedere il cielo adesso l'ho sentito l'altro ieri perché lì ho visti a 
                 <gap reason="inaudible" extent="2 words"/> a tutti e due i figli con la mamma<pause/> e così è stata la faccenda del papà, 
-                e lui invece  <rs type="person"><persName ref="#LS">Luigi</persName></rs> non se è andata dalla moglie</u>
-                <u who="#SEGRE" xml:id="S27" synch="#TC65">eh in parte è anche lei la fonte ha detto <rs type="person"><persName ref="#PT">Piero</persName></rs> "chiedi a <rs type="person"><persName ref="#VENEZIA">Shlomo</persName></rs>" perché</u>
-                <u who="#VENEZIA" xml:id="V30" synch="#TC66">no perché lui, il papà si lui ha lavorato più con <rs type="person"><persName ref="#PT">Piero</persName></rs> 
+                e lui invece  <rs type="person">
+                        <persName ref="#LS">Luigi</persName>
+                    </rs> non se è andata dalla moglie</u>
+                <u who="#SEGRE" xml:id="S27" synch="#TC65">eh in parte è anche lei la fonte ha detto <rs type="person">
+                        <persName ref="#PT">Piero</persName>
+                    </rs> "chiedi a <rs type="person">
+                        <persName ref="#VENEZIA">Shlomo</persName>
+                    </rs>" perché</u>
+                <u who="#VENEZIA" xml:id="V30" synch="#TC66">no perché lui, il papà si lui ha lavorato più con <rs type="person">
+                        <persName ref="#PT">Piero</persName>
+                    </rs> 
                 non si conoscevamo ma è venuto fuori qui che loro dice" io lavoravo al salotto comando dell'aviazione" 
                 sarebbe per gli aerei per i pezzi rovinati cercavano di attaccarli l'uno con l'altro però facevano tre km a 
                 piedi e tre km di ritorno col freddo e la neve era abbastanza pesante ed <pause/>ecco di lui posso dire una 
@@ -1263,7 +1334,9 @@
                 il tifo <pause/>che tra parentesi questo esperimento era per la casa Bayer hanno iniettato questo liquido, 
                 questo vaccino e lui mi ha detto che dei dodici, dieci sono morti e due son rimasti in vita e il motivo era 
                 semplice, perché loro due da bambini avevano già avuto il tifo e non gli ha preso come ha preso agli altri
-                a loro gli ha preso ma gli ha preso su solo con la febbre 40 e più di febbre e lui,  <rs type="person"><persName ref="#LS">Luigi</persName></rs> aveva parlava ungherese 
+                a loro gli ha preso ma gli ha preso su solo con la febbre 40 e più di febbre e lui,  <rs type="person">
+                        <persName ref="#LS">Luigi</persName>
+                    </rs> aveva parlava ungherese 
                 bene, perché  la mamma era ungherese insomma c'è tutta una storia e così stando lì al lazzeretto l'ospedaletto 
                 il medico era un ebreo ungherese allora quando trovi un paesano sei più predisposto infatti quello lì l'ha tenuto 
                 anziché tre giorni l'ha tenuto più giorni, perché tre giorni ti mandavano via dopo stavi come stavi, se rimanevi 
@@ -1282,16 +1355,29 @@
                 una guerra che non finisce più e col tempo cancelleranno tutti lì non c'erano ebrei, solo polacchi. io adesso cominciano 
                 le guide quando vanno parlan solo di quelli non nominano mai ebreo si vede se incrocia la lingua non li nominano mai 
                 <pause/> allora è una disgrazia dicevamo poi di?</u>
-                <u who="#SEGRE" xml:id="S29" synch="#TC69">di <rs type="person"><persName ref="#NS">Sagi</persName></rs>
+                <u who="#SEGRE" xml:id="S29" synch="#TC69">di <rs type="person">
+                        <persName ref="#NS">Sagi</persName>
+                    </rs>
                 </u>
-                <u who="#VENEZIA" xml:id="V32" synch="#TC70">di <rs type="person"><persName ref="#NS">Sagi</persName></rs> dopo di questo il <rs type="person"><persName ref="#NS">papà</persName></rs> appunto dava a uno che poi veniva in 
+                <u who="#VENEZIA" xml:id="V32" synch="#TC70">di <rs type="person">
+                        <persName ref="#NS">Sagi</persName>
+                    </rs> dopo di questo il <rs type="person">
+                        <persName ref="#NS">papà</persName>
+                    </rs> appunto dava a uno che poi veniva in 
                 contatto con un altro con un altro e un altro era difficile venire in contatto, gli dava 5 sterline e poi arrivava 
-                <rs type="person"><persName ref="#NS">Sagi</persName></rs> con una sterlina e così con quello lui ha potuto avere qualche po' di pane in più o qualche <pause/>, perché 
+                <rs type="person">
+                        <persName ref="#NS">Sagi</persName>
+                    </rs> con una sterlina e così con quello lui ha potuto avere qualche po' di pane in più o qualche <pause/>, perché 
                 non poteva darla così, la dava al capo baracca lui la prendeva e sapeva cosa come fare e lui gli dava</u>
-                <u who="#SEGRE" xml:id="S30" synch="#TC71">e arrivava il pane a  <rs type="person"><persName ref="#LS">Luigi</persName></rs></u>
+                <u who="#SEGRE" xml:id="S30" synch="#TC71">e arrivava il pane a  <rs type="person">
+                        <persName ref="#LS">Luigi</persName>
+                    </rs>
+                </u>
                 <u who="#VENEZIA" xml:id="V33" synch="#TC72">gli dava un pezzo di pane, che poi quel pane era un pezzo in meno per 
                 gli altri, ne dava un po' di minestra in più era minestra degli altri e così lui comunque arrivato il 17 di gennaio 
-                del '45 non si è potuto muovere di lì come anche <rs type="person"><persName ref="#PT">Piero</persName></rs>, di fatti loro son stati liberati là perché son stati anche 
+                del '45 non si è potuto muovere di lì come anche <rs type="person">
+                        <persName ref="#PT">Piero</persName>
+                    </rs>, di fatti loro son stati liberati là perché son stati anche 
                 un po' fortunati, tutta quella gente che non poteva camminare dove vanno? sono rimasti in baracca perché ormai non 
                 avevano nessuno scopo di scappare di uscire infatti molti hanno tentato di uscire e sono rimasti a metà strada, 
                 infatti quando abbiamo fatto la marcia della morte si chiama, perché chi rimaneva indietro che non aveva più forza 
@@ -1300,18 +1386,24 @@
                 cosa non era poteva essere TBC poteva essere il cuore, poi è venuto fuori che era il cuore perché dopo ha potuto 
                 andare in <placeName ref="#IR">Israele</placeName> poi è morto in <placeName ref="#IR">Israele</placeName>
                     <pause/> ed era quello, era il cuore, e così è stata la faccenda, ci hanno 
-                liberati e la liberazione era come quando si vede nel film di <rs type="person"><persName ref="#RB">Benigni</persName></rs> "la vita è bella" che arrivano i carri armati 
+                liberati e la liberazione era come quando si vede nel film di <rs type="person">
+                        <persName ref="#RB">Benigni</persName>
+                    </rs> "la vita è bella" che arrivano i carri armati 
                 e il bambino si butta in avanti, noi ne abbiamo visti entrare due però non ci ha fatto cioè chi rideva chi piangeva 
                 per amarezza chi era proprio sconvolto una cosa che non si può spiegare, si potrebbe fare un film di quello con 
                 l'aiuto di uno che è stato là che ha visto altre cose per esempio è difficile dire, io c'ho qua un libro lo stavo 
-                cercando stamattina ma non l'ho trovato di un certo <rs type="person"><persName ref="#DO">David Olère</persName></rs> questo prigioniero 
+                cercando stamattina ma non l'ho trovato di un certo <rs type="person">
+                        <persName ref="#DO">David Olère</persName>
+                    </rs> questo prigioniero 
                 qua vedi?, quello è l'americano</u>
                 <u who="#SEGRE" xml:id="S31" synch="#TC73">quel disegno chi l'ha fatto?</u>
                 <u who="#VENEZIA" xml:id="V34" synch="#TC74">questo è uno che stava con me nello stesso mio vagone aveva 12 anni più di me era un pittore e lui ha dipinto tutto del crematorio eccetera, è venuto fuori</u>
                 <u who="#SEGRE" xml:id="S32" synch="#TC75">c'è questa cosa? c'è questo libro?</u>
                 <u who="#VENEZIA" xml:id="V35" synch="#TC76">si si c'è c'è,io c'ho le fotocopie l'ho date a mio nipote che sta in 
                 <placeName ref="#IR">Israele</placeName> perché lei sta anche facendo qualche cosa così ma<pause/> non sono riuscito a trovarlo dove ce l'ho, 
-                vede è tutta roba di <orgName ref="#SK">Sonderkommando</orgName> qua<pause/> questo <rs type="person"><persName ref="#DO">David Olère</persName></rs> dipingeva <pause/> 
+                vede è tutta roba di <orgName ref="#SK">Sonderkommando</orgName> qua<pause/> questo <rs type="person">
+                        <persName ref="#DO">David Olère</persName>
+                    </rs> dipingeva <pause/> 
                 e i tedeschi li tenevano da parte non lavorava con noi<pause/> stava su in una specie di ufficietto
                 <pause/>
                     <gap reason="inaudible" extent="1 words"/>
@@ -1324,7 +1416,11 @@
                 fare agli altri per esempio quelli della scuola di <placeName ref="#MI">Milano</placeName> hanno dato la scuola subito 
                 <gap reason="inaudible" extent="3 words"/>o sei democratico<pause/>
                 </u>
-                <u who="#SEGRE" xml:id="S35" synch="#TC81">senta ma quindi con  <rs type="person"><persName ref="#LS">Luigi Sagi</persName></rs>  siete rimasti amici? con <rs type="person"><persName ref="#LS">Sagi</persName></rs> siete rimasti amici poi?</u>
+                <u who="#SEGRE" xml:id="S35" synch="#TC81">senta ma quindi con  <rs type="person">
+                        <persName ref="#LS">Luigi Sagi</persName>
+                    </rs>  siete rimasti amici? con <rs type="person">
+                        <persName ref="#LS">Sagi</persName>
+                    </rs> siete rimasti amici poi?</u>
                 <u who="#VENEZIA" xml:id="V38" synch="#TC82">si si dopo siamo stati lui stava qua, e siamo rimasti di tutta la 
                 compagnia un ebreo polacco quello che ha fatto un figlio<pause/> il figlio di questo pittore qua e lo ha fatto 
                 lui adesso, prima non poteva vedere il padre, gli dava fastidio adesso che il padre è morto vedi qualche foto 
@@ -1333,10 +1429,22 @@
                         <desc>colpo di tosse</desc>
                     </vocal> questo l'ha fatto il figlio
                 <gap reason="inaudible" extent="3 words"/> alexander si chiama <pause/> l'ho incontrato ultimamente lì al museo 
-                della shoah a <placeName ref="#PA">Parigi</placeName>,<pause/> qua c'è <rs type="person"><persName ref="#EW">Elie Wiesel</persName></rs> e quell'altro <rs type="person"><persName ref="#SK">Serge Klarsfeld</persName></rs> <gap reason="inaudible" extent="3 words"/> 
+                della shoah a <placeName ref="#PA">Parigi</placeName>,<pause/> qua c'è <rs type="person">
+                        <persName ref="#EW">Elie Wiesel</persName>
+                    </rs> e quell'altro <rs type="person">
+                        <persName ref="#SK">Serge Klarsfeld</persName>
+                    </rs> <gap reason="inaudible" extent="3 words"/> 
                 questo è il figlio di quello</u>
-                <u who="#SEGRE" xml:id="S36" synch="#TC83">ah io ho anche una sua foto con può essere con <rs type="person"><persName ref="#EW">Elie Wiesel</persName></rs> o 
-                con <rs type="person"><persName ref="#SW">Wiesenthal</persName></rs> con <rs type="person"><persName ref="#SW">Wiesenthal</persName></rs> che però è in un'altra cartolina ma le devo riportare tutte le devo far vedere anche quelle di <rs type="person"><persName ref="#LS">Sagi</persName></rs>
+                <u who="#SEGRE" xml:id="S36" synch="#TC83">ah io ho anche una sua foto con può essere con <rs type="person">
+                        <persName ref="#EW">Elie Wiesel</persName>
+                    </rs> o 
+                con <rs type="person">
+                        <persName ref="#SW">Wiesenthal</persName>
+                    </rs> con <rs type="person">
+                        <persName ref="#SW">Wiesenthal</persName>
+                    </rs> che però è in un'altra cartolina ma le devo riportare tutte le devo far vedere anche quelle di <rs type="person">
+                        <persName ref="#LS">Sagi</persName>
+                    </rs>
                 </u>
                 <u who="#VENEZIA" xml:id="V39" synch="#TC84">queste qua son tutte fatte da lui queste</u>
                 <u who="#SEGRE" xml:id="S37" synch="#TC85">questo è bellissimo, una cosa bellissima<pause/> ha fatto un lavoro</u>
@@ -1368,9 +1476,18 @@
             <div xml:id="macro5" synch="#MA5">
                 <u who="#SEGRE" xml:id="S40" synch="#TC93">quindi nel '52 <del type="falseStart">ha cominciato</del> ha fatto questa scuola</u>
                 <u who="#VENEZIA" xml:id="V44" synch="#TC94">novembre del '46, 13 mesi se fate il conto da luglio a novembre si del 
-                '46 è venuta quella signora che abitava vicino <placeName ref="#TR">Trieste</placeName> si chiamava <rs type="person"><persName ref="#BP">Bianca Pincherle</persName></rs> vi dice niente? 
-                <rs type="person"><persName ref="#BP">Pincherle</persName></rs> c'era <rs type="person"><persName ref="#AM">Alberto Moravia</persName></rs> che si chiamava Pincherle  e lì lei era una di famiglia di questi 
-                Pincherle di <placeName ref="#TR">Trieste</placeName> <pause/><rs type="person"><persName ref="#AM">Moravia</persName></rs> ha cambiato nome però era un Pincherle ebreo come era uno scrittore qua e là, non 
+                '46 è venuta quella signora che abitava vicino <placeName ref="#TR">Trieste</placeName> si chiamava <rs type="person">
+                        <persName ref="#BP">Bianca Pincherle</persName>
+                    </rs> vi dice niente? 
+                <rs type="person">
+                        <persName ref="#BP">Pincherle</persName>
+                    </rs> c'era <rs type="person">
+                        <persName ref="#AM">Alberto Moravia</persName>
+                    </rs> che si chiamava Pincherle  e lì lei era una di famiglia di questi 
+                Pincherle di <placeName ref="#TR">Trieste</placeName> <pause/>
+                    <rs type="person">
+                        <persName ref="#AM">Moravia</persName>
+                    </rs> ha cambiato nome però era un Pincherle ebreo come era uno scrittore qua e là, non 
                 figura <pause/> nessuno lo sa quasi che sia ebreo però era</u>
                 <u who="#SEGRE" xml:id="S41" synch="#TC95">era ebreo<pause/> io questa cosa non la sapevo</u>
                 <u who="#PAVONCELLO" xml:id="P11" synch="#TC96">non sapevi che era ebreo? ma lui l'ha sempre nascosto</u>
@@ -1394,11 +1511,17 @@
                 <u who="#VENEZIA" xml:id="V48" synch="#TC104">
                     <del type="falseStart">normalmente io non</del>sapevo che sarebbe andata a 
                 finire così pensavo quest'affare a cosa scrivere eccetera, la cosa andava a finire in mezz'ora quindi, uno deve raccontare 
-                la sua storia e diventa pesante e allora<pause/> vede quelle cassette là in fondo quelle stanno tutte là da <rs type="person"><persName ref="#SS">Spielberg</persName></rs>, 
+                la sua storia e diventa pesante e allora<pause/> vede quelle cassette là in fondo quelle stanno tutte là da <rs type="person">
+                        <persName ref="#SS">Spielberg</persName>
+                    </rs>, 
                 sono cassette</u>
-                <u who="#SEGRE" xml:id="S46" synch="#TC105">sono la sua copia di quello che sta nell'archivio di <rs type="person"><persName ref="#SS">Spielberg</persName></rs>, 
+                <u who="#SEGRE" xml:id="S46" synch="#TC105">sono la sua copia di quello che sta nell'archivio di <rs type="person">
+                        <persName ref="#SS">Spielberg</persName>
+                    </rs>, 
                 </u>
-                <u who="#VENEZIA" xml:id="V49" synch="#TC106">registrate per <rs type="person"><persName ref="#SS">Spielberg</persName></rs>,  <pause/>e qui è venuta una signora era signorina 
+                <u who="#VENEZIA" xml:id="V49" synch="#TC106">registrate per <rs type="person">
+                        <persName ref="#SS">Spielberg</persName>
+                    </rs>,  <pause/>e qui è venuta una signora era signorina 
                 allora da <placeName ref="#GE">Gerusalemme</placeName> perché loro al telefono mi hanno detto "do you want to speak italian or english?" io ho detto preferisco 
                 l'italiano perché io parlo l'inglese però ci son delle cose che non riesco rimango impappinato. una volta mi hanno dato uno 
                 dei <gap reason="inaudible" extent="5 words"/>allora ha detto che era venuto dalla <placeName ref="#FR">Francia</placeName> per parlare con me per vedere se 
@@ -1419,7 +1542,9 @@
                 e quando c'è qualche cosa domani ci sarà qualcosa, chi mi ha telefonato per invitarmi? una signora di <placeName ref="#SE">Sant'Egidio</placeName>, a me non m'ha 
                 detto nessuno niente vado come sempre anche al tempio se c'è qualche cosa, non c'è nessuno neanche quei quattro che son rimasti 
                 ancora perché sono</u>
-                <u who="#SEGRE" xml:id="S48" synch="#TC109">no no ci sarà <rs type="person"><persName ref="#PT">Piero</persName></rs> parlerà però non so bene se al Pitigliani ma qualcuno parlerà, perché è tutto, non c'è un'organizzazione no in <placeName ref="#FR">Francia</placeName> non c'è paragone, proprio il capitale che viene impegnato l'organizzazione per no?</u>
+                <u who="#SEGRE" xml:id="S48" synch="#TC109">no no ci sarà <rs type="person">
+                        <persName ref="#PT">Piero</persName>
+                    </rs> parlerà però non so bene se al Pitigliani ma qualcuno parlerà, perché è tutto, non c'è un'organizzazione no in <placeName ref="#FR">Francia</placeName> non c'è paragone, proprio il capitale che viene impegnato l'organizzazione per no?</u>
                 <u who="#VENEZIA" xml:id="V51" synch="#TC110">
                     <del type="falseStart">per dire una stupidaggine questo dottore che io conosco lì prima</del> quattro crematori 
                 uno, cioè due di questi avevano una capienza di 1450 persone e ne mettevo anche 1700- 1800 ammassati in una maniera indicibile, 
@@ -1533,7 +1658,8 @@
                 quella lì mi ha dato aut aut dice con il tempo che sta passando quella era ragazzina non aveva neanche 18 anni 
                 quando l'ho incontrata e allora stando lì dico "va bene adesso cercheremo di sistemare" ogni tanto andavo<pause/> 
                 due anni è andata avanti questa faccenda quando sono andato lì "allora facciamo le carte" e io ho fatto le mie carte 
-                tutto quanto <pause/><persName ref="#VENEZIA">Salomone Venezia</persName> perché il mio nome <persName ref="#VENEZIA">Shlomo</persName> in ebraico è <persName ref="#VENEZIA">Salomone </persName> però lei mi chiamava</u>
+                tutto quanto <pause/>
+                    <persName ref="#VENEZIA">Salomone Venezia</persName> perché il mio nome <persName ref="#VENEZIA">Shlomo</persName> in ebraico è <persName ref="#VENEZIA">Salomone </persName> però lei mi chiamava</u>
                 <u who="#PAVONCELLO" xml:id="P13" synch="#TC123">pure Bruno si chiama lei, me l'ha detto <rs type="person">Romeo</rs> che lo chiama Bruno</u>
                 <u who="#VENEZIA" xml:id="V58" synch="#TC124">
                     <rs type="person">Romeo</rs> poi allora è un'altra storia volete sapere tutto insomma io qua vi tengo un'altra ora adesso no dai</u>
@@ -1621,14 +1747,20 @@
                 <u who="#VENEZIA" xml:id="V66" synch="#TC-213">ricevimento, reception e quelle cose lì insomma</u>
                 <u who="#SEGRE" xml:id="S59" synch="#TC-214">ok allora di tutte queste cose che praticamente abbiamo toccato perché 
                 abbiamo solo toccato, cosa preferirebbe che fosse scritto su questa piccola scheda accanto alla foto e se ha delle 
-                foto di dopo la guerra almeno perché qui abbiamo solo queste sue si questi i dati alla <rs type="person"><persName ref="#LPF">Picciotto-Fargion</persName></rs> che li abbiamo 
+                foto di dopo la guerra almeno perché qui abbiamo solo queste sue si questi i dati alla <rs type="person">
+                        <persName ref="#LPF">Picciotto-Fargion</persName>
+                    </rs> che li abbiamo 
                 segnati quelli che lei ci ha detto perché su quel libro lei non c'è, non c'è infatti le ho chiesto la matricola le ho 
                 chiesto quando è stato deportato la data così mi ha detto</u>
                 <u who="#PAVONCELLO" xml:id="P16" synch="#TC-215">vabbè se ce l'ha i dati anche dei campi perché io i campi non li ho scritti tutti, è registrato si ma in tedesco la scrittura in tedesco non la sappiamo</u>
                 <u who="#VENEZIA" xml:id="V67" synch="#TC-216">
-                    <gap reason="inaudible" extent="2 words"/>la <rs type="person"><persName ref="#LPF">Picciotto-Fargion</persName></rs> è un'altra 
+                    <gap reason="inaudible" extent="2 words"/>la <rs type="person">
+                        <persName ref="#LPF">Picciotto-Fargion</persName>
+                    </rs> è un'altra 
                 cosa<pause/> quella ha scritto anche quelli di <placeName ref="#RD">Rodi</placeName>, io sono l'unico come si chiama quello che fanno vedere alla televisione 
-                piccolo e nero io sono l'unico Calimero perché non sono né di <placeName ref="#RD">Rodi</placeName> di <placeName ref="#RM">Roma</placeName>, allora la <rs type="person"><persName ref="#LPF">Picciotto-Fargion</persName></rs> è stata con me ad 
+                piccolo e nero io sono l'unico Calimero perché non sono né di <placeName ref="#RD">Rodi</placeName> di <placeName ref="#RM">Roma</placeName>, allora la <rs type="person">
+                        <persName ref="#LPF">Picciotto-Fargion</persName>
+                    </rs> è stata con me ad 
                 <placeName ref="#AU">Auschwitz</placeName> quando abbiamo fatto il film memoria e lei non si è degnata a dirmi una parola, non sono io che vado da lei, tu 
                 hai interesse a sentire una persona <gap reason="inaudible" extent="2 words"/>ha capito subito con chi ha a che fare come 
                 ha sentito uscendo dal tempio per una visita dopo che c'era<pause/> allora uscendo c'erano fuori i giornalisti e una giornalista 
@@ -1648,10 +1780,14 @@
                 e tutti quei giornalisti poi ci ha presentato il sindaco i cinque sopravvissuti anche se stavolta eravamo in sei, e ci sono le sorelle 
                 Bucci, sono due sorelle una che abita a <placeName ref="#PD">Padova</placeName> una a <placeName ref="#BX">Bruxelles</placeName> in <placeName ref="#BG">Belgio</placeName>, queste una aveva quattro anni quando la sono andata e prendere 
                 e l'altra sei anni<pause/> l'anno scorso è stato <gap reason="inaudible" extent="10 words"/>e quest'anno abbiamo avuto per la prima volta 
-                uno che si chiama <rs type="person"><persName ref="#MODIANO">Sami Modiano</persName></rs>
+                uno che si chiama <rs type="person">
+                        <persName ref="#MODIANO">Sami Modiano</persName>
+                    </rs>
                 </u>
                 <u who="#SEGRE" xml:id="S60" synch="#TC-217">
-                    <rs type="person"><persName ref="#MODIANO">Sami</persName></rs> si si lei lo conosce</u>
+                    <rs type="person">
+                        <persName ref="#MODIANO">Sami</persName>
+                    </rs> si si lei lo conosce</u>
                 <u who="#VENEZIA" xml:id="V68" synch="#TC-218">e quell'altro l'anno scorso c'era <pause/>e anche quest'anno è venuto dal <placeName ref="#CD">Canada</placeName>
                 </u>
                 <u who="#SEGRE" xml:id="S61" synch="#TC-219">quindi diciamo che negli ultimi anni c'è stato un ritorno alla testimonianza</u>
@@ -1665,14 +1801,20 @@
                 </u>
                 <u who="#PAVONCELLO" xml:id="P17" synch="#TC-221">però è sincero ecco, oltre la propaganda elettorale è una persona sincera</u>
                 <u who="#VENEZIA" xml:id="V70" synch="#TC-222">molto sincero mi fa piacere perché per adesso almeno, se poi cambierà non lo so 
-                ma per il momento<pause/> perché anche <rs type="person"><persName ref="#BM">Mussolini</persName></rs> all'inizio era quello che era dopo insomma</u>
+                ma per il momento<pause/> perché anche <rs type="person">
+                        <persName ref="#BM">Mussolini</persName>
+                    </rs> all'inizio era quello che era dopo insomma</u>
                 <u who="#SEGRE" xml:id="S62" synch="#TC-223">quindi ci mettiamo i dati suoi <pause/> i dati suoi e poi questa cosa qua questo lavoro che lei 
                 ha fatto i <orgName ref="#SK">Sonderkommando</orgName> e poi questa attività che lei fa adesso fa il testimone a pieno tempo, ci ha dedicato una mattina intera</u>
                 <u who="#PAVONCELLO" xml:id="P18" synch="#TC-224">dopo quanto ha detto che è ritornato ad <placeName ref="#AU">Auschwitz</placeName>? non è facile tornare</u>
                 <u who="#VENEZIA" xml:id="V71" synch="#TC-225">e non sono molti che vogliono</u>
                 <u who="#SEGRE" xml:id="S63" synch="#TC-226">molti non ci tornano non vogliono andare</u>
                 <u who="#VENEZIA" xml:id="V72" synch="#TC-227">
-                    <rs type="person"><persName ref="#PT">Piero</persName></rs> è la terza che va <rs type="person"><persName ref="#PT">Piero</persName></rs> perché è col comune sennò<pause/>
+                    <rs type="person">
+                        <persName ref="#PT">Piero</persName>
+                    </rs> è la terza che va <rs type="person">
+                        <persName ref="#PT">Piero</persName>
+                    </rs> perché è col comune sennò<pause/>
                 </u>
                 <u who="#PAVONCELLO" xml:id="P19" synch="#TC-228">lei quante volte mi ha detto? perché l'ha detto prima</u>
                 <u who="#VENEZIA" xml:id="V73" synch="#TC-229">io 37 volte</u>

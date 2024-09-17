@@ -1,4 +1,5 @@
-<?xml-stylesheet type="text/xsl" href="prova.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="prova.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
 
     <teiHeader>
 
@@ -1457,6 +1458,7 @@
                                             <country key="IT">Italia</country>
                                         </placeName>
                                 </death>
+                                <note>Nato a Roma il 12 novembre 1928, figlio di Giovanni e Lidia Ascoli. Perseguitato razziale. Arrestato a Roma il 7 aprile 1944 da italiani con l'aiuto delle SS. Deportato da Fossoli ad Auschwitz il 16 maggio 1944 all'età di 15 anni. Matricola A5506. Liberato ad Auscwhitz il 27 gennaio 1945. È sopravvissuto alla Shoah.</note>
                         </person>
 
 
@@ -2644,6 +2646,15 @@
             </bibl>
         </listBibl>
     </standOff>
+    
+    <list type="termini_danteschi" xml:id="listaTerminiDante">
+            <!-- Inferno -->
+            <item xml:id="inferno">
+                <term>Inferno </term>
+                <ptr target="https://it.wikipedia.org/wiki/Inferno_(Divina_Commedia)"/>
+            </item>
+
+        </list>
 
     <text>
 
@@ -3765,7 +3776,7 @@
                 </u>
 
                 <u who="#AS" xml:id="S50" synch="#TS121">               
-                <del type="repetition"> se tu</del> li senti tutti quanti <del type="repetition">si si</del> si sono fatti una logica della logica di quell'illogica del campo però te la devi fare una logica <del type="repetition">per poter</del> per poter prevedere perchè sennò diventa un inferno <del type="repetition">di di</del> di imprevedibilità
+                <del type="repetition"> se tu</del> li senti tutti quanti <del type="repetition">si si</del> si sono fatti una logica della logica di quell'illogica del campo però te la devi fare una logica <del type="repetition">per poter</del> per poter prevedere perchè sennò diventa un <term type="dante" ref="#inferno">inferno</term> <del type="repetition">di di</del> di imprevedibilità
                 anche nell'imprevedibilità tu devi dire io prevedo l'imprevedibilità comunque una previsione te la devi fare no <pause/> <unclear reason="inaudible">vediamo</unclear> 
                 </u>
 

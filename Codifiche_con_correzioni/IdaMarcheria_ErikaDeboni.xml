@@ -210,27 +210,29 @@
     </teiHeader>
     <standOff> <!--contenitore per dati collegati -->
         <!--TimeLine Regesto Intervista TLRI--> 
-        <timeline xml:id="tlri">
-            <when xml:id="tlri1" absolute="00:00:09"/>
-            <when xml:id="tlri2" absolute="00:04:55"/>
-            <when xml:id="tlri3" absolute="00:12:47"/>
-            <when xml:id="tlri4" absolute="00:14:24"/>
-            <when xml:id="tlri5" absolute="00:49:30"/>
-            <when xml:id="tlri6" absolute="01:01:25"/>
-            <when xml:id="tlri7" absolute="01:04:14"/>
-            <when xml:id="tlri8" absolute="01:19:50"/>
-        </timeline>
-        
-        <!--TimeLine Regesto Extra-Intervista TLRE--> 
-        <timeline xml:id="tlre">
-            <when xml:id="tlre1" absolute="00:00:01"/>
-            <when xml:id="tlre2" absolute="00:20:31"/>
-            <when xml:id="tlre3" absolute="00:26:33"/>
-            <when xml:id="tlre4" absolute="00:29:15"/>
-            <when xml:id="tlre5" absolute="00:31:25"/>
-            <when xml:id="tlre6" absolute="00:36:09"/>
-            <when xml:id="tlre7" absolute="00:51:27"/>
-            <when xml:id="tlre8" absolute="01:11:23"/>
+        <timeline xml:id="TL1">
+            <timeline xml:id="tlri">
+                <when xml:id="tlri1" absolute="00:00:09"/>
+                <when xml:id="tlri2" absolute="00:04:55"/>
+                <when xml:id="tlri3" absolute="00:12:47"/>
+                <when xml:id="tlri4" absolute="00:14:24"/>
+                <when xml:id="tlri5" absolute="00:49:30"/>
+                <when xml:id="tlri6" absolute="01:01:25"/>
+                <when xml:id="tlri7" absolute="01:04:14"/>
+                <when xml:id="tlri8" absolute="01:19:50"/>
+            </timeline>
+            
+            <!--TimeLine Regesto Extra-Intervista TLRE--> 
+            <timeline xml:id="tlre">
+                <when xml:id="tlre1" absolute="00:00:01"/>
+                <when xml:id="tlre2" absolute="00:20:31"/>
+                <when xml:id="tlre3" absolute="00:26:33"/>
+                <when xml:id="tlre4" absolute="00:29:15"/>
+                <when xml:id="tlre5" absolute="00:31:25"/>
+                <when xml:id="tlre6" absolute="00:36:09"/>
+                <when xml:id="tlre7" absolute="00:51:27"/>
+                <when xml:id="tlre8" absolute="01:11:23"/>
+            </timeline>
         </timeline>
         
         <!--TimeLine Sovrapposizione TLS -->
@@ -1191,6 +1193,7 @@
                             <country key="IT"> Italia </country>
                         </placeName>
                     </death>
+                    <note>Nata a Trieste il 13 agosto 1929, figlia di Ernesto e Anna Naxon. Perseguitata razziale. Arrestata a Trieste il 3 novembre 1943 da italiani. Detenuta al carcere di Trieste. Deportata da Trieste ad Auschwitz il 7 dicembre 1943 all'età di 14 anni. Matricola 70412. Liberata nel circondario di Ravensbrück. È sopravvissuta alla Shoah.</note>
                 </person>
                 
                 <person xml:id="AS" role="intervistatrice">

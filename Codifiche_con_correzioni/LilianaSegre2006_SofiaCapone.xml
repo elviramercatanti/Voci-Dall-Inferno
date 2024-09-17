@@ -1,4 +1,5 @@
-<?xml_stylesheet type="text/xsl" href="Segre_Stile.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="it">
+<?xml_stylesheet type="text/xsl" href="Segre_Stile.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="it">
     <teiHeader>
         <fileDesc> <!-- Contiene la descrizione bibliografica completa del file elettronico -->
             <titleStmt> <!-- Raggruppa le informazioni relative al titolo dell'opera e ai responsibili del suo contenuto-->
@@ -51,6 +52,21 @@
                                 <persName ref="#AS">Anna Segre</persName>
                             </name>                           
                         </respStmt>
+                        
+                         <equipment>
+                            <!--attrezzatura usata-->
+                            <p/>
+                        </equipment>
+                        <broadcast>
+                            <bibl>
+                                <author>Anna Segre</author>
+                                <author>Gloria Pavoncello</author>
+                                <title>Liliana Segre 2006</title>
+                                <date when="2006">2006</date>
+                            </bibl>
+                        </broadcast>
+                        
+                        
                     </recording>
                 </recordingStmt>
             </sourceDesc>
@@ -350,6 +366,7 @@
                             <surname>Segre</surname>
                             <ptr type="furtherinfo" target="http://www.annasegre.it"/>
                         </persName>
+                        <note>Nata a Milano il 10 settembre 1930, figlia di Alberto e Lucia Foligno. Perseguitata razziale. Arrestata a Selvette di Viggiù (VA) l'8 dicembre 1943 da italiani. Deportata da Milano ad Auschwitz il 30 gennaio 1944 all'età di 13 anni. Matricola 75190. Liberata nel circondario di Ravensbrück il 30 aprile 1945. È sopravvissuta alla Shoah.</note>
                     </person>
                     
                     <person xml:id="GB">

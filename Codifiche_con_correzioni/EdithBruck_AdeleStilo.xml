@@ -56,7 +56,22 @@
                             <name>Gloria Pavoncello</name>
                             
                         </respStmt>
-                        </recording>
+                    </recording>
+                    
+                    <equipment>
+                            <!--attrezzatura usata-->
+                            <p/>
+                    </equipment>
+                    
+                    <broadcast>
+                        <bibl>
+                            <author>Anna Segre</author>
+                            <author>Gloria Pavoncello</author>
+                            <title>Edith Bruck 2006</title>
+                            <date when="2006">2006</date>
+                        </bibl>
+                    </broadcast>
+                    
                 </recordingStmt>
             </sourceDesc> 
         </fileDesc>
@@ -329,46 +344,49 @@
         </profileDesc> 
     </teiHeader>
     <standOff> 
-        <timeline xml:id="tlrI" source="#reg_1A" n="parteI" unit="s"> <!--timeline regesto intervista-->
-            <when xml:id="TR1" absolute="00:00:24"/> 
-            <when xml:id="TR2" absolute="00:01:13"/> 
-            <when xml:id="TR3" absolute="00:01:36"/> 
-            <when xml:id="TR4" absolute="00:05:50"/> 
-            <when xml:id="TR5" absolute="00:12:45"/>
-        </timeline>
-
-        <timeline xml:id="tlrII" source="#reg_1B" n="parteII" unit="s"> 
-            <when xml:id="TR6" absolute="00:00:00"/> 
-            <when xml:id="TR7" absolute="00:07:29"/> 
-            <when xml:id="TR8" absolute="00:11:18"/> 
-            <when xml:id="TR9a" absolute="00:15:14"/> 
-        </timeline>
-
-        <timeline xml:id="tlrIII" source="#reg_2A" n="parteIII" unit="s">
-            <when xml:id="TR9b" absolute="00:00:04"/>
-            <when xml:id="TR10" absolute="00:01:43"/>
-            <when xml:id="TR11" absolute="00:03:54"/>
-            <when xml:id="TR12" absolute="00:04:45"/>
-            <when xml:id="TR13" absolute="00:06:27"/>
-            <when xml:id="TR14" absolute="00:08:57"/>
-            <when xml:id="TR15" absolute="00:14:52"/>
-            <when xml:id="TR16" absolute="00:16:02"/>
-            <when xml:id="TR17" absolute="00:16:45"/>
-            <when xml:id="TR18" absolute="00:19:59"/>
-            <when xml:id="TR19" absolute="00:22:29"/>
-            <when xml:id="TR20" absolute="00:25:11"/>
-        </timeline>
-
-        <timeline xml:id="tlrIV" source="#reg_2B" n="parteIV" unit="s">
-            <when xml:id="TR21" absolute="00:00:00"/>
-            <when xml:id="TR22" absolute="00:00:44"/>
-            <when xml:id="TR23" absolute="00:02:22"/>
-            <when xml:id="TR24" absolute="00:05:00"/>
-            <when xml:id="TR25" absolute="00:06:06"/>
-            <when xml:id="TR26" absolute="00:07:26"/>
-            <when xml:id="TR27" absolute="00:13:01"/>
-            <when xml:id="TR28" absolute="00:21:32"/>
-            <when xml:id="TR29" absolute="00:27:06"/>
+        
+        <timeline xml:id="TL1">
+            <timeline xml:id="tlrI" source="#reg_1A" n="parteI" unit="s"> <!--timeline regesto intervista-->
+                <when xml:id="TR1" absolute="00:00:24"/> 
+                <when xml:id="TR2" absolute="00:01:13"/> 
+                <when xml:id="TR3" absolute="00:01:36"/> 
+                <when xml:id="TR4" absolute="00:05:50"/> 
+                <when xml:id="TR5" absolute="00:12:45"/>
+            </timeline>
+    
+            <timeline xml:id="tlrII" source="#reg_1B" n="parteII" unit="s"> 
+                <when xml:id="TR6" absolute="00:00:00"/> 
+                <when xml:id="TR7" absolute="00:07:29"/> 
+                <when xml:id="TR8" absolute="00:11:18"/> 
+                <when xml:id="TR9a" absolute="00:15:14"/> 
+            </timeline>
+    
+            <timeline xml:id="tlrIII" source="#reg_2A" n="parteIII" unit="s">
+                <when xml:id="TR9b" absolute="00:00:04"/>
+                <when xml:id="TR10" absolute="00:01:43"/>
+                <when xml:id="TR11" absolute="00:03:54"/>
+                <when xml:id="TR12" absolute="00:04:45"/>
+                <when xml:id="TR13" absolute="00:06:27"/>
+                <when xml:id="TR14" absolute="00:08:57"/>
+                <when xml:id="TR15" absolute="00:14:52"/>
+                <when xml:id="TR16" absolute="00:16:02"/>
+                <when xml:id="TR17" absolute="00:16:45"/>
+                <when xml:id="TR18" absolute="00:19:59"/>
+                <when xml:id="TR19" absolute="00:22:29"/>
+                <when xml:id="TR20" absolute="00:25:11"/>
+            </timeline>
+    
+            <timeline xml:id="tlrIV" source="#reg_2B" n="parteIV" unit="s">
+                <when xml:id="TR21" absolute="00:00:00"/>
+                <when xml:id="TR22" absolute="00:00:44"/>
+                <when xml:id="TR23" absolute="00:02:22"/>
+                <when xml:id="TR24" absolute="00:05:00"/>
+                <when xml:id="TR25" absolute="00:06:06"/>
+                <when xml:id="TR26" absolute="00:07:26"/>
+                <when xml:id="TR27" absolute="00:13:01"/>
+                <when xml:id="TR28" absolute="00:21:32"/>
+                <when xml:id="TR29" absolute="00:27:06"/>
+            </timeline>
         </timeline>
 
         <join xml:id="TR9" target="#TR9a #TR9b" result="when" type="point_in_time" scope="root"/>
@@ -955,6 +973,7 @@
                                 <country key="HU">Ungheria</country>
                             </placeName>
                         </birth>
+                        <note>Nata in Ungheria il 3 maggio 1932, figlia di Sandor e di Bertha Beiber. Perseguitata razziale. Arrestata nell'aprile 1944. Arrivata ad Auschwitz il 27 maggio 1944 all'età di 12 anni. Matricola 11152. Liberata il 15 aprile 1945 a Bergen Belsen. È sopravvissuta alla Shoah.</note>
                     </person>  
                     
                     <person xml:id="AS" role="intervistatrice">
@@ -1801,6 +1820,17 @@
                         <date when="1989">1989</date>
                     </bibl>          
         </listBibl>
+        
+           <!-- Lista dei termini danteschi -->
+        <list type="termini_danteschi" xml:id="listaTerminiDante">
+           
+            <!-- Inferno -->
+            <item xml:id="inferno">
+                <term>Inferno </term>
+                <ptr target="https://it.wikipedia.org/wiki/Inferno_(Divina_Commedia)"/>
+            </item>
+
+        </list>
         
         <list>
 
@@ -2939,7 +2969,7 @@
                         <sic>ha tagliato</sic>
                         <corr>è tagliata</corr>
                     </choice>
-                    i capelli nel ghetto. Ha tagliato tutti i capelli dicendo che va all'inferno. Perchè lei era molto religiosa, ma non aveva solo il fazzoletto, ma non aveva i capelli tagliati e <del type="repetition">e</del> si è tagliati.
+                    i capelli nel ghetto. Ha tagliato tutti i capelli dicendo che va all'<term type="dante" ref="#inferno">inferno</term>. Perchè lei era molto religiosa, ma non aveva solo il fazzoletto, ma non aveva i capelli tagliati e <del type="repetition">e</del> si è tagliati.
                 </u>
 
                 <u who="AS">
@@ -3819,7 +3849,7 @@
                     </choice>
                     Liberazione che prima. <vocal>
                         <desc>Eh.</desc>
-                    </vocal> Dopo il <date>27.</date> Ancora di febbraio, marzo, aprile è stato. Nell'inferno dell'inferno, proprio. E <del type="reformulation">quindi non</del> e poi confondono, la gente pensa che tutto finito il <date>27 gennaio.</date> Infatti, io il primo anno della Giorno della Memoria che sono 
+                    </vocal> Dopo il <date>27.</date> Ancora di febbraio, marzo, aprile è stato. Nell'<term type="dante" ref="#inferno">inferno</term> dell'<term type="dante" ref="#inferno">inferno</term>, proprio. E <del type="reformulation">quindi non</del> e poi confondono, la gente pensa che tutto finito il <date>27 gennaio.</date> Infatti, io il primo anno della Giorno della Memoria che sono 
                     <choice>
                         <sic>andate</sic>
                         <corr>andata</corr>

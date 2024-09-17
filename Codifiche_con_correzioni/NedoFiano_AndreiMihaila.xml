@@ -1,4 +1,5 @@
-<?xml_stylesheet type="text/xsl" href="Fiano_Stile.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml_stylesheet type="text/xsl" href="Fiano_Stile.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc> 
             <titleStmt> 
@@ -45,6 +46,20 @@
                                 <persName ref="#AS">Anna Segre</persName>
                             </name>                           
                         </respStmt>
+                        
+                         <equipment>
+                            <!--attrezzatura usata-->
+                            <p/>
+                        </equipment>
+                        <broadcast>
+                            <bibl>
+                                <author>Anna Segre</author>
+                                <!--<author>Gloria Pavoncello</author>-->
+                                <title>Nedo Fiano 2006</title>
+                                <date when="2006">2006</date>
+                            </bibl>
+                        </broadcast>
+                        
                     </recording>
                 </recordingStmt>
             </sourceDesc>
@@ -373,6 +388,7 @@
                                 <country key="IT">Italia</country>
                             </placeName>
                         </death>
+                        <note>Nato a Firenze il 22 aprile 1925, figlio di Olderigo e Nella Castiglioni. Perseguitato razziale. Arrestato a Firenze il 6 febbraio 1944 da italiani. Deportato da Fossoli ad Auschwitz il 16 maggio 1944 all'età di 19 anni. Matricola A5405. Liberato a Buchenwald l'11 aprile 1945.  È sopravvissuto alla Shoah.</note>
                     </person>
                     
                     <person xml:id="MO">

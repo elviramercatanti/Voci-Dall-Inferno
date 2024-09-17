@@ -1,4 +1,5 @@
-<?xml_stylesheet type="text/xsl" href="Segre_Stile.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="it">
+<?xml_stylesheet type="text/xsl" href="Segre_Stile.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="it">
     <teiHeader>
         <fileDesc> <!-- Contiene la descrizione bibliografica completa del file elettronico -->
             <titleStmt> <!-- Raggruppa le informazioni relative al titolo dell'opera e ai responsibili del suo contenuto-->
@@ -61,6 +62,19 @@
                                 <persName ref="#AS">Anna Segre</persName>
                             </name>
                         </respStmt>
+                        
+                         <equipment>
+                            <!--attrezzatura usata-->
+                            <p/>
+                        </equipment>
+                        <broadcast>
+                            <bibl>
+                                <author>Anna Segre</author>
+                                <!--<author>Gloria Pavoncello</author>-->
+                                <title>Liliana Segre 2007</title>
+                                <date when="2007">2007</date>
+                            </bibl>
+                        </broadcast>
                     </recording>
                 </recordingStmt>
             </sourceDesc>
@@ -441,47 +455,49 @@
     </teiHeader>
     <standOff>
         <!--Timeline regesto-->
-        <timeline xml:id="TL1I" source="#reg_1B" n="parteI" unit="s">
-            <when xml:id="TR1" absolute="00:00:00"/>
-            <when xml:id="TR2" absolute="00:08:38"/>
-            <when xml:id="TR3" absolute="00:10:52"/>
-            <when xml:id="TR4" absolute="00:13:57"/>
-            <when xml:id="TR5" absolute="00:14:35"/>
-            <when xml:id="TR6" absolute="00:15:56"/>
-            <when xml:id="TR7" absolute="00:17:03"/>
-            <when xml:id="TR8" absolute="00:20:30"/>
-            <when xml:id="TR9a" absolute="00:23:41"/>
-        </timeline>
-
-        <timeline xml:id="TL1II" source="#reg_2A" n="parteII" unit="s">
-            <when xml:id="TR9b" absolute="00:00:00"/>
-            <when xml:id="TR10" absolute="00:01:31"/>
-            <when xml:id="TR11" absolute="00:03:05"/>
-            <when xml:id="TR12" absolute="00:04:53"/>
-            <when xml:id="TR13" absolute="00:07:51"/>
-            <when xml:id="TR14" absolute="00:09:56"/>
-            <when xml:id="TR15" absolute="00:19:36"/>
-            <when xml:id="TR16" absolute="00:21:13"/>
-            <when xml:id="TR17" absolute="00:24:39"/>
-            <when xml:id="TR18" absolute="00:25:41"/>
-            <when xml:id="TR19" absolute="00:28:31"/>
-            <when xml:id="TR20a" absolute="00:29:29"/>
-        </timeline>
-
-        <timeline xml:id="TL1III" source="#reg_2B" n="parteIII" unit="s">
-            <when xml:id="TR20b" absolute="00:00:00"/>
-            <when xml:id="TR21" absolute="00:03:06"/>
-            <when xml:id="TR22" absolute="00:05:41"/>
-            <when xml:id="TR23" absolute="00:07:07"/>
-            <when xml:id="TR24" absolute="00:08:52"/>
-            <when xml:id="TR25" absolute="00:09:48"/>
-            <when xml:id="TR26" absolute="00:11:42"/>
-            <when xml:id="TR27" absolute="00:12:52"/>
-            <when xml:id="TR28" absolute="00:13:28"/>
-            <when xml:id="TR29" absolute="00:16:01"/>
-            <when xml:id="TR30" absolute="00:16:51"/>
-            <when xml:id="TR31" absolute="00:18:27"/>
-            <when xml:id="TR32" absolute="00:21:46"/>
+        <timeline xml:id="TL1">
+            <timeline xml:id="TL1I" source="#reg_1B" n="parteI" unit="s">
+                <when xml:id="TR1" absolute="00:00:00"/>
+                <when xml:id="TR2" absolute="00:08:38"/>
+                <when xml:id="TR3" absolute="00:10:52"/>
+                <when xml:id="TR4" absolute="00:13:57"/>
+                <when xml:id="TR5" absolute="00:14:35"/>
+                <when xml:id="TR6" absolute="00:15:56"/>
+                <when xml:id="TR7" absolute="00:17:03"/>
+                <when xml:id="TR8" absolute="00:20:30"/>
+                <when xml:id="TR9a" absolute="00:23:41"/>
+            </timeline>
+    
+            <timeline xml:id="TL1II" source="#reg_2A" n="parteII" unit="s">
+                <when xml:id="TR9b" absolute="00:00:00"/>
+                <when xml:id="TR10" absolute="00:01:31"/>
+                <when xml:id="TR11" absolute="00:03:05"/>
+                <when xml:id="TR12" absolute="00:04:53"/>
+                <when xml:id="TR13" absolute="00:07:51"/>
+                <when xml:id="TR14" absolute="00:09:56"/>
+                <when xml:id="TR15" absolute="00:19:36"/>
+                <when xml:id="TR16" absolute="00:21:13"/>
+                <when xml:id="TR17" absolute="00:24:39"/>
+                <when xml:id="TR18" absolute="00:25:41"/>
+                <when xml:id="TR19" absolute="00:28:31"/>
+                <when xml:id="TR20a" absolute="00:29:29"/>
+            </timeline>
+    
+            <timeline xml:id="TL1III" source="#reg_2B" n="parteIII" unit="s">
+                <when xml:id="TR20b" absolute="00:00:00"/>
+                <when xml:id="TR21" absolute="00:03:06"/>
+                <when xml:id="TR22" absolute="00:05:41"/>
+                <when xml:id="TR23" absolute="00:07:07"/>
+                <when xml:id="TR24" absolute="00:08:52"/>
+                <when xml:id="TR25" absolute="00:09:48"/>
+                <when xml:id="TR26" absolute="00:11:42"/>
+                <when xml:id="TR27" absolute="00:12:52"/>
+                <when xml:id="TR28" absolute="00:13:28"/>
+                <when xml:id="TR29" absolute="00:16:01"/>
+                <when xml:id="TR30" absolute="00:16:51"/>
+                <when xml:id="TR31" absolute="00:18:27"/>
+                <when xml:id="TR32" absolute="00:21:46"/>
+            </timeline>
         </timeline>
 
         <join xml:id="TR9" target="#TR9a #TR9b" result="when" type="point_in_time" scope="root"/>
@@ -1040,6 +1056,7 @@
                         <country>Italia</country>
                     </placeName>
                 </birth>
+                <note>Nata a Milano il 10 settembre 1930, figlia di Alberto e Lucia Foligno. Perseguitata razziale. Arrestata a Selvette di Viggiù (VA) l'8 dicembre 1943 da italiani. Deportata da Milano ad Auschwitz il 30 gennaio 1944 all'età di 13 anni. Matricola 75190. Liberata nel circondario di Ravensbrück il 30 aprile 1945. È sopravvissuta alla Shoah.</note>
                 <ptr type="furtherinfo" target="https://it.wikipedia.org/wiki/Liliana_Segre"/>
             </person>
             
@@ -1049,6 +1066,7 @@
                     <surname>Segre</surname>
                     <ptr type="furtherinfo" target="http://www.annasegre.it"/>
                 </persName>
+            
             </person>
             
             
@@ -1668,30 +1686,34 @@
         </listOrg>
         
         <listBibl>
-             <biblStruct xml:id="Inferno">
+             
+            
+            <biblStruct xml:id="Dante"> 
                 <analytic>
-                    <title level="a">Riferimento alla Divina Commedia</title>
+                    <title level="a">Canto non identificabile</title>
                 </analytic>
                 <monogr>
                     <author> Dante Alighieri </author>
-                    <title level="m"> Divina Commedia </title>
+                    <title level="m"> Inferno </title>
                     <imprint>
                         <date when="1314"> 1314 </date>
                     </imprint>
                 </monogr>
+                <author>Dante Alighieri</author>
                 <series>
                     <title level="s">Divina Commedia</title>
                 </series>
-                
             </biblStruct>
             
-            <biblStruct xml:id="purXVII"> 
+            
+            
+            <biblStruct xml:id="InfII"> 
                 <analytic>
-                    <title level="a"> Canto XVII </title>
+                    <title level="a"> Canto II </title>
                 </analytic>
                 <monogr>
                     <author> Dante Alighieri </author>
-                    <title level="m"> Purgatorio </title>
+                    <title level="m"> Inferno </title>
                     <imprint>
                         <date when="1314"> 1314 </date>
                     </imprint>
@@ -1728,6 +1750,17 @@
                 <date when="1981">1981</date>
             </bibl>
         </listBibl>
+        
+        
+         <!-- Lista dei termini danteschi -->
+        <list type="termini_danteschi" xml:id="listaTerminiDante">
+            <!-- Inferno -->
+            <item xml:id="inferno">
+                <term>Inferno </term>
+                <ptr target="https://it.wikipedia.org/wiki/Inferno_(Divina_Commedia)"/>
+            </item>
+
+        </list>
     </standOff>
 
     <text>
@@ -1995,16 +2028,15 @@
                     </vocal> <pause type="short"/> e... <del type="repetition">e</del> volevo bene a <del type="repetition">a</del> tutti loro, <pause type="short"/> <shift feature="loud" new="cresc"/>ma la
                 delusione che ho letto nei loro occhi, questo imbarazzo tremendo <vocal>
                         <desc>inspira</desc>
-                    </vocal> che superava <pause type="short"/> la gioia di dire: <cit type="reference">
+                    </vocal> che superava <pause type="short"/> la gioia di dire: <ref type="allusion" target="#Dante">
                         <quote>
                             <q>Miracolo che questa qui è tornata da un 
-                            inferno
+                            <term type="dante" ref="#inferno">inferno</term>
                         simile</q>
                         </quote>
-                            <ref target="#Inferno">
-                            <bibl>Inferno, Divina Commedia</bibl>
+                           <bibl>Inferno, Divina Commedia</bibl>
                         </ref>
-                        </cit>  <incident>
+                          <incident>
                         <desc>rumore vicino in sottofondo</desc>
                     </incident>
                 </u>
@@ -2703,8 +2735,8 @@
                         <corr>le</corr>
                     </choice> stai antipatica, o ti tiri un calcio in faccia, o nei testicoli a un uomo, o faccia delle cose col nerbo di bue che <del type="falseStart">n-,</del> <pause type="short"/> <shift feature="tempo" new="acc"/> cala sulle facce, sulle teste, sulle braccia <del type="falseStart">sulle co-</del>. <pause type="long"/> Quindi, primo c'è questo stupore incredibile del <cit type="explicit">
                         <quote>male altrui</quote>
-                        <ref target="#purXVII">
-                            <bibl>XVII canto Purgatorio, v. 123</bibl>
+                        <ref target="#InfII">
+                            <bibl>Canti II, Inferno, vv. 88-90.</bibl>
                         </ref>
                     </cit> <pause type="medium"/> di cui <pause type="short"/> non puoi capacitarti <pause type="short"/> come un tuo simile è così, è fatto uguale, c'ha gli occhi, il naso,
                 la bocca, le braccia, <vocal>

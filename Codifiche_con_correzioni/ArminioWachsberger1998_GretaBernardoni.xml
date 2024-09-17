@@ -691,47 +691,49 @@
 
         <!--Timeline del regesto che gestisce il contenuto all'interno dell'elemento abstract: ogni elemento item, indicante un evento descritto, punta a un when definito nelle timeline seguenti che indica l'orario preciso in cui si descrive tale evento-->
         <!--parte I: l'attributo source punta al primo elemento recording per indicare il primo file di registrazione a cui la timeline si riferisce -->
-        <timeline xml:id="TL1I" source="#parteI">
-            <when xml:id="TR1" absolute="00:00:32"/> 
-            <when xml:id="TR2" absolute="00:04:37"/>
-            <when xml:id="TR3" absolute="00:07:15"/>
-            <when xml:id="TR4" absolute="00:18:40"/>
-        </timeline>
-
-        <!--parte II: l'attributo source punta al secondo elemento recording per indicare il secondo file di registrazione a cui la timeline si riferisce-->
-        <timeline xml:id="TL1II" source="#parteII">
-            <when xml:id="TR5" absolute="00:01:16"/>
-            <when xml:id="TR6" absolute="00:09:42"/>
-            <when xml:id="TR7" absolute="00:10:47"/>
-            <when xml:id="TR8" absolute="00:12:07"/>
-            <when xml:id="TR9" absolute="00:16:22"/>
-            <when xml:id="TR10a" absolute="00:23:24"/>
-        </timeline>
-
-        <!--parte III: l'attributo source punta al terzo elemento recording per indicare il terzo file di registrazione a cui la timeline si riferisce-->
-        <timeline xml:id="TL1III" source="#parteIII">
-            <when xml:id="TR10b" absolute="00:00:00"/>
-            <when xml:id="TR11" absolute="00:05:33"/>
-            <when xml:id="TR12" absolute="00:10:17"/>
-            <when xml:id="TR13" absolute="00:13:42"/>
-            <when xml:id="TR14" absolute="00:20:52"/>
-            <when xml:id="TR15" absolute="00:22:25"/>
-            <when xml:id="TR16a" absolute="00:23:54"/>
-        </timeline>
-
-        <!--parte IV: l'attributo source punta al quarto elemento recording per indicare il quarto file di registrazione a cui la timeline si riferisce-->
-        <timeline xml:id="TL1IV" source="#parteIV">
-            <when xml:id="TR16b" absolute="00:00:00"/>
-            <when xml:id="TR17" absolute="00:02:55"/>
-            <when xml:id="TR18" absolute="00:08:44"/>
-            <when xml:id="TR19" absolute="00:13:23"/>
-            <when xml:id="TR20" absolute="00:19:04"/>
-            <when xml:id="TR21a" absolute="00:25:49"/>
-        </timeline>
-
-        <!--parte V: l'attributo source punta al quinto elemento recording per indicare il quinto file di registrazione a cui la timeline si riferisce-->
-        <timeline xml:id="TL1V" source="#parteV">
-            <when xml:id="TR21b" absolute="00:00:00"/>
+        <timeline xml:id="TL1">
+            <timeline xml:id="TL1I" source="#parteI">
+                <when xml:id="TR1" absolute="00:00:32"/> 
+                <when xml:id="TR2" absolute="00:04:37"/>
+                <when xml:id="TR3" absolute="00:07:15"/>
+                <when xml:id="TR4" absolute="00:18:40"/>
+            </timeline>
+    
+            <!--parte II: l'attributo source punta al secondo elemento recording per indicare il secondo file di registrazione a cui la timeline si riferisce-->
+            <timeline xml:id="TL1II" source="#parteII">
+                <when xml:id="TR5" absolute="00:01:16"/>
+                <when xml:id="TR6" absolute="00:09:42"/>
+                <when xml:id="TR7" absolute="00:10:47"/>
+                <when xml:id="TR8" absolute="00:12:07"/>
+                <when xml:id="TR9" absolute="00:16:22"/>
+                <when xml:id="TR10a" absolute="00:23:24"/>
+            </timeline>
+    
+            <!--parte III: l'attributo source punta al terzo elemento recording per indicare il terzo file di registrazione a cui la timeline si riferisce-->
+            <timeline xml:id="TL1III" source="#parteIII">
+                <when xml:id="TR10b" absolute="00:00:00"/>
+                <when xml:id="TR11" absolute="00:05:33"/>
+                <when xml:id="TR12" absolute="00:10:17"/>
+                <when xml:id="TR13" absolute="00:13:42"/>
+                <when xml:id="TR14" absolute="00:20:52"/>
+                <when xml:id="TR15" absolute="00:22:25"/>
+                <when xml:id="TR16a" absolute="00:23:54"/>
+            </timeline>
+    
+            <!--parte IV: l'attributo source punta al quarto elemento recording per indicare il quarto file di registrazione a cui la timeline si riferisce-->
+            <timeline xml:id="TL1IV" source="#parteIV">
+                <when xml:id="TR16b" absolute="00:00:00"/>
+                <when xml:id="TR17" absolute="00:02:55"/>
+                <when xml:id="TR18" absolute="00:08:44"/>
+                <when xml:id="TR19" absolute="00:13:23"/>
+                <when xml:id="TR20" absolute="00:19:04"/>
+                <when xml:id="TR21a" absolute="00:25:49"/>
+            </timeline>
+    
+            <!--parte V: l'attributo source punta al quinto elemento recording per indicare il quinto file di registrazione a cui la timeline si riferisce-->
+            <timeline xml:id="TL1V" source="#parteV">
+                <when xml:id="TR21b" absolute="00:00:00"/>
+            </timeline>
         </timeline>
 
         <!--unione di tre when. Un singolo join gestisce l'interruzione di evento descritto in due item separati facenti parte delle due diverse timeline del regesto-->
