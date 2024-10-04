@@ -829,10 +829,28 @@
                             <forename>Idek</forename>
                             <surname>Wolfowicz</surname>
                         </persName>
-                        <birth when="1922"/>
-                        <death when="2017"/>
+                        <birth>
+                            <date when="1922-04-03">3 aprile 1922</date>
+                            <placeName>
+                                <settlement type="municipality">Tarnów</settlement>
+                                <country>Polonia</country>
+                            </placeName>
+                        </birth>
+                        <death>
+                            <date when="2017-10-12">12 ottobre 2017</date>
+                            <placeName>
+                                <settlement type="municipality">Roma</settlement>
+                                <settlement type="region">Lazio</settlement>
+                                <country>Italia</country>
+                            </placeName>
+                        </death>
                         <sex>Maschio</sex>
                         <nationality>Polacca</nationality>
+                        <note>Nato a Tarnów, in Polonia, il 3 aprile 1922. Deportato nel campo di Plaszow; non fu rinchiuso subito nel campo, ma fu mandato in un altro piccolo campo che si trovava a due km di distanza.
+                        Trasferito a Plaszow nel 1940. Nell’ottobre 1943, il campo di Plaszow venne evacuato e i prigionieri vennero trasferiti ad Auschwitz che in quanto "pieno" non poteva accogliere altri prigionieri, che attesero diversi giorni all'interno dei vagori del treno, fuori dal campo.
+                        Condotti quindi al campo di Mauthausen. Trasferito successivamente in un sottocampo denominato Gusen 1, evacuato con l'arrivo degli americani nel 1945. 
+                        Trasferito nuovamente, questa volta nel vicino campo di Wels, un campo di concentramento destinato agli ebrei ungheresi, dove rimase fino fino alla liberazione, avvenuta per mano degli Americani. Il 5 maggio fu fatto nuovamente prigioniero e rinchiuso in un campo vicino Linz. Una volta liberato definitivamente, proseguì fino a Roma, dove rimarrà per tutta la vita, fino alla sua morte avvenuta il 12 ottobre 2017.</note>
+                        
                         
                     </person>
         </listPerson>

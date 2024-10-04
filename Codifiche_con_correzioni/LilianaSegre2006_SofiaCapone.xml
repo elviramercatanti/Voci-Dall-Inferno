@@ -1,5 +1,4 @@
-<?xml_stylesheet type="text/xsl" href="Segre_Stile.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="it">
+<?xml_stylesheet type="text/xsl" href="Segre_Stile.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="it">
     <teiHeader>
         <fileDesc> <!-- Contiene la descrizione bibliografica completa del file elettronico -->
             <titleStmt> <!-- Raggruppa le informazioni relative al titolo dell'opera e ai responsibili del suo contenuto-->

@@ -1820,7 +1820,7 @@
                     <del type="falseStart">il</del> quando siamo andate a <del type="repetition">Siamo andate a</del> incontrare <persName ref="#LG">Liliana Segre</persName>, <vocal>
                         <desc>ehh</desc>
                     </vocal> 
-                    <ref type="allusion" target="#Dante">Liliana ha detto 
+                    <ref type="allusion" target="#Inferno">Liliana ha detto 
                         "Per me Goti è come <term type="dante" ref="#virgilio">Virgilio</term> per <term type="dante" ref="#dante">Dante</term>"
                        
                             <bibl>Inferno, Divina Commedia</bibl>
@@ -1897,7 +1897,7 @@
                     </vocal> 
                 E allora appunto mi era venuta in mente questo. Un giorno in casa di questa <persName ref="#GP">Gianna Pavia</persName>, io ho invitato anche Liliana. E lì le ho spiegato, lei ha capito. E all'inizio con un po' di timore, con un po' di incertezza. Ma poi sa, è diventata molto in gamba e sono molto contenta. Perché lei davvero ha ancora molta energia e può parlare a lungo e raccontare a gente che non lo sa, ecco.</u>
                 <u who="#MR" xml:id="r5" synch="#tlp12">
-                 <ref type="allusion" target="#Dante">
+                 <ref type="allusion" target="#Inferno">
                         <persName ref="#LS">Liliana</persName> ci ha detto che l'ha conosciuta, che ha conosciuto lei, <vocal>
                         <desc>ehm</desc>
                     </vocal> cui riconosce e ha ripetuto molte volte il titolo di
@@ -4105,7 +4105,7 @@
                 <anchor synch="#tls531"/>
                     <shift feature="voice" new="whisper"/>
                     <anchor synch="#tls532"/> 
-                quelli che erano già lì da più tempo e già lo sapevano. <ref type="allusion" target="#Dante">Era pieno il campo e noi siamo arrivati in una 
+                quelli che erano già lì da più tempo e già lo sapevano. <ref type="allusion" target="#Inferno">Era pieno il campo e noi siamo arrivati in una 
                         <term type="dante" ref="#bolgia">bolgia</term>
                             <bibl>Inferno, Divina Commedia</bibl>
                         </ref>
@@ -6562,7 +6562,7 @@
 
         <listBibl>
 
-            <biblStruct xml:id="Dante"> 
+            <biblStruct xml:id="Inferno"> 
                 <analytic>
                     <title level="a">Canto non identificabile</title>
                 </analytic>

@@ -1,5 +1,4 @@
-<!-- codifica TEI -->
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<!-- codifica TEI --><TEI xmlns="http://www.tei-c.org/ns/1.0">
 
     <teiHeader>
         <fileDesc> 
@@ -17040,10 +17039,8 @@
                 <persName>
                     <forename>Emanuele</forename>
                     <surname>Artom</surname>
+                    <addName type="alias">Eugenio Ansaldi</addName>
                 </persName>
-                <note>
-                    <p>Nome di battaglia: Eugenio Ansaldi</p>
-                </note>
                 <sex> M </sex>
                 <birth>
                     <date when="1915-06-23">23 giugno 1915</date>
@@ -17059,6 +17056,8 @@
                         <country key="IT">Italia</country>
                     </placeName>
                 </death>
+                <note>Nato ad Aosta il 23 giugno 1915, figlio di Emilio ed Amalia Segre. Nome di Battaglia: Eugenio Ansaldi. Catturato dai fascisti nel marzo 1944, consegnato ai tedeschi e rinchiuso nelle Carceri Nuove di Torino. Morto il 7 aprile 1944 a causa delle torture inflittegli.</note>
+
             </person>
             <person xml:id="ASA" source="http://digital-library.cdec.it/cdec-web/persone/detail/person-it-cdec-eaccpf0001-017448/segre-amalia.html"> <!-- AMALIA SEGRE ARTOM -->
                 <persName>

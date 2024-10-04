@@ -2809,7 +2809,7 @@
                                             <said>"qual tu sii, od ombra od omo certo?" </said> 
                                         </l>
                                     </lg>
-                                    »</quote> <ptr target="#n43"/> <ptr target="#n43"/>
+                                    »</quote> <ptr target="#n43"/>
                                 
                                 <ref target="#infI">
                                     <bibl>
@@ -2820,7 +2820,7 @@
                                         <title level="s" ref="#DC"> La Divina Commedia </title>
                                         <title level="m" ref="#dcInf"> Inferno </title>
                                         <title level="a" ref="#infI"> Canto I </title>
-                                        vv.65-66
+                                        <citedRange>vv.65-66</citedRange>
                                     </bibl>
                                 </ref>
                             </cit>

@@ -590,6 +590,9 @@
                                         <country key="IT">Italia</country>
                                     </placeName>
                                 </birth> 
+                                <note>Nato a Fagnano Olona il 18 novembre 1922. Arrestato ad Atene dopo l'8 settembre 1943 e inviato Ingolstadt, in Germania, a lavorare in una fabbrica di telai per carri armati.
+                                Nel settembre 1944 riuscì a fuggire ma venne nuovamente arrestato e trasferito nel campo di concentramento di Dachau nell’ottobre 1944, dove rimase fino alla liberazione, avvenuta il 29 aprile 1945.
+                                </note>
                         </person>
 
 
@@ -1473,7 +1476,7 @@
                 <u who="#VANZINI" xml:id="V35" synch="TS70">
                     ha fatto <anchor xml:id="van-81" synch="#TT81"/> <del type="repetition">ha</del> ha detto <anchor xml:id="van-82" synch="#TT82"/> <vocal>
                         <desc>ehm</desc>
-                    </vocal> non <del type="truncation">pa</del> parroco ha detto niente parroco e io come dire <del type="repetition">questo</del> questo poveretto no  <anchor xml:id="van-83" synch="#TT83"/> non ha nessuno <anchor xml:id="van-84" synch="#TT84"/> è anche giusto no che gli faccio come il segno come benedirlo e <ref type="allusion" target="#Dante">gli faccio come il segno della croce prima di buttarlo in questo <term type="dante" target="#inferno">inferno</term>
+                    </vocal> non <del type="truncation">pa</del> parroco ha detto niente parroco e io come dire <del type="repetition">questo</del> questo poveretto no  <anchor xml:id="van-83" synch="#TT83"/> non ha nessuno <anchor xml:id="van-84" synch="#TT84"/> è anche giusto no che gli faccio come il segno come benedirlo e <ref type="allusion" target="#Dante">gli faccio come il segno della croce prima di buttarlo in questo <term type="dante" ref="#inferno">inferno</term>
                             <bibl>Inferno, Divina Commedia</bibl>
                         </ref>
                         

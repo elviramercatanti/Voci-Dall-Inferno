@@ -1,5 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="doc012.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml-stylesheet type="text/xsl" href="doc012.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -184,13 +183,26 @@
 
 	<standOff>
 		<listPerson>
-			<person xml:id="AlSm" role="testimone" source="https://www.pendragon.it/catalogo/manufacturers/alessandro-smulevich.html?tmpl=component">
+				<person xml:id="AlSm" role="testimone" source="https://www.pendragon.it/catalogo/manufacturers/alessandro-smulevich.html?tmpl=component">
 				<persName>
 					<forename>Alessandro</forename>
 					<surname>Smulevich</surname>
 				</persName>
+				<note/>
+				<sex>M</sex>
+				<birth>
+                    <date when=" 1923"> 1923</date>
+                    <placeName>
+                        <settlement type="municipality">Fiume</settlement>
+                        <country key="IT">Italia</country>
+                    </placeName>
+                </birth>
+                <death>
+                    <date when="2002">2002</date>
+
+                </death>
+                <note>Nato a Fiume nel 1923. Dopo l’8 settembre 1943, fuggì con la famiglia a Firenzuola, dove trovarono rifugio. E' morto nel 2002.</note>
 			</person>
-			<note>Nato a Fiume nel 1923. Dopo l’8 settembre 1943, fuggì con la famiglia a Firenzuola, dove trovarono rifugio. E' morto nel 2002.</note>
 		</listPerson>
 
 		<listPlace>

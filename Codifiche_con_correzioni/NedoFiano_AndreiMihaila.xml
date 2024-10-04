@@ -1,5 +1,4 @@
-<?xml_stylesheet type="text/xsl" href="Fiano_Stile.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml_stylesheet type="text/xsl" href="Fiano_Stile.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc> 
             <titleStmt> 

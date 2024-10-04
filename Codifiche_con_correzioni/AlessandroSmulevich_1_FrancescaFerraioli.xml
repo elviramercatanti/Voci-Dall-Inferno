@@ -1,5 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="Diario01.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml-stylesheet type="text/xsl" href="Diario01.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -174,10 +173,7 @@
                 </birth>
                 <death>
                     <date when="2002">2002</date>
-                    <placeName>
-                        <settlement type="municipality"/>
-                        <country key="IT"/>
-                    </placeName>
+
                 </death>
 			</person>
 
