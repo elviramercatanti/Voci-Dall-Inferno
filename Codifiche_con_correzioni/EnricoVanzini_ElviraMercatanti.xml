@@ -139,12 +139,12 @@
 
         <!--Timeline regesto-->
         <timeline xml:id="TL1">
-            <when xml:id="TR1" absolute="3:21"/> 
-            <when xml:id="TR2" absolute="7:02"/> 
-            <when xml:id="TR3" absolute="11:24"/> 
-            <when xml:id="TR4" absolute="30:07"/> 
-            <when xml:id="TR5" absolute="33:20"/> 
-            <when xml:id="TR6" absolute="35:02"/> 
+            <when xml:id="TR1" absolute="00:03:21"/> 
+            <when xml:id="TR2" absolute="00:07:02"/> 
+            <when xml:id="TR3" absolute="00:11:24"/> 
+            <when xml:id="TR4" absolute="00:30:07"/> 
+            <when xml:id="TR5" absolute="00:33:20"/> 
+            <when xml:id="TR6" absolute="00:35:02"/> 
         </timeline>
 
 
