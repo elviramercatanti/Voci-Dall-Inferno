@@ -2644,9 +2644,8 @@
                 <date when="1963"> 1963 </date>
             </bibl>
         </listBibl>
-    </standOff>
-    
-    <list type="termini_danteschi" xml:id="listaTerminiDante">
+        
+        <list type="termini_danteschi" xml:id="listaTerminiDante">
             <!-- Inferno -->
             <item xml:id="inferno">
                 <term>Inferno </term>
@@ -2654,6 +2653,9 @@
             </item>
 
         </list>
+    </standOff>
+    
+    
 
     <text>
 

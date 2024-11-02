@@ -144,7 +144,7 @@
         <timeline xml:id="TL1">
             <when xml:id="TR1" absolute="00:00:29"/>
             <when xml:id="TR2" absolute="00:05:14"/>
-            <when xml:id="TR3" absolute="00:11.04"/>
+            <when xml:id="TR3" absolute="00:11:04"/>
             <when xml:id="TR4" absolute="00:12:46"/>
             <when xml:id="TR5" absolute="00:13:42"/>
             <when xml:id="TR6" absolute="00:16:23"/>
