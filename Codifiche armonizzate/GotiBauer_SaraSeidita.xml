@@ -90,9 +90,12 @@
                 </quotation>
                 <interpretation>
                     <p>Per la tutela e la privacy del testimone, alcune sue parti sono state censurate</p>
-                    <p>I nomi sono stati segnati con il tag <gi>persName</gi></p>
-                    <p>I luoghi sono stati segnati con il tag <gi>placeName</gi></p> 
-                    <p>Le date sono state segnate con il tag <gi>Date</gi></p> 
+                    <p>I nomi sono stati segnati con il tag <gi>persName</gi>
+                    </p>
+                    <p>I luoghi sono stati segnati con il tag <gi>placeName</gi>
+                    </p> 
+                    <p>Le date sono state segnate con il tag <gi>Date</gi>
+                    </p> 
                     <p>Articoli, saggi e film citati sono stati segnati con il tag <gi>Title</gi> e poi inseriti nella <gi>listBibl</gi>
                     </p>
                     <p>Organizzazioni e simili sono stati segnati con <gi>orgName</gi>
