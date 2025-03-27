@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="doc012.xsl"?>
+<?xml-model href="../tei_vdi_scritte.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0" 
+type="application/xml"
+?>
+<?xml-model href="../tei_vdi_scritte.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:id="titolotestimonianza">Testimonianza internato a Campagna - pagina 4</title>
+				<author>Francesca Ferraioli</author>
+			</titleStmt>
+			
+			<!--aggiunta Elvira-->
+			<editionStmt> <!-- informazioni sull'edizione digitale -->
+                <edition>Edizione digitale realizzata per tesi di laurea triennale in Informatica Umanistica
+                    presso l'<orgName>Università di Pisa</orgName>
+				</edition>
+                <respStmt> <!-- responsabilità dei contenuti --> 
+                    <resp> Progetto coordinato da </resp>
+                    <persName xml:id="AMDG">Angelo Mario Del Grosso</persName>
+                    <persName xml:id="MRIC">Marina Riccucci</persName>                                      
+                </respStmt>
+                <respStmt xml:id="encoder"> <!-- responsabilità dei contenuti --> 
+                    <resp> Trascrizione e codifica a cura di </resp>
+                    <persName xml:id="FF">
+                        <forename>Francesca</forename>
+                        <surname>Ferraioli</surname>
+                    </persName>
+                </respStmt>
+            </editionStmt>
+			
+			<publicationStmt>
+				<publisher>Università di Pisa</publisher>
+				<date/>
+				<availability status="unknown">
+					<p>Unpublished document</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+							
+				<!--<listPerson>
+					<person xml:id="AlSm" role="testimone" source="https://www.pendragon.it/catalogo/manufacturers/alessandro-smulevich.html?tmpl=component">
+						<persName>
+							<forename>Alessandro</forename>
+							<surname>Smulevich</surname>
+						</persName>
+					</person>
+				</listPerson>-->
+				
+				<bibl>
+					<title>Diario di Alessandro Smulevich</title>
+					<author>Francesca Ferraioli</author>
+					<publisher>Università di Pisa</publisher>
+					<date when="19410908">10 set 1940</date>
+				</bibl>
+				<msDesc>
+					<msIdentifier>
+						<placeName>
+							<settlement>Campagna (SA)</settlement>
+							<region key="" type="state">Italia</region>
+						</placeName>
+						<repository>Famiglia Smulevich</repository>
+					</msIdentifier>
+					<msContents>
+						<msItem>
+							<title>Diario di Alessandro Smulevich</title>
+							<textLang mainLang="it">Scritto in italiano.</textLang>
+							<docImprint>
+								Martedì 
+								<docDate>10 settembre</docDate>
+							</docImprint>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc form="manuscript_sheet">
+							<supportDesc>
+								<support>
+									<p>Foglio manoscritto di
+										<material>carta</material>
+										che descrive il viaggio da Fiume a Campagna di Alessandro Smulevich
+									</p>
+									<stamp facs="#doc012_Stamp.main">Nella parte alta del foglio è presente un timbro di colore viola, la quale scritta è solo in parte leggibile. Riporta anche la data della ricezione.</stamp>
+								</support>
+							</supportDesc>
+							<layoutDesc>
+								<layout columns="2" ruledLines="10 20">
+									<p>La pagina si presenta </p>
+								</layout>
+							</layoutDesc>
+						</objectDesc>
+						<handDesc>
+							<p>Scritto da una sola mano, ovvero quella dell'autore.</p>
+						</handDesc>
+						<typeDesc>
+							<p>Scritto in caratteri corsivi, non risultano cancellature.</p>
+						</typeDesc>
+					</physDesc>
+					<history>
+						<summary>Questo documento è una testimonianza di .</summary>
+						<origin notAfter="1941">
+							<p>Questo documento è stato compilato dal Ministero.</p>
+						</origin>
+						<acquisition>
+							<p>La testimonianza non è mai stata pubblicata ed è stata gentilmente fornita dal figlio di Alessandro Smulevich, Ermanno.</p>
+						</acquisition>
+					</history>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		
+		<profileDesc>
+			
+			<langUsage>
+				<language ident="it">
+					Italiano
+				</language>
+			</langUsage>
+			<creation>
+				<date /> 
+			</creation>
+		</profileDesc>
+		
+		
+	</teiHeader>
+	<facsimile>
+		<surface>
+			<graphic url="diario_page-0004.jpg" width="591.518518px" height="949.518518px" xml:id="diario04"/>
+			<zone ulx="11" uly="51" lrx="581" lry="75" rendition="Line" xml:id="diario04_01"/>
+			<zone ulx="12" uly="76" lrx="574" lry="110" rendition="Line" xml:id="diario04_02"/>
+			<zone ulx="12" uly="111" lrx="579" lry="140" rendition="Line" xml:id="diario04_03"/>
+			<zone ulx="12" uly="141" lrx="581" lry="171" rendition="Line" xml:id="diario04_04"/>
+			<zone ulx="11" uly="181" lrx="583" lry="209" rendition="Line" xml:id="diario04_05"/>
+			<zone ulx="9" uly="210" lrx="584" lry="247" rendition="Line" xml:id="diario04_06"/>
+			<zone ulx="7" uly="248" lrx="581" lry="275"/>
+			<zone ulx="9" uly="276" lrx="577" lry="310"/>
+			<zone ulx="7" uly="311" lrx="558" lry="349"/>
+			<zone ulx="11" uly="350" lrx="581" lry="383"/>
+			<zone ulx="8" uly="384" lrx="577" lry="416"/>
+			<zone ulx="9" uly="417" lrx="572" lry="443"/>
+			<zone ulx="8" uly="444" lrx="570" lry="475"/>
+			<zone ulx="7" uly="476" lrx="204" lry="495"/>
+			<zone ulx="221" uly="481" lrx="573" lry="512"/>
+			<zone ulx="11" uly="507" lrx="214" lry="533"/>
+			<zone ulx="217" uly="515" lrx="565" lry="538"/>
+			<zone ulx="8" uly="534" lrx="199" lry="558"/>
+			<zone ulx="207" uly="542" lrx="569" lry="577"/>
+			<zone ulx="4" uly="564" lrx="169" lry="590"/>
+			<zone ulx="189" uly="581" lrx="560" lry="608"/>
+			<zone ulx="5" uly="593" lrx="163" lry="618"/>
+			<zone ulx="176" uly="610" lrx="579" lry="639"/>
+			<zone ulx="4" uly="622" lrx="153" lry="653"/>
+			<zone ulx="35" uly="727" lrx="561" lry="875" rendition="HotSpot" xml:id="diario04_stamp"/>
+		</surface>
+	</facsimile>
+	<text xml:lang="it" xml:id="text-it" subtype="manuscript">
+		<body>
+			<div type="doc" n="4" xml:id="diario04_document">
+			<pb n="4"/>
+				<ab type="paragrafo" n="1" xml:id="diario04_page">
+					<lb n="1" facs="#diario04_01"/>
+					per comprare della frutta a <placeName ref="#SA">Salerno</placeName>
+                    <pc type="comma">,</pc> pren-
+					<lb n="2" facs="#diario04_02"/>
+					diamo alle <time when="15:30:00">15:30</time> un treno per <placeName ref="#EB">Eboli</placeName>
+                    <pc type="comma">,</pc> que
+					<lb n="3" facs="#diario04_03"/>
+					sta volta in <num type="ordinal" value="3">3a</num> classe. Arriviamo ad <placeName ref="#EB">Eboli</placeName>
+					<lb n="4" facs="#diario04_04"/>
+					alle <time when="16:10:00">16:10</time>
+                    <pc type="comma">,</pc> dove prendiamo la corriera che
+					<lb n="5" facs="#diario04_05"/>
+					conduce a <placeName ref="#CA">Campagna</placeName> 
+                    <pc type="comma">,</pc> arrivando qui alle
+					<lb n="6" facs="#diario04_06"/>
+					<time when="17:00:00">17</time>circa. Alla fermata ci attendeva papà e <persName>
+                        <forename>Leo</forename>
+                    </persName> con molti altri conoscenti. Ci rechiamo subito all<pc type="apostrophe">'</pc>albergo<pc type="comma">,</pc> dove prendiamo alloggio.	Commento: <placeName ref="#CA">Campagna</placeName>  è una graziosa cittadina incassata tra <w type="adjective">alti</w> monti<pc type="comma">,</pc> però con delle case alquanto <w type="adjective">vecchie</w>. La popolazione, di circa <num type="cardinal" value="8000">8.000</num> abitanti<pc type="comma">,</pc> è simpatica<pc type="comma">,</pc> un poco sudicia<pc type="comma">,</pc> ma molto gentile. Nell<pc type="apostrophe">'</pc>insieme il posto mi ha entusiasmato molto. Da stasera e durante tutto il mio soggiorno a <placeName ref="#CA">Campagna</placeName>  dormo con <persName>
+                        <forename>Leo</forename>
+                    </persName> in una locanda<pc type="comma">,</pc> essendo i genitori ed <persName>
+                        <forename>Esti</forename>
+                    </persName> rimasti all<pc type="apostrophe">'</pc>albergo.
+				</ab>
+			</div>
+		</body>
+	</text>
+
+
+	<standOff>
+		<listPerson>
+				<person xml:id="AlSm" role="testimone" source="https://www.pendragon.it/catalogo/manufacturers/alessandro-smulevich.html?tmpl=component">
+				<persName>
+					<forename>Alessandro</forename>
+					<surname>Smulevich</surname>
+				</persName>
+				<note/>
+				<sex>M</sex>
+				<birth>
+                    <date when=" 1923"> 1923</date>
+                    <placeName>
+                        <settlement type="municipality">Fiume</settlement>
+                        <country key="IT">Italia</country>
+                    </placeName>
+                </birth>
+                <death>
+                    <date when="2002">2002</date>
+
+                </death>
+                <note>Nato a Fiume nel 1923. Dopo l’8 settembre 1943, fuggì con la famiglia a Firenzuola, dove trovarono rifugio. E' morto nel 2002.</note>
+			</person>
+		</listPerson>
+
+		<listPlace>
+			<place xml:id="SA" source="https://it.wikipedia.org/wiki/Salerno">
+				<placeName>Salerno</placeName>
+				<settlement type="region">Campania</settlement>
+				<country key="IT">Italia</country>
+				<location>
+				    <geo>40.6642 14.8046</geo>
+				</location>
+			</place>
+
+			<place xml:id="EB" source="https://it.wikipedia.org/wiki/Eboli">
+				<placeName>Eboli</placeName>
+				<settlement type="province">Salerno</settlement>
+				<settlement type="region">Campania</settlement>
+				<country key="IT">Italia</country>
+				<location>
+				    <geo>40.6169513 15.0563904</geo>
+				</location>
+			</place>
+
+			<place xml:id="CA" source="https://it.wikipedia.org/wiki/Campagna_(Italia)">
+				<placeName>Campagna</placeName>
+				<settlement type="province">Salerno</settlement>
+				<settlement type="region">Campania</settlement>
+				<country key="IT">Italia</country>
+				<location>
+				    <geo>40.6664536 15.1064019</geo>
+				</location>
+			</place>
+
+		</listPlace>
+
+		<!--<listOrg></listOrg>
+		<listBibl></listBibl>-->
+	</standOff>
+</TEI>
